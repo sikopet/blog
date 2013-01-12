@@ -1,4 +1,8 @@
- * world's most popular standard for mobile telephony systems (80% of mobile market uses the standard)
+# GSM
+###### 2013-01-13
+###### telco, net
+
+* world's most popular standard for mobile telephony systems (80% of mobile market uses the standard)
  * both signaling and speech channels are digital
  * second generation (2G) of mobile phone system
  * GSM release '97 - added packet data capabilities via GPRS

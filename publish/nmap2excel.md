@@ -1,5 +1,5 @@
 # Store nmap results to Excel file
-###### sec, audit
+###### sec, howto
 
 **1.** Run `nmap`, e.g. (to select random IPs use
 [rand_lines.pl](https://github.com/jreisinger/varia/blob/master/rand_lines.pl)):

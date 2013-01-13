@@ -1,5 +1,4 @@
 # GSM
-###### 2013-01-13
 ###### telco, net
 
 World's most popular standard for mobile telephony systems (80% of mobile market uses the standard)

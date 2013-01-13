@@ -17,7 +17,7 @@ Sample `ips.txt`:
     192.168.1.19
 
 **2.** Run [conversion
-script](https://github.com/jreisinger/audit/blob/master/scripts/nmap_xml2csv.pl):
+script](https://github.com/jreisinger/blog/blob/master/code/nmap_xml2csv.pl):
 
     perl nmap_xml2csv.pl scan_results.xml > scan_results.csv
 

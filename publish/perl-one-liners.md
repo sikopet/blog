@@ -3,12 +3,13 @@
 
 `perl` command line switches (see [perlrun](http://perldoc.perl.org/perlrun.html) for more):
 
- * `-w` -- enable warnings
- * `-n` -- loop through lines, reading them but not printing
+ * `-w` -- enable warnings (generally advisable)
+ * `-n` -- loop through lines, reading but not printing them
+ * `-p` -- loop through lines, reading and printing them (in-script equivalent: `while (<>) { print; }`)
  * `-l` -- print a newline after each line of output
  * `-e '<code>'` -- execute `<code>`
- * `-i [ <.ext> ]` -- create backup file with `<.ext>` extention if defined
- * `-p` -- loop through lines, reading and printing them (in-script equivalent: `while (<>) { print; }`)
+ * `-E '<code>'` -- execute `<code>` enabling feature bundle (`like use 5.010`) for your version of Perl ([more](http://perldoc.perl.org/feature.html#IMPLICIT-LOADING))
+ * `-i [ <.ext> ]` -- create backup file (with `<.ext>` extention if defined)
 
 ----
 
@@ -34,3 +35,7 @@ Switch columns (`awk` replacement):
     11/27/42 Jimi Hendrix
     06/24/44 Jeff Beck
     $ perl -wnla -e '($date, $name)=@F; print "$name $date";' birthdays.txt    ## omitted field is undef
+
+----
+
+Make squares of numbers from 1 to 10: `perl -w -E 'say for map { $_ * $_  } 1 .. 10'`

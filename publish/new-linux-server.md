@@ -35,7 +35,7 @@ Things I do after installing a fresh Linux machine.
  * Install `Module::Starter` used for building Perl distributions:
 
         aptitude install make
-        cpanm Test::More  # you may need to upgrade Test::More like this
+        cpanm Test::More  ## upgrading Test::More
         cpanm Module::Starter
 
  * Upgrade all CPAN modules ([source](http://stackoverflow.com/questions/3727795/how-do-i-update-all-my-cpan-module-to-their-latest-versions)) - can take some time (just to get a list of outdated modules [packages]: `cpan-outdated [-p]`):

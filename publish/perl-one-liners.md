@@ -8,7 +8,7 @@
  * `-p` -- loop through lines, reading and printing them (in-script equivalent: `while (<>) { print; }`)
  * `-l` -- print a newline after each line of output
  * `-e '<code>'` -- execute `<code>`
- * `-E '<code>'` -- execute `<code>` enabling feature bundle (`like use 5.010`) for your version of Perl ([more](http://perldoc.perl.org/feature.html#IMPLICIT-LOADING))
+ * `-E '<code>'` -- execute `<code>` enabling feature bundle (like `use 5.010`) for your version of Perl ([more](http://perldoc.perl.org/feature.html#IMPLICIT-LOADING))
  * `-i [ <.ext> ]` -- create backup file (with `<.ext>` extention if defined)
 
 ----

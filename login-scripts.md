@@ -23,5 +23,7 @@ command aliases, run programs.
   </tr>
 </table>
 
- * login shell - a shell started by the `login` program or a remote login server such as SSH
- * non-login shell - ex. inside an X-based terminal
+ * login shell -- a shell started by the `login` program or a remote login server such as SSH
+ * non-login shell -- ex. inside an X-based terminal
+ 
+Creating a symlink between `~/.bashrc` and `~/.bash_profile` will ensure that the same startup scripts run for both login and non-login sessions. Debian's `~/.profile` sources `~/.bashrc`, which has the same effect.

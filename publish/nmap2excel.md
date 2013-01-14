@@ -26,5 +26,5 @@ needed
 
 Sample output:
 
-![Output](https://raw.github.com/jreisinger/audit/master/wiki_files/nmap2xls.jpg)
+![Output](https://raw.github.com/jreisinger/blog/master/files/nmap2xls.jpg)
 

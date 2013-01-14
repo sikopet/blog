@@ -9,3 +9,5 @@ The first two lines of a blog entry have to look like this:
     ###### tag1 [, tag2, tag3, .. , tagN]
 
 You can have look at blog entries in `publish` directory to get an idea.
+
+If you reference some code or other files, store them to appropriate directories.

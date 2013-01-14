@@ -1,5 +1,5 @@
 # Bash login scripts
-###### Linux
+###### admin, linux
 
 When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create-

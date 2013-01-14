@@ -1,5 +1,5 @@
 # Generate random file
-###### admin
+###### var
 
 How to generate a file of a defined size (ex. 100MB) with random content:
 

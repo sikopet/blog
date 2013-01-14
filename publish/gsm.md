@@ -17,9 +17,9 @@ The network is structured into a number of discrete sections:
  * the **GPRS core network** - optional part fot packet based Internet connections (NON-VOICE)
  * operations support system (**OSS**) for maintenance
 
-![GSM network](https://raw.github.com/jreisinger/audit/master/wiki_files/gsm_structure.png)
+![GSM network](https://raw.github.com/jreisinger/blog/master/files/gsm_structure.png)
 
-See [this picture](https://raw.github.com/jreisinger/audit/master/wiki_files/gsm_communication.jpg) for **GSM communication**.
+See [this picture](https://raw.github.com/jreisinger/blog/master/files/gsm_communication.jpg) for **GSM communication**.
 
 **BSC** = Base Station Controller
 

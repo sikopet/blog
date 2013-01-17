@@ -36,6 +36,11 @@ OSI and TCP/IP models
 
  * Please Do Not Throw Sausage Pizza Away
 
+TCP/IP network access layer encapsulation
+
+![Alt text](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png "title")
+
+
 ## LANs
 
 ## WANs

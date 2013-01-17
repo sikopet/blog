@@ -95,6 +95,10 @@ CSMA/CS algorith
  * a device that wants to send a frame waits until the LAN is silent
  * if a collission occurs, the devices that caused the collision wait a random amount of time and then try again
 
+TIA standard Ethernet cabling pinouts
+
+![T568A vs. T568B](https://raw.github.com/jreisinger/blog/master/files/t568a_b.jpg "T568A vs. T568B")
+
 ## WANs
 
 ## IPv4 addressing and routing

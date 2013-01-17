@@ -38,7 +38,7 @@ OSI and TCP/IP models
 
 TCP/IP network access layer encapsulation
 
-![Alt text](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png "title")
+![Using ethernet to forward an IP packet to the router](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png)
 
 
 ## LANs

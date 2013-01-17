@@ -38,6 +38,8 @@ OSI layering benefits
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do
  * Adjacent-layer interaction -- the higher layer requests that the next lower layer perform the needed function
 
+  ![TCP error recovery service provided to HTTP](https://raw.github.com/jreisinger/blog/master/files/data_perspectives.png "TCP error recovery service provided to HTTP")
+
 ### TCP/IP network access layer encapsulation
 
 ![Using ethernet to forward an IP packet to the router](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png "Using ethernet to forward an IP packet to the router")

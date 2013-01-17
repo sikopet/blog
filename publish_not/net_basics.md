@@ -11,7 +11,7 @@ OSI layering benefits
  * multivendor interoperability
  * modular engineering - one vendor writes SW implementing higher layers (e.g. web browser), another vendor writes SW implemnting lower layers (e.g. M$'s built-in TCP/IP SW)
 
-#### OSI and TCP/IP models
+### OSI and TCP/IP models
 
 ```
            OSI              TCP/IP             TCP/IP
@@ -38,10 +38,13 @@ OSI layering benefits
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do
  * Adjacent-layer interaction -- the higher layer requests that the next lower layer perform the needed function
 
-#### TCP/IP network access layer encapsulation
+### TCP/IP network access layer encapsulation
 
 ![Using ethernet to forward an IP packet to the router](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png "Using ethernet to forward an IP packet to the router")
 
+### Encapsulation and data
+
+![Perspectives on encapsulation and data](https://raw.github.com/jreisinger/blog/master/files/data_perspectives.png "Perspectives on encapsulation and data")
 
 ## LANs
 

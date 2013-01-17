@@ -50,6 +50,51 @@ OSI layering benefits
 
 ## LANs
 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Speed (Mbps)</th>
+    <th>Alt. name</th>
+    <th>Standard</th>
+    <th>Cable (max)</th>
+  </tr>
+  <tr>
+    <td>Ethernet</td>
+    <td>10</td>
+    <td>10BASE-T</td>
+    <td>IEEE 802.3</td>
+    <td>Copper (100m)</td>
+  </tr>
+  <tr>
+    <td>Fast ethernet</td>
+    <td>100</td>
+    <td>100BASE-TX</td>
+    <td>IEEE 802.3u</td>
+    <td>Copper (100m)</td>
+  </tr>
+  <tr>
+    <td>Gigabit ethernet</td>
+    <td>1000</td>
+    <td>1000BASE-LX, 1000BASE-SX</td>
+    <td>IEEE 802.3z</td>
+    <td>Fiber (550m, 5km)</td>
+  </tr>
+  <tr>
+    <td>Gigabit ethernet</td>
+    <td>1000</td>
+    <td>1000BASE-T</td>
+    <td>IEEE 802.3ab</td>
+    <td>Copper (100m)</td>
+  </tr>
+</table>
+
+ * "T" in alt. names -- twisted pair
+
+CSMA/CS algorith
+
+ * a device that wants to send a frame waits until the LAN is silent
+ * if a collission occurs, the devices that caused the collision wait a random amount of time and then try again
+
 ## WANs
 
 ## IPv4 addressing and routing

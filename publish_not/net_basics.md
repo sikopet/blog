@@ -4,6 +4,7 @@
 ## Networking models
 
 OSI layering benefits
+
  * less complex
  * standard interfaces between layers
  * easier to learn
@@ -13,7 +14,6 @@ OSI layering benefits
 
 ### OSI and TCP/IP models
 
-```
            OSI              TCP/IP             TCP/IP
                             original           updated
       +------------+     +------------+     +------------+
@@ -31,8 +31,6 @@ OSI layering benefits
       |------------+     |            |- - -|            |
     1 |Physical    |     |access      |  1  |Physical    |
       +------------+     +------------+     +------------+
-
-```
 
  * Please Do Not Throw Sausage Pizza Away
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do

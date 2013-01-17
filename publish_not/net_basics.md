@@ -92,7 +92,7 @@ Most common Ethernet types
 
  * "T" in alt. names -- twisted pair
 
-CSMA/CS algorith
+CSMA/CD algorith (required by hubs)
 
  * a device that wants to send a frame waits until the LAN is silent
  * if a collission occurs, the devices that caused the collision wait a random amount of time and then try again
@@ -106,6 +106,11 @@ TIA standard Ethernet cabling pinouts
  * devices that transmit on 1,2 and receive on 3,6: PC NICs, routers
  * devices that transmit on 3,6 and receive on 1,2: hubs, switches
   * auto-mdix -- Cisco switch feature that readjusts the standard logic when wrong cables are used
+
+Half duplex vs. full duplex
+
+ * HDX -- device either sends or receivs, but not both at the same time (imposed by CSMA/CD)
+ * FDX -- possible if only one device is cabled to each switch's port (full use of bandwidth)
 
 ## WANs
 

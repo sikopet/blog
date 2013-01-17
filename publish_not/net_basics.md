@@ -50,6 +50,8 @@ OSI layering benefits
 
 ## LANs
 
+Most common Ethernet types
+
 <table>
   <tr>
     <th>Name</th>
@@ -98,6 +100,12 @@ CSMA/CS algorith
 TIA standard Ethernet cabling pinouts
 
 ![T568A vs. T568B](https://raw.github.com/jreisinger/blog/master/files/t568a_b.jpg "T568A vs. T568B")
+
+ * straight-through cable -- both ends of the cable use the same standard (devices use the opposite pins when transmitting) - PC <=> Hub
+ * crossover cable -- devices use the same pins to transmit - Hub <=> Hub
+ * devices that transmit on 1,2 and receive on 3,6: PC NICs, routers
+ * devices that transmit on 3,6 and receive on 1,2: hubs, switches
+  * auto-mdix -- Cisco switch feature that readjusts the standard logic when wrong cables are used
 
 ## WANs
 

@@ -168,14 +168,25 @@ Leased line -- a WAN circuit usually not owned by the data owner but by a telco 
         |                                                        |
        CPE                                                Long cable (KMs)
 
+![WAN connectors](https://raw.github.com/jreisinger/blog/master/files/wan_serial_cables.jpg "WAN connectors")
 
+WAN links speeds
+ 
+ * DS0 - 64 kbps
+ * DS1 (T1) - 1.544 Mbps (24 DS0 + 8 kbps overhead)
+ * DS3 (T3) - 44.736 Mbps (28 DS1s + mngt. overhead)
+ * E1 - 2.048 Mbps (32 DS0s)
+ * E3 - 34.368 Mbps (16 E1s + mngt. overhead)
+ * J1 (Y1) - 2.048 Mbps (32 DS0s, Japanese standard)
 
 ### OSI L2 Point-to-Point WANs
-
-
 
 ### Packet switching
 
 ## IPv4 addressing and routing
 
 ## TCP/IP transport, application and security
+
+--
+
+Source: W. Odom: CCENT/CCNA ICDN1 (2012), Wikipedia, "Google images"

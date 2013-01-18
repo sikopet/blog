@@ -138,6 +138,12 @@ LAN headers
          | 7  | 1 |     6     |  6   |type 2| 46-1500  | 4 |
          +----+---+-----------+------+------+----------+---+
 
+ * IEEE 802.3 Ethernet header/trailer fields
+  *  Preamble -- synchronization
+  *  Start Field Delimiter -- tells that next byte is destination MAC address
+  *  Length/Type -- lenght/type of data field (either length or type is present, not both)
+  *  Data and padding -- data from a higher layer (ex. L3 PDU - IP packet)
+  *  Frame Check Sequence -- used by NIC to check the frame integrity
 
 ## WANs
 

@@ -147,6 +147,35 @@ LAN headers
 
 ## WANs
 
+ * WAN standads and protocols -- networking spanning relatively large distances compared to LANs
+
+### OSI L1 Point-to-Point WANs
+
+Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
+
+                      |                                               |
+                      |      T   E   L   C   O        N  E  T         |
+                      |                                               |
+                      |           CO                                  |
+    +-------+    +---+|      +----------+          +----------+       |+---+    +-------+
+    |Router1+----+CSU+-------+WAN switch+----------+WAN switch+--------+CSU+----+Router2|
+    +-------+    +---+|      +----------+          +----------+  ^    |+---+ ^  +-------+
+        ^          ^  |                                          |    |      |
+        |          |  |                                          |    |    Short cable
+        +----------+  |                                          |    |    (max 15m)
+        |             |                                          |    |
+        |           Demarc                                       |  Demarc
+        |                                                        |
+       CPE                                                Long cable (KMs)
+
+
+
+### OSI L2 Point-to-Point WANs
+
+
+
+### Packet switching
+
 ## IPv4 addressing and routing
 
 ## TCP/IP transport, application and security

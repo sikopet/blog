@@ -152,6 +152,9 @@ LAN headers
 ### Point-to-Point WANs - OSI L1
 
 Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
+ * (leased line = leased circuit = link = serial link = serial line = point-to-point link = circuit)
+
+    LEASED LINE COMPONENTS
 
                       |                                               |
                       |      T   E   L   C   O        N  E  T         |
@@ -169,6 +172,12 @@ Leased line -- a WAN circuit usually not owned by the data owner but by a telco 
        CPE                                                Long cable (KMs)
 
 ![WAN connectors](https://raw.github.com/jreisinger/blog/master/files/wan_serial_cables.jpg "WAN connectors")
+
+Terminology
+
+ * Synchronous -- both devices use (roughly) the same speed when transfering the bits over serial link
+ * Clock source -- time source for devices using a synchronous serial link
+ * CSU/DSU -- in U.S., digital links interface to telco
 
 WAN links speeds
  

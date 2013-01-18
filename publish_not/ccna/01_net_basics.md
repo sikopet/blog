@@ -189,4 +189,4 @@ WAN links speeds
 
 --
 
-Source: W. Odom: CCENT/CCNA ICDN1 (2012), Wikipedia, "Google images"
+**Sources**: W. Odom: CCENT/CCNA ICDN1 (2012), Wikipedia, "Google images"

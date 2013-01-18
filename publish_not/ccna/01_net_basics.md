@@ -220,6 +220,13 @@ Point-to-point protocol
 
 ### Packet switching
 
+ * most popular services: ATM, Frame relay (much more common today)
+
+Frame relay
+
+ * multiaccess network similar to LANs
+ * 
+
 ## IPv4 addressing and routing
 
 ## TCP/IP transport, application and security

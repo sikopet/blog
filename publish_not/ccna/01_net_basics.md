@@ -149,7 +149,7 @@ LAN headers
 
  * WAN standads and protocols -- networking spanning relatively large distances compared to LANs
 
-### OSI L1 Point-to-Point WANs
+### Point-to-Point WANs - OSI L1
 
 Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
 
@@ -179,7 +179,35 @@ WAN links speeds
  * E3 - 34.368 Mbps (16 E1s + mngt. overhead)
  * J1 (Y1) - 2.048 Mbps (32 DS0s, Japanese standard)
 
-### OSI L2 Point-to-Point WANs
+### Point-to-Point WANs - OSI L2
+
+Most popular protocols: HDLC, PPP
+
+HDLC
+
+    HDLC framing
+    
+           Standard
+          +----+-------+-------+--------+---+
+          |Flag|Address|Control|  Data  |FCS|
+    Bytes | 1  |   1   |   1   |Variable| 2 |
+          +----+-------+-------+--------+---+
+
+           Cisco
+          +----+-------+-------+----+--------+---+
+          |Flag|Address|Control|Type|  Data  |FCS|
+          | 1  |   1   |   1   | 2  |Variable| 2 |
+          +----+-------+-------+----+--------+---+
+
+ * Address field is not really needed
+ * since point-to-point links are relatively simple, HDLC only does
+  * error checking
+  * packet type determination
+
+Point-to-point protocol
+
+ * framing is identical to Cisco framing (above)
+ * defined later than HDLC => more features => more popular
 
 ### Packet switching
 

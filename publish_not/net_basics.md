@@ -110,6 +110,35 @@ Half duplex vs. full duplex
  * HDX -- device either sends or receivs, but not both at the same time (imposed by CSMA/CD)
  * FDX -- possible if only one device is cabled to each switch's port (full use of bandwidth)
 
+Ethernet addressing terminology
+
+ * MAC = Ethernet address = NIC address = LAN address -- 6-byte (48 bit, 12 hex digits) address usually burned in a ROM chip
+  * 3 bytes -- Organizationally Unique Identifier (OUI)
+  * 3 bytes -- vendor assigned part
+ * Unicast address -- MAC address representing a single LAN interface (`FFFF.FFFF.FFFF`)
+ * Multicast address -- subset of Ethernet devices (`0100.5exx.xxxx`)
+
+LAN headers
+
+          DIX
+         +--------+-----------+------+------+----------+---+
+         |Preamble|Destination|Source| Type |Data + pad|FCS|
+    Bytes|   8    |     6     |  6   |  2   | 46-1500  | 4 |
+         +--------+-----------+------+------+----------+---+
+
+          IEEE 802.3 (orig)
+         +----+---+-----------+------+------+----------+---+
+         |Pre.|SFD|Destination|Source|Length|Data + pad|FCS|
+         | 7  | 1 |     6     |  6   |  2   | 46-1500  | 4 |
+         +----+---+-----------+------+------+----------+---+
+
+          IEEE 802.3 (rev. 1997)
+         +----+---+-----------+------+------+----------+---+
+         |Pre.|SFD|Destination|Source|Len./ |Data + pad|FCS|
+         | 7  | 1 |     6     |  6   |type 2| 46-1500  | 4 |
+         +----+---+-----------+------+------+----------+---+
+
+
 ## WANs
 
 ## IPv4 addressing and routing

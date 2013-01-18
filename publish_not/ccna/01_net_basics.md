@@ -36,15 +36,15 @@ OSI layering benefits
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do
  * Adjacent-layer interaction -- the higher layer requests that the next lower layer perform the needed function
 
-  ![TCP error recovery service provided to HTTP](https://raw.github.com/jreisinger/blog/master/files/tcp_error_recovery.png "TCP error recovery service provided to HTTP")
+  ![TCP error recovery service provided to HTTP](https://raw.github.com/jreisinger/blog/master/files/ccna/tcp_error_recovery.png "TCP error recovery service provided to HTTP")
 
 ### TCP/IP network access layer encapsulation
 
-![Using ethernet to forward an IP packet to the router](https://raw.github.com/jreisinger/blog/master/files/network_access_layer.png "Using ethernet to forward an IP packet to the router")
+![Using ethernet to forward an IP packet to the router](https://raw.github.com/jreisinger/blog/master/files/ccna/network_access_layer.png "Using ethernet to forward an IP packet to the router")
 
 ### Encapsulation and data
 
-![Perspectives on encapsulation and data](https://raw.github.com/jreisinger/blog/master/files/data_perspectives.png "Perspectives on encapsulation and data")
+![Perspectives on encapsulation and data](https://raw.github.com/jreisinger/blog/master/files/ccna/data_perspectives.png "Perspectives on encapsulation and data")
 
 ## LANs
 
@@ -97,7 +97,7 @@ CSMA/CD algorith (required by hubs)
 
 TIA standard Ethernet cabling pinouts
 
-![T568A vs. T568B](https://raw.github.com/jreisinger/blog/master/files/t568a_b.jpg "T568A vs. T568B")
+![T568A vs. T568B](https://raw.github.com/jreisinger/blog/master/files/ccna/t568a_b.jpg "T568A vs. T568B")
 
  * straight-through cable -- both ends of the cable use the same standard (devices use the opposite pins when transmitting) - PC <=> Hub
  * crossover cable -- devices use the same pins to transmit - Hub <=> Hub
@@ -171,7 +171,7 @@ Leased line -- a WAN circuit usually not owned by the data owner but by a telco 
         |                                                        |
        CPE                                                Long cable (KMs)
 
-![WAN connectors](https://raw.github.com/jreisinger/blog/master/files/wan_serial_cables.jpg "WAN connectors")
+![WAN connectors](https://raw.github.com/jreisinger/blog/master/files/ccna/wan_serial_cables.jpg "WAN connectors")
 
 Terminology
 
@@ -225,7 +225,12 @@ Point-to-point protocol
 Frame relay
 
  * multiaccess network similar to LANs
- * 
+ * access links - leased lines between routers (DTE) and FR switches (DCE)
+ * each FR header holds DLCI - based on DLCI switch forwards the frame to the destination
+ * FR creates logical path (VC) between two FR DTE devices
+ * each VC has a committed information rate (CIR)
+
+![Typical FR network](https://raw.github.com/jreisinger/blog/master/files/ccna/frame_relay.png "Typical FR network")
 
 ## IPv4 addressing and routing
 

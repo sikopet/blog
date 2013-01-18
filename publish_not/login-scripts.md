@@ -1,8 +1,10 @@
 # Bash login scripts
 ###### admin, linux
 
+See also https://github.com/jreisinger/dot-files.
+
 When `bash` is started it runs a series of scripts to prepare the environment
-for user. These scripts, for example, set the environment variables, create-
+for user. These scripts, for example, set the environment variables, create
 command aliases, run programs.
 
 <table>

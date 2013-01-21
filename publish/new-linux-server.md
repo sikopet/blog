@@ -1,5 +1,5 @@
 # New Linux server
-###### admin
+###### linux
 
 Things I do after installing a fresh Linux machine.
 

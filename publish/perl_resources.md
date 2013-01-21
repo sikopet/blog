@@ -24,5 +24,5 @@ Paper books
 
 Jobs
 
-* http://jobs.perl.org/
-* http://london.pm.org/pipermail/jobs/
+* <http://jobs.perl.org/>
+* <http://london.pm.org/pipermail/jobs/>

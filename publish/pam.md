@@ -1,5 +1,5 @@
 # PAM and NSS
-###### admin, linux
+###### linux
 
 ## Pluggable Authentication Modules
 

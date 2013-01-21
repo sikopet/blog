@@ -1,5 +1,5 @@
 # Bash login scripts
-###### admin, linux
+###### linux
 
 See also [my dot-files](https://github.com/jreisinger/dot-files).
 

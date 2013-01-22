@@ -238,7 +238,7 @@ Frame relay
 
 ---
 
-Sources
+Source
 
 * W. Odom: CCENT/CCNA ICDN1 (2012)
 * Wikipedia

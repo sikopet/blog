@@ -58,7 +58,7 @@ To find out MAC address from DHCP server: `ping -c 1 <ip.addr>; /sbin/arp <ip.ad
 
 ## dhcpd.leases
 
-All leases the DHCP server has given out.
+* all leases the DHCP server has given out
 
 `/var/lib/dhcp/dhcpd.leases`:
 
@@ -71,7 +71,7 @@ All leases the DHCP server has given out.
 
 ## DHCP relay
 
-If you have multiple network segments (with routers in between the segments)
+If you have multiple network segments (with routers in between the segments):
 
 * run multiple DHCP servers
 * run the DHCP server on the router

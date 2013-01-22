@@ -78,3 +78,9 @@ If you have multiple network segments (with routers in between the segments):
 * configure the router to route DHCP broadcast (Cisco: `ip-helper address`)
 * run DHCP relay agent (must be installed on one computer on each subnet): `dhcrelay 172.27.15.2`
  * it's the address of DHCP server on remote network
+
+---
+
+Source
+
+* Roderick W. Smith: LPIC-2 (2011)

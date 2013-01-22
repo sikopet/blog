@@ -97,3 +97,9 @@ provides system tools with lists of users and groups, maps UID to username, iden
     netgroup:       nis
 
 the order is important
+
+- - -
+
+Source
+
+* Roderick W. Smith: LPIC-2 (2011)

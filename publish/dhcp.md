@@ -1,22 +1,24 @@
 # DHCP
 ###### linux
 
- * Dynamic Host Configuration Protocol
- * replacement of `bootp`
- * server listens on udp 67, answers through udp 68
- * often paired with DNS role
- * SOHO broadband routers can serve as DHCP servers (and also as NAT routers, switches)
- * break-even point for using it -- 6 - 12 computers
+## Dynamic Host Configuration Protocol
 
-# Setting up a DHCP
- * ISC DHCP server -- most common, `dhcp`, `dhcp-server`, `dhcp3-server`, `isc-dhcp-server`
- * Dnsmasq -- DHCP + DNS, good for small networks
+* replacement of `bootp`
+* server listens on udp 67, answers through udp 68
+* often paired with DNS role
+* SOHO broadband routers can serve as DHCP servers (and also as NAT routers, switches)
+* break-even point for using it -- 6 - 12 computers
+* ISC DHCP server -- most common; `dhcp`, `dhcp-server`, `dhcp3-server`, `isc-dhcp-server`
+* Dnsmasq -- DHCP + DNS, good for small networks
 
- 1. Configure `/etc/dhcp/dhcpd.conf` file
- 1. Start the DHCP server in debug mode to verify that the server is working: `/usr/sbin/dhcpd -d -f`
- 1. To start the server for actual use, enter `/etc/init.d/isc-dhcp-server start`
 
-`/etc/dhcp/dhcpd.conf`  
+## Setting up a DHCP
+
+1. Configure `/etc/dhcp/dhcpd.conf` file
+1. Start the DHCP server in debug mode to verify that the server is working: `/usr/sbin/dhcpd -d -f`
+1. To start the server for actual use, enter `/etc/init.d/isc-dhcp-server start`
+
+`/etc/dhcp/dhcpd.conf`:
 
     ## Parameters -- describe general configuration
     ddns-update-style none;
@@ -52,12 +54,13 @@
       filename "/tftpboot/bootpneptune.boot";
     }
 
- * to find out MAC address from DHCP server: `ping -c 1 <ip.addr>; /sbin/arp <ip.addr>`
+To find out MAC address from DHCP server: `ping -c 1 <ip.addr>; /sbin/arp <ip.addr>`.
 
-# dhcpd.leases
- * all leases the DHCP server has given out
+## dhcpd.leases
 
-`/var/lib/dhcp/dhcpd.leases`
+All leases the DHCP server has given out.
+
+`/var/lib/dhcp/dhcpd.leases`:
 
     lease 192.168.128.17 {
         starts 5 2004/01/02 10:53:18;
@@ -66,11 +69,12 @@
         client-hostname "lookfar.example.com";
     }
 
-# DHCP relay
+## DHCP relay
 
 If you have multiple network segments (with routers in between the segments)
-  * run multiple DHCP servers
-  * run the DHCP server on the router
-  * configure the router to route DHCP broadcast (Cisco: `ip-helper address`)
-  * run DHCP relay agent (must be installed on one computer on each subnet): `dhcrelay 172.27.15.2`
-   * it's the address of DHCP server on remote network
+
+* run multiple DHCP servers
+* run the DHCP server on the router
+* configure the router to route DHCP broadcast (Cisco: `ip-helper address`)
+* run DHCP relay agent (must be installed on one computer on each subnet): `dhcrelay 172.27.15.2`
+ * it's the address of DHCP server on remote network

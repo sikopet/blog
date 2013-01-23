@@ -35,7 +35,7 @@ Laziness = a tendency to judiciously exploit available resources to accomplish y
 Always trust your users. Never trust their input. -- <a href=http://perltraining.com.au/notes/webdev.pdf>Fenwick, Richardson, Robert: Web Development with Perl</a>
 The real job of a university is to teach a student how to self-educate, and (of course) to demonstrate that the student is capable of that through testing. -- Jon "Maddog" Hall: <a href=http://blog.lpi.org/index.php/2011/04/is-a-university-degree-necessary/>Is a University Degree Necessary?</a>
 Is what I'm about to say: Thoughtful , Honest, Intelligent, Necessary, Kind? -- Andy Lester: <a href=http://perlbuzz.com/2010/11/think-for-perls-sake.html>Think, for Perl's sake</a>
-DRY = Don't repeat yourself -> make functions, subroutines, procedures -- The Pragmatic Programmer, by Andy Hunt and Dave Thomas, Addison-Wesley, 1999
+Don't repeat yourself (DRY), make functions, subroutines, procedures. -- A. Hunt, D. Thomas: The Pragmatic Programmer, by (1999)
 Understand what you want, find your talent, focus, and get to work. -- Lenny Zeltser, <a href=http://www.techrepublic.com/blog/security/students-of-it-security-career-advice-from-the-masters/5101?tag=content;blog-list-river>Students of IT security: Career advice from the masters</a>
 I can tell you I don't have money. But what I do have are a very particular set of skills; skills I have acquired over a very long career. -- Bryan Mills
 If an attacker has physical access to your system, they win, regardless of the OS on the computer. -- http://www.openbsd.org/faq/faq8.html

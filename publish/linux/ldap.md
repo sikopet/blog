@@ -1,21 +1,21 @@
 # LDAP
 ###### linux
 
- * network authentication (login) protocol (like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos"))
- * good for bigger networks
- * replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
- * LDAP directory = hierarchical DB, more often read than written
- * LDAP directory root = _base_
+* network authentication (login) protocol (like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos"))
+* good for bigger networks
+* replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
+* LDAP directory = hierarchical DB, more often read than written
+* LDAP directory root = _base_
 
 # Preparing system to use LDAP
 
- * `# aptitude install openldap-utils`
- * `/etc/ldap/ldap.conf`
-```
-BASE        dc=example,dc=com                   # LDAP base - usually domain name
-URI         ldaps://ldap.example.com            # ldap://, ldaps://
-TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)
-```
+1. `# aptitude install openldap-utils`
+1. `/etc/ldap/ldap.conf`
+
+
+    BASE        dc=example,dc=com                   # LDAP base - usually domain name
+    URI         ldaps://ldap.example.com            # ldap://, ldaps://
+    TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)
 
 # LDIF files
  * LDAP Data Interchange Format

@@ -1,8 +1,18 @@
 # GSM
 ###### telco
 
-World's most popular standard for mobile telephony systems (80% of mobile market uses the standard)
+## Cellular network
 
+ * a radio network distributed over land areas called cells
+ * each cell is served by at least one transceiver - **BTS** (Base Transceiver Station) = cell site
+ * this enables a large number of portable transceivers (e.g. mobile phones) to communicate with each other
+ * example of a cellular network: **the mobile phone network**
+
+There are a number of different digital cellular technologies: **GSM**, GPRS, FDMA, CDMA, EDGE
+
+## GSM
+
+ * World's most popular standard for mobile telephony systems (80% of mobile market uses the standard)
  * both signaling and speech channels are digital
  * second generation (2G) of mobile phone system
  * GSM release '97 - added packet data capabilities via GPRS
@@ -81,11 +91,42 @@ Huawei, Android
  * `at+cmss=3` - send message n. 3 from memory
  * `at+cmgd=2` - delete message n. 2 from memory
 
-## See also
+## Links
+
+General
+
+* [Mobile network](http://en.wikipedia.org/wiki/Mobile_network)
+* P. Luptak: [Strucny prehlad do bezpecnosti GSM](http://www.nethemba.com/gsm-zranitelnosti.pdf) (in Slovak)
+
+AT commands
 
 * [Send SMS using AT commands](http://www.smssolutions.net/tutorials/gsm/sendsmsat/) - I was able to send an SMS following this guide
 * [AT+C commands of GSM devices](http://gatling.ikk.sztaki.hu/~kissg/gsm/at+c.html)
 * http://www.traud.de/gsm/
 * [SMS Tutorial](http://www.developershome.com/sms/)
-* [Mobile network](http://en.wikipedia.org/wiki/Mobile_network)
-* P. Luptak: [Strucny prehlad do bezpecnosti GSM](http://www.nethemba.com/gsm-zranitelnosti.pdf) (in Slovak)
+
+Hacking
+
+ * [Osmocom OpenBSC](http://openbsc.osmocom.org/trac/) - functionality of BSC (Base Station Controller), MSC (Mobile Switching Center), HLR (Home Location Register), AuC (Authentication Center), VLR (Visitor Location Register), EIR (Equipment Identity Register)
+ * [AirProbe](https://svn.berlin.ccc.de/projects/airprobe/) - GSM-Sniffer
+ * [Kraken](http://reflextor.com/trac/a51) - cryptographic weaknesses found in today's cellular networks
+ * [Nové trendy v GSM odpočúvaní](https://www.nethemba.com/sk/blog/-/blogs/nove-trendy-v-gsm-odpocuvani) (P. Luptak)
+ * [GSM security map](http://gsmmap.org/)
+ * [Decrypting GSM phone calls](http://srlabs.de/research/decrypting_gsm/) - tools
+ * [28c3: Defending mobile phones](http://www.youtube.com/user/28c3#p/search/0/YWdHSJsEOck) (Video) - impersonating another MS
+  * [28c3: Defending mobile phones](http://events.ccc.de/congress/2011/Fahrplan/attachments/1994_111217.SRLabs-28C3-Defending_mobile_phones.pdf) (PDF)
+  * ["We will release tools to be used at the camp"](http://srlabs.de/events/gprs-intercept-wardriving-phone-networks-at-the-ccc-camp-finowfurt-august-10-2011/)
+ * [27c3: Wideband GSM Sniffing](http://www.youtube.com/watch?v=lsIriAdbttc) (Video) -- Call/SMS interception and decrypting
+  * [clarifications about 27C3 GSM Sniff Talk](http://lists.osmocom.org/pipermail/baseband-devel/2010-December/000912.html) -- you can't get the tools used for cracking A5/1 and traffic sniffing
+
+PDUSpy
+
+ * [WAP Push SI exploit](http://www.silentservices.de/adv03-2009.html)
+ * [PDUSpy manual](http://www.nobbi.com/pduspy.html)
+ * [PDUSpy download](http://www.nobbi.com/download.html#pduspy)
+
+## Books
+
+ * M. Grayson et al.: IP Design for Mobile Networks (Cisco Press, 2009)
+ * A. Henry-Labordere, V. Jonack: SMS and MMS Interworking in Mobile Networks (Artech House, 2004)
+

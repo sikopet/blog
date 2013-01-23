@@ -63,7 +63,7 @@ When neither their poverty nor their honor is touched, the majority of men live 
 "You shall know the truth, and the truth shall set you free." -- Yeshua (Jesus Christ) - Wikiquote
 "Ma i nostri corpi a dormire su un materasso di foglie, a soffrire di geloni, si sono nutriti di cavolo e di lampredotto, come volete che ci faccia paura ritrovarci un po' diversi in viso? Credete che non ci riconosceremo?" -- Vasco Pratolini: Il quartiere (1945)
 It is only with the heart one can see clearly; what is essential is invisible to the eye. -- The Fox, 'The Little Prince'
-root@paradiso:~# tar vxzf universo.tar.gz --> Big Bang!
+Big bang: root@paradise:~# tar vxzf universe.tar.gz
 As the complexity of a system increases, so does the likelyhood of a failure.
 It is more efficient to specialize in one field (to be the best for a given task) and combine with likewise designed tools instead of having one BIG CHUNK to do it all (eating up resources by unused functionality). -- <a href=http://wiki.mutt.org/index.cgi?MailConcept>MuttWiki</a>
 "Se il pugno e' chiuso la mano e' vuota. Solo se la mano e' aperta puoi possedere tutto." -- Li Mu Bai

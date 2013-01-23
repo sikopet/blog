@@ -95,6 +95,17 @@ If account/group directory is empty, you must initialize it with special entries
 
 ## Querying a server about accounts
 
+See also [Querying Active Directory with Unix LDAP tools](http://jrwren.wrenfam.com/blog/2006/11/17/querying-active-directory-with-unix-ldap-tools/).
+
 1. `$ getent passwd jbond` (`getent` returns info from various sources, including local account DB)
 1. `$ ldapsearch -x uid=jbond`
  * you can use filters (conceptually similar to regexes): `(&(uid=jbond)(!(ou=Accounting)))` -- search for `jbond` who is _not_ a member of the Accounting department
+
+when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to convert it:
+
+    ldapsearch -x -h ldap.company.com -b 'dc=company,dc=com' -s sub -D 'user@company.com' -S 'employeeID' \
+    -W '(&(objectClass=person)(employeeID>=0)(employeeID<=20416))' employeeID title sn | PERL_UNICODE=S \
+    perl -MMIME::Base64 -MEncode=decode -n -00 -e 's/\n //g;s/(?<=:: )(\S+)/decode("UTF-8",decode_base64($1))/eg;print' \
+    > ldap.out
+
+Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) for Windows.

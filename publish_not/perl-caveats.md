@@ -17,5 +17,5 @@ Perl stuff I'd better remember :).
     my $last_element = qw(one two three);         # LIST in scalar context
     print "$last_element\n";                      # three
 
-More: <http://perldoc.perl.org/perldata.html#List-value-constructors>, <http://szabgab.com/scalar-and-list-context-in-perl.html>
+More: [List value constructors](http://perldoc.perl.org/perldata.html#List-value-constructors), [Scalar and List context in Perl](http://szabgab.com/scalar-and-list-context-in-perl.html).
 

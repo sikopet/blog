@@ -154,7 +154,7 @@ LAN headers
 Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
  * (leased line = leased circuit = link = serial link = serial line = point-to-point link = circuit)
 
-    LEASED LINE COMPONENTS
+LEASED LINE COMPONENTS
 
                       |                                               |
                       |      T   E   L   C   O        N  E  T         |

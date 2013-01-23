@@ -9,13 +9,13 @@
 
 # Preparing system to use LDAP
 
-1. `# aptitude install openldap-utils`
-1. `/etc/ldap/ldap.conf`
-
-
+    aptitude install openldap-utils
+    cp -p /etc/ldap/ldap.conf{,.orig}
+    cat << EOF > /etc/ldap/ldap.conf
     BASE        dc=example,dc=com                   # LDAP base - usually domain name
     URI         ldaps://ldap.example.com            # ldap://, ldaps://
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)
+    EOF
 
 # LDIF files
  * LDAP Data Interchange Format

@@ -43,7 +43,7 @@ There are no failures - just experiences and your reactions to them. -- Tom Krau
 The greatest mistake so often made is to make a network configuration too complex. It pays to use the simplest solution that will meet the needs of the moment. --<a href=http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/StandAloneServer.html#id2575440>Samba documentation</a>
 ... hard disks always fail eventually ... --<a href=http://www.mikerubel.org/computers/rsync_snapshots/#Isolation>Mike Rubel's rsync snapshots backup</a>
 And like that...he's gone. -- Keyser Soze, Bryan Singer: The Usual Suspects (1995)
-If you have the right attitude, interesting problems will find you. <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
+If you have the right attitude, interesting problems will find you. --<a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
 ...you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to '''start over at least once'''. <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
 ...the value isn't in the software or the hardware, it's in the systems we build with both. --http://blogs.sun.com/jonathan/
 I sense...space. A kinda latitude of what we happily call reality, in which as everybody keeps saying...anything's possible. --Dan

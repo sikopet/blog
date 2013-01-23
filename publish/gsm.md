@@ -69,7 +69,23 @@ See [this picture](https://raw.github.com/jreisinger/blog/master/files/gsm_commu
  * internetworking between the GPRS network and external packet switched networks
  * router to a sub-network
 
+## AT commands
+
+Huawei, Android
+
+ * `at+cgmi` - manufacturer
+ * `at+cgmm` -  model
+ * `at+cimi` - IMSI
+ * `at+cmgw="0914123456",145,"STO UNSENT"` - store message to memory
+ * `at+cmgl="all"` - show stored messages
+ * `at+cmss=3` - send message n. 3 from memory
+ * `at+cmgd=2` - delete message n. 2 from memory
+
 ## See also
 
- * [Mobile network](http://en.wikipedia.org/wiki/Mobile_network)
- * P. Luptak: [Strucny prehlad do bezpecnosti GSM](http://www.nethemba.com/gsm-zranitelnosti.pdf) (in Slovak)
+* [Send SMS using AT commands](http://www.smssolutions.net/tutorials/gsm/sendsmsat/) - I was able to send an SMS following this guide
+* [AT+C commands of GSM devices](http://gatling.ikk.sztaki.hu/~kissg/gsm/at+c.html)
+* http://www.traud.de/gsm/
+* [SMS Tutorial](http://www.developershome.com/sms/)
+* [Mobile network](http://en.wikipedia.org/wiki/Mobile_network)
+* P. Luptak: [Strucny prehlad do bezpecnosti GSM](http://www.nethemba.com/gsm-zranitelnosti.pdf) (in Slovak)

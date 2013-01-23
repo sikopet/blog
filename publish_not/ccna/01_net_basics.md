@@ -236,12 +236,137 @@ Frame relay
 
 * the only widely used L3 protocol - IP
 
+Standard 20-byte IPv4 header:
+
+     0                   1                   2                   3
+     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |Version|  IHL  |   DS Field    |        Packet Length          |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |         Identification        |Flags|      Fragment Offset    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |  Time to Live |    Protocol   |         Header Checksum       |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                       Source Address                          |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                    Destination Address                        |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+* IHL -- IP header length (including optional fields)
+* DS Field -- differentiated services field (QoS)
+* Packet Length -- entire packet length, including data
+* Identification -- used by IP fragmentation process, all fragments have the same ID
+* Flags -- used by IP fragmentation process (3 bits)
+* TTL -- to prevent routing loops
+* Protocol -- contents of the data portion of the IP packet (ex. 6 means TCP header is first thing in data field)
+
+IP addressing
+
+* all IP addresses in the same group (class) must not be separated by a router
+
+Classful addressing scheme:
+
+<table class="wikitable">
+<tr>
+<th>Class</th>
+<th>Leading<br />
+bits</th>
+<th>Size of <i>network<br />
+number</i> bit field</th>
+<th>Size of <i>rest</i><br />
+bit field</th>
+<th>Number<br />
+of networks</th>
+<th>Addresses<br />
+per network</th>
+<th>Start address</th>
+<th>End address</th>
+</tr>
+<tr>
+<td>Class A</td>
+<td>&#160;&#160;&#160;&#160;0</td>
+<td>&#160;&#160;&#160;&#160;8</td>
+<td>&#160;&#160;&#160;&#160;24</td>
+<td>&#160;&#160;&#160;&#160;128 (2<sup>7</sup>)</td>
+<td>&#160;&#160;&#160;&#160;16,777,216 (2<sup>24</sup>)</td>
+<td>0.0.0.0</td>
+<td>127.255.255.255</td>
+</tr>
+<tr>
+<td>Class B</td>
+<td>&#160;&#160;&#160;&#160;10</td>
+<td>&#160;&#160;&#160;&#160;16</td>
+<td>&#160;&#160;&#160;&#160;16</td>
+<td>&#160;&#160;&#160;&#160;16,384 (2<sup>14</sup>)</td>
+<td>&#160;&#160;&#160;&#160;65,536 (2<sup>16</sup>)</td>
+<td>128.0.0.0</td>
+<td>191.255.255.255</td>
+</tr>
+<tr>
+<td>Class C</td>
+<td>&#160;&#160;&#160;&#160;110</td>
+<td>&#160;&#160;&#160;&#160;24</td>
+<td>&#160;&#160;&#160;&#160;8</td>
+<td>&#160;&#160;&#160;&#160;2,097,152 (2<sup>21</sup>)</td>
+<td>&#160;&#160;&#160;&#160;256 (2<sup>8</sup>)</td>
+<td>192.0.0.0</td>
+<td>223.255.255.255</td>
+</tr>
+<tr>
+<td>Class D (multicast)</td>
+<td>&#160;&#160;&#160;&#160;1110</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>224.0.0.0</td>
+<td>239.255.255.255</td>
+</tr>
+<tr>
+<td>Class E (reserved)</td>
+<td>&#160;&#160;&#160;&#160;1111</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>&#160;&#160;&#160;&#160;not defined</td>
+<td>240.0.0.0</td>
+<td>255.255.255.255</td>
+</tr>
+</table>
+
+Router logic
+
+1. use FCS to check for errors, if error occurred discard the frame and repeat this step
+2. discard the data-link header and trailer, leaving the IP packet
+3. use destination IP address to look up the outgoing interface in routing table
+4. encapsulate IP packet inside a data-link header and trailer appropriate for outgoing interface and forward the frame
+
+### L3 utilities
+
+DNS
+
+1. What is the foo's IP address?
+2. Foo's IP is 10.1.1.2
+
+ARP
+
+1. Hey everybody, if you are 10.1.1.2 tell me your MAC address!
+2. I'm 10.1.1.2 and my MAC is 0200.2222.222
+
+[DHCP](http://www.openhouse.sk/blog/linux/dhcp.html)
+
+1. Client -- DHCP discover message (LAN broadcast)
+2. Server -- DHCP offer message (LAN broadcast)
+3. Client -- DHCP request message (to server)
+4. Server -- DHCP acknowledgement (to client)
+
 ## TCP/IP transport, application and security
 
 ---
 
-Source
+Sources
 
 * W. Odom: CCENT/CCNA ICDN1 (2012)
 * Wikipedia
 * "Google images"
+* <http://www.ietf.org/rfc/rfc791.txt>

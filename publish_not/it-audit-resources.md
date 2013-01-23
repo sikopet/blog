@@ -23,3 +23,8 @@ CISSP
  * you need 700 out of 1000 points
  * you have 6 hours for 250 questions (you better take some snack with you :))
  * you should use two-pass method (skip the questions you are unable to answer and come back to them in the second pass)
+
+## Books
+
+* [Information Technology Control and Audit, Third Edition](http://www.amazon.com/Information-Technology-Control-Audit-Edition/dp/1420065505) (2008)
+* [IT Auditing: Using Controls to Protect Information Assets](http://www.amazon.com/exec/obidos/ASIN/0072263431/dubinsdailyre-20) (2006)

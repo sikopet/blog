@@ -1,125 +1,250 @@
 I have no talent. What I do have is a lot of practice. -- <a href=http://johnnunemaker.com/>John Nunemaker</a>: <a href=http://railstips.org/blog/archives/2010/01/12/i-have-no-talent/>I Have No Talent</a>
+
 Learning new techniques is good, but using the techniques you already know appropriately is better. -- <a href=http://www.perlmonks.org/?node_id=208803>chromatic</a>
+
 Nothing has increased my programming productivity more than being able to restate hard problems as simple ones. -- David Heinemeier Hansson (Ruby on Rails, 37signals)
+
 Eventually I want to live near a beach and work from a laptop with a good wireless connection and a view of the sea :). -- <a href=http://uk.linkedin.com/in/markkeating>mdk</a>
+
 What do you care what other people think? -- Richard Feynman
+
 Good service is rare, so when you find it, treasure it. -- Matt Simmons: <a href=http://sysadvent.blogspot.sk/2012/12/day-6-watching-out-for-vendor-lock-in.html>Day 6 - Watching out for vendor lock-in</a>
+
 When debugging a problem, most of us sysadmins dive in, execute a task, analyze the result, and repeat until the problem is solved. -- Kent C. Brodie: <a href=http://sysadvent.blogspot.sk/2012/12/day-5-following-white-rabbit.html>Day 5: Following the white rabbit</a>
+
 If you tell me, I'll forget. If you show me, I'll remember. If you involve me, I'll understand. -- <a href=http://www.perlmonks.org/?node_id=918402>2teez</a>
+
 What can be asserted  without proof can be dismissed  without proof. -- Christopher Hitchins
+
 The essential thing "in heaven and earth" is . . . that there should be '''long obedience in the same direction'''; there thereby  results, and has always resulted in the long run, something which has made life worth living. -- Friedrich Nietzsche, <a href=http://oreilly.com/catalog/opensources/book/larry.html>Open Sources: Voices from the Open Source Revolution</a>
+
 Three great virtues of programming are laziness, impatience, and hubris. ... But here I'm going to talk about some other virtues: diligence, patience, and humility. If you think these sound like the opposite, you're right. -- <a href=http://oreilly.com/catalog/opensources/book/larry.html>Open Sources: Voices from the Open Source Revolution</a>: Larry Wall (1999)
+
 Then again, I did learn to program by the osmosis  of typing a lot of code, changing it, and eventually learning what worked and didn't. -- chromatic: <a href=http://www.modernperlbooks.com/mt/2012/06/from-alchemy-to-science-in-programming.html>From Alchemy to Science in Programming</a>
+
 Well done is better than well said. -- Benjamin Franklin
+
 At its heart, science is a way of discovering the world by making small, controlled, testable hypotheses, testing them, and seeing what happens. At its heart, a lot of programming is the same way. (So is running a small business selling a new product or service.) -- chromatic: <a href=http://www.modernperlbooks.com/mt/2012/06/updating-tests-and-code-in-small-steps.html>Updating Tests and Code in Small Steps</a>
+
 The Internet is a weird and terrible thing. Larry wrote, "The social dynamics of the net are a direct consequence of the fact that nobody has yet developed a Remote Strangulation Protocol." -- rjbs: <a href=http://rjbs.manxome.org/rubric/entry/1959>the perl 5.16.0 epigraph</a>
+
 We are what we repeatedly do. Excellence, then, is not an act but a habit. -- Will Durant (Aristotle)
+
 ... writing code before you have an expert-level understanding is okay. -- Tom Dale: <a href=http://tomdale.net/2012/04/best-practices-exist-for-a-reason/>Best Practices Exist for a Reason</a>
+
 Humans need aerobic exercise in order to stay healthy. If there's any magic bullet to make human beings healthy, it's to run. -- Lieberman: <a href=http://www.dailymail.co.uk/home/moslive/article-1170253/The-painful-truth-trainers-Are-expensive-running-shoes-waste-money.html>Are running shoes a waste of money?</a>
+
 "So you decided that failure was OK." Yes. I stopped worrying about perfection where it didn't matter. Perfectionism is often overkill and a real time waster. -- <a href=http://everythingsysadmin.com/>Thomas A. Limoncelli</a>: Time Management for System Administrators
+
 You can code. They cannot. That is pretty damn cool. -- <a href=http://learnpythonthehardway.org/book/advice.html?utm_source=hackernewsletter&utm_medium=email>Advice From An Old Programmer</a>
+
 I know that to get good at anything you have to practice every day, even if I suck that day (which is often) or it's difficult. Keep trying and eventually it'll be easier and fun. -- <a href=http://learnpythonthehardway.org/book/intro.html>The Hard Way Is Easier</a>
+
 In the third phase, you realize that Python is actually a great help to you and that Python represents the ''collective intelligence'' of hundreds of programmers who have given you some powerful and brilliant tools and capabilities. -- <a href=http://doc.pyschools.com/html/tao.html>Tao of Programming</a>
+
 Because humans have unlimited storage capacity, having total recall would be a mess. -- <a href=http://www.psych.ucla.edu/faculty/faculty_page?id=41&area=3>Rober Bjork</a> (UCLA): <a href=http://www.wired.com/geekdad/2012/01/everything-about-learning/>Everything You Thought You Knew About Learning Is Wrong</a>
+
 You're never too old to learn. One of the best programmers I ever interviewed for a job was 60! -- <a href=http://cplus.about.com/bio/David-Bolton-20620.htm>David Bolton</a>: <a href=http://cplus.about.com/od/introductiontoprogramming/a/career.htm>How Do I Get into Programming as a Career?</a>
+
 You only get old if you let yourself be old; then it's too late. -- Andrew Wulf: <a href=http://thecodist.com/article/am-i-too-old-to-be-a-programmer>Am I Too Old To Be A Programmer?</a>
+
 Learning to program is like learning to write good natural language. The best way to do it is to read some stuff written by masters of the form, write some things yourself, read a lot more, write a little more, read a lot more, write some more ... and repeat until your writing begins to develop the kind of strength and economy you see in your models. -- Eric Steven Raymond: <a href=http://www.catb.org/~esr/faqs/hacker-howto.html>How To Become A Hacker</a>
+
 Based upon the highly-problematic code you have posted here and other nodes you have written to date, I think you are trying run before you can walk. -- <a href=http://www.perlmonks.org/?node_id=940093>Re: averages from multiple files</a>
+
 Genius is 1 percent inspiration and 99 percent perspiration. -- Thomas Edison
+
 If I were looking to improve my Perl marketability for the future, www.perlmonks.org is the place I'd be hanging out. -- <a href=http://www.perlmonks.org/?node_id=131253>Damian praises Perl Monks</a>
+
 The idea, is to make a compromise, somewhere between your ambitions, and your limitations. -- The Teahouse of the August Moon
+
 Similarly, Perl was designed to be a mess (though in the nicest of possible ways). -- <a href=http://oreilly.com/catalog/opensources/book/larry.html>Open Sources: Voices from the Open Source Revolution</a>: Larry Wall (1999)
+
 The race is on to own certain classes of core data: location, identity, calendaring of public events, product identifiers and namespaces. -- <a href=http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page=1>Tim O'Reilly: What Is Web 2.0 (2005)</a>
+
 To a large degree, you need to find the '''tool that fits your brain best'''. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky (<a href=http://search.cpan.org/dist/Moose/>Moose</a> core developer): <a href=http://stackoverflow.com/questions/150043/python-v-perl>Python v. Perl</a>
+
 Laziness = a tendency to judiciously exploit available resources to accomplish your programming goals with minimal effort. -- <a href=https://git.openhouse.sk/files/books/prog/perl>Minimal_Perl_for_UNIX_and_Linux_People.pdf|Minimal Perl for UNIX and Linux People</a> (in the Perl community - Laziness = using your energy efficiently)
+
 Always trust your users. Never trust their input. -- <a href=http://perltraining.com.au/notes/webdev.pdf>Fenwick, Richardson, Robert: Web Development with Perl</a>
+
 The real job of a university is to teach a student how to self-educate, and (of course) to demonstrate that the student is capable of that through testing. -- Jon "Maddog" Hall: <a href=http://blog.lpi.org/index.php/2011/04/is-a-university-degree-necessary/>Is a University Degree Necessary?</a>
+
 Is what I'm about to say: Thoughtful , Honest, Intelligent, Necessary, Kind? -- Andy Lester: <a href=http://perlbuzz.com/2010/11/think-for-perls-sake.html>Think, for Perl's sake</a>
+
 Don't repeat yourself (DRY), make functions, subroutines, procedures. -- A. Hunt, D. Thomas: The Pragmatic Programmer, by (1999)
+
 Understand what you want, find your talent, focus, and get to work. -- Lenny Zeltser, <a href=http://www.techrepublic.com/blog/security/students-of-it-security-career-advice-from-the-masters/5101?tag=content;blog-list-river>Students of IT security: Career advice from the masters</a>
+
 I can tell you I don't have money. But what I do have are a very particular set of skills; skills I have acquired over a very long career. -- Bryan Mills
+
 If an attacker has physical access to your system, they win, regardless of the OS on the computer. -- http://www.openbsd.org/faq/faq8.html
+
 There are no failures - just experiences and your reactions to them. -- Tom Krause
+
 The greatest mistake so often made is to make a network configuration too complex. It pays to use the simplest solution that will meet the needs of the moment. -- <a href=http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/StandAloneServer.html#id2575440>Samba documentation</a>
+
 ... hard disks always fail eventually ... -- <a href=http://www.mikerubel.org/computers/rsync_snapshots/#Isolation>Mike Rubel's rsync snapshots backup</a>
+
 And like that...he's gone. -- Keyser Soze, Bryan Singer: The Usual Suspects (1995)
+
 If you have the right attitude, interesting problems will find you. -- <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
+
 ...you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to '''start over at least once'''. <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
+
 ...the value isn't in the software or the hardware, it's in the systems we build with both. -- http://blogs.sun.com/jonathan/
+
 I sense...space. A kinda latitude of what we happily call reality, in which as everybody keeps saying...anything's possible. -- Dan
+
 You've been smoking something really mind altering, and I think you should share it. -- Theo de Raadt, <a href=http://kerneltrap.org/OpenBSD/Virtualization_Security>KernelTrap</a>
+
 There is a basic rule in taking advise: Never take it from someone who had never achieved the thing you want to achieve. -- Robert T. Kyiosaki
+
 It all comes to this: the simplest way to be happy is to do good. -- Helen Keller
+
 It's not the size of the dog that matters in a fight. It's the size of the fight in the dog!
+
 Nie je dolezite, aby bol zazitok pozitivny. Hlavne aby bol silny. -- Barabas: Pururambo, 25/10/05
+
 I don't care to belong to a club that accepts people like me as a member. -- Groucho Marx
+
 There you go, mate. Keep as cool as you can. Face piles of trials  with smiles. It riles  them to believe that you perceive  the web they weave. And keep on thinking free. -- The Moody Blues
+
 The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. -- Alvin Toffler
+
 Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours. -- John Locke
+
 Leave no stone unturned. -- Euripides
+
 Accadono cose che sono come domande. Passa un minuto, oppure anni, e poi la vita ti risponde. -- Alessandro Baricco (1958)
+
 From the viewpoint of positivist philosophy, however one cannot determine WHAT IS REAL. All one can do is find which mathematical models describe the universe we live in. We cannot  even suppose that the particle has a position and velocity that are known to God but are hidden from us.   -- S. Hawking: The Universe in a Nutshell (2001)
+
 When neither their poverty nor their honor is touched, the majority of men live content. -- Niccolo Machiavelli
+
 You shall know the truth, and the truth shall set you free. -- Yeshua (Jesus Christ) - Wikiquote
+
 Ma i nostri corpi a dormire su un materasso di foglie, a soffrire di geloni, si sono nutriti di cavolo e di lampredotto, come volete che ci faccia paura ritrovarci un po' diversi in viso? Credete che non ci riconosceremo? -- Vasco Pratolini: Il quartiere (1945)
+
 It is only with the heart one can see clearly; what is essential is invisible to the eye. -- The Fox, 'The Little Prince'
+
 Big bang: root@paradise:~# tar vxzf universe.tar.gz
+
 As the complexity of a system increases, so does the likelyhood of a failure.
+
 It is more efficient to specialize in one field (to be the best for a given task) and combine with likewise designed tools instead of having one BIG CHUNK to do it all (eating up resources by unused functionality). -- <a href=http://wiki.mutt.org/index.cgi?MailConcept>MuttWiki</a>
+
 Se il pugno e' chiuso la mano e' vuota. Solo se la mano e' aperta puoi possedere tutto. -- Li Mu Bai
+
 There is a difference between knowing the path and walking the path. -- Morpheus
+
 Takzvané nadanie do veľkej miery závisí od schopnosti sústrediť sa dlhý čas jedným smerom. -- Dušan Jaura: Nedáš si marshmallow? (.týždeň 17.12.2012)
+
 Univerzálne akceptované cnosti ľudstva: vytrvalosť, sebakontrola, nadšenie, sociálna inteligencia, vďačnosť, optimizmus a zvedavosť. -- Selingman, Peterson: Character strenghts and Virtues: A handbook and classification
+
 Mostly, it's important to remember everything we have ever done wrong while programming (or heard other people do), and then test we didn't do it again for this project. -- Intermediate Perl - The Art of Testing
+
 Don't be reluctant to mix and match your command-line scripts. Shell scripts, PHP, Perl, and others are all very powerful and have their own advantages and disadvantages. -- <a href=http://www.admin-magazine.com/Articles/Automation-Scripting-with-PHP>admin-magazine.com</a>
+
 If the company is pressuring you to learn how to sling-out  garbage “quickly,” then very quietly but very quickly look for another job. ... If you are in a situation that emphasizes “speed,” either so that you “do not fail” or in order to prove what a whatever-you-think-you-are you are, instead of teaching you how to produce real quality, then you are in a lose-lose situation that they write books about. -- http://www.perlmonks.org/?node_id=987331
+
 The novice frowned  and said: “Perl's regexps would be excessive for so simple a task. I do not know awk, and I have been writing sed scripts in the last few weeks. As I have some experience with sed, at the moment I would prefer it. But if the job only needed to be done once rather than repeatedly, a text editor would suffice.” -- <a href=http://catb.org/~esr/writings/unix-koans/shell-tools.html>Master Foo and the Shell Tools</a>
+
 Mojím dôležitým spoluatorom je časový stres. Dôležitý je aj stupeň naštvanosti, respektíve miera nadšenia. Keď sa to prvé stretne s jedným z ostatných dvoch, tak mi to ide. Keď nie, tak je to trápenie. -- Michal Kaščák, .týždeň - Sprievodca festivalom Bažant Pohoda 2012
+
 Jednotlivec, ktorý vie robiť niečo, čo svet chce mať urobené, napokon prerazí bez ohľadu na rasu. -- Booker T. Washington
+
 The day you find a job you love, is the last day you'll ever have to work. -- Damian Conway: <a href=http://blogs.perl.org/users/damian_conway/2012/03/why-i-love-my-job.html>Why I love my job</a>
+
 Prežil som zas kúsok času, ošklivosť aj čistú krásu. -- Jaro Filip
+
 O vláde neviem nič, ale viem, že Slovensko je krásna krajina s veľmi inteligentnými a dobre vzdelanými ľuďmi. Máte pred sebou skvelú budúcnosť. -- <a href=http://en.wikipedia.org/wiki/Paul_Johnson_%28writer%29>Paul Johnson</a>, rozhovor pre .týždeň (19.12.2011)
+
 If I had asked people what they wanted, they would have said faster horses. -- Henry Ford, <a href=http://anonymoushash.vmbrasseur.com/2011/11/16/its-about-needs/>It's About Needs.</a>
+
 You see, I don't have a computer science degree from an elite university, or indeed any degree at all. I don't have any pretensions toward being a computer scientist, though I'm familiar with enough of the concepts and terminology to be able to work with them. -- SKUD: <a href=http://infotrope.net/2011/07/21/a-note-to-google-recruiters/>A note to Google recruiters</a> (2011)
+
 ... vedec sa manažment dokáže naučiť rýchlejšie ako podnikateľ vedu ... -- <a href=http://profit.etrend.sk/biznis/vedec-je-tvorca-tovaru-2.html>Vedec je tvorca tovaru</a>
+
 Master Foo turned back to the neophyte . “The housecat may mock  the tiger,” said the master, “but doing so will not make his purr  into a roar .” -- <a href=http://catb.org/~esr/writings/unix-koans/end-user.html>Master Foo and the End User</a>
+
 Ak sa spýtame, prostredníctvom ktorých inštitúcií dosahuje človek hlboké životné uspokojenie, odpoveď znie, že sú iba štyri: rodina, komunita, povolanie a viera. -- Charles Murray (sociálny vedec), <a href=http://www.tyzden.sk/casopis/2011/15/preco-su-ludia-stastny.html>Prečo sú ľudia šťastní</a>
+
 Zasaď myšlienku, zožneš čin, zasaď čin, zožneš zvyk, zasaď zvyk, zožneš charakter, zasaď charakter, zožneš osud. -- staré anglické príslovie
+
 ''Prečo sa absolvent najlepšej právnickej školy sveta po zložení skúšok do newyorskej advokátskej komory nevyberie robiť kariéru do LA, Chicaga alebo New Yorku, ale vráti sa na Slovensko?'' Kvôli rodine, priateľom, tej zvláštnej zmesi kadidla a vlhkých stien, ktorú som od puberty nasával v Kapucínskom kostole, kvôli možnosti sadnúť pred domom na autobus a do polhodiny sa s kamarátmi stretnúť na terase v Bašte alebo v Depresse, kvôli intimite, ktorú prináša rozhovor v materinskom jazyku, spoločná minulosť a všetko to ostatné, čo tvorí vlasť nášho srdca. V skratke, kvôli pocitu, že doma je najlepšie a pre mňa je doma na Slovensku. [...] vždy dopredu hovorím klientom jedno: nasadím vo Váš prospech všetok um a energiu, ale pokútne pre Vás nič vybavovať nebudem. -- Radoslav Prochádzka, <a href=http://www.rodinka.sk/index.php?id=592736>rozhovor</a>, 04.06.2010
+
 V hebrejskom chápaní sveta je život človeka podobný skúške a na jeho konci každý z nás dosiahne nejaký výsledok. Na základe neho človek bude alebo nebude vstave vstúpiť do "ekonómie božieho života". -- .dušan Jaura, .týždeň, 13.9.2010, str. 73
+
 ''Nemáš pri svojej práci pocit márnosti, že aj tak neovplyvníš to, ako študentov vyformovala rodina a priatelia?'' Sčasti áno. Pomáham si takouto predstavou: si na kopci, fúka silný vietor a ty máš za úlohu zapáliť sviečku. Je celkom možné, že sa ti to nepodarí, ale nemal by si skončiť skôr, než škrtneš poslednou zápalkou... Navyše verím v zákon zachovania energie – nič z toho, čo dobré v živote urobíš, sa nestratí. -- <a href=http://www.bilgym.sk/new/?lan=sk&cln=655>rozhovor</a> s Dušanom Jaurom, učiteľom na Bilingválnom gymnáziu C. S. Lewisa
+
 Vízia sa nedá naučiť v škole. Víziu musí mať človek v sebe a ak dostane šancu, mal by ju realizovať. Bez prvej podmienky je realizácia čohokoľvek len premárnenou šancou. -- Rudolf Zajac, .týždeň, 2.8.2010
+
 The typical DBA life is like that of an airline pilot, “Long moments of boredom followed by small moments of sheer terror”, ... -- <a href=http://www.dba-oracle.com/concepts/starting_database.htm>Oracle Concepts - Starting your Oracle Database</a>
+
 O tom, akým smerom sa bude človek uberať, väčšinou rozhoduje náhoda, šťastie, rodinné zázemie, respektíve schopnosť rodičov vystihnúť správny moment na „posunutie" dieťaťa. -- <a href=http://kultura.sme.sk/c/5143144/juraj-cizmarovic-preco-by-mi-mali-prekazat-snobi.html>Juraj Čižmarovič, huslista</a>
+
 Considerate se questo è un uomo. Che lavora nel fango. Che non conosce pace. Che lotta per mezzo pane. Che muore per un sì o per un no. -- Primo Levi, Se questo è un uomo
+
 Len zriedkakedy sa stáva, že slobodu stratíme celú naraz. -- David Hume (1711 - 1776)
+
 Keď sa nedá urobiť nič rozumné a pragmatické, je čas robiť veci nerozumné a idealistické. Možno si pri tom človek viac nabije hubu, ale duša si na chvíľu zamáva krídlami. A to môže mať nedozerné účinky, všakáno. -- elena Akácsová, .týždeň 25.5.09
+
 Talent je tá najvzácnejšia surovina, ktorou by sme nemali za žiadnych okolností mrhať. Talent a tvorivosť sú vzácne komodity a každá generácia ich prináša len obmedzené množstvo. Nemôžeme ich nijako vyrábať, aj keď udusiť ich môžeme tisícimi spôsobmi. -- Gottfried Schatz
+
 Jadrom jeho politického konania je redukovanie politiky do podoby konzumenta, závislého od vrtkavých nálad populácie. Aj keď takejto politike chýba skutočné politické vedenie, nechýba jej dojem robustnosti v tom, ako okázalo uskutočňovať imaginárny záujem ľudu. -- Ľuboš Kubín, <a href=http://tyzden.sk/sk/kriticka_priloha/ficov_utok_na_november_%C2%B489_.php>.týždeň</a>
+
 Prines svetlo a tma zmizne sama odseba. -- Erasmus Rotterdamský (1466 – 1538)
+
 I am not a man with any special skill. But I've had plenty of experience in battles, losing battles, all of them. In short, that's all I am. -- Kanbê Shimada; Akira Kurosawa: Seven Samurai (1954)
+
 Najlepší okamih pre zasadenie stromu bol pred dvadsiatimi rokmi. Druhý najlepší je teraz. -- Čínske príslovie
+
 Ak je loď nasmerovaná zlým smerom, usilovnejšie veslovanie nepomôže. -- Kenichi Ohmae
+
 Ľudia ktorí majú ciele uspejú, pretože vedia kam idú... Je to tak jednoduché. -- Earl Nightingale
+
 I ten najpomalší, ak nestráca z očí cieľ, postupuje rýchlejšie než ten, kto sa ponáhľa bez cieľa. -- Lessing
+
 Otrok: Všeličo by som dokázal, len keby mi to niekto rozkázal. -- K. Čapek
+
 Peniaze nie sú nič, ak sú všetko, peniaze sú veľa, ak nie sú všetko. -- Hálek
+
 Svet je stále preniknutý ružami šťastia, ale nikto o tom nevie. Šťastie spočíva vo vedomí, že všetko je veľký zvláštny sen... -- Jack Kerouac (2nd hand)
+
 all i want to know are god's thoughts. the rest are details -- a.e.
+
 Všetko na svete má strach z času, čas má strach len z pyramíd. -- Arabské príslovie
+
 E credo che gli uomini che sanno qualcosa di sé, che vivono e si vedono vivere, si dividano in due grandi categorie: quelli che sanno che la ricchezza è morta ma bella e quelli che sanno che è bella ma morta. -- L. Sciascia (1921 – 1989): Candido (1977)
+
 Koľko anjelov môže tancovať na hrote ihly a čím sa vlastne Boh zapodieval po všetky tie nekonečné veky pred stvorením? -- joseph heller: hlava XXII
+
 Veda je hľadanie pravdy a nie vlastnenie poznania. -- vedecký filozof Karl Popper
+
 Never, že si rýchlejšie naplníš brucho, ak nebudeš musieť plniť brucho iným. Niet ľudského tvora, čo by po tejto zemi kráčal sám. -- "černošský/africký spisovateľ" (nezapísal som si meno)
+
 Okolo roku 2019 budeme mať v jedinom tisícdolárovom PC sústredený ekvivalent jedného ľudského mozgu, okolo roku 2030 bude mať jedno tisícdolárové PC výkon 1000 ľudských mozgov a okolo roku 2050 výkon 10^9^ ľudských mozgov. -- Raymond C. Kurzweil (Quark 2/2000)
+
 Ryby musia pláva. -- Petronius
+
 Princíp prevencie: „Je lacnejšie predchádzať problémom efektívnymi opatreniami, ako riešiť ich následky s vysokými nákladmi.“
+
 Všeobecne je považované za ľahšie sa prispôsobiť, ako reagovať na problém s predstihom.
+
 "Tutto quello che vogliamo combattere fuori di noi" disse l'arciprete "è dentro di noi; e dentro di noi bisogna prima cercarlo e combatterlo..." -- L. Sciascia (1921 – 1989): Candido (1977)
+
 Ho cercato di essere veloce, di essere leggero. Ma greve e il nostro tempo, assai greve. -- L. Sciascia (1921 – 1989): Candido (1977)
+
 Noi siamo quello che facciamo. -- L. Sciascia (1921 – 1989): Candido (1977)
+
 Il nostro corpo e il buon cane che guida il cieco. -- L. Sciascia (1921 – 1989): Candido (1977)
+
 Se me frulla un pensiero che me scoccia me fermo e bevo e chiedo aiuto ar vino: poi me la canto e seguito er cammino con Destino in saccoccia. -- Trilussa (1871 – 1950)
+
 Najmenej sa boja smrti tí, ktorých život má najväčšiu cenu. -- Kant
+
 Ľudská bytosť je časťou celku, ktorý my nazývame Vesmír, časť ktorá je obmedzená v čase a priestore. Zažíva seba, jej myšlienky a pocity, ako niečo oddelené od zvyšku – akýsi druh optického klamu jej vedomia. Tento klam je pre nás akýmsi druhom väzenia, obmedzujúcim nás na naše osobné túžby a náklonnosť pre niekoľko osôb v našej blízkosti. Našou úlohou musí by vyslobodiť sa z tohto väzenia, rozšírením okruhu našeho súcitu pre všetky žijúce bytosti a celú prírodu v jej kráse. -- Albert Einstein
+
 Samozrejme, každý človek je niekedy smutný a rozmrzený, na prehry a trapasy reaguje pasivitou či utiahnutím sa do seba. Takáto "depka" však ešte nemá nič spoločné s naozajstnými dlhotrvajúcimi chorobnými depresiami.
+

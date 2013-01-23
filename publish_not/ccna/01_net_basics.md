@@ -14,23 +14,23 @@ OSI layering benefits
 
 ### OSI and TCP/IP models
 
-           OSI              TCP/IP             TCP/IP
-                            original           updated
-      +------------+     +------------+     +------------+
-    7 |Application |     |            |     |            |
-      |------------+     |            |     |            |
-    6 |Presentation|     |Application | 5-7 |Application |
-      |------------+     |            |     |            |
-    5 |Session     |     |            |     |            |
-      |------------+- - -+------------+- - -+------------+
-    4 |Transport   |     |Transport   |  4  |Transport   |
-      |------------+- - -+------------+- - -+------------+
-    3 |Network     |     |Internetwork|  3  |Internetwork|
-      |------------+- - -+------------+- - -+------------+
-    2 |Data link   |     |Network     |  2  |Data link   |
-      |------------+     |            |- - -|            |
-    1 |Physical    |     |access      |  1  |Physical    |
-      +------------+     +------------+     +------------+
+           OSI              TCP/IP             TCP/IP             Sample
+                            original           updated            protocol
+      +------------+     +------------+     +------------+     +--------------+
+    7 |Application |     |            |     |            |     |Telnet HTTP   |
+      |------------+     |            |     |            |     |FTP SMTP      |
+    6 |Presentation|     |Application | 5-7 |Application |     |POP3 VoIP     |
+      |------------+     |            |     |            |     |SNMP          |
+    5 |Session     |     |            |     |            |     |              |
+      |------------+- - -+------------+- - -+------------+- - -+--------------+
+    4 |Transport   |     |Transport   |  4  |Transport   |     |TCP UDP       |
+      |------------+- - -+------------+- - -+------------+- - -+--------------+
+    3 |Network     |     |Internetwork|  3  |Internetwork|     |IP            |
+      |------------+- - -+------------+- - -+------------+- - -+--------------+
+    2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP  |
+      |------------+     |            |- - -|------------|- - -|--------------|
+    1 |Physical    |     |access      |  1  |Physical    |     |RJ-45 Eth V.35|
+      +------------+     +------------+     +------------+     +--------------+
 
  * Please Do Not Throw Sausage Pizza Away
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do
@@ -233,6 +233,8 @@ Frame relay
 ![Typical FR network](https://raw.github.com/jreisinger/blog/master/files/ccna/frame_relay.png "Typical FR network")
 
 ## IPv4 addressing and routing
+
+* the only widely used L3 protocol - IP
 
 ## TCP/IP transport, application and security
 

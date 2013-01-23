@@ -8,7 +8,7 @@ Perl stuff I'd better remember :).
     #!/usr/bin/perl
     use strict;
 
-    #use warnings; # outputs warning
+    #use warnings; # yields a warning if uncommented
 
     my @array              = qw(one two three);
     my $number_of_elements = @array;              # ARRAY in scalar context

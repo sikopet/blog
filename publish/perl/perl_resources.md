@@ -23,6 +23,10 @@ Paper books
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012)
 * [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012)
 
+Nearby companies using Perl
+
+* [Perl and data services in Vienna](http://perlservices.at/)
+
 Jobs
 
 * <http://jobs.perl.org/>

@@ -1,5 +1,5 @@
 # 01 Networking Fundamentals
-###### net
+###### ccna, net
 
 ## Networking models
 

@@ -362,11 +362,67 @@ ARP
 
 ## TCP/IP transport, application and security
 
+TCP/IP transport layer (L4) functions
+
+* multiplexing using ports
+* error recovery
+* flow control using windowing
+* connection establishment and termination
+* ordered data transfer and segmentation
+
+TCP header format (fields):
+
+     0                   1                   2                   3
+     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ -----
+    |          Source Port          |       Destination Port        |    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+    |
+    |                        Sequence Number                        |    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+    |
+    |                    Acknowledgment Number                      |    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  Required
+    |  Data |           |U|A|P|R|S|F|                               |    |
+    | Offset| Reserved  |R|C|S|S|Y|I|            Window             |    |
+    |       |           |G|K|H|T|N|N|                               |    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+    |
+    |           Checksum            |         Urgent Pointer        |    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ -----
+    |                    Options                    |    Padding    |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                             data                              |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Multiplexing relies on sockets
+
+* IP address (ex. 10.1.1.2)
+* transport protocol (ex. TCP)
+* port number (ex. 80)
+
+*Window* field -- maximum number of unacknowledged bytes
+
+ * starts small, then grows until errors occur (dynamic or sliding window)
+
+TCP connection establishment:
+
+     +-------+             SEQ=200                 +------+
+     |Web    |     SYN, DPORT=80, SPORT=1027       |Web   |
+     |browser| ----------------------------------> |server|
+     +-------+                                     +------+
+                        SEQ=1450, ACK=201
+                  SYN, ACK, DPORT=1027, SPORT=80
+               <----------------------------------
+
+                      SEQ=201, ACK=1451
+                   ACK, DPORT=80, SPORT=1027
+               ---------------------------------->
+
+
 ---
 
 Sources
 
 * W. Odom: CCENT/CCNA ICDN1 (2012)
-* Wikipedia
-* "Google images"
-* <http://www.ietf.org/rfc/rfc791.txt>
+* [Wikipedia](http://www.wikipedia.org/)
+* [Google images](http://www.google.com/imghp?hl=en&tab=wi)
+* [RFC 971 - IP](http://www.ietf.org/rfc/rfc791.txt)
+* [RFC 793 - TCP(http://tools.ietf.org/html/rfc793)

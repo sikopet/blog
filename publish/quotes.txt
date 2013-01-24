@@ -8,7 +8,7 @@ Eventually I want to live near a beach and work from a laptop with a good wirele
 
 What do you care what other people think? -- Richard Feynman
 
-Good service is rare, so when you find it, treasure it. -- Matt Simmons: <a href=http://sysadvent.blogspot.sk/2012/12/day-6-watching-out-for-vendor-lock-in.html>Day 6 - Watching out for vendor lock-in</a>
+Good service is rare, so when you find it, treasure it. -- Matt Simmons: <a href=http://sysadvent.blogspot.sk/2012/12/day-6-watching-out-for-vendor-lock-in.html>Day 6</a> - Watching out for vendor lock-in
 
 When debugging a problem, most of us sysadmins dive in, execute a task, analyze the result, and repeat until the problem is solved. -- Kent C. Brodie: <a href=http://sysadvent.blogspot.sk/2012/12/day-5-following-white-rabbit.html>Day 5: Following the white rabbit</a>
 

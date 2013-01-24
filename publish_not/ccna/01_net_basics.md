@@ -362,7 +362,10 @@ ARP
 
 ## TCP/IP transport, application and security
 
-TCP/IP transport layer (L4) functions
+* Connection-oriented protocol -- requires an exchange of message (or preestablished correlation) before data transfer (ex. TCP)
+* Connectionless protocol -- does not require an exchange of message (or preestablished correlation) before data transfer (ex. UDP)
+
+### TCP/IP transport layer (L4) functions
 
 * multiplexing using ports
 * error recovery
@@ -392,15 +395,15 @@ TCP header format (fields):
     |                             data                              |
     +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
+Window field -- maximum number of unacknowledged bytes
+
+* starts small, then grows until errors occur (dynamic or sliding window)
+
 Multiplexing relies on sockets
 
 * IP address (ex. 10.1.1.2)
 * transport protocol (ex. TCP)
 * port number (ex. 80)
-
-*Window* field -- maximum number of unacknowledged bytes
-
- * starts small, then grows until errors occur (dynamic or sliding window)
 
 TCP connection establishment:
 
@@ -416,6 +419,78 @@ TCP connection establishment:
                    ACK, DPORT=80, SPORT=1027
                ---------------------------------->
 
+Maximum transmission unit (MTU) - size of the largest L3 packet that can sit inside a frame's data field (it's 1500 bytes for many L2 protocols, including Ethernet)
+
+* because IP and TCP headers are 20 bytes each, TCP typically segments large data into 1460-byte chunks
+* TCP segment (L4PDU) = TCP header + data field
+
+### User Datagram Protocol (UDP) functions
+
+* multiplexing using ports
+* data transfer
+
+apps using UDP are tolerant of the data loss or have some application mechanism for lost data recovery
+
+* VoiP -- recovery wouldn't help anyway, it would be too late
+* DNS -- will retry if DNS resolution fails
+* NFS -- recovery done by application layer code
+
+UDP header format:
+
+     0      7 8     15 16    23 24    31
+    +--------+--------+--------+--------+
+    |     Source      |   Destination   |
+    |      Port       |      Port       |
+    +--------+--------+--------+--------+
+    |                 |                 |
+    |     Length      |    Checksum     |
+    +--------+--------+--------+--------+
+    |
+    |          data octets ...
+    +---------------- ...
+
+### TCP/IP applications
+
+QoS -- application's requirements from the network service
+
+Before mid 1990s video and voice used totally separate networking facilities, today - **VoIP**.
+
+VoIP QoS demands
+
+* low delay (< 200 ms)
+* low jitter (< 30 ms) - variation in delay
+* loss - if VoIP packet is lost, it's not retransmitted
+
+**HTTP** commands and responses
+
+* GET request -- request from client to get a file from a web server
+* server sends GET response with code 200 (meaning OK) together with file contents
+* 404 -- file not found
+
+### Network security
+
+Attacks
+
+* DOS (crashers, flooders) -- service disruption
+* recoinnaissance -- information gathering
+* access -- stealing data
+
+Attacker's tools
+
+* scanner -- application discovery by looking at TCP/UDP ports
+* spyware -- looks for private of sensitive info
+* worm -- self-propagating, can quickly replicate, often performs DOS attacks
+* keystroke logger
+* phishing -- website that looks like a legitimate website and collects credit card numbers
+* malware -- broad class of malicious viruses
+
+Security tools
+
+* Network admission control (NAC) -- monitor devices conntecting to LAN
+* PIX firewall => ASA - new generation of security HW
+ * anti-x (anti-virus, anti-spyware, anti-spam, anti-phishing, URL filtering, e-mail filtering)
+* IDS (packets via monitoring port), IPS (sits in the packet's forwarding path and reacts to/filters traffic)
+* VPN -- like private leased line
 
 ---
 
@@ -426,3 +501,4 @@ Sources
 * [Google images](http://www.google.com/imghp?hl=en&tab=wi)
 * [RFC 971 - IP](http://www.ietf.org/rfc/rfc791.txt)
 * [RFC 793 - TCP](http://tools.ietf.org/html/rfc793)
+* [RFC 768 - UDP](http://www.ietf.org/rfc/rfc768.txt)

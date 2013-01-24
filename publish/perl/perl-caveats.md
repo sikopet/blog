@@ -5,13 +5,15 @@ Perl stuff I'd better remember :).
 
 ## Is Perl compiled or interpreted?
 
-Yes. Consequence: Perl reads all the code before execution.
+Yes:
 
                                   +-------------------+
     +------+     compilation      |(kind of) byte code|
     |source| +------------------> |not kept around    |+---> execution
     |code  |                      |between executions |
     +------+                      +-------------------+
+
+Consequence: Perl reads all the code before execution.
 
 ## Naming conventions for scalar variables
 
@@ -25,7 +27,7 @@ Yes. Consequence: Perl reads all the code before execution.
 * If a string expression evaluates to the empty string `""` or the string `"0"`, it's false.
 * If a numeric expression evaluates to an integer or floating point *zero* (exactly zero, not "nearly zero"), it's false.
 * If an expression evaluates as the *undefined* value, it's false.
-* Any other value of any kind of expression if true.
+* Any other value of any kind of expression is true.
 
 ## List vs. array in scalar conext
 

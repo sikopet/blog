@@ -70,7 +70,7 @@ Always trust your users. Never trust their input. -- <a href=http://perltraining
 
 The real job of a university is to teach a student how to self-educate, and (of course) to demonstrate that the student is capable of that through testing. -- Jon "Maddog" Hall: <a href=http://blog.lpi.org/index.php/2011/04/is-a-university-degree-necessary/>Is a University Degree Necessary?</a>
 
-Is what I'm about to say: Thoughtful , Honest, Intelligent, Necessary, Kind? -- Andy Lester: <a href=http://perlbuzz.com/2010/11/think-for-perls-sake.html>Think, for Perl's sake</a>
+Is what I'm about to say: Thoughtful, Honest, Intelligent, Necessary, Kind? -- Andy Lester: <a href=http://perlbuzz.com/2010/11/think-for-perls-sake.html>Think, for Perl's sake</a>
 
 Don't repeat yourself (DRY), make functions, subroutines, procedures. -- A. Hunt, D. Thomas: The Pragmatic Programmer, by (1999)
 

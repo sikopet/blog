@@ -40,7 +40,7 @@ You can code. They cannot. That is pretty damn cool. -- <a href=http://learnpyth
 
 I know that to get good at anything you have to practice every day, even if I suck that day (which is often) or it's difficult. Keep trying and eventually it'll be easier and fun. -- <a href=http://learnpythonthehardway.org/book/intro.html>The Hard Way Is Easier</a>
 
-In the third phase, you realize that Python is actually a great help to you and that Python represents the ''collective intelligence'' of hundreds of programmers who have given you some powerful and brilliant tools and capabilities. -- <a href=http://doc.pyschools.com/html/tao.html>Tao of Programming</a>
+In the third phase, you realize that Python is actually a great help to you and that Python represents the *collective intelligence* of hundreds of programmers who have given you some powerful and brilliant tools and capabilities. -- <a href=http://doc.pyschools.com/html/tao.html>Tao of Programming</a>
 
 Because humans have unlimited storage capacity, having total recall would be a mess. -- <a href=http://www.psych.ucla.edu/faculty/faculty_page?id=41&area=3>Rober Bjork</a> (UCLA): <a href=http://www.wired.com/geekdad/2012/01/everything-about-learning/>Everything You Thought You Knew About Learning Is Wrong</a>
 

@@ -75,6 +75,26 @@ Ethernet LAN media
 
 ## Cisco switches
 
+Two types
+
+1. Catalyst -- for Enterprises (core switch 6500 can run Cisco IOS or Cat OS)
+2. Linksys -- for home use
+
+CLI can be accessed via
+
+* console (rollover cable - DB-9 to RJ-45, bright blue) -- physical access
+ * 9600 bits/second
+ * No HW flow control
+ * 8-bit ASCII
+ * No parity bits
+ * 1 stop bit
+* Telnet
+* SSH
+
+CLI modes: 1. user EXEC mode (user mode), 2. enable mode
+
+    > enable
+
 ## Switch configuration
 
 ## Switch troubleshooting

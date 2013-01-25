@@ -95,6 +95,20 @@ CLI modes: 1. user EXEC mode (user mode), 2. enable mode
 
     > enable
 
+* configuration changes in enable mode affect the active config (RAM) after pressing <Enter>!
+
+Password configuration
+
+    #configure terminal
+    (config)#line console 0
+    (config-line)#login
+    (config-line)#password 123
+    
+    #configure terminal
+    (config)#line vty 0 15
+    (config-line)#login
+    (config-line)#password 123
+
 ## Switch configuration
 
 ## Switch troubleshooting

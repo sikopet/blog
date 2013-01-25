@@ -3,10 +3,10 @@
 
 Online documentation
 
-* [Perl programming documentation](http://perldoc.perl.org/)
-* <http://learn.perl.org/>
-* [Perl Tutorial Hub](http://perl-tutorial.org/)
-* [PerlMonks Tutorials](http://perlmonks.org/?node=Tutorials)
+* [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation
+* <http://learn.perl.org/> -- get started with Perl 5
+* [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
+* [PerlMonks Tutorials](http://perlmonks.org/?node=Tutorials) -- [Monastery](https://en.wikipedia.org/wiki/Perl_Monks) tutorials
 * [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial
 * [Modern Perl Books](http://www.modernperlbooks.com)
 * [Perl Beginners' Site]([http://perl-begin.org/)
@@ -14,14 +14,14 @@ Online documentation
 
 System documentation
 
-    man perl
-    perldoc perlintro
+    $ man perl
+    $ perldoc perlintro
 
 Paper books
 
-* [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011)
-* [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012)
-* [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012)
+* [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
+* [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
+* [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012) -- "Perl Bible"
 
 Nearby companies using Perl
 

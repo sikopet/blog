@@ -17,6 +17,7 @@ Paper books
 * [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
 * [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012) -- "Perl Bible"
+* [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
 System documentation
 

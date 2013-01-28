@@ -28,7 +28,7 @@ Relevance of Perl
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) -- see point 5.
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html)
-* [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) - desperate (baby) Perl and large scale Perl
+* [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) -- desperate (baby) Perl and large scale Perl
 
 Nearby companies using Perl
 

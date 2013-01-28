@@ -21,8 +21,8 @@ Paper books
 
 System documentation
 
-    $ man perl
-    $ perldoc perlintro
+* `man perl`
+* `perldoc perlintro`
     
 Relevance of Perl
 

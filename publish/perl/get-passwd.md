@@ -1,4 +1,7 @@
-Sometimes you need to use a password to use in your script. One of the ways how to get it is to ask the script user:
+# Get password from user
+###### perl
+
+Sometimes you need to use a password in your command line script script. One of the ways how to get it, is to ask the script user:
 
     sub get_passwd {
         my $user = shift;
@@ -10,6 +13,6 @@ Sometimes you need to use a password to use in your script. One of the ways how 
         return $pass;
     }
 
-Use can use this function likes this
+Use can use this function likes this:
 
     my $pass = get_passwd($user);

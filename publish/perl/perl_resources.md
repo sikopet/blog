@@ -10,6 +10,7 @@ Online documentation
 * [Modern Perl Books](http://www.modernperlbooks.com) -- free e-book about modern Perl programming
 * [PerlMonks Tutorials](http://perlmonks.org/?node=Tutorials) -- [Monastery](https://en.wikipedia.org/wiki/Perl_Monks) tutorials
 * [Perl Beginners' Site]([http://perl-begin.org/)
+* [Interactive Perl tutorials](http://perltuts.com/) (beta)
 * [Perl 5 wiki](https://www.socialtext.net/perl5/index.cgi)
 
 Paper books

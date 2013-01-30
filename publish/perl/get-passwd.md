@@ -8,7 +8,7 @@ Sometimes you need to use a password in your command line script script. One of 
 
         system "stty -echo";               # turn off input echoing
         print "Enter password for '$user'> ";
-        chomp( $pass = <STDIN> );
+        chomp( my $pass = <STDIN> );
 
         return $pass;
     }

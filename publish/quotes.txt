@@ -86,7 +86,7 @@ The greatest mistake so often made is to make a network configuration too comple
 
 ... hard disks always fail eventually ... -- <a href=http://www.mikerubel.org/computers/rsync_snapshots/#Isolation>Mike Rubel's rsync snapshots backup</a>
 
-And like that...he's gone. -- Keyser Soze, Bryan Singer: The Usual Suspects (1995)
+And like that ... he's gone. -- Verbal, The Usual Suspects (1995)
 
 If you have the right attitude, interesting problems will find you. -- <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
 

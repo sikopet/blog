@@ -62,7 +62,7 @@ The idea, is to make a compromise, somewhere between your ambitions, and your li
 
 Similarly, Perl was designed to be a mess (though in the nicest of possible ways). -- <a href=http://oreilly.com/catalog/opensources/book/larry.html>Open Sources: Voices from the Open Source Revolution</a>: Larry Wall (1999)
 
-The race is on to own certain classes of core data: location, identity, calendaring of public events, product identifiers and namespaces. -- <a href=http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page=1>Tim O'Reilly: What Is Web 2.0 (2005)</a>
+The race is on to own certain classes of core data: location, identity, calendaring of public events, product identifiers and namespaces. -- Tim O'Reilly: <a href=http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page=1>What Is Web 2.0</a> (2005)
 
 To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky (<a href=http://search.cpan.org/dist/Moose/>Moose</a> core developer): <a href=http://stackoverflow.com/questions/150043/python-v-perl>Python v. Perl</a>
 

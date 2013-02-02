@@ -1,3 +1,5 @@
+Master Foo nodded and replied: “When you are hungry, eat; when you are thirsty, drink; when you are tired, sleep.” -- Master Foo and the <a href=http://catb.org/~esr/writings/unix-koans/shell-tools.html>Shell Tools</a>
+
 I have no talent. What I do have is a lot of practice. -- <a href=http://johnnunemaker.com/>John Nunemaker</a>: <a href=http://railstips.org/blog/archives/2010/01/12/i-have-no-talent/>I Have No Talent</a>
 
 Learning new techniques is good, but using the techniques you already know appropriately is better. -- <a href=http://www.perlmonks.org/?node_id=208803>chromatic</a>
@@ -146,7 +148,7 @@ Don't be reluctant to mix and match your command-line scripts. Shell scripts, PH
 
 If the company is pressuring you to learn how to sling-out  garbage “quickly,” then very quietly but very quickly look for another job. ... If you are in a situation that emphasizes “speed,” either so that you “do not fail” or in order to prove what a whatever-you-think-you-are you are, instead of teaching you how to produce real quality, then you are in a lose-lose situation that they write books about. -- http://www.perlmonks.org/?node_id=987331
 
-The novice frowned  and said: “Perl's regexps would be excessive for so simple a task. I do not know awk, and I have been writing sed scripts in the last few weeks. As I have some experience with sed, at the moment I would prefer it. But if the job only needed to be done once rather than repeatedly, a text editor would suffice.” -- <a href=http://catb.org/~esr/writings/unix-koans/shell-tools.html>Master Foo and the Shell Tools</a>
+The novice frowned  and said: “Perl's regexps would be excessive for so simple a task. I do not know awk, and I have been writing sed scripts in the last few weeks. As I have some experience with sed, at the moment I would prefer it. But if the job only needed to be done once rather than repeatedly, a text editor would suffice.” -- Master Foo and the <a href=http://catb.org/~esr/writings/unix-koans/shell-tools.html>Shell Tools</a>
 
 Mojím dôležitým spoluatorom je časový stres. Dôležitý je aj stupeň naštvanosti, respektíve miera nadšenia. Keď sa to prvé stretne s jedným z ostatných dvoch, tak mi to ide. Keď nie, tak je to trápenie. -- Michal Kaščák, .týždeň - Sprievodca festivalom Bažant Pohoda 2012
 

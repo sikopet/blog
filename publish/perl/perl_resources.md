@@ -3,7 +3,8 @@
 
 Online documentation
 
-* [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation
+* [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
+* [meta::cpan](https://metacpan.org/) -- modules documentation (dual-lifed modules - can be found both here and in Perl 5 core documentation)
 * <http://learn.perl.org/> -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
 * [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial
@@ -24,6 +25,8 @@ System documentation
 
 * `man perl`
 * `perldoc perlintro`
+* `perldoc Installed::Module::Name`
+* `perlfind '\@'    ## App::perlfind`
     
 Relevance of Perl
 

@@ -15,6 +15,6 @@ Look for files:
 
     find /tmp/<username>/ -type f -iname "*back*"
 
-Search insinde files:
+Search inside files:
 
     grep --color -R backup /tmp/<username>/

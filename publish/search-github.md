@@ -1,5 +1,5 @@
 # Searching your GitHub
-###### varia, perl
+###### var, perl
 
 I have some code and wikis hosted on GitHub and I sometimes need to search through all these data.
 

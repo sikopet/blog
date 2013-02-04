@@ -1,5 +1,5 @@
 # Searching your GitHub
-###### varia
+###### varia, perl
 
 I have some code and wikis hosted on GitHub and I sometimes need to search through all these data.
 
@@ -11,10 +11,10 @@ Use [github-backup.pl](https://github.com/jreisinger/varia/blob/master/github-ba
 
 ## Search through the data
 
-Look for files
+Look for files:
 
     find /tmp/<username>/ -type f -iname "*back*"
 
-Search insinde files
+Search insinde files:
 
     grep --color -R backup /tmp/<username>/

@@ -1,7 +1,11 @@
 # Get password from user
 ###### perl
 
-Sometimes you need to use a password in your command line script. One of the ways how to get it, is to ask the user:
+Sometimes you need to use a password in your command line script. One of the ways how to get it, is to ask the user.
+
+## System command
+
+Use the system command for terminal line settings - `stty`:
 
     sub get_passwd {
         my $user = shift;
@@ -13,6 +17,18 @@ Sometimes you need to use a password in your command line script. One of the way
         return $pass;
     }
 
-Use can use this function likes this:
+You can use this function like this:
 
     my $pass = get_passwd($user);
+
+## Perl module
+
+Or you can use the CPAN module [Term::ReadKey](https://metacpan.org/module/Term::ReadKey):
+
+    use Term::ReadKey;    # simple terminal control
+
+    print "Enter ${users}'s password: ";
+    ReadMode 'noecho';
+    my $password = ReadLine 0;    # normal read using scalar(<FileHandle>)
+    chomp $password;
+    ReadMode 'normal';

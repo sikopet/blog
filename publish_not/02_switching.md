@@ -45,7 +45,7 @@ Switch features
 * if a single device is connected to a port => full duplex (doubling the bandwidth)
 * rate adoption for devices with different Ethernet speeds
 
-### LAN design
+## LAN design
 
 * collision domain (switch) -- set of NICs whose frames can collide (NICs share the available bandwidth)
 * broadcast domain (router) -- set of NICs who all receive a broadcast frame sent be one of them
@@ -91,11 +91,35 @@ CLI can be accessed via
 * Telnet
 * SSH
 
-CLI modes: 1. user EXEC mode (user mode), 2. enable mode
+CLI modes
+
+.. user EXEC mode (user mode)
+
+.. enable mode
 
     > enable
 
-* configuration changes in enable mode affect the active config (RAM) after pressing <Enter>!
+.. configuration changes in enable mode affect the active config (RAM) after pressing <Enter>!
+
+Configuration modes
+
+.. global (`hostname(config)#`)
+
+    configure terminal
+
+.. line (`hostname(config-line)#`)
+
+    line console 0
+    line vty 0 15
+
+.. interface (`hostname(config-if)#`)
+
+    interface <type> <number>
+
+Exiting modes
+
+* `end`, <Ctrl-z> -- go back to privileged EXEC mode
+* `exit` -- go one configuration mode up
 
 Password configuration
 
@@ -108,6 +132,49 @@ Password configuration
     (config)#line vty 0 15
     (config-line)#login
     (config-line)#password 123
+
+Configuration files
+
+* Startup-config (`#show startup-config`) -- initial configuration, set after reload
+* Running-config (`#show running-config`) -- current configuration, dynamically changed by configuration commands
+
+Config files storage
+
+* RAM (or DRAM) -- Running-config
+* ROM -- bootstrap (or boothelper) - first loaded program that subsequently load Cisco IOS into RAM
+* Flash memory (chip or removable memory card) -- Cisco IOS image, backups of config files, other files
+* NVRAM -- Startup-config
+
+SW initialization
+
+* Cisco: reload
+* PC: reboot, restart
+
+Managing config files
+
+    copy {tftp | runnning-config | startup-config} {tftp | running-config | startup-config}
+
+.. file => NVRAM or file => TFTP -- file replaces the original one
+
+.. file => RAM -- merge
+
+.. revert changes in running-config
+
+    copy startup-config running-config  # not 100% reliable
+    reload                              # 100% reliable
+    
+.. erase NVRAM
+
+    erase nvram:  # new, recommended
+    write erase
+    erase startup-config
+    
+.. erase running config -- erase NVRAM + `reload`
+
+IFS (IOS File System) alternative names
+
+* startup-config = nvram: = nvram:startup-config
+* running-config = system:running-config
 
 ## Switch configuration
 

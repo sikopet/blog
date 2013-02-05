@@ -176,6 +176,8 @@ IFS (IOS File System) alternative names
 * startup-config = nvram: = nvram:startup-config
 * running-config = system:running-config
 
+Setup mode -- initial switch configuration via questions (System configuration dialog)
+
 ## Switch configuration
 
 ## Switch troubleshooting

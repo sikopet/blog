@@ -1,3 +1,5 @@
+It can get confusing. Hey, I'm confused most of the time. -- Larry Wall, Perl Cookbook's foreword
+
 Master Foo nodded and replied: “When you are hungry, eat; when you are thirsty, drink; when you are tired, sleep.” -- Master Foo and the <a href=http://catb.org/~esr/writings/unix-koans/shell-tools.html>Shell Tools</a>
 
 I have no talent. What I do have is a lot of practice. -- <a href=http://johnnunemaker.com/>John Nunemaker</a>: <a href=http://railstips.org/blog/archives/2010/01/12/i-have-no-talent/>I Have No Talent</a>

@@ -1,4 +1,4 @@
-# Check web aplication response code
+# Check web aplication uptime
 ###### audit, shell, var
 
 I wanted to see whether a web application is showing a decent uptime, so I whipped up a small shell script - `check-web-app.sh`:
@@ -37,7 +37,7 @@ I wanted to see whether a web application is showing a decent uptime, so I whipp
         sleep $[ ( $RANDOM % 10 )  + 1 ]
     done
 
-It uses the "TCP/IP swiss army knife" tool called `netcat`. First it checks whether the port is open. If so, it gets the first line of HTTP response header. I ran it like this and then graph the output in a spreadsheet application:
+It uses the "TCP/IP swiss army knife" called `netcat`. First it checks whether the port is open. If so, it gets the first line of HTTP response header. I run it like this and then graph the output in a spreadsheet application:
 
     ./check-web-app.sh www.google.com 80 >> google.csv &
     

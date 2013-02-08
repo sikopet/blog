@@ -1,5 +1,5 @@
 # Perl one-liners
-###### perl
+###### perl, shell
 
 Perl one-liners are small Perl programs that are run directly from a command line (ex. on Unix/Linux, Cygwin). For a deeper dive see [Famous Perl One-Liners Explained](http://www.catonmat.net/blog/perl-one-liners-explained-part-one/). If you want a book, have a look at [Minimal Perl for UNIX and Linux People](http://www.amazon.com/Minimal-Perl-UNIX-Linux-People/dp/1932394508/ref=sr_1_1?ie=UTF8&qid=1358096838&sr=8-1&keywords=minimal+perl+for+unix).
 
@@ -56,3 +56,13 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
     perl -e 'print "Good " . qw(night morning afternoon evening)[(localtime)[2]/6] . ", $ENV{USER}!"'
     
 Stolen from [Utilitarian](http://perlmonks.org/?node_id=681898).
+
+## Use command line arguments (-s)
+
+While in Git-tracked directory, print the filename followed by its author:
+
+    for f in `find -type f`; do 
+        git log -1 --date=iso -- $f |
+        grep ^Author |
+        perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
+    done

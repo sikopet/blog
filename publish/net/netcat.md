@@ -3,6 +3,8 @@
 
 TCP/IP swiss army knife. Simple (yet powerful!) unix utility that reads and writes data across network connections, using TCP or UDP.
 
+## Client
+
 Netcat as a client:
 
     nc host 80
@@ -18,7 +20,22 @@ Test HTTP server:
 
 (press Enter two times after the `GET` line)
 
-Netcat a a server:
+Check UDP port is open:
+
+    nc -vu ns.nameserver.tld 53
+    
+Make sure no data (zero) is sent to the port you connect to:
+
+    nc -v -z host.tld 21-25
+    
+Change source port / address (ex. to evade a FW):
+
+    nc -p 16000 host.tld 22
+    nc -s 1.2.3.4 host.tld 8181
+    
+## Server
+
+Netcat as a server:
 
     nc -l -p 1234
 
@@ -41,3 +58,13 @@ Send a whole partition over the network:
 .. host B (sending data)
 
     dd if=/dev/sda1 | nc -w 3 <hostA> 1234
+
+Run a command (potentially dangerous!); ex. open a shell access:
+
+.. host A (server)
+
+    nc -l -p 9999 -e /bin/bash
+    
+.. host B (client)
+
+    nc hostA 9999

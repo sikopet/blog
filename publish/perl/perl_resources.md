@@ -1,6 +1,8 @@
 # Perl 5 Resources
 ###### perl
 
+![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")
+
 Online documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
@@ -39,8 +41,7 @@ Relevance of Perl
 * [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) (2010) -- desperate (baby) Perl and large scale Perl
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
 
-_Ruby shows up well on (some) of your data, but the resources you cite tend to measure "buzz" rather than reality. For example, on all of them, if you searched for COBOL, you might mistakenly conclude that it's dead, but the Gartner Group estimates that 3/4 of the world's business data passes through COBOL, a quarter of a trillion lines of COBOL code is still out there and it's still a force in the job market, but not in the "buzz" market (and yes, I realize this comparison is unfortunate in the eyes of some)._ -- Ovid's comment to [Why Perl Lost It](http://martin.drashkov.com/2009/11/why-perl-lost-it.html) (2009)
-
+> Ruby shows up well on (some) of your data, but the resources you cite tend to measure "buzz" rather than reality. For example, on all of them, if you searched for COBOL, you might mistakenly conclude that it's dead, but the Gartner Group estimates that 3/4 of the world's business data passes through COBOL, a quarter of a trillion lines of COBOL code is still out there and it's still a force in the job market, but not in the "buzz" market (and yes, I realize this comparison is unfortunate in the eyes of some). -- Ovid's comment to [Why Perl Lost It](http://martin.drashkov.com/2009/11/why-perl-lost-it.html) (2009)
 
 Nearby companies using Perl
 

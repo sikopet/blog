@@ -1,4 +1,4 @@
-# Perl debugging
+# Perl Debugging
 ###### perl
 
 There are several ways how to debug a Perl program.

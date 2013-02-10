@@ -1,4 +1,4 @@
-# Bash login scripts
+# Bash Login Scripts
 ###### linux
 
 See also [my dot-files](https://github.com/jreisinger/dot-files).

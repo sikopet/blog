@@ -1,4 +1,4 @@
-# Store nmap results to Excel file
+# Store Nmap Results to Excel File
 ###### sec
 
 **1.** Run `nmap`, e.g. (to select random IPs use

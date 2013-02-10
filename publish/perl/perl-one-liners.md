@@ -1,4 +1,4 @@
-# Perl one-liners
+# Perl One-Liners
 ###### perl, shell
 
 Perl one-liners are small Perl programs that are run directly from a command line (ex. on Unix/Linux, Cygwin). For a deeper dive see [Famous Perl One-Liners Explained](http://www.catonmat.net/blog/perl-one-liners-explained-part-one/). If you want a book, have a look at [Minimal Perl for UNIX and Linux People](http://www.amazon.com/Minimal-Perl-UNIX-Linux-People/dp/1932394508/ref=sr_1_1?ie=UTF8&qid=1358096838&sr=8-1&keywords=minimal+perl+for+unix).
@@ -65,4 +65,10 @@ While in Git-tracked directory, print the filename followed by its author:
         git log -1 --date=iso -- $f |
         grep ^Author |
         perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
+    done
+
+## Capitalize titles in blog posts
+
+    for f in `find publish -type f -iname "*.md"`; do
+        perl -wn -i -p -MText::Capitalize -e 'my $new = capitalize_title( $_, PRESERVE_ALLCAPS=>1 ) ; s/(.*)/$new/ if 1 .. 1' $f
     done

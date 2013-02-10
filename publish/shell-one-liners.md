@@ -1,4 +1,4 @@
-# Shell one-liners
+# Shell One-Liners
 ###### shell
 
 See also <http://www.commandlinefu.com>.

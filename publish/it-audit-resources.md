@@ -1,4 +1,4 @@
-# IT audit resources
+# IT Audit Resources
 ###### audit
 
 ## Cheklists

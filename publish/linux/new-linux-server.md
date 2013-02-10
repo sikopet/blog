@@ -1,4 +1,4 @@
-# New Linux server
+# New Linux Server
 ###### linux
 
 Things I do after installing a fresh Linux machine.

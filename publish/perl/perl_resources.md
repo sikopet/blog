@@ -19,6 +19,7 @@ Paper books
 * [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
 * [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012) -- "Perl Bible"
+* [Ram Book](http://shop.oreilly.com/product/9781565922433.do) (2003) -- explained recipes for specific tasks
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
 System documentation
@@ -30,6 +31,8 @@ System documentation
     
 Relevance of Perl
 
+* [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/)
+* [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) -- see point 5.
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html)

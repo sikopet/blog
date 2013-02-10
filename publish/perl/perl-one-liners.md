@@ -72,3 +72,15 @@ While in Git-tracked directory, print the filename followed by its author:
     for f in `find publish -type f -iname "*.md"`; do
         perl -wn -i -p -MText::Capitalize -e 'my $new = capitalize_title( $_, PRESERVE_ALLCAPS=>1 ) ; s/(.*)/$new/ if 1 .. 1' $f
     done
+
+Check the changes are ok:
+
+    git diff
+    
+.. to removes staged and working directory changes:
+
+    git reset --hard
+
+.. to remove untracked files:
+
+    git clean -f -d

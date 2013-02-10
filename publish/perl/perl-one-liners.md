@@ -69,6 +69,8 @@ While in Git-tracked directory, print the filename followed by its author:
 
 ## Capitalize titles in blog posts
 
+If you want the titles (first lines) in your [blog posts](https://github.com/jreisinger/blog/tree/master/publish) to be properly capitalized:
+
     for f in `find publish -type f -iname "*.md"`; do
         perl -wn -i -p -MText::Capitalize -e 'my $new = capitalize_title( $_, PRESERVE_ALLCAPS=>1 ) ; s/(.*)/$new/ if 1 .. 1' $f
     done

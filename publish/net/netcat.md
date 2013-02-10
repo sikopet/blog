@@ -1,5 +1,5 @@
 # Netcat
-###### net, sec
+###### networking, security
 
 TCP/IP swiss army knife. Simple (yet powerful!) unix utility that reads and writes data across network connections, using TCP or UDP.
 

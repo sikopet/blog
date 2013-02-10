@@ -1,5 +1,5 @@
 # 01 Networking Fundamentals
-###### net
+###### networking
 
 ## Networking models
 

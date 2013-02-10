@@ -1,5 +1,5 @@
 # Check Web Application Availability
-###### audit, shell, var
+###### audit, shell, various
 
 I wanted to see whether a web application is showing a decent "uptime", so I whipped up a small shell script - `check-web-app.sh`:
 

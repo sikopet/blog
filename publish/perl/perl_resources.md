@@ -31,12 +31,16 @@ System documentation
     
 Relevance of Perl
 
-* [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/)
-* [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
-* [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) -- see point 5.
-* [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language)
-* [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html)
-* [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) -- desperate (baby) Perl and large scale Perl
+* [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
+* [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
+* [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) (2013) -- see point 5.
+* [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
+* [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)
+* [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) (2010) -- desperate (baby) Perl and large scale Perl
+* [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
+
+_Ruby shows up well on (some) of your data, but the resources you cite tend to measure "buzz" rather than reality. For example, on all of them, if you searched for COBOL, you might mistakenly conclude that it's dead, but the Gartner Group estimates that 3/4 of the world's business data passes through COBOL, a quarter of a trillion lines of COBOL code is still out there and it's still a force in the job market, but not in the "buzz" market (and yes, I realize this comparison is unfortunate in the eyes of some)._ -- Ovid's comment to [Why Perl Lost It](http://martin.drashkov.com/2009/11/why-perl-lost-it.html) (2009)
+
 
 Nearby companies using Perl
 

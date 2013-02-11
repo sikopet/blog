@@ -4,6 +4,6 @@ This repository contains blog posts (wiki sites?) and other related data. In cas
 
 The blog posts are expected to be written in [MarkDown](http://daringfireball.net/projects/markdown/) and have an `.md` extension (ex. `blog-post.md`). The first two lines of a blog post have to look like this:
 
-    # Blog entry title
+    # Blog Entry Title
     ###### tag1 [, tag2, tag3, .. , tagN]
 

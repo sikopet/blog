@@ -35,6 +35,7 @@ Relevance of Perl
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
+* [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) -- watch between 53:30 and 54:50
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) (2013) -- see point 5.
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)

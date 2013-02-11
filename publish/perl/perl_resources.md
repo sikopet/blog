@@ -33,7 +33,7 @@ System documentation
 
 Videos
 
-* [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- new Perl features you should be using
+* [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- modern Perl features (like cpanm, perlbrew, Moose, Dancer, Task::Kensho) you should be using
     
 Relevance of Perl
 

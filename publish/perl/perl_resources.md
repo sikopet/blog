@@ -21,7 +21,7 @@ Paper books
 * [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
 * [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012) -- "Perl Bible"
-* [Ram Book](http://shop.oreilly.com/product/9781565922433.do) (2003) -- explained recipes for specific tasks
+* [Ram Book](http://shop.oreilly.com/product/9781565922433.do) - Perl Cookbook (2003) -- explained recipes for specific tasks (as D. Cross [said](http://perlhacks.com/2013/02/perl-books-2/), it has a lot of good stuff, but you need to have some experience to update the Perl to current best practices)
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
 System documentation

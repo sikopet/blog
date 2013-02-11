@@ -30,6 +30,10 @@ System documentation
 * `perldoc perlintro`
 * `perldoc Installed::Module::Name`
 * `perlfind '\@'    ## App::perlfind`
+
+Videos
+
+* [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- new Perl features you should be using
     
 Relevance of Perl
 

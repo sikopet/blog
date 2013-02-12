@@ -99,7 +99,7 @@ CLI modes
 
     > enable
 
-.. configuration changes in enable mode affect the active config (RAM) after pressing <Enter>!
+.. configuration changes in enable mode affect the active config (RAM) after pressing Enter!
 
 Configuration modes
 
@@ -120,18 +120,6 @@ Exiting modes
 
 * `end`, <Ctrl-z> -- go back to privileged EXEC mode
 * `exit` -- go one configuration mode up
-
-Password configuration
-
-    #configure terminal
-    (config)#line console 0
-    (config-line)#login
-    (config-line)#password 123
-    
-    #configure terminal
-    (config)#line vty 0 15
-    (config-line)#login
-    (config-line)#password 123
 
 Configuration files
 
@@ -179,6 +167,51 @@ IFS (IOS File System) alternative names
 Setup mode -- initial switch configuration via questions (System configuration dialog)
 
 ## Switch configuration
+
+### Features in common with routers
+
+Password + hostname
+
+    #configure terminal
+    (config)#enable secret cisco  # hide (via MD5 hashing) clear text passwords in running-config
+    (config)#hostname Emma
+    (config)#line console 0       # serial console 
+    (config-line)#password 123
+    (config-line)#login
+    (config-line)#exit
+    (config)#line vty 0 15        # telnet
+    (config-line)#password 123
+    (config-line)#login
+    (config-line)#exit
+    (config)#exit
+    #show running-config
+    
+.. with default seetings, telnet users are rejected
+    
+SSH
+
+    #configure terminal
+    (config)#line vty 0 15
+    (config-line)#login local                  # local users, no AAA
+    (config-line)#transport input telnet ssh   # to improve security, leave out telnet
+    (config-line)#exit
+    (config)#username foo password 123
+    (config)#ip domain-name example.com
+    (config)#crypto key generate rsa
+    (config)#^Z
+    #show crypto key mypubkey rsa
+    
+Password encryption
+
+* `service password-encryption` - all existing and future passwords encrypted (uses type 7 algorithm)
+
+Banners
+
+* MOTD (`banner`) -- shown before login
+* Login (`banner login #`) -- shown before login
+* Exec (`banner exec Z`) -- shown after login
+
+Logging and timeout
 
 ## Switch troubleshooting
 

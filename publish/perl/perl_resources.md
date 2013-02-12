@@ -1,8 +1,6 @@
 # Perl 5 Resources
 ###### perl
 
-![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")
-
 Online documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
@@ -57,3 +55,5 @@ Jobs
 
 * <http://jobs.perl.org/>
 * <http://london.pm.org/pipermail/jobs/>
+
+![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")

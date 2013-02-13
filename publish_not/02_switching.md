@@ -213,6 +213,78 @@ Banners
 
 Logging and timeout
 
+.. normally logs are emitted anytime, including right in the middle of a command - to improve this
+
+    logging synchronous
+    
+.. timeout (0 0 never times out)
+
+    exec-timeout <minutes> <seconds>
+
+### Switch configuration and operation
+
+default (factory) switch configuration
+
+* all interfaces enabled (`no shutdown`)
+* autonegotation for ports with multiple speeds and duplex setting (`speed auto`, `duplex auto`)
+
+IP Address
+
+* needed only for mamangement
+* VLAN 1 -- default VLAN used on all ports
+* configure VLAN 1 interface to access the switch
+
+.. Static IP address
+
+    (config)#interface vlan 1
+    (config-ig)#ip address 192.168.1.200 255.255.255.0
+    (config-ig)#no shutdown
+    (config-ig)#exit
+    (config)#ip default-gateway 192.168.1.1
+
+.. DHCP
+
+    (config)#interface vlan 1
+    (config-ig)#ip address dhcp
+    (config-ig)#no shutdown
+    (config-ig)#^Z
+    #show dhcp lease
+
+Interfaces
+
+    (config)#interface FastEthernet 0/1
+    (config-if)#duplex full
+    (config-if)#speed 100
+    (config-if)#description Server1 connects here
+
+Port security
+
+.. if you know what devices are to be connected to particular interfaces
+
+    switchport mode access
+    switchport port security
+    switchport port-security maximum <number>  # defaults to 1
+    switchport port-security violation { protect | restrict | shutdown }  # default is shutdown
+    
+    switchport port-security mac-address <mac-address>  # use multiple times to define more than one
+        or
+    switchport port-security mac-address sticky  # dynamically learn MAC addresses
+
+... actions on security violation
+
+* protect -- discard offeding traffic
+* restrict -- protect + send log and SNMP message
+* shutdown -- restrict + disable the interface (discard all traffic)
+
+.. diagnostics
+
+    show running-config
+    show port-security interface fastEthernet 0/1
+
+VLAN
+
+Securing unused interfaces
+
 ## Switch troubleshooting
 
 ## WLANs

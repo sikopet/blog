@@ -8,7 +8,7 @@ Online documentation
 * <http://learn.perl.org/> -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
 * [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial
-* [Modern Perl Books](http://www.modernperlbooks.com) -- free e-book about modern Perl programming
+* [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- free e-book about modern Perl programming
 * [PerlMonks Tutorials](http://perlmonks.org/?node=Tutorials) -- [Monastery](https://en.wikipedia.org/wiki/Perl_Monks) tutorials
 * [Perl Beginners' Site]([http://perl-begin.org/)
 * [Interactive Perl tutorials](http://perltuts.com/) (beta)

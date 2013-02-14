@@ -310,6 +310,42 @@ Securing unused interfaces
 
 ## Switch troubleshooting
 
+Sample CCNA exam questions - http://www.cisco.com/web/learning/wwtraining/certprog/training/cert_exam_tutorial.html
+
+Organized (formalized) troubleshooting:
+
+1. analyze/predict normal operation (documentation, `show`, `debug`)
+2. isolate problem (`show`, `debug`)
+3. root cause analysis -- find the cause of the problems
+
+### CDP
+
+.. proprietary protocol to learn about network topology -- uses multicast frames (when supported) or sends CDP updates to all data-link addresses
+
+.. commands:
+
+* `show cdp neighbors [type number]`
+* `show cdp neighbors detail`
+* `show cdp entry <name>` -- same as "detail", but only for named neighbors
+
+.. shown info:
+
+* device identifier -- hostname
+* address list -- L2 and L3 addresses
+* local interface -- interface from which `show cdp` was issued
+* port identifier -- text
+* capabilities list -- router, switch
+* platform -- model, OS level
+
+.. Cisco recommends to disable CDP where no needed:
+
+* per interface -- `no cdp enable`
+* globally -- `no cdp run`
+
+### L1
+
+### L2
+
 ## WLANs
 
 ---

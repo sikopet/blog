@@ -283,7 +283,30 @@ Port security
 
 VLAN
 
+.. a switch interface can be:
+
+* access interface -- sends/receives frames only in a single VLAN
+* trunking interface -- sends/receives frames in multiple VLANs
+
+.. adding a new VLAN (by default there is VLAN 1, to which all interfaces are assigned):
+
+    (config)#vlan 2
+    (config-vlan)#name My-vlan  # defaults to VLAN0002
+    (config)#interface range fastethernet 0/13 - 14
+    (config-if)#switchport accesss vlan 2
+    (config-if)#switchport mode access  # optional step to disable trunking
+    
+    #show vlan brief
+
 Securing unused interfaces
+
+.. Cisco interfaces are by default "plug and play" interfaces -- enabled (`no shutdown`), automatically negotiate speed and duplex, assigned to VLAN 1, use VLAN trunking and VTP
+
+.. security recommendations (only the first is really required):
+
+* administratively disable the interface (`shutdown`)
+* disable VLAN trunking and VTP (`switchport mode access`)
+* assign the port to an unused VLAN (`switchport access vlan <number>`)
 
 ## Switch troubleshooting
 

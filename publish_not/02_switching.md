@@ -342,8 +342,22 @@ Organized (formalized) troubleshooting:
 * per interface -- `no cdp enable`
 * globally -- `no cdp run`
 
-### L1
+### L1 and L2
 
+`show interfaces`, `show interfaces description`
+
+        .--------------------------------------------------------------------------------------------------------.
+        |                                      Switch interface status codes                                     |
+        +-----------------------+----------------------+------------------+--------------------------------------+
+        | Line status (L1)      | Protocol status (L2) | Interface status | Typical root cause                   |
+        +-----------------------+----------------------+------------------+--------------------------------------+
+        | Administratively down | Down                 | disabled         | shutdown command                     |
+        | Down                  | Down                 | notconnect       | cable problems, other device down    |
+        | up                    | Down                 | notconnect       | up/down state not expected on switch |
+        | Down                  | down (err-disabled)  | err-disabled     | port security disabled the interface |
+        | Up                    | Up                   | connected        | interface working                    |
+        '-----------------------+----------------------+------------------+--------------------------------------'
+        
 ### L2
 
 ## WLANs

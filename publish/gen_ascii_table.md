@@ -1,7 +1,7 @@
 # Generate ASCII Table
 ###### various
 
-I sometimes need to insert a table into a [blog](http://openhouse.sk/blog) post that is written in [MarkDown](http://daringfireball.net/projects/markdown/syntax). Having source data in `data.csv`:
+I sometimes need to insert a table into a [blog](http://openhouse.sk/blog) post (written in [MarkDown](http://daringfireball.net/projects/markdown/syntax)). Having source data in `data.csv`:
 
     Line status (L1) ; Protocol status (L2) ; Interface status ; Typical root cause
     Administratively down ; Down ; disabled ; shutdown command

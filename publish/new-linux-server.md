@@ -1,1 +1,4 @@
-Page moved <a href="/linux/new-linux-server.html">here</a>.
+# New Linux Server
+###### linux
+
+Page moved <a href="/blog/linux/new-linux-server.html">here</a>.

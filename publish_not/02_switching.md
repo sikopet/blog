@@ -388,9 +388,25 @@ Collisions;Collisions > .1% of all frames;Duplex mismatch, jabber, DOS
 Late collisions;Increasing late collisions;Collision domain, too long cable, duplex mismatch
 -->
 
-
-
 ### L2
+
+.. comands
+
+* `show mac address-table`
+* `show mac address-table dynamic`
+
+.. switch forwarding logic
+
+1. determine VLAN
+2. look for destination MAC address, but only in the VLAN
+ 1. found (unicast) -- forward frame out of the matching interface
+ 2. not found (unicast) -- flood the frame within the VLAN
+ 3. broadcast or multicast -- flood the frame within the VLAN
+
+.. port security filtering
+
+* shutdown -- `show inteface` or `show inteface status`
+* protect and restrict -- not so obvious, `show port-security interface`
 
 ## WLANs
 

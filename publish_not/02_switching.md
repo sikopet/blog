@@ -347,16 +347,25 @@ Organized (formalized) troubleshooting:
 `show interfaces`, `show interfaces description`
 
         .--------------------------------------------------------------------------------------------------------.
-        |                                      Switch interface status codes                                     |
+        |                                           Default table title                                          |
         +-----------------------+----------------------+------------------+--------------------------------------+
         | Line status (L1)      | Protocol status (L2) | Interface status | Typical root cause                   |
         +-----------------------+----------------------+------------------+--------------------------------------+
-        | Administratively down | Down                 | disabled         | shutdown command                     |
+        | Administratively down | Down                 | disabled         | <code>shutdown</code> command        |
         | Down                  | Down                 | notconnect       | cable problems, other device down    |
         | up                    | Down                 | notconnect       | up/down state not expected on switch |
         | Down                  | down (err-disabled)  | err-disabled     | port security disabled the interface |
         | Up                    | Up                   | connected        | interface working                    |
         '-----------------------+----------------------+------------------+--------------------------------------'
+<!-- Original table data:
+Line status (L1);Protocol status (L2);Interface status;Typical root cause
+Administratively down;Down;disabled;<code>shutdown</code> command
+Down;Down;notconnect;cable problems, other device down
+up;Down;notconnect;up/down state not expected on switch
+Down;down (err-disabled);err-disabled;port security disabled the interface
+Up;Up;connected;interface working
+-->
+
         
 ### L2
 

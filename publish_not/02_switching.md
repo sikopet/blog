@@ -351,7 +351,7 @@ Organized (formalized) troubleshooting:
         +-----------------------+----------------------+------------------+--------------------------------------+
         | Line status (L1)      | Protocol status (L2) | Interface status | Typical root cause                   |
         +-----------------------+----------------------+------------------+--------------------------------------+
-        | Administratively down | Down                 | disabled         | <code>shutdown</code> command        |
+        | Administratively down | Down                 | disabled         | shutdown command                     |
         | Down                  | Down                 | notconnect       | cable problems, other device down    |
         | up                    | Down                 | notconnect       | up/down state not expected on switch |
         | Down                  | down (err-disabled)  | err-disabled     | port security disabled the interface |
@@ -359,14 +359,37 @@ Organized (formalized) troubleshooting:
         '-----------------------+----------------------+------------------+--------------------------------------'
 <!-- Original table data:
 Line status (L1);Protocol status (L2);Interface status;Typical root cause
-Administratively down;Down;disabled;<code>shutdown</code> command
+Administratively down;Down;disabled;shutdown command
 Down;Down;notconnect;cable problems, other device down
 up;Down;notconnect;up/down state not expected on switch
 Down;down (err-disabled);err-disabled;port security disabled the interface
 Up;Up;connected;interface working
 -->
 
-        
+### L1
+
+`show interfaces gi0/1 status`:
+
+* `a`-half, `a`-100 -- means autonegotiated, not set manually with `speed {10|100|1000}`, `duplex {half|full}`
+
+`show interfaces fa0/13` (Indicator column):
+
+        .---------------------------------------------------------------------------------------------------------.
+        | Problem         | Indicator                         | Root cause                                        |
+        +-----------------+-----------------------------------+---------------------------------------------------+
+        | Excessive noise | Many input errors, few collisions | Cable problem (category, damaged, EMI)            |
+        | Collisions      | Collisions > .1% of all frames    | Duplex mismatch, jabber, DOS                      |
+        | Late collisions | Increasing late collisions        | Collision domain, too long cable, duplex mismatch |
+        '-----------------+-----------------------------------+---------------------------------------------------'
+<!-- Original table data:
+Problem;Indicator;Root cause
+Excessive noise;Many input errors, few collisions;Cable problem (category, damaged, EMI)
+Collisions;Collisions > .1% of all frames;Duplex mismatch, jabber, DOS
+Late collisions;Increasing late collisions;Collision domain, too long cable, duplex mismatch
+-->
+
+
+
 ### L2
 
 ## WLANs

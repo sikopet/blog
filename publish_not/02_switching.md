@@ -410,11 +410,38 @@ Late collisions;Increasing late collisions;Collision domain, too long cable, dup
 
 ## WLANs
 
-![Sample WLAN](https://github.com/jreisinger/blog/tree/master/files/ccna/wlan.jpg)
+![Sample WLAN](https://raw.github.com/jreisinger/blog/master/files/ccna/wlan.jpg)
 
 ### Concepts
 
-### Standards
+* IEEE 802.3 -- Ethernet LAN
+* IEEE 802.11 -- Ethernet WLAN
+
+WLAN
+
+* must use half-duplex (HDX)
+* CSMA/CA
+
+
+WLAN standards:
+
+        .---------------------------------------------------------------------.
+        |                             | 802.11a | 802.11b | 802.11g | 802.11n |
+        +-----------------------------+---------+---------+---------+---------+
+        | Ratified                    | '99     | '99     | '03     | '09     |
+        | Max. speed with DSSS (Mbps) | -       |      11 |      11 |      11 |
+        | Max. speed with OFDM (Mbps) |      54 | -       |      54 |     150 |
+        | Frequency band (GHz)        |       5 |     2.4 |     2.4 | Both    |
+        | Non-overlapping channels    |      23 |       3 |       3 |       9 |
+        '-----------------------------+---------+---------+---------+---------'
+<!-- Original table data:
+;802.11a;802.11b;802.11g;802.11n
+Ratified;'99;'99;'03;'09
+Max. speed with DSSS (Mbps);-;11;11;11
+Max. speed with OFDM (Mbps);54;-;54;150
+Frequency band (GHz);5;2.4;2.4;Both
+Non-overlapping channels;23;3;3;9
+-->
 
 ### Deployment
 

@@ -410,6 +410,16 @@ Late collisions;Increasing late collisions;Collision domain, too long cable, dup
 
 ## WLANs
 
+![Sample WLAN](https://github.com/jreisinger/blog/tree/master/files/ccna/wlan.jpg)
+
+### Concepts
+
+### Standards
+
+### Deployment
+
+### Security
+
 ---
 
 Source:

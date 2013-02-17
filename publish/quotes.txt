@@ -1,3 +1,5 @@
+TimToady thinks in his more arrogant moments that Perl 5 is great because it was designed to allow a CPAN to develop... -- Larry Wall on <a href="http://irclog.perlgeek.de/perl6/2012-11-13#i_6150123">#perl6</a>
+
 It's nice to be important, but it's more important to be nice. -- <a href="http://perlmonks.org/?node_id=222307">Tommy</a>
 
 Use $_ as you would the word "it" in formal writing; sparingly, in small and well-defined scopes. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl/chapter_01.html">The Perl Philosophy</a>

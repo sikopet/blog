@@ -1,3 +1,5 @@
+It's nice to be important, but it's more important to be nice. -- <a href="http://perlmonks.org/?node_id=222307">Tommy</a>
+
 Use $_ as you would the word "it" in formal writing; sparingly, in small and well-defined scopes. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl/chapter_01.html">The Perl Philosophy</a>
 
 Take advantage of this flexibility and pragmatism: it's far better to accomplish your task effectively now than to write a conceptually pure and beatyful program next year. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl">Modern Perl</a>

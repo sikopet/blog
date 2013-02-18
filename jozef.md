@@ -4,6 +4,7 @@
 
 2013-02-18
 
+* read XML chapter from Perl Cookbook
 * read an [article on procrastination](http://lesswrong.com/lw/3w3/how_to_beat_procrastination/) (that's why I hadn't done my Christmas homework at high-school? :)
 
 2012-09

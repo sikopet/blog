@@ -21,3 +21,19 @@
 2010-03-19
 
 * started to study the LlamaBook (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
+
+2009-04-17
+
+* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) of Classic Shell Scripting notes
+
+2008-06-09
+
+* obtained the LPIC-1 certificate
+
+2008-01-23
+
+* my first Linux training at [Macrosoft](http://www.macrosoft.sk/)
+
+2006-09
+
+* obtained the CCNA certificate

@@ -4,7 +4,7 @@
 
 2013-02-18
 
-* nothing :)
+* read an [article on procrastination](http://lesswrong.com/lw/3w3/how_to_beat_procrastination/) (that's why I hadn't done my Christmas holidays homework at high-school? :))
 
 2011-04-10
 

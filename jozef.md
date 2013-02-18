@@ -1,5 +1,7 @@
 # I Done This
 
+(Inspired by Paul Fenwick's [article](http://privacygeek.blogspot.com.au/2013/02/reimplementing-idonethis-memory-service.html).)
+
 2013-02-18
 
 * nothing :)

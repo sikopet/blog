@@ -9,7 +9,7 @@ Online documentation
 * [meta::cpan](https://metacpan.org/) -- modules documentation (dual-lifed modules - can be found both here and in Perl 5 core documentation)
 * <http://learn.perl.org/> -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
-* [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial
+* [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial (subscribe to get <a href="http://perlweekly.com/">weekly Perl news</a>)
 * [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- free e-book about modern Perl programming
 * [PerlMonks Tutorials](http://perlmonks.org/?node=Tutorials) -- [Monastery](https://en.wikipedia.org/wiki/Perl_Monks) tutorials
 * [Perl Beginners' Site]([http://perl-begin.org/)

@@ -4,8 +4,20 @@
 
 2013-02-18
 
-* read an [article on procrastination](http://lesswrong.com/lw/3w3/how_to_beat_procrastination/) (that's why I hadn't done my Christmas holidays homework at high-school? :))
+* read an [article on procrastination](http://lesswrong.com/lw/3w3/how_to_beat_procrastination/) (that's why I hadn't done my Christmas homework at high-school? :)
+
+2012-09
+
+* read "Introduction to References" (AlpacaBook) for the second time (Laguna Beach, CA)
+
+2012-04
+
+* finished reading the LlamaBook for the second time (BKK airport)
 
 2011-04-10
 
-* [I](http://perlmonks.org/?node_id=898593) joined the legendary PerlMonks
+* [i](http://perlmonks.org/?node_id=898593) joined the legendary PerlMonks
+
+2010-03-19
+
+* started to study the LlamaBook (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)

@@ -1,6 +1,8 @@
 # Perl 5 Resources
 ###### perl
 
+![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")
+
 Online documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
@@ -37,7 +39,8 @@ Relevance of Perl
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
-* [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) -- watch between 53:30 and 54:50
+* [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
+* [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) (2013) -- watch between 53:30 and 54:50
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) (2013) -- see point 5.
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)
@@ -55,5 +58,3 @@ Jobs
 
 * <http://jobs.perl.org/>
 * <http://london.pm.org/pipermail/jobs/>
-
-![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")

@@ -15,8 +15,12 @@ for f in `find publish -type f`; do
     perl -wn -s -e 'my @stamp = m{\d\d(\d\d)-(\d\d)-(\d\d) (\d\d):(\d\d):\d\d} ; my $stamp = join "", @stamp ; system "touch -t $stamp $file"' -- -file=$f
 done
 
+# Blog entries
 rm -rf /var/www/www.openhouse.sk/public/blog/*
 cp -pr /tmp/blog/publish/* /var/www/www.openhouse.sk/public/blog/
+# iDoneThis
+cp /tmp/blog/jozef.md /var/www/www.openhouse.sk/public/
 
+# Clean up
 cd /tmp
 rm -rf blog

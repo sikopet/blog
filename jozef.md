@@ -10,7 +10,7 @@
 
 * read "Introduction to References" (AlpacaBook) for the second time (Laguna Beach, CA)
 
-2012-04
+2011-04
 
 * finished reading the LlamaBook for the second time (BKK airport)
 

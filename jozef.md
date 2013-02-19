@@ -2,6 +2,10 @@
 
 (Inspired by Paul Fenwick's [article](http://privacygeek.blogspot.com.au/2013/02/reimplementing-idonethis-memory-service.html).)
 
+2013-02-19
+
+* finished [LAN switching](http://www.openhouse.sk/blog/networking/02_switching.html) notes
+
 2013-02-18
 
 * created [pub_proc.pl](https://github.com/jreisinger/varia/blob/master/pub_proc.pl) that sends information on [Slovak public procurement](http://www.uvo.gov.sk/evestnik/-/vestnik/aktual) by email

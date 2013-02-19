@@ -423,7 +423,7 @@ WLAN
 * CSMA/CA
 
 
-WLAN standards:
+Standards:
 
         .---------------------------------------------------------------------.
         |                             | 802.11a | 802.11b | 802.11g | 802.11n |
@@ -442,6 +442,66 @@ Max. speed with OFDM (Mbps);54;-;54;150
 Frequency band (GHz);5;2.4;2.4;Both
 Non-overlapping channels;23;3;3;9
 -->
+
+Modes
+
+* ad hoc mode
+* infrastructure mode -- cannot send frames directly to each other must go through an AP
+
+Service sets
+
+* BSS -- uses a single AP
+* ESS -- uses more than one AP, allows for roaming
+
+#### L1
+
+* sending/receiving of radio waves
+* frequency band -- range of consecutive frequencies
+
+FCC (US) oversees the frequency ranges:
+
+        .----------------------------------------------------------------------.
+        |                      FCC unlicensed freq. bands                      |
+        +-------------+-------+------------------------------------------------+
+        | Freq. range | Name  | Sample devices                                 |
+        +-------------+-------+------------------------------------------------+
+        | 900 Mhz     | ISM   | Older cordless phones                          |
+        | 2.4 Ghz     | ISM   | Newer cordless phones and 802.(11,11b,11g,11n) |
+        | 5 Ghz       | U-NII | Newer cordless phones and 802.(11a,11n)        |
+        '-------------+-------+------------------------------------------------'
+<!-- Original table data:
+Freq. range;Name;Sample devices
+900 Mhz;ISM;Older cordless phones
+2.4 Ghz;ISM;Newer cordless phones and 802.(11,11b,11g,11n)
+5 Ghz;U-NII;Newer cordless phones and 802.(11a,11n)
+-->
+
+Encodings:
+
+1. FHSS (802.11a) -- uses all frequencies in the band, hopping to different ones hoping to avoid intereference
+2. DSSS (802.11[b, g]) -- uses one of the 11 overlapping channels (or frequencies); has a bandwidth of 82 MHz (2.402 - 2.483 Ghz); 3 (1, 6, 11) out of 11 channels are non-overlapping, i.e. can be used in the same space for WLAN communication and they won't interfere (important when designing ESS)
+3. OFDM (802.11[a, g, n]) -- like DSSS, WLANs using OFDM can use multiple non-overlapping channels
+
+802.11n -- uses mutliple antennas (MIMO)
+
+Wireless interference
+
+* passing through matter absorbs/reflects the radio signal
+* SNR -- WLAN signal compared to undesired signals (noise)
+
+Coverage -- transmit power of the AP cannot exceed the FCC limits
+
+Speeed
+
+* weaker signals can pass data at lower speeds (multiple speeds)
+* generally: higher freq. => faster data transf. => smaller coverage area (exception - 802.11n)
+
+Capacity -- non-overlapping channels multiply the WLAN capacity, as three devices can communicate with three APs at the same time
+
+#### L2
+
+* collisions can always occur (two or more devices sending at the same time, using overlapping frequencies)
+* CSMA/CA used to minimize the chance of collision -- random wait time + aknowledgement of every frame
 
 ### Deployment
 

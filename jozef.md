@@ -15,19 +15,19 @@
 
 2012-09
 
-* read "Introduction to References" (AlpacaBook) for the second time (Laguna Beach, CA)
+* read "Introduction to References" ([AlpacaBook](http://www.openhouse.sk/blog/perl/perl_resources.html)) for the second time (Laguna Beach, CA)
 
 2011-04
 
-* finished reading the LlamaBook for the second time (BKK airport)
+* finished reading the LlamaBook for second time (BKK airport)
 
 2011-04-10
 
-* [i](http://perlmonks.org/?node_id=898593) joined the legendary PerlMonks
+* [I](http://perlmonks.org/?node_id=898593) joined the legendary PerlMonks
 
 2010-03-19
 
-* started to study the LlamaBook (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
+* started to study the [LlamaBook](http://www.openhouse.sk/blog/perl/perl_resources.html) (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
 
 2009-04-17
 
@@ -39,7 +39,7 @@
 
 2008-01-23
 
-* my first Linux training at [Macrosoft](http://www.macrosoft.sk/)
+* gave my first Linux training (at [Macrosoft](http://www.macrosoft.sk/))
 
 2006-09
 

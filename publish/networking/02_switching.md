@@ -1,5 +1,5 @@
 # LAN switching
-###### ccna, networking
+###### networking
 
 ## Concepts
 

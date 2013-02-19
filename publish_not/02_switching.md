@@ -505,7 +505,83 @@ Capacity -- non-overlapping channels multiply the WLAN capacity, as three device
 
 ### Deployment
 
+1) Verify the existing wired network
+
+* DHCP working
+* VLANs (ESS - all switch ports connecting the APs have to be in the same VLAN)
+* Internet connectivity
+
+2) Install the AP and configure the wired IP details
+
+3) Configure the wireless details
+
+* IEEE standard (a, b, g, or multiple)
+* wireless channel
+* SSID (must be the same within ESS)
+* transmit power
+
+4) Install and configure one wireless client
+
+* M$ autoconfig tool: ACM (older WZC)
+
+5) Verify the WLAN works from the client
+
 ### Security
+
+Issues:
+
+* War drivers -- gain Internet access for free
+* Hackers -- find information or deny service
+* Employees -- install the AP in his office with default configuration
+* Rogue AP -- steel passwords
+
+Counter-measures:
+
+* Manual authentication (war drivers, hackers gaining access, rogue AP) -- password (called key) on client and server
+* Encryption (hackers stealing info in a WLAN) -- secret key + math to scramble the contents of the WLAN frame
+* IDS, IPS (employee AP installation, rogue AP) -- Cisco SWAN architecture
+
+#### Security techniques
+
+WEP
+
+* 1997, IEEE, should not be used today
+
+.. problems:
+
+* Static preshared keys (PSK) -- configured manually on each AP and client (many people didn't bother to regularly change it)
+* Easily cracked keys -- short keys (64 bits, only 40 were actual unique key)
+
+SSID cloaking, MAC filtering
+
+* not a real security
+* cloaking -- AP doesn't send a periodic Beacon frame but the client sends the Probe message
+* filtering -- attacker can sniff the MAC addresses and change their own
+
+WPA
+
+* dynamic key exchange via TKIP (Temporal key integrity protocol)
+* user authentication via 802.1X or simple device authentication using preshared keys
+
+WPA2 (802.11i) - AES
+
+        .----------------------------------------------------------------------------------------------.
+        |                                    WLAN security features                                    |
+        +----------------+------------------+-----------------------+---------------------+------------+
+        | Standard       | Key distribution | Device authentication | User authentication | Ecryption  |
+        +----------------+------------------+-----------------------+---------------------+------------+
+        | WEP            | Static           | Yes (weak)            | None                | Yes (weak) |
+        | Cisco          | Dynamic          | Yes                   | Yes (802.1x)        | Yes (TKIP) |
+        | WPA            | Both             | Yes                   | Yes (802.1x)        | Yes (TKIP) |
+        | 802.11i (WPA2) | Both             | Yes                   | Yes (802.1x)        | Yes (AES)  |
+        '----------------+------------------+-----------------------+---------------------+------------'
+<!-- Original table data:
+Standard;Key distribution;Device authentication;User authentication;Ecryption
+WEP;Static;Yes (weak);None;Yes (weak)
+Cisco;Dynamic;Yes;Yes (802.1x);Yes (TKIP)
+WPA;Both;Yes;Yes (802.1x);Yes (TKIP)
+802.11i (WPA2);Both;Yes;Yes (802.1x);Yes (AES)
+-->
 
 ---
 

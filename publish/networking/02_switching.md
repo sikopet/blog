@@ -1,4 +1,4 @@
-# LAN switching
+# LAN Switching
 ###### networking
 
 ## Concepts

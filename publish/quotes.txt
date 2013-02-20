@@ -1,3 +1,5 @@
+I'm aware that I live in a little bubble, and the people I interact with are in no way typical... and I am *so* damn thankful for that. -- Paul Fenwick
+
 TimToady thinks in his more arrogant moments that Perl 5 is great because it was designed to allow a CPAN to develop... -- Larry Wall on <a href="http://irclog.perlgeek.de/perl6/2012-11-13#i_6150123">#perl6</a>
 
 It's nice to be important, but it's more important to be nice. -- <a href="http://perlmonks.org/?node_id=222307">Tommy</a>

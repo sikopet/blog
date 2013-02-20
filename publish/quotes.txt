@@ -104,7 +104,7 @@ And like that ... he's gone. -- Verbal, The Usual Suspects (1995)
 
 If you have the right attitude, interesting problems will find you. -- <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
 
-...you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to '''start over at least once'''. <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>ESR: The Cathedral and The Bazaar</a>
+...you often don't really understand the problem until after the first time you implement a solution. The second time, maybe you know enough to do it right. So if you want to get it right, be ready to *start over at least once*. -- ESR: <a href=http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s02.html>The Cathedral and The Bazaar</a>
 
 ...the value isn't in the software or the hardware, it's in the systems we build with both. -- http://blogs.sun.com/jonathan/
 

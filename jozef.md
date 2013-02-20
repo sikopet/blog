@@ -1,5 +1,9 @@
 # I Done This
 
+2013-02-20
+
+* [oh-servers](https://github.com/open-house/oh-servers) working! (merged puppet into master)
+
 2013-02-19
 
 * made progress with [oh-servers](https://github.com/open-house/oh-servers) (puppet branch)

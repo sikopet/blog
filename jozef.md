@@ -4,6 +4,7 @@
 
 2013-02-19
 
+* made progress with [oh-servers](https://github.com/open-house/oh-servers) (puppet branch)
 * read two case studies from [IT Security Matrix](http://www.amazon.com/Security-Metrics-Practical-Framework-Protecting/dp/0071713409/ref=sr_1_3?s=books&ie=UTF8&qid=1361298694&sr=1-3&keywords=security+metrics)
 * finished [LAN switching](http://www.openhouse.sk/blog/networking/02_switching.html) notes
 

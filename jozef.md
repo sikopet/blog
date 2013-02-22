@@ -1,5 +1,9 @@
 # I Done This
 
+2013-02-21
+
+* learned basic info on SIP attacks from MK (SIP protocol, [digest authentication](https://en.wikipedia.org/wiki/Digest_authentication))
+
 2013-02-20
 
 * [oh-servers](https://github.com/open-house/oh-servers) working! (merged puppet into master)

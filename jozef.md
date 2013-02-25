@@ -1,5 +1,9 @@
 # I Done This
 
+2013-02-25
+
+* went through PDF version of [Learning Puppet](http://docs.puppetlabs.com/learning/index.html) (for the 2nd time, Hotel Oxygén)
+
 2013-02-21
 
 * learned basic info on SIP attacks from MK (SIP protocol, [digest authentication](https://en.wikipedia.org/wiki/Digest_authentication))

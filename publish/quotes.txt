@@ -1,3 +1,5 @@
+PerlMonks is a strange beast. It's largely a newbie-help site, but also contains a handful of things of terrifying beauty. -- Erudil's <a href="http://www.perlmonks.org/bare/?node=Erudil">home node</a>
+
 I'm aware that I live in a little bubble, and the people I interact with are in no way typical... and I am *so* damn thankful for that. -- Paul Fenwick
 
 TimToady thinks in his more arrogant moments that Perl 5 is great because it was designed to allow a CPAN to develop... -- Larry Wall on <a href="http://irclog.perlgeek.de/perl6/2012-11-13#i_6150123">#perl6</a>

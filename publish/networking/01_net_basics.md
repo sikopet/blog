@@ -36,6 +36,8 @@ OSI layering benefits
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do
  * Adjacent-layer interaction -- the higher layer requests that the next lower layer perform the needed function
 
+TCP error recovery service provided to HTTP:
+
   ![TCP error recovery service provided to HTTP](https://raw.github.com/jreisinger/blog/master/files/ccna/tcp_error_recovery.png "TCP error recovery service provided to HTTP")
 
 ### TCP/IP network access layer encapsulation
@@ -90,7 +92,7 @@ Most common Ethernet types
 
  * "T" in alt. names -- twisted pair
 
-CSMA/CD algorith (required by hubs)
+CSMA/CD algorithm (required by hubs)
 
  * a device that wants to send a frame waits until the LAN is silent
  * if a collission occurs, the devices that caused the collision wait a random amount of time and then try again
@@ -147,11 +149,12 @@ LAN headers
 
 ## WANs
 
- * WAN standads and protocols -- networking spanning relatively large distances compared to LANs
+ * WAN standards and protocols -- networking spanning relatively large distances compared to LANs
 
 ### Point-to-Point WANs - OSI L1
 
 Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
+
  * (leased line = leased circuit = link = serial link = serial line = point-to-point link = circuit)
 
 LEASED LINE COMPONENTS
@@ -171,7 +174,9 @@ LEASED LINE COMPONENTS
         |                                                        |
        CPE                                                Long cable (KMs)
 
-![WAN connectors](https://raw.github.com/jreisinger/blog/master/files/ccna/wan_serial_cables.jpg "WAN connectors")
+WAN connectors:
+
+<IMG SRC="https://raw.github.com/jreisinger/blog/master/files/ccna/wan_serial_cables.jpg" ALT="WAN connectors" WIDTH=600>
 
 Terminology
 
@@ -202,7 +207,7 @@ HDLC
     Bytes | 1  |   1   |   1   |Variable| 2 |
           +----+-------+-------+--------+---+
 
-           Cisco
+           Cisco (PPP)
           +----+-------+-------+----+--------+---+
           |Flag|Address|Control|Type|  Data  |FCS|
           | 1  |   1   |   1   | 2  |Variable| 2 |

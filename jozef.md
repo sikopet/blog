@@ -2,6 +2,10 @@
 
 2013-02-25
 
+* my nickname (jose) was mentioned in brian d foy's [article](http://www.learning-perl.com/?p=356); cool! :)
+
+2013-02-24
+
 * went through PDF version of [Learning Puppet](http://docs.puppetlabs.com/learning/index.html) (for the 2nd time, Hotel Oxygén)
 
 2013-02-21

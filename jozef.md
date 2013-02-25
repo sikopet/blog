@@ -2,11 +2,12 @@
 
 2013-02-25
 
+* created a (throw-away) script that sorts serials on TV (by `touch`-ing them) served via [MiniDLNA](https://wiki.archlinux.org/index.php/MiniDLNA)
 * my nickname (jose) was mentioned in brian d foy's [article](http://www.learning-perl.com/?p=356); cool! :)
 
 2013-02-24
 
-* went through PDF version of [Learning Puppet](http://docs.puppetlabs.com/learning/index.html) (for the 2nd time, Hotel Oxygén)
+* went through PDF version of [Learning Puppet](http://docs.puppetlabs.com/learning/index.html) (for the 2nd time; Hotel Oxygén)
 
 2013-02-21
 

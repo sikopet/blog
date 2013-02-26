@@ -1,5 +1,10 @@
 # I Done This
 
+2013-02-26
+
+* [posted](http://perlmonks.org/?node_id=1020778) on PerlMonks
+* added [blog entry](http://openhouse.sk/blog/perl/file-find.html) on `File::Find`
+
 2013-02-25
 
 * created a (throw-away) script that sorts serials on TV (by `touch`-ing them) served via [MiniDLNA](https://wiki.archlinux.org/index.php/MiniDLNA)

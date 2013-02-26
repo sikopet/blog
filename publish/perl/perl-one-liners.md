@@ -86,3 +86,7 @@ Check the changes are ok:
 .. to remove untracked files:
 
     git clean -f -d
+
+## Create HTML anchor element
+
+    perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL

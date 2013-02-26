@@ -1,3 +1,5 @@
+Všetci si myslia, že start-up je o parádnom nápade. Ale nápadov je veľa. Hlavne je to o *brutálnej* robote. Nápadov je miliónkrát viac ako chuti robiť. -- <a href="http://ekonomika.sme.sk/c/6715026/ako-laviciar-vyraba-kapitalistov.html">Ivan Štefunko</a>
+
 PerlMonks is a strange beast. It's largely a newbie-help site, but also contains a handful of things of terrifying beauty. -- Erudil's <a href="http://www.perlmonks.org/bare/?node=Erudil">home node</a>
 
 I'm aware that I live in a little bubble, and the people I interact with are in no way typical... and I am *so* damn thankful for that. -- Paul Fenwick

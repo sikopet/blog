@@ -1,5 +1,9 @@
 # I Done This
 
+2013-02-27
+
+* reviewed LAN switching [notes](http://www.openhouse.sk/blog/networking/02_switching.html)
+
 2013-02-26
 
 * [posted](http://perlmonks.org/?node_id=1020778) on PerlMonks

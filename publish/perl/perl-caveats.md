@@ -22,6 +22,8 @@ Consequence: Perl reads all the code before execution.
 * global variables are in `$Title_case`
 * words are `$separated_by_uderscores`
 
+See also [perlstyle](http://perldoc.perl.org/perlstyle.html).
+
 ## What is truth for scalars
 
 * If a string expression evaluates to the empty string `""` or the string `"0"`, it's false.

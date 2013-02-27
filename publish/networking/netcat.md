@@ -1,6 +1,8 @@
 # Netcat
 ###### networking, security
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Wenger_EvoGrip_S17.JPG" alt="Knife" height="63" width="109" align="right">
+
 TCP/IP swiss army knife. Simple (yet powerful!) unix utility that reads and writes data across network connections, using TCP or UDP.
 
 ## Client

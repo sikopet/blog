@@ -2,6 +2,7 @@
 
 2013-02-27
 
+* read [some](http://www.openhouse.sk/blog/gsm.html) stuff on mobile networks
 * reviewed LAN switching [notes](http://www.openhouse.sk/blog/networking/02_switching.html)
 
 2013-02-26

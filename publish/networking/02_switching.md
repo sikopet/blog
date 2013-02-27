@@ -40,9 +40,8 @@ Switch internal processing
 
 Switch features
 
-* if a single device is connected to a port => dedicated bandwidth to that device
-* multiple simultaneous conversations etween devices on different ports
-* if a single device is connected to a port => full duplex (doubling the bandwidth)
+* if a single device is connected to a port => dedicated bandwidth to that device (full duplex, doubling the bandwidth)
+* multiple simultaneous conversations between devices on different ports
 * rate adoption for devices with different Ethernet speeds
 
 ## LAN design
@@ -347,7 +346,7 @@ Organized (formalized) troubleshooting:
 `show interfaces`, `show interfaces description`
 
         .--------------------------------------------------------------------------------------------------------.
-        |                                           Default table title                                          |
+        |                                LAN switch interface status codes                                       |
         +-----------------------+----------------------+------------------+--------------------------------------+
         | Line status (L1)      | Protocol status (L2) | Interface status | Typical root cause                   |
         +-----------------------+----------------------+------------------+--------------------------------------+
@@ -410,7 +409,7 @@ Late collisions;Increasing late collisions;Collision domain, too long cable, dup
 
 ## WLANs
 
-![Sample WLAN](https://raw.github.com/jreisinger/blog/master/files/ccna/wlan.jpg)
+<IMG SRC="https://raw.github.com/jreisinger/blog/master/files/ccna/wlan.jpg" ALT="Sample WLAN" WIDTH=200 HEIGHT=200>
 
 ### Concepts
 
@@ -466,8 +465,8 @@ FCC (US) oversees the frequency ranges:
         | Freq. range | Name  | Sample devices                                 |
         +-------------+-------+------------------------------------------------+
         | 900 Mhz     | ISM   | Older cordless phones                          |
-        | 2.4 Ghz     | ISM   | Newer cordless phones and 802.(11,11b,11g,11n) |
-        | 5 Ghz       | U-NII | Newer cordless phones and 802.(11a,11n)        |
+        | 2.4 Ghz     | ISM   | Newer cordless phones and 802.[11,11b,11g,11n] |
+        | 5 Ghz       | U-NII | Newer cordless phones and 802.[11a,11n]        |
         '-------------+-------+------------------------------------------------'
 <!-- Original table data:
 Freq. range;Name;Sample devices

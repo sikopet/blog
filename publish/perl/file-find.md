@@ -47,6 +47,25 @@ Sometimes you need to do something to many/all files within certain directory:
         $name = $File::Find::name;
     }
 
+## File::Find::Rule
+
+[File::Find::Rule](https://metacpan.org/module/File::Find::Rule) is an alternative to File::Find:
+
+    use strict;
+    use warnings;
+    use autodie;
+
+    use File::Find::Rule;
+
+    my @txt_files  = File::Find::Rule
+        ->file
+        ->name('*.txt')
+        ->in('./');
+
+    foreach (@txt_files) {
+        print "$_\n";
+    }
+
 ## More
 
 * [Beginners guide to File::Find](http://www.perlmonks.org/?node_id=217166)

@@ -17,7 +17,7 @@ Modify Time;mtime;-lt;when the actual contents of the file were last modified
 Change Time;ctime;-cl;when the inode information (the metadata) was last modified
 -->
 
-## Perl stat and lstat functions
+## Getting time info with Perl
 
 To get more information about a file, call the `stat` function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat</a> Unix system call returns):
 
@@ -36,3 +36,9 @@ In those rare cases when you want to lie to other programs about when a file was
 .. the third timestamp (ctime) is always set to "now" whenever anything alters a file - there's no way to set it with `utime`
 
 .. the primary purpose of ctime is for incremental backups - if the file's ctime is newer that the date on the backup tape, it's time to back it up again
+
+## Using timestamps
+
+
+* `find /home/webservice/backups/ -mtime +5 -exec rm -f {} \;` -- will delete any file with content that had not changed for 5 days from now.
+* `find /home/webservice/backups/ -ctime +5 -exec rm -f {} \;` -- will delete any file that has been untouched for 5 days.

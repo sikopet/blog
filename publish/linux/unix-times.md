@@ -19,7 +19,7 @@ Change Time;ctime;-cl;when the inode information (the metadata) was last modifie
 
 ## Perl stat and lstat functions
 
-To get more information about a file, call the `stat` function (returns pretty much everything that the underlying `stat` Unix system call returns):
+To get more information about a file, call the `stat` function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat</a> Unix system call returns):
 
     my($atime, $mtime, $ctime) = (stat($filename))[8,9,10];
 

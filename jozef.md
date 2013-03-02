@@ -3,12 +3,12 @@
 2013-02-27
 
 * read [some](http://www.openhouse.sk/blog/gsm.html) stuff on mobile networks
-* reviewed LAN switching [notes](http://www.openhouse.sk/blog/networking/02_switching.html)
+* reviewed LAN switching [notes](http://www.openhouse.sk/blog/02_switching.html)
 
 2013-02-26
 
 * [posted](http://perlmonks.org/?node_id=1020778) on PerlMonks
-* added [blog entry](http://openhouse.sk/blog/perl/file-find.html) on `File::Find`
+* added [blog entry](http://openhouse.sk/blog/file-find.html) on `File::Find`
 
 2013-02-25
 
@@ -31,7 +31,7 @@
 
 * made progress with [oh-servers](https://github.com/open-house/oh-servers) (puppet branch)
 * read two case studies from [IT Security Matrix](http://www.amazon.com/Security-Metrics-Practical-Framework-Protecting/dp/0071713409/ref=sr_1_3?s=books&ie=UTF8&qid=1361298694&sr=1-3&keywords=security+metrics)
-* finished [LAN switching](http://www.openhouse.sk/blog/networking/02_switching.html) notes
+* finished [LAN switching](http://www.openhouse.sk/blog/02_switching.html) notes
 
 **2013**-02-18
 
@@ -42,7 +42,7 @@
 
 **2012**-09
 
-* read "Introduction to References" ([AlpacaBook](http://www.openhouse.sk/blog/perl/perl_resources.html)) for the second time (Laguna Beach, CA)
+* read "Introduction to References" ([AlpacaBook](http://www.openhouse.sk/blog/perl_resources.html)) for the second time (Laguna Beach, CA)
 
 2011-04
 
@@ -54,7 +54,7 @@
 
 **2010**-03-19
 
-* started to study the [LlamaBook](http://www.openhouse.sk/blog/perl/perl_resources.html) (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
+* started to study the [LlamaBook](http://www.openhouse.sk/blog/perl_resources.html) (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
 
 **2009**-04-17
 

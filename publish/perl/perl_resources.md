@@ -3,7 +3,7 @@
 
 ![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")
 
-Online documentation
+## Online documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
 * [meta::cpan](https://metacpan.org/) -- modules documentation (dual-lifed modules - can be found both here and in Perl 5 core documentation)
@@ -16,7 +16,7 @@ Online documentation
 * [Interactive Perl tutorials](http://perltuts.com/) (beta)
 * [Perl 5 wiki](https://www.socialtext.net/perl5/index.cgi)
 
-Paper books
+## Paper books
 
 * [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
@@ -26,18 +26,18 @@ Paper books
 
 <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
 
-System documentation
+## System documentation
 
 * `man perl`
 * `perldoc perlintro`
 * `perldoc Installed::Module::Name`
 * `perlfind '\@'    ## App::perlfind`
 
-Videos
+## Videos
 
 * [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- modern Perl features (like cpanm, perlbrew, Moose, Dancer, Task::Kensho) you should be using
     
-Relevance of Perl
+## Relevance of Perl
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
@@ -50,14 +50,12 @@ Relevance of Perl
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
 * [11th Grade](http://xkcd.com/519/) (2008)
 
-> Ruby shows up well on (some) of your data, but the resources you cite tend to measure "buzz" rather than reality. For example, on all of them, if you searched for COBOL, you might mistakenly conclude that it's dead, but the Gartner Group estimates that 3/4 of the world's business data passes through COBOL, a quarter of a trillion lines of COBOL code is still out there and it's still a force in the job market, but not in the "buzz" market (and yes, I realize this comparison is unfortunate in the eyes of some). -- Ovid's comment to [Why Perl Lost It](http://martin.drashkov.com/2009/11/why-perl-lost-it.html) (2009)
-
-Nearby companies using Perl
+## (Nearby) companies using Perl
 
 * [Perl and data services in Vienna](http://perlservices.at/)
 * [Institute of Science and Technology Austria](http://ist.ac.at/)
 
-Jobs
+## Jobs
 
 * <http://jobs.perl.org/>
 * <http://london.pm.org/pipermail/jobs/>

@@ -12,7 +12,7 @@
 
 2013-02-25
 
-* created a (throw-away) script that sorts serials on TV (by `touch`-ing them) served via [MiniDLNA](https://wiki.archlinux.org/index.php/MiniDLNA)
+* created a (throw-away) [script](https://gist.github.com/jreisinger/5071103) that sorts serials on TV (by `touch`-ing them) served via [MiniDLNA](https://wiki.archlinux.org/index.php/MiniDLNA)
 * my nickname (jose) was mentioned in brian d foy's [article](http://www.learning-perl.com/?p=356); cool! :)
 
 2013-02-24

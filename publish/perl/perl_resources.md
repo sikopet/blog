@@ -1,8 +1,6 @@
 # Perl 5 Resources
 ###### perl
 
-![xkcd: Lisp](http://imgs.xkcd.com/comics/lisp.jpg "http://xkcd.com/224/")
-
 ## Online documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
@@ -18,13 +16,14 @@
 
 ## Paper books
 
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
+
 * [Llama Book](https://en.wikipedia.org/wiki/Llama_book) (2011) -- for new Perl programmers
 * [Alpaca Book](http://shop.oreilly.com/product/0636920012689.do) (2012) -- Intermediate Perl
 * [Camel Book](http://shop.oreilly.com/product/9780596004927.do) (2012) -- "Perl Bible"
 * [Ram Book](http://shop.oreilly.com/product/9781565922433.do) - Perl Cookbook (2003) -- explained recipes for specific tasks (as D. Cross [said](http://perlhacks.com/2013/02/perl-books-2/), it has a lot of good stuff, but you need to have some experience to update the Perl to current best practices)
+* [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- modern Perl programming
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
-
-<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
 
 ## System documentation
 

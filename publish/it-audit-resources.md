@@ -1,6 +1,10 @@
 # IT Audit Resources
 ###### audit
 
+## Books
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_6964ff9b-6042-4be9-b1f5-c24f2ef310a9"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F6964ff9b-6042-4be9-b1f5-c24f2ef310a9&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F6964ff9b-6042-4be9-b1f5-c24f2ef310a9&Operation=GetDisplayTemplate" id="Player_6964ff9b-6042-4be9-b1f5-c24f2ef310a9" quality="high" bgcolor="#ffffff" name="Player_6964ff9b-6042-4be9-b1f5-c24f2ef310a9" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F6964ff9b-6042-4be9-b1f5-c24f2ef310a9&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
+
 ## Cheklists
 
 Operating Systems
@@ -23,8 +27,3 @@ CISSP
  * you need 700 out of 1000 points
  * you have 6 hours for 250 questions (you better take some snack with you :))
  * you should use two-pass method (skip the questions you are unable to answer and come back to them in the second pass)
-
-## Books
-
-* [Information Technology Control and Audit, Third Edition](http://www.amazon.com/Information-Technology-Control-Audit-Edition/dp/1420065505) (2008)
-* [IT Auditing: Using Controls to Protect Information Assets](http://www.amazon.com/exec/obidos/ASIN/0072263431/dubinsdailyre-20) (2006)

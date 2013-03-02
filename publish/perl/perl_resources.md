@@ -24,6 +24,8 @@ Paper books
 * [Ram Book](http://shop.oreilly.com/product/9781565922433.do) - Perl Cookbook (2003) -- explained recipes for specific tasks (as D. Cross [said](http://perlhacks.com/2013/02/perl-books-2/), it has a lot of good stuff, but you need to have some experience to update the Perl to current best practices)
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
+
 System documentation
 
 * `man perl`

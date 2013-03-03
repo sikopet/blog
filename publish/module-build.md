@@ -1,4 +1,5 @@
-## Creating a Module::Build Distribution
+# Creating a Module::Build Distribution
+###### perl
 
  * create config file `~/.module-starter/config`
 ```none
@@ -10,7 +11,7 @@ verbose: 1
 plugins: Module::Starter::AddModule
 ```
 
- * create our initial distro: `$ module-starter --module=Animal`
+ * create initial distro: `$ module-starter --module=Animal`
  * change to distro dir: `$ cd Animal`
  * create the `Build` script: `$ perl Build.PL`
  * build the distro: `$ ./Build`

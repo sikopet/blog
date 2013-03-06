@@ -1,5 +1,9 @@
 # I Done This
 
+2013-03-02 - 2013-03-03
+
+* done many small (meaningful? :) changes to [openhouse.sk](https://github.com/jreisinger/www.openhouse.sk)
+
 2013-02-27
 
 * read [some](http://www.openhouse.sk/blog/gsm.html) stuff on mobile networks

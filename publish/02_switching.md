@@ -280,23 +280,8 @@ Port security
     show running-config
     show port-security interface fastEthernet 0/1
 
-VLAN
-
-.. a switch interface can be:
-
-* access interface -- sends/receives frames only in a single VLAN
-* trunking interface -- sends/receives frames in multiple VLANs
-
-.. adding a new VLAN (by default there is VLAN 1, to which all interfaces are assigned):
-
-    (config)#vlan 2
-    (config-vlan)#name My-vlan  # defaults to VLAN0002
-    (config)#interface range fastethernet 0/13 - 14
-    (config-if)#switchport accesss vlan 2
-    (config-if)#switchport mode access  # optional step to disable trunking
-    
-    #show vlan brief
-
+[VLAN](http://openhouse.sk/blog/vlans.html)
+	
 Securing unused interfaces
 
 .. Cisco interfaces are by default "plug and play" interfaces -- enabled (`no shutdown`), automatically negotiate speed and duplex, assigned to VLAN 1, use VLAN trunking and VTP

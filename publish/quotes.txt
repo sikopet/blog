@@ -1,3 +1,5 @@
+It can do everything I want to do, and I already know it. If I wasn't a Perl programmer, I'd probably be happy in Ruby or Python. But so long as there's Perl, I see no reason to become as familiar with those languages as I am with Perl. -- Nathan Torkington (http://www.perl.com/pub/2001/07/03/nat.html)
+
 Keď je nebezpečenstvo veľké, človek nesmie utekať. Odstúpiť sa dá v kľudnej chvíli, alebo keď už proste nemôžete ďalej. -- Joseph Ratzinger
 
 Všetci si myslia, že start-up je o parádnom nápade. Ale nápadov je veľa. Hlavne je to o *brutálnej* robote. Nápadov je miliónkrát viac ako chuti robiť. -- <a href="http://ekonomika.sme.sk/c/6715026/ako-laviciar-vyraba-kapitalistov.html">Ivan Štefunko</a>

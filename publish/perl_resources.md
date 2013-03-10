@@ -1,7 +1,7 @@
 # Perl 5 Resources
 ###### perl
 
-## Online documentation
+## Online Documentation
 
 * [Perl programming documentation](http://perldoc.perl.org/) -- Perl 5 core documentation (including core modules)
 * [meta::cpan](https://metacpan.org/) -- modules documentation (dual-lifed modules - can be found both here and in Perl 5 core documentation)
@@ -14,7 +14,7 @@
 * [Interactive Perl tutorials](http://perltuts.com/) (beta)
 * [Perl 5 wiki](https://www.socialtext.net/perl5/index.cgi)
 
-## Paper books
+## Paper Books
 
 <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
 
@@ -25,7 +25,7 @@
 * [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- modern Perl programming
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
-## System documentation
+## System Documentation
 
 * `man perl`
 * `perldoc perlintro`
@@ -49,8 +49,11 @@
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
 * [11th Grade](http://xkcd.com/519/) (2008)
 
-## (Nearby) companies using Perl
+## (Some of the) Companies Using Perl
 
+* [linode.com](http://www.linode.com/)
+* [WhiteHat Security](http://www.whitehatsec.com)
+* [MediaMath](http://www.mediamath.com)
 * [Perl and data services in Vienna](http://perlservices.at/)
 * [Institute of Science and Technology Austria](http://ist.ac.at/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)

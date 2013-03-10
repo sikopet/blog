@@ -64,4 +64,4 @@
 
 **1998**
 
-* got shell access to Unix at university
+* got Unix shell access at university

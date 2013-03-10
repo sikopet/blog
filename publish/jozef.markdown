@@ -40,7 +40,7 @@
 
 **2009**-04
 
-* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) of Classic Shell Scripting notes
+* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) of Classic Shell Scripting notes (started to enjoy the book on Christmas 2008 though)
 
 2008-06
 
@@ -53,3 +53,7 @@
 **2006**-09
 
 * obtained the CCNA certificate
+
+**2000**
+
+* [started](https://raw.github.com/jreisinger/blog/master/files/dawn_of_linux.jpg) to play with GNU/Linux

@@ -60,7 +60,7 @@
 
 **2000**
 
-* [started](https://raw.github.com/jreisinger/blog/master/files/dawn_of_linux.jpg) to play with GNU/Linux (it might be earlier than 2000)
+* [started](https://raw.github.com/jreisinger/blog/master/files/dawn_of_linux.jpg) to play with GNU/Linux (it might had been earlier than 2000)
 
 **1998**
 

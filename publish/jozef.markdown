@@ -54,6 +54,14 @@
 
 * obtained the CCNA certificate
 
+**2004**-06
+
+* got paid for working with Linux (Unix 1st line support specialist, Hewlett-Packard Slovakia)
+
 **2000**
 
-* [started](https://raw.github.com/jreisinger/blog/master/files/dawn_of_linux.jpg) to play with GNU/Linux
+* [started](https://raw.github.com/jreisinger/blog/master/files/dawn_of_linux.jpg) to play with GNU/Linux (it might be earlier than 2000)
+
+**1998**
+
+* got shell access to Unix at university

@@ -47,15 +47,19 @@ Requirements for VTP to work between two switches:
 
 ### VTP Pruning
 
+By default switch flood broadcasts to all active VLANs out all trunks.
+
+Usually VLANs don't exist on all switches => VTP can determine which switches do not need a broadcast and then prune those VLANs from the trunks.
+
 ## Configuration
 
 Stored in `vlan.dat` in flash memmory (good in case all switches lost power)
 
-* switches in transparent mode - in both the running-config file as well as the vland.dat file in flash
+Switches in transparent mode - in both the running-config file as well as the vland.dat file in flash
 
 To remove VLAN configuration: `delete flash:vlan.dat`
 
-.. adding a new VLAN (by default there is VLAN 1, to which all interfaces are assigned):
+Adding a new VLAN (by default there is VLAN 1, to which all interfaces are assigned):
 
     (config)#vlan 2
     (config-vlan)#name My-vlan  # defaults to VLAN0002

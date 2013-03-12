@@ -2,6 +2,7 @@
 
 2013-03
 
+* [documented](http://openhouse.sk/blog/shell-completion.html) a Linux Magazine (LM) article on Perl/shell completion
 * read more stuff on mobile networks (UMTS, data traffic trends and measurements)
 * read very clarifying stuff on Unix filesystem (Perl Cookbook, Chapter 9 - Directories)
 * done many small (meaningful? :) changes to my current [pet project](https://github.com/jreisinger/www.openhouse.sk)

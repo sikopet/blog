@@ -32,7 +32,7 @@ GSM PLMN has two main logical domains:
 
 GPRS/UMTS architecture with the main interfaces:
 
-![PLMN](https://raw.github.com/jreisinger/blog/master/files/plmn.jpeg)
+<img src="https://raw.github.com/jreisinger/blog/master/files/plmn.jpeg" alt="PLMN" height="400" width="700">
 
 The network is structured into a number of discrete sections:
 

@@ -6,20 +6,28 @@
  * a radio network distributed over land areas called cells
  * each cell is served by at least one transceiver - **BTS** (Base Transceiver Station) = cell site
  * this enables a large number of portable transceivers (e.g. mobile phones) to communicate with each other
- * example of a cellular network: **the mobile phone network**
-
-There are a number of different digital cellular technologies: **GSM**, GPRS, FDMA, CDMA, EDGE
+ * example of a cellular network: **the mobile phone network** or [PLMN](http://en.wikipedia.org/wiki/PLMN)
 
 ## GSM
 
  * World's most popular standard for mobile telephony systems (80% of mobile market uses the standard)
- * both signaling and speech channels are digital
+ * both signaling and speech channels are digital (1G was analog, ex. NMT)
  * second generation (2G) of mobile phone system
  * GSM release '97 - added packet data capabilities via GPRS
  * GSM release '99 - higher data transmission via EDGE
  * UMTS (Universal Mobile Telecommunications System) - 3G mobile cellular technology for networks based on GSM standards
+ * LTE - 4G, standard for wireless communication of high-speed data for mobile phones and data terminals, based on the GSM/EDGE and UMTS/HSPA
 
 ## Network Structure
+
+GSM PLMN has two main logical domains:
+
+* access network
+* core network
+ * packet switched domain
+ * circuit switched domain
+ * IMS
+
 The network is structured into a number of discrete sections:
 
  * the base station subsystem (**BSS**) - handles traffic and signaling between a mobile phone and the NSS

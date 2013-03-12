@@ -1,6 +1,8 @@
 # Shell Completion
 ###### shell, perl
 
+(Created 2013-03-12)
+
 Bash (one of the most popular shells) offers a great feature that makes many people's Tab key pretty worn. It completes the names of commands, directories and files you start to write. The `complete` command (`man bash` => "Programmable Completion") lets users extend the standard completion fucntion.
 
 ## Bash Completion

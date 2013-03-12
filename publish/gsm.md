@@ -30,7 +30,9 @@ GSM PLMN has two main logical domains:
  * packet switched domain
  * IP mutlimedia subsystem (IMS)
 
-![PLMN](https://raw.github.com/jreisinger/blog/master/files/gsm_structure.png)
+GPRS/UMTS architecture with the main interfaces:
+
+![PLMN](https://raw.github.com/jreisinger/blog/master/files/plmn.jpeg)
 
 The network is structured into a number of discrete sections:
 
@@ -107,6 +109,7 @@ Huawei, Android
 
 General
 
+* [Mobile Internet Usage](http://lib.tkk.fi/Dipl/2009/urn100072.pdf) -- Thesis by a Finnish student
 * [Mobile network](http://en.wikipedia.org/wiki/Mobile_network)
 * P. Luptak: [Strucny prehlad do bezpecnosti GSM](http://www.nethemba.com/gsm-zranitelnosti.pdf) (in Slovak)
 

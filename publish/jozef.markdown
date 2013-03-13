@@ -41,7 +41,7 @@
 
 **2009**-04
 
-* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) of Classic Shell Scripting notes (started to enjoy the book on Christmas 2008 though)
+* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) (private) of Classic Shell Scripting notes (started to enjoy the book on Christmas 2008 though)
 
 2008-06
 
@@ -57,7 +57,7 @@
 
 **2004**-06
 
-* got paid for working with Linux (Unix 1st line support specialist, Hewlett-Packard Slovakia)
+* probably the first time I got paid for working with Linux (Unix support specialist, Hewlett-Packard Slovakia)
 
 **2000**
 

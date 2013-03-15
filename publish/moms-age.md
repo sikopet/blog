@@ -1,5 +1,5 @@
 # Mathematical Riddle - Mom's Age
-###### varia
+###### various
 
 Question: Mom's 38, her two sons are 7 and 9. When will the sum of sons' ages be equal to mom's age?
 

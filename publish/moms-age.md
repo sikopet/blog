@@ -19,14 +19,14 @@ Answer 2:
     my $son2 = 9;
 
     until ( $son1 + $son2 == $ma ) {
-        if ( $son1 + $son2 < $ma ) { # the age equaled in the past
-            $ma++;
-            $son1++;
-            $son2++;
-        } else {
+        if ( $son1 + $son2 > $ma ) { # the age equaled in the past
             $ma--;
             $son1--;
             $son2--;
+        } else {
+            $ma++;
+            $son1++;
+            $son2++;
         }
     }
 

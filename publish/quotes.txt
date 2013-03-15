@@ -1,3 +1,5 @@
+You learn a natural language once and use it many times. The lesson for a language designer is that a language should be optimized for expressive power rather than for ease of learning. -- LW: <a href="http://www.wall.org/~larry/natural.html">Natural Language Principles in Perl</a>
+
 It can do everything I want to do, and I already know it. If I wasn't a Perl programmer, I'd probably be happy in Ruby or Python. But so long as there's Perl, I see no reason to become as familiar with those languages as I am with Perl. -- Nathan Torkington (http://www.perl.com/pub/2001/07/03/nat.html)
 
 Keď je nebezpečenstvo veľké, človek nesmie utekať. Odstúpiť sa dá v kľudnej chvíli, alebo keď už proste nemôžete ďalej. -- Joseph Ratzinger

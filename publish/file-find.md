@@ -71,3 +71,4 @@ Sometimes you need to do something to many/all files within certain directory:
 * [Beginners guide to File::Find](http://www.perlmonks.org/?node_id=217166)
 * [File::Find](http://perldoc.perl.org/File/Find.html)
 * Perl Cookbook, Recipe 9.7
+* [File::Find and permission error handling](http://perlmonks.org/?node_id=1023278) -- using `preprocess`

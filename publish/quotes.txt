@@ -188,7 +188,7 @@ You see, I don't have a computer science degree from an elite university, or ind
 
 ... vedec sa manažment dokáže naučiť rýchlejšie ako podnikateľ vedu ... -- <a href="http://profit.etrend.sk/biznis/vedec-je-tvorca-tovaru-2.html">Vedec je tvorca tovaru</a>
 
-Master Foo turned back to the neophyte . “The housecat may mock  the tiger,” said the master, “but doing so will not make his purr  into a roar .” -- <a href="http://catb.org/~esr/writings/unix-koans/end-user.html">Master Foo and the End User</a>
+Master Foo turned back to the neophyte. "The housecat may mock the tiger", said the master, "but doing so will not make his purr into a roar". -- <a href="http://catb.org/~esr/writings/unix-koans/end-user.html">Master Foo and the End User</a>
 
 Ak sa spýtame, prostredníctvom ktorých inštitúcií dosahuje človek hlboké životné uspokojenie, odpoveď znie, že sú iba štyri: rodina, komunita, povolanie a viera. -- Charles Murray (sociálny vedec), <a href="http://www.tyzden.sk/casopis/2011/15/preco-su-ludia-stastny.html">Prečo sú ľudia šťastní</a>
 

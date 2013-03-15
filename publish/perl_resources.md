@@ -51,6 +51,9 @@
 
 ### Jobs
 
+* <http://jobs.perl.org/>
+* <http://london.pm.org/pipermail/jobs/>
+
 <div style="width:540px">
 <a href="http://www.indeed.com/jobtrends?q=php%2C+perl%2C+ruby%2C+python" title="php, perl, ruby, python Job Trends">
 <img width="540" height="300" src="http://www.indeed.com/trendgraph/jobgraph.png?q=php%2C+perl%2C+ruby%2C+python" border="0" alt="php, perl, ruby, python Job Trends graph">
@@ -60,9 +63,6 @@
 <td align="right"><a href="http://www.indeed.com/jobs?q=PHP">PHP jobs</a> - <a href="http://www.indeed.com/jobs?q=Perl">Perl jobs</a> - <a href="http://www.indeed.com/jobs?q=Ruby">Ruby jobs</a> - <a href="http://www.indeed.com/jobs?q=Python">Python jobs</a></td>
 </tr></table>
 </div>
-
-* <http://jobs.perl.org/>
-* <http://london.pm.org/pipermail/jobs/>
 
 ### (Some of the) Companies Using Perl
 

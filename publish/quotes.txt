@@ -60,7 +60,7 @@ Humans need aerobic exercise in order to stay healthy. If there's any magic bull
 
 "So you decided that failure was OK." Yes. I stopped worrying about perfection where it didn't matter. Perfectionism is often overkill and a real time waster. -- <a href="http://everythingsysadmin.com/">Thomas A. Limoncelli</a>: Time Management for System Administrators
 
-You can code. They cannot. That is pretty damn cool. -- <a href="http://learnpythonthehardway.org/book/advice.html?utm_source=hackernewsletter&utm_medium=email">Advice From An Old Programmer</a>
+You can code. They cannot. That is pretty damn cool. -- <a href="http://learnpythonthehardway.org/book/advice.html">Advice From An Old Programmer</a>
 
 I know that to get good at anything you have to practice every day, even if I suck that day (which is often) or it's difficult. Keep trying and eventually it'll be easier and fun. -- <a href="http://learnpythonthehardway.org/book/intro.html">The Hard Way Is Easier</a>
 

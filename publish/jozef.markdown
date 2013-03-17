@@ -2,6 +2,7 @@
 
 2013-03
 
+* "Congratulations, you have been promoted to Monk!"
 * [documented](http://openhouse.sk/blog/shell-completion.html) a Linux Magazine (LM) article on Perl/shell completion
 * read more stuff on mobile networks (UMTS, data traffic trends and measurements)
 * read very clarifying stuff on Unix filesystem (Perl Cookbook, Chapter 9 - Directories)

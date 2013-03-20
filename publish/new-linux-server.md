@@ -43,3 +43,7 @@ Things I do after installing a fresh Linux machine.
         aptitude install gcc
         cpanm App::cpanoutdated
         cpan-outdated -p | cpanm
+
+## More
+
+* http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers

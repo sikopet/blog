@@ -66,6 +66,7 @@
 
 ### (Some of the) Companies Using Perl
 
+* [amazon.com](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=7137)
 * [linode.com](http://www.linode.com/)
 * [WhiteHat Security](http://www.whitehatsec.com)
 * [MediaMath](http://www.mediamath.com)

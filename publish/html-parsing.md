@@ -12,8 +12,6 @@ I also needed to take care of the Unicode stuff:
 
 And here is the result:
 
-<script src="https://gist.github.com/jreisinger/5215787.js"></script>
-
     #!/usr/bin/perl
     # Get the names of Slovak MPs
     use strict;                 # quote strings, declare variables

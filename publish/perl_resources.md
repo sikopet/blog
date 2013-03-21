@@ -3,9 +3,14 @@
 
 ## Online Documentation
 
-* <http://perldoc.perl.org> -- Perl programming documentation (including core modules)
-* [meta::cpan](https://metacpan.org/) -- modules documentation (dual-lifed modules - can be found both here and in Perl 5 core documentation)
-* <http://learn.perl.org/> -- get started with Perl 5 (relaunched 2011-10-03)
+### Main
+
+* <http://perldoc.perl.org> -- Perl 5 core documentation (including core modules)
+* <https://metacpan.org> -- modules documentation (dual-lifed modules -- can be found both here and in Perl 5 core documentation)
+
+### Auxiliary
+
+* [Learning Perl](http://learn.perl.org/) -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
 * [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial (subscribe to get <a href="http://perlweekly.com/">weekly Perl news</a>)
 * [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- free e-book about modern Perl programming
@@ -13,6 +18,7 @@
 * [Perl Beginners' Site](http://perl-begin.org/)
 * [Interactive Perl tutorials](http://perltuts.com/) (beta)
 * [Perl 5 wiki](https://www.socialtext.net/perl5/index.cgi)
+* [Perl Unicode Cookbook](http://www.perl.com/pub/2012/04/perlunicook-standard-preamble.html) -- 44 recipes for working with Unicode in Perl 5 by Tom Christiansen
 
 ## Paper Books
 
@@ -29,7 +35,8 @@
 
 * `man perl`
 * `perldoc perlintro`
-* `perldoc Installed::Module::Name`
+* `perldoc -f <function>`
+* `perldoc <Installed::Module::Name>`
 * `perlfind '\@'    ## App::perlfind`
 
 ## Videos

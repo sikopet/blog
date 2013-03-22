@@ -85,6 +85,7 @@ If account/group directory is empty, you must initialize it with special entries
 ## Changing password
 
 One of:
+
 * use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
 * `$ ldappasswd -D cn=admin,dc=openhouse,dc=sk -W -S uid=jbond,ou=People,dc=openhouse,dc=sk`
  * `-S` -- prompts for the new password

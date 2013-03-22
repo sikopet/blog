@@ -71,9 +71,9 @@
 </tr></table>
 </div>
 
-### (Some of the) Companies Using Perl
+### (Some of the) Organizations Using Perl
 
-* [Who uses Perl?](http://perltraining.com.au/whyperl.html#who) -- Perl Training Australia
+* [Who uses Perl?](http://perltraining.com.au/whyperl.html#who) -- research made by Perl Training Australia
 * [amazon.com](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=7137)
 * [linode.com](http://www.linode.com/)
 * [WhiteHat Security](http://www.whitehatsec.com)
@@ -84,4 +84,4 @@
 
 ### Advocacy
 
-* [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) -- perlfaq1
+* [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)

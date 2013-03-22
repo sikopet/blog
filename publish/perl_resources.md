@@ -8,7 +8,7 @@
 * <http://perldoc.perl.org> -- Perl 5 core documentation (including core modules)
 * <https://metacpan.org> -- modules documentation (dual-lifed modules -- can be found both here and in Perl 5 core documentation)
 
-### Auxiliary
+### Auxiliary/Tutorials
 
 * [Learning Perl](http://learn.perl.org/) -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials

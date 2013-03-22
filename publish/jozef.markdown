@@ -2,6 +2,9 @@
 
 2013-03
 
+* created [orsr](https://github.com/jreisinger/audit/tree/master/orsr)
+* played with [HTML parsing](http://openhouse.sk/blog/html-parsing.html) and Unicode (Perl Cookbook, p. 4 - 7)
+* posted on LinkedIn Perl group and on PerlMonks
 * "Congratulations, you have been promoted to Monk!"
 * [documented](http://openhouse.sk/blog/shell-completion.html) a Linux Magazine (LM) article on Perl/shell completion
 * read more stuff on mobile networks (UMTS, data traffic trends and measurements)

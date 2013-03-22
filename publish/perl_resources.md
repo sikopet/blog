@@ -62,12 +62,12 @@
 * <http://london.pm.org/pipermail/jobs/>
 
 <div style="width:540px">
-<a href="http://www.indeed.com/jobtrends?q=php%2C+perl%2C+ruby%2C+python" title="php, perl, ruby, python Job Trends">
-<img width="540" height="300" src="http://www.indeed.com/trendgraph/jobgraph.png?q=php%2C+perl%2C+ruby%2C+python" border="0" alt="php, perl, ruby, python Job Trends graph">
+<a href="http://www.indeed.com/jobtrends?q=perl%2C+php%2C+python%2C+ruby" title="perl, php, python, ruby Job Trends">
+<img width="540" height="300" src="http://www.indeed.com/trendgraph/jobgraph.png?q=perl%2C+php%2C+python%2C+ruby" border="0" alt="perl, php, python, ruby Job Trends graph">
 </a>
 <table width="100%" cellpadding="6" cellspacing="0" border="0" style="font-size:80%"><tr>
-<td><a href="http://www.indeed.com/jobtrends?q=php%2C+perl%2C+ruby%2C+python">php, perl, ruby, python Job Trends</a></td>
-<td align="right"><a href="http://www.indeed.com/jobs?q=PHP">PHP jobs</a> - <a href="http://www.indeed.com/jobs?q=Perl">Perl jobs</a> - <a href="http://www.indeed.com/jobs?q=Ruby">Ruby jobs</a> - <a href="http://www.indeed.com/jobs?q=Python">Python jobs</a></td>
+<td><a href="http://www.indeed.com/jobtrends?q=perl%2C+php%2C+python%2C+ruby">perl, php, python, ruby Job Trends</a></td>
+<td align="right"><a href="http://www.indeed.com/jobs?q=Perl">Perl jobs</a> - <a href="http://www.indeed.com/jobs?q=PHP">PHP jobs</a> - <a href="http://www.indeed.com/jobs?q=Python">Python jobs</a> - <a href="http://www.indeed.com/jobs?q=Ruby">Ruby jobs</a></td>
 </tr></table>
 </div>
 
@@ -80,3 +80,7 @@
 * [Perl and data services in Vienna](http://perlservices.at/)
 * [Institute of Science and Technology Austria](http://ist.ac.at/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)
+
+### Advocacy
+
+* [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) -- perlfaq1

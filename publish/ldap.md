@@ -9,9 +9,9 @@
 
 ## Preparing system to use LDAP
 
-    aptitude install openldap-utils
-    cp -p /etc/ldap/ldap.conf{,.orig}
-    cat << EOF > /etc/ldap/ldap.conf
+    # aptitude install openldap-utils
+    # cp -p /etc/ldap/ldap.conf{,.orig}
+    # cat << EOF > /etc/ldap/ldap.conf
     BASE        dc=example,dc=com                   # LDAP base - usually domain name
     URI         ldaps://ldap.example.com            # ldap://, ldaps://
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)
@@ -84,10 +84,11 @@ If account/group directory is empty, you must initialize it with special entries
 
 ## Changing password
 
-1. use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
-1. `$ ldappasswd -D cn=admin,dc=openhouse,dc=sk -W -S uid=jbond,ou=People,dc=openhouse,dc=sk`
+One of:
+* use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
+* `$ ldappasswd -D cn=admin,dc=openhouse,dc=sk -W -S uid=jbond,ou=People,dc=openhouse,dc=sk`
  * `-S` -- prompts for the new password
-1. if PAM is configured correctly, user can use `passwd` on an LDAP client
+* if PAM is configured correctly, user can use `passwd` on an LDAP client
 
 ## Deleting accounts
 
@@ -95,10 +96,12 @@ If account/group directory is empty, you must initialize it with special entries
 
 ## Querying a server about accounts
 
+### Linux
+
 See also [Querying Active Directory with Unix LDAP tools](http://jrwren.wrenfam.com/blog/2006/11/17/querying-active-directory-with-unix-ldap-tools/).
 
-1. `$ getent passwd jbond` (`getent` returns info from various sources, including local account DB)
-1. `$ ldapsearch -x uid=jbond`
+* `$ getent passwd jbond` (`getent` returns info from various sources, including local account DB)
+* `$ ldapsearch -x uid=jbond`
  * you can use filters (conceptually similar to regexes): `(&(uid=jbond)(!(ou=Accounting)))` -- search for `jbond` who is _not_ a member of the Accounting department
 
 when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to convert it:
@@ -108,4 +111,11 @@ when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to c
     perl -MMIME::Base64 -MEncode=decode -n -00 -e 's/\n //g;s/(?<=:: )(\S+)/decode("UTF-8",decode_base64($1))/eg;print' \
     > ldap.out
 
+### Windows
+
 Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) for Windows.
+
+## More
+
+* https://help.ubuntu.com/12.04/serverguide/samba-ldap.html
+* https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm

@@ -11,6 +11,7 @@
 * [GitHub](https://github.com/)
 * [perldoc](http://perldoc.perl.org/)
 * [meta cpan](https://metacpan.org/)
+* [PerlMonks](http://perlmonks.org/)
 
 ## Virtual servers
 

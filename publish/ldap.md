@@ -1,11 +1,32 @@
 # LDAP
 ###### linux
 
-* network authentication (login) protocol (like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos"))
+* protocol for querying and modifying a X.500-based directory service running over TCP/IP
+* current version - LDAPv3 (defined in [RFC4510](http://tools.ietf.org/html/rfc4510))
+* Debian uses OpenLDAP implementation
+* can be used for network authentication (login), similarly like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos")
+ * replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
 * good for bigger networks
-* replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
-* LDAP directory = hierarchical DB, more often read than written
-* LDAP directory root = _base_
+
+## Concepts and terms
+
+LDAP directory 
+
+* hierarchical DB, more often read than written
+* tree of entries or directory information tree (DIT)
+* LDAP directory root = *base*
+
+LDAP entry
+
+* consists of set of *attributes*
+* an attribute has a *type* (a name/description) and one or more *values*
+* every attribute has to be defined in a at least one *objectClass* (a special kind of attribute)
+* attributes and objeclasses are defined in *schemas*
+* each entry has a unique identifier: *distinguished name* (DN) = RDN + parent entry's DN
+ * DN: "cn=John Doe,dc=example,dc=com"
+ * RDN: "cn=John Doe"
+ * parent DN: "dc=example,dc=com"
+* DN in not an attribute, i.e. no part of the entry itself
 
 ## Preparing system to use LDAP
 
@@ -118,5 +139,5 @@ Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) 
 
 ## More
 
-* https://help.ubuntu.com/12.04/serverguide/samba-ldap.html
-* https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm
+* <https://help.ubuntu.com/12.04/serverguide/openldap-server.html>
+* <https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm>

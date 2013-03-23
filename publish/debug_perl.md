@@ -64,3 +64,7 @@ To have the command line history, you need:
 
  * Debian/Ubuntu packages: `libncurses-dev libreadline-dev`
  * Perl module: `Term::ReadLine::Gnu`
+
+## More
+
+* [Basic debugging checklist](http://perlmonks.org/?node=Basic%20debugging%20checklist)

@@ -84,4 +84,5 @@
 
 ### Advocacy
 
+* [White Camel Awards](http://www.perl.org/advocacy/white_camel/) -- people who have contributed significantly to Perl
 * [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)

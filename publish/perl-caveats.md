@@ -51,4 +51,4 @@ More: [List value constructors](http://perldoc.perl.org/perldata.html#List-value
 
 ## Which module contains an imported subroutine
 
-http://perlmonks.org/?node_id=1025563
+<http://perlmonks.org/?node_id=1025563>

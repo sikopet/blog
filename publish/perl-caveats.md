@@ -1,8 +1,6 @@
 # Perl Caveats, Tips and Tricks
 ###### perl
 
-Perl stuff I'd better remember :-).
-
 ## Is Perl compiled or interpreted?
 
 Yes:

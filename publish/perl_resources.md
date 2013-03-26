@@ -3,12 +3,12 @@
 
 ## Online Documentation
 
-### Main
+Official Perl programming documentation:
 
 * <http://perldoc.perl.org> -- Perl 5 core documentation (including core modules)
 * <https://metacpan.org> -- modules documentation (dual-lifed modules -- can be found both here and in Perl 5 core documentation)
 
-### Auxiliary/Tutorials
+Tutorials and other documentation:
 
 * [Learning Perl](http://learn.perl.org/) -- get started with Perl 5 (relaunched 2011-10-03)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
@@ -19,6 +19,10 @@
 * [Interactive Perl tutorials](http://perltuts.com/) (beta)
 * [Perl 5 wiki](https://www.socialtext.net/perl5/index.cgi)
 * [Perl Unicode Cookbook](http://www.perl.com/pub/2012/04/perlunicook-standard-preamble.html) -- 44 recipes for working with Unicode in Perl 5 by Tom Christiansen
+
+Videos
+
+* [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- modern Perl features (like cpanm, perlbrew, Moose, Dancer, Task::Kensho) you should be using
 
 ## Paper Books
 
@@ -33,28 +37,34 @@
 
 ## System Documentation
 
+Documentation you can access from your shell:
+
 * `man perl`
 * `perldoc perlintro`
 * `perldoc -f <function>`
 * `perldoc <Installed::Module::Name>`
 * `perlfind '\@'    ## App::perlfind`
 
-## Videos
-
-* [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- modern Perl features (like cpanm, perlbrew, Moose, Dancer, Task::Kensho) you should be using
-    
 ## Relevance of Perl
+
+### Statistics
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
-* [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
-* [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) (2013) -- watch between 53:30 and 54:50
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) (2013) -- see point 5.
+* [Perl, Python, Ruby, PHP, C, C++, Lua, tcl, javascript and Java comparison](http://raid6.com.au/~onlyjob/posts/arena/) (2011) -- comparison of speed, memory usage and other metrics
+
+### Advocacy
+
+* [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)
+* [Why Perl?](http://perltraining.com.au/whyperl.html) -- reasons to use Perl by Perl Training Australia
+* [White Camel Awards](http://www.perl.org/advocacy/white_camel/) -- people who have contributed significantly to Perl
+* [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)
 * [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) (2010) -- desperate (baby) Perl and large scale Perl
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
-* [11th Grade](http://xkcd.com/519/) (2008)
+* [11th Grade](http://xkcd.com/519/) (2008) -- xkcd's point of view :-)
 
 ### Jobs
 
@@ -75,6 +85,7 @@
 
 * [Who uses Perl?](http://perltraining.com.au/whyperl.html#who) -- research made by Perl Training Australia
 * [amazon.com](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=7137)
+ * [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) (2013) -- Amazon is using Perl heavily (watch between 53:30 and 54:50)
 * [linode.com](http://www.linode.com/)
 * [WhiteHat Security](http://www.whitehatsec.com)
 * [MediaMath](http://www.mediamath.com)
@@ -82,7 +93,3 @@
 * [Institute of Science and Technology Austria](http://ist.ac.at/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)
 
-### Advocacy
-
-* [White Camel Awards](http://www.perl.org/advocacy/white_camel/) -- people who have contributed significantly to Perl
-* [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)

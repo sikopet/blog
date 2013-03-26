@@ -4,10 +4,10 @@
 <div id="TOC">
         <ul>
             <li>
-                <a href="## Is Perl compiled or interpreted?">Introduction</a>
+                <a href="##Is Perl compiled or interpreted?">Introduction</a>
             </li>
             <li>
-                <a href="List vs. array in scalar conext">First Attempts</a>
+                <a href="##List vs. array in scalar conext">First Attempts</a>
             </li>
         </ul>
 </div>

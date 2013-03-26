@@ -1,4 +1,6 @@
-The very fact that it's possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to write extremely clean, concise, and beautiful programs. -- Larry Wall (http://www.wall.org/~larry/pm.html)
+The greatness is measured by how much freedom you give to others, not by how much you can coerce others to do that you want. -- Larry Wall (http://www.wall.org/~larry/pm.html) 
+
+The very fact that it's possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to write extremely clean, concise, and beautiful programs. The potential for greater good goes right along with the potential for greater evil. -- Larry Wall (http://www.wall.org/~larry/pm.html)
 
 Time flies like an arrow. Fruit flies like a banana. -- <a href="http://perlmonks.org/?node_id=396320">punch_card_don</a>
 

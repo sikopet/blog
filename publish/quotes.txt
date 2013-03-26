@@ -1,3 +1,5 @@
+The very fact that it's possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to write extremely clean, concise, and beautiful programs. -- Larry Wall (http://www.wall.org/~larry/pm.html)
+
 Time flies like an arrow. Fruit flies like a banana. -- <a href="http://perlmonks.org/?node_id=396320">punch_card_don</a>
 
 Errors, like straws, upon the surface flow; He who would search for pearls, must dive below. -- John Dryden

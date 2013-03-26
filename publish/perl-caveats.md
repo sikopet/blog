@@ -1,8 +1,6 @@
 # Perl Caveats, Tips and Tricks
 ###### perl
 
-[Which module contains an imported subroutine](#Which module contains an imported subroutine)
-
 Perl stuff I'd better remember :-).
 
 ## Is Perl compiled or interpreted?

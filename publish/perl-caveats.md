@@ -1,5 +1,16 @@
-# Perl Caveats
+# Perl Caveats, Tips and Tricks
 ###### perl
+
+<div id="TOC">
+        <ul>
+            <li>
+                <a href="## Is Perl compiled or interpreted?">Introduction</a>
+            </li>
+            <li>
+                <a href="List vs. array in scalar conext">First Attempts</a>
+            </li>
+        </ul>
+</div>
 
 Perl stuff I'd better remember :).
 

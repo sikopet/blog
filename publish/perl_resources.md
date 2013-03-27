@@ -7,6 +7,7 @@ Official Perl programming documentation:
 
 * <http://perldoc.perl.org> -- Perl 5 core documentation (including core modules)
 * <https://metacpan.org> -- modules documentation (dual-lifed modules -- can be found both here and in Perl 5 core documentation)
+* [perlcheat](https://metacpan.org/module/perlcheat) -- Perl 5 Cheat Sheet
 
 Tutorials and other documentation:
 

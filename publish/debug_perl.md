@@ -52,11 +52,11 @@ In case you're dealing with a more complicated data structure (like the `$perl` 
 
 ## Perl debugger
 
-Perl debugger (`perl -d <program.pl>`) shows each line of code before executing it. The most common commands:
+Perl debugger (`perl -d <program.pl>`) shows each line of code before it executes it. The most common commands:
 
  * `h` -- help
- * `s` -- single step the program
- * `x` -- dump a variable value
+ * `s` -- single-step the program
+ * `x` -- dump a variable value (for complex data use `x \%href` or even `x sort keys %hash`)
  * `n` -- step over a subroutine
  * `q` -- quit the debugger
 

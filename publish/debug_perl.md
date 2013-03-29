@@ -3,7 +3,9 @@
 
 There are several ways how to debug a Perl program.
 
-## Print out the variables
+## Print out the variables from inside the program
+
+### print()
 
 The simplest way is to print the contents of the variables, ex.:
 
@@ -25,7 +27,7 @@ Usage:
 
 ### Data::Dumper, YAML
 
-In case you're dealing with a more complicated data structure (like the `$perl` variable below), you can use [Data::Dumper](http://perldoc.perl.org/Data/Dumper.html) or [YAML](https://metacpan.org/module/YAML) (more compact output):
+In case you're dealing with a more complicated data structure (like the `$server` variable below), you can use [Data::Dumper](http://perldoc.perl.org/Data/Dumper.html) (outputs valid Perl code) or [YAML](https://metacpan.org/module/YAML) (more compact output):
 
     #!/usr/bin/perl
     use strict;

@@ -2,6 +2,7 @@
 
 2013-03
 
+* read interesting answers of L. Wall on [Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
 * created [orsr](https://github.com/jreisinger/audit/tree/master/orsr)
 * played with [HTML parsing](http://openhouse.sk/blog/html-parsing.html) and Unicode (Perl Cookbook, p. 4 - 7)
 * posted on LinkedIn Perl group and on PerlMonks

@@ -11,7 +11,7 @@ Official Perl programming documentation:
 
 Tutorials and other documentation:
 
-* [Learning Perl](http://learn.perl.org/) -- get started with Perl 5 (relaunched 2011-10-03)
+* [Learning Perl](http://learn.perl.org/) -- get started with Perl 5 (relaunched in 2011)
 * [Perl Tutorial Hub](http://perl-tutorial.org/) -- collection of Perl tutorials
 * [Perl 5 Maven](http://perl5maven.com/) -- modern Perl tutorial (subscribe to get <a href="http://perlweekly.com/">weekly Perl news</a>)
 * [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- free e-book about modern Perl programming
@@ -58,9 +58,15 @@ Documentation you can access from your shell:
 
 ### Advocacy
 
+Official
+
 * [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)
-* [Why Perl?](http://perltraining.com.au/whyperl.html) -- reasons to use Perl by Perl Training Australia
 * [White Camel Awards](http://www.perl.org/advocacy/white_camel/) -- people who have contributed significantly to Perl
+* [Why Perl?](http://perltraining.com.au/whyperl.html) -- reasons to use Perl by Perl Training Australia
+
+Blogs etc.
+
+* [Mythbusters - Why I (still) Love Perl](http://allisonrandal.com/2013/03/31/mythbusters-why-i-still-love-perl/) (2013)
 * [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)
@@ -92,6 +98,6 @@ Documentation you can access from your shell:
 * [WhiteHat Security](http://www.whitehatsec.com)
 * [MediaMath](http://www.mediamath.com)
 * [Perl and data services in Vienna](http://perlservices.at/)
-* [Institute of Science and Technology Austria](http://ist.ac.at/)
+* [Institute of Science and Technology Austria](https://ist.ac.at/about-ist-austria/open-positions/administrative/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)
 

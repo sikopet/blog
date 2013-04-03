@@ -18,6 +18,9 @@
  * UMTS (Universal Mobile Telecommunications System) - 3G mobile cellular technology for networks based on GSM standards
  * LTE - 4G, standard for wireless communication of high-speed data for mobile phones and data terminals, based on the GSM/EDGE and UMTS/HSPA
 
+
+<img src="https://raw.github.com/jreisinger/blog/master/files/mobile_technology_roadmap.png" alt="Mobile Technology Roadmap">
+
 ## Network Structure
 
 GSM PLMN has two main logical domains:

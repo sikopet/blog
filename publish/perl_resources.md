@@ -68,6 +68,7 @@ Official
 Blogs etc.
 
 * [Mythbusters - Why I (still) Love Perl](http://allisonrandal.com/2013/03/31/mythbusters-why-i-still-love-perl/) (2013)
+* [Mrs. Feynman's Advice on Programming Language Popularity Contests](http://www.modernperlbooks.com/mt/2013/03/mrs-feynmans-advice-on-programming-language-popularity-contests.html) (2013)
 * [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)

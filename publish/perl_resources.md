@@ -102,4 +102,4 @@ Blogs etc.
 * [Perl and data services in Vienna](http://perlservices.at/)
 * [Institute of Science and Technology Austria](https://ist.ac.at/about-ist-austria/open-positions/administrative/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)
-
+* [weborama](http://www.weborama.com/2013/04/pragmatic-perl-interview-of-alexis-sukrieh-rd-manager/)

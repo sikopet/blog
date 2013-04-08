@@ -44,16 +44,10 @@ LDAP entry
 
 User data (equivalent to `/etc/passwd`)
 
-    dn: cn=jbond,ou=group,dc=openhouse,dc=sk
-    cn: jbond       # Linux username
-    gidNumber: 1010
-    objectClass: top 
-    objectClass: posixGroup
-    
     dn: uid=jbond,ou=people,dc=openhouse,dc=sk
-    uid: jbond
+    uid: jbond       # Linux username
     uidNumber: 1010  # Linux UID
-    gidNumber: 1010
+    gidNumber: 100
     cn: James
     sn: Bond
     displayName: JamesBond

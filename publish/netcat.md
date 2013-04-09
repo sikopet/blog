@@ -70,3 +70,7 @@ Run a command (potentially dangerous!); ex. open a shell access:
 .. host B (client)
 
     nc hostA 9999
+
+## More
+
+* <http://mylinuxbook.com/linux-netcat-command/>

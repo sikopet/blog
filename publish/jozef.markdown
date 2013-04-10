@@ -2,7 +2,7 @@
 
 2013-04
 
-* Happy Monkday!! You've been here 2 successful years. --PM
+* "Happy Monkday!! You've been here 2 successful years."
 * Some sort of slowdown... Spring fever or what? :)
 
 2013-03

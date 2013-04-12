@@ -71,6 +71,7 @@ Blogs etc.
 * [Mrs. Feynman's Advice on Programming Language Popularity Contests](http://www.modernperlbooks.com/mt/2013/03/mrs-feynmans-advice-on-programming-language-popularity-contests.html) (2013)
 * [Why I Use Perl...and Will Continue to Do So](http://www.drdobbs.com/open-source/why-i-use-perland-will-continue-to-do-so/240148364) (2013)
 * [Is Perl still a useful, viable language?](http://programmers.stackexchange.com/questions/115851/is-perl-still-a-useful-viable-language) (2012)
+* [Why Did I Choose Perl When Building Crowdtilt](http://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/) (2012)
 * [Why Perl?](http://jjnapiorkowski.typepad.com/modern-perl/2011/10/why-perl.html) (2011)
 * [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) (2010) -- desperate (baby) Perl and large scale Perl
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)

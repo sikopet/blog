@@ -95,6 +95,9 @@ Blogs etc.
 ### (Some of the) Organizations Using Perl
 
 * [Who uses Perl?](http://perltraining.com.au/whyperl.html#who) -- research made by Perl Training Australia
+
+Companies
+
 * [amazon.com](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=7137)
  * [FLOSS Weekly 241 - Tapper](http://twit.tv/show/floss-weekly/241) (2013) -- Amazon is using Perl heavily (watch between 53:30 and 54:50)
 * [linode.com](http://www.linode.com/)
@@ -106,3 +109,7 @@ Blogs etc.
 * [weborama](http://www.weborama.com/2013/04/pragmatic-perl-interview-of-alexis-sukrieh-rd-manager/)
 * [lokku.com](http://www.lokku.com/jobs/perl-developer-2013.html)
 * [Grant Street Group](http://www.grantstreet.com/careers/perl-software-developer/)
+
+Startups
+
+* [adzuna.co.uk](http://perlnews.org/2013/04/perl-startup-powering-dashboard-at-downing-street-expanding-internationally/)

@@ -104,3 +104,5 @@ Blogs etc.
 * [Institute of Science and Technology Austria](https://ist.ac.at/about-ist-austria/open-positions/administrative/)
 * [NET - A - PORTER](http://www.net-a-porter.com/)
 * [weborama](http://www.weborama.com/2013/04/pragmatic-perl-interview-of-alexis-sukrieh-rd-manager/)
+* [lokku.com](http://www.lokku.com/jobs/perl-developer-2013.html)
+* [Grant Street Group](http://www.grantstreet.com/careers/perl-software-developer/)

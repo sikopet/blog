@@ -269,75 +269,7 @@ IP addressing
 
 * all IP addresses in the same group (class) must not be separated by a router
 
-Classful addressing scheme:
-
-<table class="wikitable">
-<tr>
-<th>Class</th>
-<th>Leading<br />
-bits</th>
-<th>Size of <i>network<br />
-number</i> bit field</th>
-<th>Size of <i>rest</i><br />
-bit field</th>
-<th>Number<br />
-of networks</th>
-<th>Addresses<br />
-per network</th>
-<th>Start address</th>
-<th>End address</th>
-</tr>
-<tr>
-<td>Class A</td>
-<td>&#160;&#160;&#160;&#160;0</td>
-<td>&#160;&#160;&#160;&#160;8</td>
-<td>&#160;&#160;&#160;&#160;24</td>
-<td>&#160;&#160;&#160;&#160;128 (2<sup>7</sup>)</td>
-<td>&#160;&#160;&#160;&#160;16,777,216 (2<sup>24</sup>)</td>
-<td>0.0.0.0</td>
-<td>127.255.255.255</td>
-</tr>
-<tr>
-<td>Class B</td>
-<td>&#160;&#160;&#160;&#160;10</td>
-<td>&#160;&#160;&#160;&#160;16</td>
-<td>&#160;&#160;&#160;&#160;16</td>
-<td>&#160;&#160;&#160;&#160;16,384 (2<sup>14</sup>)</td>
-<td>&#160;&#160;&#160;&#160;65,536 (2<sup>16</sup>)</td>
-<td>128.0.0.0</td>
-<td>191.255.255.255</td>
-</tr>
-<tr>
-<td>Class C</td>
-<td>&#160;&#160;&#160;&#160;110</td>
-<td>&#160;&#160;&#160;&#160;24</td>
-<td>&#160;&#160;&#160;&#160;8</td>
-<td>&#160;&#160;&#160;&#160;2,097,152 (2<sup>21</sup>)</td>
-<td>&#160;&#160;&#160;&#160;256 (2<sup>8</sup>)</td>
-<td>192.0.0.0</td>
-<td>223.255.255.255</td>
-</tr>
-<tr>
-<td>Class D (multicast)</td>
-<td>&#160;&#160;&#160;&#160;1110</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>224.0.0.0</td>
-<td>239.255.255.255</td>
-</tr>
-<tr>
-<td>Class E (reserved)</td>
-<td>&#160;&#160;&#160;&#160;1111</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>&#160;&#160;&#160;&#160;not defined</td>
-<td>240.0.0.0</td>
-<td>255.255.255.255</td>
-</tr>
-</table>
+Classful addressing scheme: <http://www.openhouse.sk/blog/ip-networks.html>
 
 Router logic
 

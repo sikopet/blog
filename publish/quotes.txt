@@ -1,3 +1,5 @@
+Do you have an actual use case for these? Or are you just imagining things that might possibly potentially be cool in the future maybe? -- petdance (http://perlmonks.org/?node_id=1030905)
+
 I the HN [Hacker News] echo chamber, it seems like everyone who's anyone has moved on to ruby, rails, python, django, etc. Look into the every-web. My god, it's full of perl. -- noonespecial (https://news.ycombinator.com/item?id=4461427)
 
 Also sword is not sharpened on the thick side. Go find and sharpen your strenghts and learn to accept your weaknesses. Both are essential parts of you. -- Johnnie Thinker (http://www.johnnie-thinker.com/)

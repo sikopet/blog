@@ -2,6 +2,7 @@
 
 2013-04
 
+* [refreshing](http://www.amazon.com/CCENT-ICND1-640-822-Official-Guide/dp/1587204258/ref=sr_1_1?s=books&ie=UTF8&qid=1367924082&sr=1-1&keywords=icnd1) my Cisco knowledge
 * "Happy Monkday!! You've been here 2 successful years."
 * Some sort of slowdown... Spring fever or what? :)
 

@@ -1,5 +1,9 @@
 ## I Done This
 
+2013-05
+
+* created a small [program](https://github.com/jreisinger/varia/blob/master/quote-sender.pl) to email me a quote (relaxing before ICND1 exam)
+
 2013-04
 
 * [refreshing](http://www.amazon.com/CCENT-ICND1-640-822-Official-Guide/dp/1587204258/ref=sr_1_1?s=books&ie=UTF8&qid=1367924082&sr=1-1&keywords=icnd1) my Cisco knowledge

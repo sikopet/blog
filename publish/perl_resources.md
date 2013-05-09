@@ -50,10 +50,16 @@ Documentation you can access from your shell:
 
 ### Statistics
 
-* [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/) (ongoing)
-* [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html) (ongoing)
+Ongoing
+
+* [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/)
+* [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
  * Tiobe gets it data from weird sources. Only idiots rely on that index. When you look out in the real world, it's far different picture. -- Randal L. [Schwarz](https://plus.google.com/105487854388646525021/posts/iLuWFCgABLF)
  * [Economics 101](http://blogs.perl.org/users/ovid/2013/01/economics-101.html)
+
+One-time
+
+* [Top 10 Programming Skills That Will Get You Hired](http://www.cio.com/slideshow/detail/97819) (2013) -- see [n. 9](http://www.cio.com/slideshow/detail/97819#slide10)
 * [Top IT Skills and Salaries In 2013](http://www.jiansnet.com/topic/24694/Top-IT-Skills-and-Salaries) (2013) -- see point 5.
 * [Perl, Python, Ruby, PHP, C, C++, Lua, tcl, javascript and Java comparison](http://raid6.com.au/~onlyjob/posts/arena/) (2011) -- comparison of speed, memory usage and other metrics
 

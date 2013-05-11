@@ -135,3 +135,4 @@ Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) 
 
 * [Ubuntu LDAP guide](https://help.ubuntu.com/12.04/serverguide/openldap-server.html)
 * [Querying LDAP from Perl](https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm)
+* Perl Cookbook: 18.8 Accessing an LDAP Server (p. 738)

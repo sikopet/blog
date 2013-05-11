@@ -1,5 +1,5 @@
 # LDAP
-###### linux
+###### linux, networking
 
 * protocol for querying and modifying a X.500-based directory service running over TCP/IP
 * current version - LDAPv3 (defined in [RFC4510](http://tools.ietf.org/html/rfc4510))

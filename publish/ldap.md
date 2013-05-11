@@ -3,7 +3,7 @@
 
 * protocol for querying and modifying a X.500-based directory service running over TCP/IP
 * current version - LDAPv3 (defined in [RFC4510](http://tools.ietf.org/html/rfc4510))
-* Debian uses OpenLDAP implementation
+* Debian uses [OpenLDAP](http://www.openldap.org/) implementation (`slapd` package)
 * can be used for network authentication (login), similarly like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos")
  * replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
 * good for bigger networks
@@ -40,7 +40,7 @@ LDAP entry
 
 ## LDIF files
 
-* LDAP Data Interchange Format
+LDIF = LDAP Data Interchange Format
 
 User data (equivalent to `/etc/passwd`)
 
@@ -133,5 +133,5 @@ Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) 
 
 ## More
 
-* <https://help.ubuntu.com/12.04/serverguide/openldap-server.html>
-* <https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm>
+* [Ubuntu LDAP guide](https://help.ubuntu.com/12.04/serverguide/openldap-server.html)
+* [Querying LDAP from Perl](https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm)

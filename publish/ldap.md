@@ -28,11 +28,11 @@ LDAP entry
  * parent DN: "dc=example,dc=com"
 * DN in not an attribute, i.e. no part of the entry itself
 
-## Preparing system to use LDAP
+## Preparing system to use LDAP (Debian 6.0.7)
 
-    # aptitude install openldap-utils
-    # cp -p /etc/ldap/ldap.conf{,.orig}
-    # cat << EOF > /etc/ldap/ldap.conf
+    aptitude install slapd dap-utils
+    cp -p /etc/ldap/ldap.conf{,.orig}
+    cat << EOF > /etc/ldap/ldap.conf
     BASE        dc=example,dc=com                   # LDAP base - usually domain name
     URI         ldaps://ldap.example.com            # ldap://, ldaps://
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)

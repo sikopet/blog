@@ -1,3 +1,5 @@
+Byl to velmi zvláštní člověk. Komunistický režim jej po sovětském vzoru prohlásil za psychicky nemocného (diagnóza paranoia kverulans), protože režimní psychiatři i režim sám uvažoval logicky: každý, kdo se bouří proti neporazitelnému systému s vědomím, že nemá šanci, musí být přece blázen. -- Martin M. Šimečka (http://respekt.ihned.cz/ost-blog/c1-59565650-na-okraj-jednoho-vyroci)
+
 Use what you find comfortable, and hopefully try out new things once in a while. -- Sawyer X (http://blogs.perl.org/users/sawyer_x/2013/05/interview-with-pragmatic-perl-in-english.html)
 
 Do you have an actual use case for these? Or are you just imagining things that might possibly potentially be cool in the future maybe? -- petdance (http://perlmonks.org/?node_id=1030905)

@@ -30,7 +30,7 @@ LDAP entry
 
 ## Preparing system to use LDAP (Debian 6.0.7)
 
-    aptitude install slapd dap-utils
+    aptitude install slapd ldap-utils
     cp -p /etc/ldap/ldap.conf{,.orig}
     cat << EOF > /etc/ldap/ldap.conf
     BASE        dc=example,dc=com                   # LDAP base - usually domain name

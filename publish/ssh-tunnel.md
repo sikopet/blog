@@ -3,7 +3,7 @@
 
 ## Firewall tunneling via SSH
 
-We want to allow the tech access the Intranet host from the Internet host:
+We want to allow the tech access the incomp (Intranet) host from the outcomp.sk (Internet) host:
 
 ![SSH Tunneling](https://raw.github.com/jreisinger/blog/master/files/ssh_tunneling.png)
 

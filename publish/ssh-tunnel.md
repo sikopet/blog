@@ -18,6 +18,8 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 
 ## Connecting to router web interface accessible only from intranet
 
+We want to connect to router web interface (to make some configuration changes) which is not accessible from Internet. However we can connect to a Linux server behing the router.
+
 1) `/etc/ssh/sshd_config` of host.in.internet.com has to contain:
 
     GatewayPorts yes

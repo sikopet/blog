@@ -5,7 +5,7 @@
 
 We want to allow the tech access the Intranet host from the Internet host:
 
-[SSH Tunneling](https://raw.github.com/jreisinger/blog/master/files/ssh_tunneling.png)
+![SSH Tunneling](https://raw.github.com/jreisinger/blog/master/files/ssh_tunneling.png)
 
 1) Redirect the port 2222 on outcomp.sk to port 22 on incomp.sk:
 

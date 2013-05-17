@@ -17,11 +17,11 @@ Perl one-liners are small Perl programs that are run directly from a command lin
 
 See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 
-## Find lines containing pattern (regex)
+## Unix tools replacements
 
-(`grep` replacement)
+* Find lines containing regex (`grep` replacement)
 
-    perl -wnl -e '/<regex>/ and print;'
+        perl -wnl -e '/<regex>/ and print;'
 
 ## Convert DOS files to Unix files 
 

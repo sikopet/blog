@@ -23,49 +23,47 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 
         perl -wnl -e '/<regex>/ and print;'
 
-## Convert DOS files to Unix files 
+* In-place editing with backups (`sed` replacement)
 
-(`dos2unix` replacement)
+        perl -p -i.bak -we 's/colour/color/g' *.txt
 
-    perl -i -pe 's/\r//' <file1> <file2> ...   # dos-to-unix
-    perl -i -pe 's/$/\r/' <file1> <file2> ...  # unix-to-dos
+* Switch columns (`awk` replacement)
 
-## In-place editing with backups 
+        $ cat birthdays.txt
+        03/30/45 Eric Clapton
+        11/27/42 Jimi Hendrix
+        06/24/44 Jeff Beck
+        $ perl -wnla -e '($date, $name)=@F; print "$name $date";' birthdays.txt    ## omitted field is undef
 
-(`sed` replacement)
+* Convert DOS files to Unix files (`dos2unix` replacement)
 
-    perl -p -i.bak -we 's/colour/color/g' *.txt
+        perl -i -pe 's/\r//' <file1> <file2> ...   # dos-to-unix
+        perl -i -pe 's/$/\r/' <file1> <file2> ...  # unix-to-dos
 
-## Switch columns
+## Various
 
-(`awk` replacement)
+* Make squares of numbers from 1 to 10
 
-    $ cat birthdays.txt
-    03/30/45 Eric Clapton
-    11/27/42 Jimi Hendrix
-    06/24/44 Jeff Beck
-    $ perl -wnla -e '($date, $name)=@F; print "$name $date";' birthdays.txt    ## omitted field is undef
+        perl -w -E 'say for map { $_ * $_  } 1 .. 10'
 
-## Make squares of numbers from 1 to 10
+* Greet user (stolen from [Utilitarian](http://perlmonks.org/?node_id=681898) :-))
 
-    perl -w -E 'say for map { $_ * $_  } 1 .. 10'
+        perl -e 'print "Good " . qw(night morning afternoon evening)[(localtime)[2]/6] . ", $ENV{USER}!"'
+
+* Create HTML anchor element
+
+        perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL
 
 
-## Greet user :)
+## Using command line arguments (-s)
 
-    perl -e 'print "Good " . qw(night morning afternoon evening)[(localtime)[2]/6] . ", $ENV{USER}!"'
-    
-Stolen from [Utilitarian](http://perlmonks.org/?node_id=681898).
+* While in Git-tracked directory, print the filename followed by its author:
 
-## Use command line arguments (-s)
-
-While in Git-tracked directory, print the filename followed by its author:
-
-    for f in `find -type f`; do 
-        git log -1 --date=iso -- $f |
-        grep ^Author |
-        perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
-    done
+        for f in `find -type f`; do 
+                git log -1 --date=iso -- $f |
+                grep ^Author |
+                perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
+        done
 
 ## Capitalize titles in blog posts
 
@@ -86,7 +84,3 @@ Check the changes are ok:
 .. to remove untracked files:
 
     git clean -f -d
-
-## Create HTML anchor element
-
-    perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL

@@ -42,6 +42,14 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 
 ## Various
 
+* Remove comments and compress all consecutive blank lines into one ([more](http://www.catonmat.net/blog/perl-one-liners-explained-part-one/))
+
+        cat <file> | perl -wnle '!/^#/ and print' | perl -00 -pe ''
+
+* Create HTML anchor element
+
+        perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL
+
 * Make squares of numbers from 1 to 10
 
         perl -w -E 'say for map { $_ * $_  } 1 .. 10'
@@ -49,11 +57,6 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 * Greet user (stolen from [Utilitarian](http://perlmonks.org/?node_id=681898) :-))
 
         perl -e 'print "Good " . qw(night morning afternoon evening)[(localtime)[2]/6] . ", $ENV{USER}!"'
-
-* Create HTML anchor element
-
-        perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL
-
 
 ### Using command line arguments (-s)
 

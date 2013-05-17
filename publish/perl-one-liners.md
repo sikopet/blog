@@ -55,9 +55,9 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
         perl -wE 'say "<a href=\"$ARGV[1]\">$ARGV[0]</a>"' 'Link text' URL
 
 
-## Using command line arguments (-s)
+### Using command line arguments (-s)
 
-* While in Git-tracked directory, print the filename followed by its author:
+While in Git-tracked directory, print the filename followed by its author:
 
         for f in `find -type f`; do 
                 git log -1 --date=iso -- $f |
@@ -65,7 +65,7 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
                 perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
         done
 
-## Capitalize titles in blog posts
+### Capitalize titles in blog posts
 
 If you want the titles (first lines) in your [blog posts](https://github.com/jreisinger/blog/tree/master/publish) to be properly capitalized:
 

@@ -30,16 +30,16 @@ LDAP entry
 
 ## Preparing system to use LDAP (Debian 6.0.7)
 
-Set hostname if needed ([Debian](http://wiki.debian.org/HowTo/ChangeHostname)):
+Set FQDN if not already set ([Debian](http://wiki.debian.org/HowTo/ChangeHostname)):
 
-* `/etc/hostname`: (This file should only contain the hostname and not the full FQDN):
+* `/etc/hostname` (this file should only contain the hostname and not the full FQDN):
 
         ldap
         
 * `/etc/hosts`:
 
         127.0.0.1       ldap.example.com ldap localhost
-        # IPv6 stuff skipped
+        # ... IPv6 stuff skipped ...
         1.2.3.4         ldap.example.com ldap
         
 * Restart networking:
@@ -47,10 +47,12 @@ Set hostname if needed ([Debian](http://wiki.debian.org/HowTo/ChangeHostname)):
         invoke-rc.d hostname.sh start
         invoke-rc.d networking force-reload
 
-Install packages and configure `ldap-utils`:
+Install packages:
 
     aptitude install slapd ldap-utils
     
+Configure `ldap-utils`:
+
     cp -p /etc/ldap/ldap.conf{,.orig}
     
     cat << EOF > /etc/ldap/ldap.conf
@@ -61,59 +63,56 @@ Install packages and configure `ldap-utils`:
     # certificate file (encryption)
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt
     EOF
+    
+(Grafical LDAP tool: [LDAP Admin](http://www.ldapadmin.org/))
 
-## LDIF files
+## Populate LDAP via LDIF files
 
-LDIF = LDAP Data Interchange Format
+Create LDIF (LDAP Data Interchange Format) file with basic tree structure (`/var/tmp/tree.ldif`):
 
-User data (equivalent to `/etc/passwd`)
+        # Account directory
+        dn: ou=People,dc=example,dc=com
+        ou: People
+        objectClass: organizationalUnit
 
-    dn: uid=jbond,ou=people,dc=openhouse,dc=sk
-    uid: jbond       # Linux username
-    uidNumber: 1010  # Linux UID
-    gidNumber: 100
-    cn: James
-    sn: Bond
-    displayName: JamesBond
-    mail: james.bond@gmail.com
-    objectClass: top 
-    objectClass: person
-    objectClass: posixAccount
-    objectClass: shadowAccount
-    objectClass: inetOrgPerson
-    loginShell: /bin/bash
-    homeDirectory: /home/jbond
+        # Group directory
+        dn: ou=Group,dc=example,dc=com
+        ou: Group
+        objectClass: organizationalUnit
 
-Group data (equivalent to `/etc/group`)
+Create LDIF file with user account information (`/var/tmp/acct.ldif`):
 
-    dn: cn=users,ou=Group,dc=openhouse,dc=sk
-    objectClass: posixGroup
-    objectClass: top
-    cn: users
-    userPasssword: {crypt}x
-    gitNumber: 100
-    memberUid: jbond
+        # User data (equivalent to /etc/passwd)
+        dn: uid=jbond,ou=people,dc=example,dc=com
+        uid: jbond
+        uidNumber: 1010
+        gidNumber: 100
+        cn: James
+        sn: Bond
+        displayName: JamesBond
+        mail: james.bond@gmail.com
+        objectClass: top
+        objectClass: person
+        objectClass: posixAccount
+        objectClass: shadowAccount
+        objectClass: inetOrgPerson
+        loginShell: /bin/bash
+        homeDirectory: /home/jbond
+
+        # Group data (equivalent to /etc/group)
+        dn: cn=users,ou=Group,dc=example,dc=com
+        objectClass: posixGroup
+        objectClass: top
+        cn: users
+        gidNumber: 100
+        memberUid: jbond
 
  * you can create encrypted password via `slappasswd` and copy/paste it into an LDIF file
 
-If account/group directory is empty, you must initialize it with special entries
+Adding information from LDIF files to LDAP:
 
-    dn: dc=openhouse,dc=sk
-    objectClass: domain
-    dc: openhouse
-
-    dn: ou=People,dc=openhouse,dc=sk
-    ou: People
-    objectClass: organizationalUnit
-
-
-    dn: ou=Group,dc=openhouse,dc=sk
-    ou: Group
-    objectClass: organizationalUnit
-
-## Adding accounts
-
-`$ ldapadd -c -x -D cn=admin,dc=openhouse,dc=sk -W -f acct.ldif`
+        ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/tree.ldif
+        ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/acct.ldif
 
 * `-c` -- continue even if errors are detected
 * `-x` -- use a simpler authentication rather than the default SASL

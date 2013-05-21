@@ -129,7 +129,7 @@ One of:
 
 ## Deleting accounts
 
-* `$ ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jlebowski,ou=people,dc=example,dc=com`
+* `$ ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jbond,ou=people,dc=example,dc=com`
 
 ## Querying a server about accounts
 

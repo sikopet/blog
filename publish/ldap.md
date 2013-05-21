@@ -30,6 +30,25 @@ LDAP entry
 
 ## Preparing system to use LDAP (Debian 6.0.7)
 
+Set hostname if needed ([Debian](http://wiki.debian.org/HowTo/ChangeHostname)):
+
+* `/etc/hostname`: (This file should only contain the hostname and not the full FQDN):
+
+        ldap
+        
+* `/etc/hosts`:
+
+        127.0.0.1       ldap.example.com ldap localhost
+        # IPv6 stuff skipped
+        1.2.3.4         ldap.example.com ldap
+        
+* Restart networking:
+
+        invoke-rc.d hostname.sh start
+        invoke-rc.d networking force-reload
+
+Install packages and configure `ldap-utils`:
+
     aptitude install slapd ldap-utils
     
     cp -p /etc/ldap/ldap.conf{,.orig}

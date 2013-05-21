@@ -83,21 +83,21 @@ Create LDIF (LDAP Data Interchange Format) file with basic tree structure (`/var
 Create LDIF file with user account information (`/var/tmp/acct.ldif`):
 
         # User data (equivalent to /etc/passwd)
-        dn: uid=jbond,ou=people,dc=example,dc=com
-        uid: jbond
+        dn: uid=jlebowski,ou=people,dc=example,dc=com
+        uid: jlebowski
         uidNumber: 1010
         gidNumber: 100
-        cn: James
-        sn: Bond
-        displayName: JamesBond
-        mail: james.bond@gmail.com
+        cn: Jeffrey
+        sn: Lebowski
+        displayName: JeffreyLebowski
+        mail: the.dude@example.com
         objectClass: top
         objectClass: person
         objectClass: posixAccount
         objectClass: shadowAccount
         objectClass: inetOrgPerson
         loginShell: /bin/bash
-        homeDirectory: /home/jbond
+        homeDirectory: /home/jlebowski
 
         # Group data (equivalent to /etc/group)
         dn: cn=users,ou=Group,dc=example,dc=com
@@ -105,7 +105,7 @@ Create LDIF file with user account information (`/var/tmp/acct.ldif`):
         objectClass: top
         cn: users
         gidNumber: 100
-        memberUid: jbond
+        memberUid: jlebowski
 
 Adding information from LDIF files to LDAP:
 
@@ -123,13 +123,13 @@ Adding information from LDIF files to LDAP:
 One of:
 
 * use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
-* `$ ldappasswd -D cn=admin,dc=example,dc=com -W -S uid=jbond,ou=People,dc=example,dc=com`
+* `$ ldappasswd -D cn=admin,dc=example,dc=com -W -S uid=jlebowski,ou=People,dc=example,dc=com`
  * `-S` -- prompts for the new password
 * if PAM is configured correctly, user can use `passwd` on an LDAP client
 
 ## Deleting accounts
 
-* `$ ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jbond,ou=people,dc=example,dc=com`
+* `$ ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jlebowski,ou=people,dc=example,dc=com`
 
 ## Querying a server about accounts
 
@@ -137,9 +137,9 @@ One of:
 
 See also [Querying Active Directory with Unix LDAP tools](http://jrwren.wrenfam.com/blog/2006/11/17/querying-active-directory-with-unix-ldap-tools/).
 
-* `$ getent passwd jbond` (`getent` returns info from various sources, including local account DB)
-* `$ ldapsearch -x uid=jbond`
- * you can use filters (conceptually similar to regexes): `(&(uid=jbond)(!(ou=Accounting)))` -- search for `jbond` who is _not_ a member of the Accounting department
+* `$ getent passwd jlebowski` (`getent` returns info from various sources, including local account DB)
+* `$ ldapsearch -x uid=jlebowski`
+ * you can use filters (conceptually similar to regexes): `(&(uid=jlebowski)(!(ou=Accounting)))` -- search for `jlebowski` who is _not_ a member of the Accounting department
 
 when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to convert it:
 

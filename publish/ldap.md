@@ -31,11 +31,16 @@ LDAP entry
 ## Preparing system to use LDAP (Debian 6.0.7)
 
     aptitude install slapd ldap-utils
+    
     cp -p /etc/ldap/ldap.conf{,.orig}
+    
     cat << EOF > /etc/ldap/ldap.conf
-    BASE        dc=example,dc=com                   # LDAP base - usually domain name
-    URI         ldaps://ldap.example.com            # ldap://, ldaps://
-    TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt  # certificate file (encryption)
+    # LDAP base - usually domain name
+    BASE        dc=example,dc=com
+    # ldap://, ldaps://
+    URI         ldaps://ldap.example.com
+    # certificate file (encryption)
+    TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt
     EOF
 
 ## LDIF files

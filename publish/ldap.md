@@ -1,14 +1,14 @@
 # LDAP
 ###### linux, networking
 
+## Concepts and terms
+
 * protocol for querying and modifying a X.500-based directory service running over TCP/IP
 * current version - LDAPv3 (defined in [RFC4510](http://tools.ietf.org/html/rfc4510))
 * Debian uses [OpenLDAP](http://www.openldap.org/) implementation (`slapd` package)
 * can be used for network authentication (login), similarly like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos")
  * replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
 * good for bigger networks
-
-## Concepts and terms
 
 LDAP directory 
 

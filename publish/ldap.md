@@ -107,8 +107,6 @@ Create LDIF file with user account information (`/var/tmp/acct.ldif`):
         gidNumber: 100
         memberUid: jbond
 
- * you can create encrypted password via `slappasswd` and copy/paste it into an LDIF file
-
 Adding information from LDIF files to LDAP:
 
         ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/tree.ldif
@@ -125,7 +123,7 @@ Adding information from LDIF files to LDAP:
 One of:
 
 * use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
-* `$ ldappasswd -D cn=admin,dc=openhouse,dc=sk -W -S uid=jbond,ou=People,dc=openhouse,dc=sk`
+* `$ ldappasswd -D cn=admin,dc=example,dc=com -W -S uid=jbond,ou=People,dc=example,dc=com`
  * `-S` -- prompts for the new password
 * if PAM is configured correctly, user can use `passwd` on an LDAP client
 

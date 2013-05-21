@@ -64,8 +64,6 @@ Configure `ldap-utils`:
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt
     EOF
     
-(Grafical LDAP tool: [LDAP Admin](http://www.ldapadmin.org/))
-
 ## Populate LDAP via LDIF files
 
 Create LDIF (LDAP Data Interchange Format) file with basic tree structure (`/var/tmp/tree.ldif`):
@@ -139,20 +137,26 @@ Deleting accounts:
 
 See also [Querying Active Directory with Unix LDAP tools](http://jrwren.wrenfam.com/blog/2006/11/17/querying-active-directory-with-unix-ldap-tools/).
 
-* `$ getent passwd jlebowski` (`getent` returns info from various sources, including local account DB)
-* `$ ldapsearch -x uid=jlebowski`
- * you can use filters (conceptually similar to regexes): `(&(uid=jlebowski)(!(ou=Accounting)))` -- search for `jlebowski` who is _not_ a member of the Accounting department
+* `getent` returns info from various sources, including local account DB
 
-when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to convert it:
+        getent passwd jlebowski
 
-    ldapsearch -x -h ldap.company.com -b 'dc=company,dc=com' -s sub -D 'user@company.com' -S 'employeeID' \
-    -W '(&(objectClass=person)(employeeID>=0)(employeeID<=20416))' employeeID title sn | PERL_UNICODE=S \
-    perl -MMIME::Base64 -MEncode=decode -n -00 -e 's/\n //g;s/(?<=:: )(\S+)/decode("UTF-8",decode_base64($1))/eg;print' \
-    > ldap.out
+* you can use filters (conceptually similar to regexes):
+
+        ldapsearch -x uid=jlebowski
+        
+ * `(&(uid=jlebowski)(!(ou=Accounting)))` -- search for `jlebowski` who is _not_ a member of the Accounting department
+ 
+* when `ldapsearch` sees UTF-8 encoding it displays it as base64, so you need to convert it:
+
+        ldapsearch -x -h ldap.company.com -b 'dc=company,dc=com' -s sub -D 'user@company.com' -S 'employeeID' \
+        -W '(&(objectClass=person)(employeeID>=0)(employeeID<=20416))' employeeID title sn | PERL_UNICODE=S \
+        perl -MMIME::Base64 -MEncode=decode -n -00 -e 's/\n //g;s/(?<=:: )(\S+)/decode("UTF-8",decode_base64($1))/eg;print' \
+        > ldap.out
 
 ### Windows
 
-Use [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) for Windows.
+Use GUI tools like [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/bb963907.aspx) or [LDAP Admin](http://www.ldapadmin.org/).
 
 ## More
 

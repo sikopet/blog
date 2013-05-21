@@ -118,18 +118,20 @@ Adding information from LDIF files to LDAP:
 * `-W <binddn>` -- prompt for authentication
 * `-f <file>` -- read LDIF records from <file>
 
-## Changing password
+## Accounts management
 
-One of:
+Changing password - one of:
 
-* use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`
-* `$ ldappasswd -D cn=admin,dc=example,dc=com -W -S uid=jlebowski,ou=People,dc=example,dc=com`
+* use `slappasswd`, cut/paste the hash into the LDIF file and run it through `ldapmodify`:
+
+        ldappasswd -D cn=admin,dc=example,dc=com -W -S uid=jlebowski,ou=People,dc=example,dc=com
+
  * `-S` -- prompts for the new password
 * if PAM is configured correctly, user can use `passwd` on an LDAP client
 
-## Deleting accounts
+Deleting accounts:
 
-* `$ ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jlebowski,ou=people,dc=example,dc=com`
+        ldapdelete -c -x -D cn=admin,dc=example,dc=com -W uid=jlebowski,ou=people,dc=example,dc=com
 
 ## Querying a server about accounts
 

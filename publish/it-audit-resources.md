@@ -27,3 +27,11 @@ CISSP
  * you need 700 out of 1000 points
  * you have 6 hours for 250 questions (you better take some snack with you :))
  * you should use two-pass method (skip the questions you are unable to answer and come back to them in the second pass)
+
+CCNA/CCENT
+
+* networking
+
+LPIC
+
+* GNU/Linux

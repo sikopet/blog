@@ -1,5 +1,5 @@
-# IT Audit Resources
-###### audit
+# IT Audit and IT Security Resources
+###### audit, security
 
 ## Paper Books
 

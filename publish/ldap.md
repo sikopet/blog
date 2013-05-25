@@ -63,7 +63,64 @@ Configure `ldap-utils`:
     # certificate file (encryption)
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt
     EOF
-    
+
+## LDAP + SSL/TLS (Debian 6.0.7)
+
+Create [GnuTLS](https://help.ubuntu.com/community/GnuTLS) private key and self-signed certificate:
+
+        certtool --generate-privkey --outfile <ldap.example.com.key>
+        chown root:openldap <ldap.example.com.key>
+        chmod 600 <ldap.example.com.key>
+        
+        cat > cert_template << EOF
+        organization = "<Example Inc.>"
+        state = "<Slovakia>"
+        country = <SK>
+        cn = "<ldap.example.com>"
+        serial = 007
+        expiration_days = 365
+        dns_name = "<ldap.example.com>"
+        tls_www_server
+        encryption_key
+        EOF
+        certtool --generate-self-signed --load-privkey <ldap.example.com.key> --template cert_template --outfile <ldap.example.com.cert>
+        chown root:openldap <ldap.example.com.cert>
+        chmod 750 <ldap.example.com.cert>
+        
+        mkdir /etc/ldap/ssl
+        chown root:openldap /etc/ldap/ssl
+        chmod 750 /etc/ldap/ssl
+        mv <ldap.example.com.key> /etc/ldap/ssl
+        mv <ldap.example.com.cert> /etc/ldap/ssl
+        
+Configure [OpenLDAP with SSL/TLS](http://mindref.blogspot.sk/2010/12/debian-openldap-ssl-tls-encryption.html):
+
+* enable ldaps in `/etc/default/slapd`:
+
+        LAPD_SERVICES="ldap://127.0.0.1:389/ ldaps:/// ldapi:///"
+
+* create and apply configuration:
+
+        cat > tls-config.ldif << EOF
+        dn: cn=config
+        add: olcTLSCertificateFile
+        olcTLSCertificateFile: /etc/ldap/ssl/<ldap.example.com.cert>
+        -
+        add: olcTLSCertificateKeyFile
+        olcTLSCertificateKeyFile: /etc/ldap/ssl/<ldap.example.com.key>
+        EOF
+
+        ldapmodify -Y EXTERNAL -H ldapi:/// -f tls-config.ldif
+        
+* restart and check LDAP
+
+        /etc/init.d/slapd restart
+        
+        root@ldap1:/etc/ldap# netstat -tlpn | grep slapd
+        tcp        0      0 0.0.0.0:636             0.0.0.0:*               LISTEN      16161/slapd
+        tcp        0      0 127.0.0.1:389           0.0.0.0:*               LISTEN      16161/slapd
+        tcp6       0      0 :::636                  :::*                    LISTEN      16161/slapd
+
 ## Populate LDAP via LDIF files
 
 Create LDIF (LDAP Data Interchange Format) file with basic tree structure (`/var/tmp/tree.ldif`):

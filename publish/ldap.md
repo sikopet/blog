@@ -125,47 +125,47 @@ Configure [OpenLDAP with SSL/TLS](http://mindref.blogspot.sk/2010/12/debian-open
 
 Create LDIF (LDAP Data Interchange Format) file with basic tree structure (`/var/tmp/tree.ldif`):
 
-        # Account directory
-        dn: ou=People,dc=example,dc=com
-        ou: People
-        objectClass: organizationalUnit
+    # Account directory
+    dn: ou=People,dc=example,dc=com
+    ou: People
+    objectClass: organizationalUnit
 
-        # Group directory
-        dn: ou=Group,dc=example,dc=com
-        ou: Group
-        objectClass: organizationalUnit
+    # Group directory
+    dn: ou=Group,dc=example,dc=com
+    ou: Group
+    objectClass: organizationalUnit
 
 Create LDIF file with user account information (`/var/tmp/acct.ldif`):
 
-        # User data (equivalent to /etc/passwd)
-        dn: uid=jlebowski,ou=people,dc=example,dc=com
-        uid: jlebowski
-        uidNumber: 1010
-        gidNumber: 100
-        cn: Jeffrey
-        sn: Lebowski
-        displayName: JeffreyLebowski
-        mail: the.dude@example.com
-        objectClass: top
-        objectClass: person
-        objectClass: posixAccount
-        objectClass: shadowAccount
-        objectClass: inetOrgPerson
-        loginShell: /bin/bash
-        homeDirectory: /home/jlebowski
+    # User data (equivalent to /etc/passwd)
+    dn: uid=jlebowski,ou=people,dc=example,dc=com
+    uid: jlebowski
+    uidNumber: 1010
+    gidNumber: 100
+    cn: Jeffrey
+    sn: Lebowski
+    displayName: JeffreyLebowski
+    mail: the.dude@example.com
+    objectClass: top
+    objectClass: person
+    objectClass: posixAccount
+    objectClass: shadowAccount
+    objectClass: inetOrgPerson
+    loginShell: /bin/bash
+    homeDirectory: /home/jlebowski
 
-        # Group data (equivalent to /etc/group)
-        dn: cn=users,ou=Group,dc=example,dc=com
-        objectClass: posixGroup
-        objectClass: top
-        cn: users
-        gidNumber: 100
-        memberUid: jlebowski
+    # Group data (equivalent to /etc/group)
+    dn: cn=users,ou=Group,dc=example,dc=com
+    objectClass: posixGroup
+    objectClass: top
+    cn: users
+    gidNumber: 100
+    memberUid: jlebowski
 
 Adding information from LDIF files to LDAP:
 
-        ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/tree.ldif
-        ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/acct.ldif
+    ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/tree.ldif
+    ldapadd -c -x -D cn=admin,dc=example,dc=com -W -f /var/tmp/acct.ldif
 
 * `-c` -- continue even if errors are detected
 * `-x` -- use a simpler authentication rather than the default SASL

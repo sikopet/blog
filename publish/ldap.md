@@ -68,30 +68,30 @@ Configure `ldap-utils`:
 
 Create [GnuTLS](https://help.ubuntu.com/community/GnuTLS) private key and self-signed certificate:
 
-        certtool --generate-privkey --outfile <ldap.example.com.key>
-        chown root:openldap <ldap.example.com.key>
-        chmod 600 <ldap.example.com.key>
+    certtool --generate-privkey --outfile <ldap.example.com.key>
+    chown root:openldap <ldap.example.com.key>
+    chmod 600 <ldap.example.com.key>
         
-        cat > cert_template << EOF
-        organization = "<Example Inc.>"
-        state = "<Slovakia>"
-        country = <SK>
-        cn = "<ldap.example.com>"
-        serial = 007
-        expiration_days = 365
-        dns_name = "<ldap.example.com>"
-        tls_www_server
-        encryption_key
-        EOF
-        certtool --generate-self-signed --load-privkey <ldap.example.com.key> --template cert_template --outfile <ldap.example.com.cert>
-        chown root:openldap <ldap.example.com.cert>
-        chmod 750 <ldap.example.com.cert>
+    cat > cert_template << EOF
+    organization = "<Example Company>"
+    state = "<Slovakia>"
+    country = <SK>
+    cn = "<ldap.example.com>"
+    serial = 007
+    expiration_days = 365
+    dns_name = "<ldap.example.com>"
+    tls_www_server
+    encryption_key
+    EOF
+    certtool --generate-self-signed --load-privkey <ldap.example.com.key> --template cert_template --outfile <ldap.example.com.cert>
+    chown root:openldap <ldap.example.com.cert>
+    chmod 750 <ldap.example.com.cert>
         
-        mkdir /etc/ldap/ssl
-        chown root:openldap /etc/ldap/ssl
-        chmod 750 /etc/ldap/ssl
-        mv <ldap.example.com.key> /etc/ldap/ssl
-        mv <ldap.example.com.cert> /etc/ldap/ssl
+    mkdir /etc/ldap/ssl
+    chown root:openldap /etc/ldap/ssl
+    chmod 750 /etc/ldap/ssl
+    mv <ldap.example.com.key> /etc/ldap/ssl
+    mv <ldap.example.com.cert> /etc/ldap/ssl
         
 Configure [OpenLDAP with SSL/TLS](http://mindref.blogspot.sk/2010/12/debian-openldap-ssl-tls-encryption.html):
 

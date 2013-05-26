@@ -69,59 +69,83 @@ Configure `ldap-utils` (client programs):
     TLS_CACERT  /etc/ldap/ssl/certs/slapd-cert.crt
     EOF
 
-## LDAP + SSL/TLS (Debian 6.0.7)
+## LDAP + TLS (Debian 6.0.7)
 
-Create [GnuTLS](https://help.ubuntu.com/community/GnuTLS) private key and self-signed certificate:
+Configure [TLS](https://help.ubuntu.com/12.04/serverguide/openldap-server.html#openldap-tls):
 
-    certtool --generate-privkey --outfile <ldap.example.com.key>
-    chown root:openldap <ldap.example.com.key>
-    chmod 600 <ldap.example.com.key>
-        
-    cat > cert_template << EOF
-    organization = "<Example Company>"
-    state = "<Slovakia>"
-    country = <SK>
-    cn = "<ldap.example.com>"
-    serial = 007
-    expiration_days = 365
-    dns_name = "<ldap.example.com>"
-    tls_www_server
-    encryption_key
-    EOF
-    certtool --generate-self-signed --load-privkey <ldap.example.com.key> --template cert_template --outfile <ldap.example.com.cert>
-    chown root:openldap <ldap.example.com.cert>
-    chmod 750 <ldap.example.com.cert>
-        
-    mkdir /etc/ldap/ssl
-    chown root:openldap /etc/ldap/ssl
-    chmod 750 /etc/ldap/ssl
-    mv <ldap.example.com.key> /etc/ldap/ssl
-    mv <ldap.example.com.cert> /etc/ldap/ssl
-        
-Configure [OpenLDAP with SSL/TLS](http://mindref.blogspot.sk/2010/12/debian-openldap-ssl-tls-encryption.html):
+* Create private key for certificate authority (CA):
 
-* enable ldaps in `/etc/default/slapd`:
+        certtool --generate-privkey --outfile /etc/ssl/private/ca.<example.com>.key
 
-        LAPD_SERVICES="ldap://127.0.0.1:389/ ldaps:/// ldapi:///"
+* Create the template file `/etc/ssl/ca.info` to define the CA:
 
-* create and apply configuration:
+        cn = <Example Company>
+        ca
+        cert_signing_key
 
-        cat > tls-config.ldif << EOF
+* Create self-signed CA certificate:
+
+        certtool --generate-self-signed \
+        --load-privkey /etc/ssl/private/ca.<example.com>.key \
+        --template /etc/ssl/ca.info \
+        --outfile /etc/ssl/certs/ca.<example.com>.cert
+
+* Make a private key for the server:
+
+        certtool --generate-privkey \
+        --bits 1024 \
+        --outfile /etc/ssl/private/ldap.<example.com>.key
+
+* Create template file `/etc/ssl/ldap.info`:
+
+        organization = <Example Company>
+        cn = ldap.<example.com>
+        tls_www_server
+        encryption_key
+        signing_key
+        expiration_days = 3650
+
+* Create the server's certificate:
+
+        certtool --generate-certificate \
+        --load-privkey /etc/ssl/private/ldap.<example.com>.key \
+        --load-ca-certificate /etc/ssl/certs/ca.<example.com>.cert \
+        --load-ca-privkey /etc/ssl/private/ca.<example.com>.key \
+        --template /etc/ssl/ldap.info \
+        --outfile /etc/ssl/certs/ldap.<example.com>.cert
+
+* Create configuration file `/etc/ssl/certinfo.ldif`:
+
         dn: cn=config
+        add: olcTLSCACertificateFile
+        olcTLSCACertificateFile: /etc/ssl/certs/ca.<example.com>.cert
+        -
         add: olcTLSCertificateFile
-        olcTLSCertificateFile: /etc/ldap/ssl/<ldap.example.com.cert>
+        olcTLSCertificateFile: /etc/ssl/certs/ldap.<example.com>.cert
         -
         add: olcTLSCertificateKeyFile
-        olcTLSCertificateKeyFile: /etc/ldap/ssl/<ldap.example.com.key>
-        EOF
+        olcTLSCertificateKeyFile: /etc/ssl/private/ldap.<example.com>.key
 
-        ldapmodify -Y EXTERNAL -H ldapi:/// -f tls-config.ldif
-        
-* restart and check LDAP
+* Add configuration to LDAP:
 
-        /etc/init.d/slapd restart
+        ldapmodify -Y EXTERNAL -H ldapi:/// -f /etc/ssl/certinfo.ldif
+
+* Set up ownership and permissions of private key:
+
+        adduser openldap ssl-cert
+        chgrp ssl-cert /etc/ssl/private/ldap.<example.com>.key
+        chmod g+r /etc/ssl/private/ldap.<example.com>.key
+        chmod o-r /etc/ssl/private/ldap.<example.com>.key
+
+* Edit `/etc/default/sldapd` ([Ubuntu says](https://help.ubuntu.com/12.04/serverguide/openldap-server.html#openldap-tls) it's not needed):
+
+        SLAPD_SERVICES="ldap://127.0.0.1:389/ ldaps:/// ldapi:///"
+
+* Restart and check LDAP
+
+        service slapd restart
         
-        root@ldap1:/etc/ldap# netstat -tlpn | grep slapd
+        netstat -tlpn | grep slapd
         tcp        0      0 0.0.0.0:636             0.0.0.0:*               LISTEN      16161/slapd
         tcp        0      0 127.0.0.1:389           0.0.0.0:*               LISTEN      16161/slapd
         tcp6       0      0 :::636                  :::*                    LISTEN      16161/slapd

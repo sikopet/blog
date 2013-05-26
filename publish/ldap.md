@@ -5,7 +5,7 @@
 
 * protocol for querying and modifying a X.500-based directory service running over TCP/IP
 * current version - LDAPv3 (defined in [RFC4510](http://tools.ietf.org/html/rfc4510))
-* Debian uses [OpenLDAP](http://www.openldap.org/) implementation (`slapd` package)
+* Debian uses [OpenLDAP](http://www.openldap.org/) implementation (`slapd` package - recent versions are compiled with GnuTLS instead of OpenSSL due to licencing concerns)
 * can be used for network authentication (login), similarly like Kerberos, Windows NT domains, NIS, AD ("LDAP + Kerberos")
  * replacement for `useradd`, `usermod`, `passwd`, `/etc/passwd`, `/etc/shadow`
 * good for bigger networks
@@ -13,7 +13,7 @@
 LDAP directory 
 
 * hierarchical DB, more often read than written
-* tree of entries or directory information tree (DIT)
+* tree of *entries* or directory information tree (DIT)
 * LDAP directory root = *base*
 
 LDAP entry
@@ -22,7 +22,7 @@ LDAP entry
 * an attribute has a *type* (a name/description) and one or more *values*
 * every attribute has to be defined in a at least one *objectClass* (a special kind of attribute)
 * attributes and objeclasses are defined in *schemas*
-* each entry has a unique identifier: *distinguished name* (DN) = RDN + parent entry's DN
+* each entry has a unique identifier: *distinguished name* (DN) = relative distinguished name (RDN) + parent entry's DN
  * DN: "cn=John Doe,dc=example,dc=com"
  * RDN: "cn=John Doe"
  * parent DN: "dc=example,dc=com"
@@ -30,7 +30,7 @@ LDAP entry
 
 ## Preparing system to use LDAP (Debian 6.0.7)
 
-Set FQDN if not already set ([Debian](http://wiki.debian.org/HowTo/ChangeHostname)):
+Set [FQDN](http://wiki.debian.org/HowTo/ChangeHostname) if not already set (it is used by `slapd` for initial configuration):
 
 * `/etc/hostname` (this file should only contain the hostname and not the full FQDN):
 
@@ -47,11 +47,16 @@ Set FQDN if not already set ([Debian](http://wiki.debian.org/HowTo/ChangeHostnam
         invoke-rc.d hostname.sh start
         invoke-rc.d networking force-reload
 
+* check hostname and FQDN
+
+        $ hostname
+        $ hostname -f
+
 Install packages:
 
     aptitude install slapd ldap-utils
     
-Configure `ldap-utils`:
+Configure `ldap-utils` (client programs):
 
     cp -p /etc/ldap/ldap.conf{,.orig}
     

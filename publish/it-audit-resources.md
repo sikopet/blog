@@ -12,9 +12,10 @@ Operating Systems
 * [NSA](http://www.nsa.gov/ia/mitigation_guidance/security_configuration_guides/operating_systems.shtml)
 * [DISA](http://iase.disa.mil/stigs/os/index.html)
 
-Miscellaneous
+[NIST](http://checklists.nist.gov) - various publicly available security checklists (or benchmarks):
 
-* [NIST](http://checklists.nist.gov) - various publicly available security checklists (or benchmarks)
+* [FIPS PUB 199](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf) - security categorization of information systems
+* [NIST 800-53](http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final_updated-errata_05-01-2010.pdf) - recommended security controls for information systems
 
 ## Certifications
 

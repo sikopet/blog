@@ -56,7 +56,7 @@ It's nice to be important, but it's more important to be nice. -- <a href="http:
 
 Use $_ as you would the word "it" in formal writing; sparingly, in small and well-defined scopes. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl/chapter_01.html">The Perl Philosophy</a>
 
-Take advantage of this flexibility and pragmatism: it's far better to accomplish your task effectively now than to write a conceptually pure and beatyful program next year. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl">Modern Perl</a>
+Take advantage of this flexibility and pragmatism: it's far better to accomplish your task effectively now than to write a conceptually pure and beautiful program next year. -- chromatic: <a href="http://modernperlbooks.com/books/modern_perl">Modern Perl</a>
 
 Learning Perl is like learning a second or third spoken language. You’ll learn a few words, then string together some sentences, and eventually will be able to have small, simple conversations. Mastery comes with *practice*, both reading and writing. You don’t have to understand all of the details of this chapter immediately to be productive with Perl. Keep these principles in mind as you read the rest of this book. -- <a href="http://onyxneon.com/books/modern_perl">Modern Perl</a>
 

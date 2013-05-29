@@ -2,6 +2,7 @@
 
 2013-05
 
+* wrote [dlznik.sk](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)
 * passed ICND1 exam (925 out of 1000 points)
 * created a small [program](https://github.com/jreisinger/varia/blob/master/quote-sender.pl) to email me a quote (relaxing before ICND1 exam)
 

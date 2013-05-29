@@ -31,3 +31,8 @@ And here is the result:
     for my $element (@elements) {
         print $element->as_text, "\n";
     }
+
+Other HTML parsing programs:
+
+* [dlznik.sk](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)
+* [orsr](https://github.com/jreisinger/audit/tree/master/orsr)

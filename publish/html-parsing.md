@@ -34,5 +34,6 @@ And here is the result:
 
 Other HTML parsing programs:
 
-* [dlznik.sk](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)
+* [dlznik.pl](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)
+* [foaf.pl](https://github.com/jreisinger/audit/blob/master/scripts/foaf.pl)
 * [orsr](https://github.com/jreisinger/audit/tree/master/orsr)

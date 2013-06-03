@@ -101,6 +101,7 @@ Blogs etc.
 ### (Some of the) Organizations Using Perl
 
 * [Who uses Perl?](http://perltraining.com.au/whyperl.html#who) -- research made by Perl Training Australia
+* [Perl Companies](https://github.com/vmbrasseur/Perl_Companies) -- VM Brasseur's and Jeff Thalhammer's project
 
 Companies
 

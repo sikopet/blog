@@ -67,9 +67,8 @@ One-time
 
 Official
 
+* [Perl Advocacy](http://www.perl.org/advocacy/)
 * [How can I convince others to use Perl?](http://perldoc.perl.org/perlfaq1.html#How-can-I-convince-others-to-use-Perl%3f) (perlfaq1)
-* [White Camel Awards](http://www.perl.org/advocacy/white_camel/) -- people who have contributed significantly to Perl
-* [Why Perl?](http://perltraining.com.au/whyperl.html) -- reasons to use Perl by Perl Training Australia
 
 Blogs etc.
 
@@ -82,6 +81,7 @@ Blogs etc.
 * [A tale of two languages](http://www.bofh.org.uk/2010/07/25/a-tale-of-two-languages) (2010) -- desperate (baby) Perl and large scale Perl
 * [How did Perl gain a reputation for being a write-only language? [closed]](http://stackoverflow.com/questions/2702728/how-did-perl-gain-a-reputation-for-being-a-write-only-language) (2010)
 * [11th Grade](http://xkcd.com/519/) (2008) -- xkcd's point of view :-)
+* [Why Perl is a Valid Choice](http://perlmonks.org/?node_id=526866) (2006) -- see also brian d foy's [comment](http://perlmonks.org/?node_id=526893)
 
 ### Jobs
 

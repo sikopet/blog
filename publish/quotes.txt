@@ -1,3 +1,5 @@
+Do not jump into management too quickly. Spend a long time learning the technology. -- Ed Amoroso (http://itc.conversationsnetwork.org/shows/detail965.html)
+
 Perl is just a language and you can get almost anything done with it, but the more valuable thing is knowledge about the problem you're trying to solve. -- brian d foy (http://www.learning-perl.com/2013/05/advice-to-a-new-perl-user/)
 
 Byl to velmi zvláštní člověk. Komunistický režim jej po sovětském vzoru prohlásil za psychicky nemocného (diagnóza paranoia kverulans), protože režimní psychiatři i režim sám uvažoval logicky: každý, kdo se bouří proti neporazitelnému systému s vědomím, že nemá šanci, musí být přece blázen. -- Martin M. Šimečka (http://respekt.ihned.cz/ost-blog/c1-59565650-na-okraj-jednoho-vyroci)

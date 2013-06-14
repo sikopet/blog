@@ -1,3 +1,7 @@
+I remember a family friend telling me when I was a kid that computers are going to be the future and that there will be a lot of jobs in this field. I also remember that the idea of sitting all day, alone, in front of a minitel-like computer scared the hell out of me. -- Matt Aimonetti (http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/)
+
+For that you need some sort of metrics helping you to see if you are getting closer or farther from the direction you set for yourself. -- Matt Aimonetti (http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/)
+
 Do not jump into management too quickly. Spend a long time learning the technology. -- Ed Amoroso (http://itc.conversationsnetwork.org/shows/detail965.html)
 
 Perl is just a language and you can get almost anything done with it, but the more valuable thing is knowledge about the problem you're trying to solve. -- brian d foy (http://www.learning-perl.com/2013/05/advice-to-a-new-perl-user/)

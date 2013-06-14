@@ -1,5 +1,9 @@
 ## I Done This
 
+2013-06
+
+* evaluating SSO implementations (pete)
+
 2013-05
 
 * wrote [dlznik.sk](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)

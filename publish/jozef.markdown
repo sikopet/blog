@@ -2,6 +2,7 @@
 
 2013-06
 
+* wrote [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl) -- experiential learning :) 
 * evaluating SSO implementations (pete)
 
 2013-05

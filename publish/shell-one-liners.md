@@ -3,7 +3,16 @@
 
 See also <http://www.commandlinefu.com>.
 
-## Search inside files 
+## Various
+
+* find and rename multiple files (`*.log` => `*.LOG`)
+
+        $ find . -type f -name '*.log ' | grep -v .do-not-touch | while read fname
+        > do
+        > echo mv $fname ${fname/.log/.LOG/}
+        > done
+
+### Search inside files 
 
 E.g. search MS Word files for "robot" string:
 

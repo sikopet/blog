@@ -19,15 +19,22 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 
 ## Unix tools replacements
 
-* Find lines containing regex (`grep` replacement)
+`grep` replacement
+* Find lines containing regex
 
         perl -wnl -e '/<regex>/ and print;'
 
-* In-place editing with backups (`sed` replacement)
+`sed` replacement
+* edit and output to STDOUT
+
+        perl -pe 's#/bin/sh$#/bin/bash#' /etc/passwd
+* in-place editing with backups
 
         perl -p -i.bak -we 's/colour/color/g' *.txt
 
-* Switch columns (`awk` replacement)
+`awk` replacement
+
+* switch columns
 
         $ cat birthdays.txt
         03/30/45 Eric Clapton
@@ -35,7 +42,9 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
         06/24/44 Jeff Beck
         $ perl -wnla -e '($date, $name)=@F; print "$name $date";' birthdays.txt    ## omitted field is undef
 
-* Convert DOS files to Unix files (`dos2unix` replacement)
+`dos2unix` replacement
+
+* convert DOS files to Unix files
 
         perl -i -pe 's/\r//' <file1> <file2> ...   # dos-to-unix
         perl -i -pe 's/$/\r/' <file1> <file2> ...  # unix-to-dos

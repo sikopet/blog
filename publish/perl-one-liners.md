@@ -6,14 +6,14 @@ Perl one-liners are small Perl programs that are run directly from a command lin
 
 ## Perl command line switches 
 
-* `-w` -- enable warnings (generally advisable)
-* `-p` -- loop through lines, reading and printing them (in-script equivalent: `while (<>) { print; }`)
-* `-n` -- loop through lines, reading but not printing them
-* `-l` -- print a newline after each line of output
-* `-e '<code>'` -- execute `<code>`
-* `-E '<code>'` -- execute `<code>` enabling feature bundle (like `use 5.010`) for your version of Perl ([more](http://perldoc.perl.org/feature.html#IMPLICIT-LOADING))
-* `-i [ <.ext> ]` -- create backup file (with `<.ext>` extension if defined)
-* `-a` -- split the `$_` into `@F` (space is the default separator, change it with `-F`, ex. `-F:`)
+* `-w` (warnings) -- enable warnings (generally advisable)
+* `-p` (printing) -- loop through lines, reading and printing them (in-script equivalent: `while (<>) { print; }`)
+* `-n` (nonautoprinting) -- loop through lines, reading but not printing them
+* `-l` (line) -- print a newline after each line of output
+* `-e '<code>'` (execute) -- execute `<code>`
+* `-E '<code>'` (execute) -- execute `<code>` enabling feature bundle (like `use 5.010`) for your version of Perl ([more](http://perldoc.perl.org/feature.html#IMPLICIT-LOADING))
+* `-i [ <.ext> ]` (intrepid) -- create backup file (with `<.ext>` extension if defined)
+* `-a` (autosplit mode) -- split the `$_` into `@F` (space is the default separator, change it with `-F`, ex. `-F:`)
 
 See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 

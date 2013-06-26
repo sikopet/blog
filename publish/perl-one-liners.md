@@ -20,12 +20,14 @@ See [perlrun](http://perldoc.perl.org/perlrun.html) for more.
 ## Unix tools replacements
 
 `grep` replacement
+
 * Find lines containing regex
 
         perl -wnl -e '/<regex>/ and print;'
 
 `sed` replacement
-* edit and output to STDOUT
+
+* emit the transformed `passwd` file to STDOUT
 
         perl -pe 's#/bin/sh$#/bin/bash#' /etc/passwd
 * in-place editing with backups

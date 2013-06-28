@@ -14,3 +14,6 @@ Install (create) VM
                  --network bridge=br0 \
                  --vnc \
                  --prompt \
+                 
+* double check the first 5 parameters (`--name` to `--os-variant`)
+

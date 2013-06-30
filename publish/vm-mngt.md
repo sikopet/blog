@@ -1,7 +1,7 @@
 # Virtual Machines Management
 ###### linux
 
-* virt-manager -- GUI tool
+* [virt-manager](http://virt-manager.org/) -- GUI tool
 * virsh -- CLI tool
 
 ## virt-manger + libvirt + KVM

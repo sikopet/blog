@@ -1,7 +1,31 @@
 # RAID
 ###### linux
 
-## Simulating RAID failure
+RAID (Redundant Array of Independent/Inexpensive Drives/Disks) -- a technology allowing to use two or more "disks" with the aim of
+
+* read/write performance improvement (by striping data across multiple drives)
+* fault-tolerance improvement (by replicating data across multiple drives)
+
+RAID is __not__ a backup replacement!
+
+## Creating RAID 1 (mirror)
+
+Assemble the array
+
+    mdadm --create --verbose /dev/md0 --level=mirror --raid-devices=2 /dev/sda /dev/sdb
+    
+Check the results
+
+1. `cat /proc/mdstat`
+2. `mdadm --detail /dev/md0`
+
+## Creating RAID 5
+
+Assemble the array (using partitions instead of raw disks for consistency)
+
+    mdadm --create --verbose /dev/md0 --level=5 --raid-devices=3 /dev/sda1 /dev/sdb1 /dev/sdc1
+
+## Simulating RAID 10 failure
 
 Simulate a failed disk
 

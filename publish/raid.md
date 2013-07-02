@@ -23,7 +23,7 @@ Add the disk back
     
 Whatch the array rebuilding - `watch cat /proc/mdstats`
     
-    Every 2.0s: cat /proc/mdstat                                                                                                                              Tue Jul  2 09:55:13 2013
+    Every 2.0s: cat /proc/mdstat                                              Tue Jul  2 09:55:13 2013
 
     Personalities : [raid10]
     md0 : active raid10 sdc1[2] sda1[0] sdd1[3] sdb1[1]

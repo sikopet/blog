@@ -5,6 +5,7 @@
 *   [Starting a git repository](#starting)
 *   [Getting a git repository](#getting)
 *   [Making changes](#changes)
+*   [Exclude some files](#exclude)
 
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -98,7 +99,7 @@ which will automatically notice any modified (but not new) files, add them to th
 
 A note on commit messages: Though not required, it's a good idea to begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. Tools that turn commits into email, for example, use the first line on the `Subject:` line and the rest of the commit in the body.
 
-## Exclude some files
+<h2 id="exclude">Exclude some files</h2>
 
 To set certain files or patterns to be ignored by Git, you must either modify the `$GIT_DIR/info/exclude` file or create a file called `.gitignore` in your project’s root directory. The former is not shared between repositories (so you can set ignores for your specific environment), while the `.gitignore` is usually checked into Git and distributed along with everything else.
 

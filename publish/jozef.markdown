@@ -1,5 +1,12 @@
 ## I Done This
 
+2013-07
+
+* working on [rex](https://github.com/jreisinger/rex) and [monitor](https://github.com/jreisinger/monitor)
+* bought an [e-book](http://shop.oreilly.com/product/9781565926097.do)
+* moved several pages from my [old wiki](https://wiki.openhouse.sk/OHwiki) to the [new one](http://www.openhouse.sk/blog)
+* created [http-sh](https://github.com/jreisinger/http-sh) based on presentation held by mk (http://httpsh.budo.sk/)
+
 2013-06
 
 * wrote [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl) -- experiential learning :) 

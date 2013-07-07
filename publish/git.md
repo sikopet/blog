@@ -10,7 +10,7 @@
 
 Every Git clone is a full-fledged [in svk: ucelený, kompletný] repository with complete history and full revision tracking capabilities, not dependent on network access or a central server. Branching and merging are fast and easy to do.
 
-## First-Time Git Setup
+<h2 id="setup">First-Time Git Setup</h2>
 
 Introduce yourself to git with your name and public email address before doing any operation:
 

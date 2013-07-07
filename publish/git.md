@@ -1,7 +1,7 @@
 # Git
 ###### various
 
-*   [First-Time Git Setup](#First-Time Git Setup)
+*   [First-Time Git Setup](#setup)
 *   [Starting a git repository](#Starting a git repository)
 *   [Getting a git repository](#Getting a git repository)
 *   [Making changes](#Making changes)

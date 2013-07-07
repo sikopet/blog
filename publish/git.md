@@ -6,6 +6,7 @@
 *   [Getting a git repository](#getting)
 *   [Making changes](#changes)
 *   [Exclude some files](#exclude)
+*   [More](#more)
 
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -113,3 +114,9 @@ See more [here](http://github.com/guides/ignore-for-git).
 If some of your files is already beeing tracked by git, you can untrack it like this:
 
     git rm --cached <filename>
+
+<h2 id="more">More</h2>
+
+* [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
+* [O'Reilly Webcast: Git in One hour](http://www.youtube.com/watch?v=OFkgSjRnay4)
+* [Pro Git - Online book](http://progit.org/book/)

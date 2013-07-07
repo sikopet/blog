@@ -64,7 +64,7 @@ This will prompt you for a commit message. You've now stored the first version o
 
 <h2 id="changes">Making changes</h2>
 
-When dealing with git, it's best to work in small bits. Rule of thumb: **if you can't summarise it in a sentence, you've gone too long without committing**.
+When dealing with git, it's best to work in small bits. Rule of thumb: *if you can't summarise it in a sentence, you've gone too long without committing*.
 
 The typical working cycle is:
 
@@ -85,7 +85,7 @@ The typical working cycle is:
         
         $ git diff --cached
 
-    (Without `--cached`, `git-diff` will show you any changes that you've made but not yet added to the index.) If you need to make any further adjustments, do so now, and then add any newly modified content to the index. Finally, *commit* your changes with:
+    (Without `--cached`, `git-diff` will show you any changes that you've made but not yet added to the index.) If you need to make any further adjustments, do so now, and then add any newly modified content to the index. Finally, "commit" your changes with:
 
         $ git commit
 

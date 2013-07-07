@@ -69,7 +69,7 @@ The typical working cycle is:
 
 1. Work on your project.
 2. Check which files you have changed:
-3. 
+
         $ git status
         
 3. Check what the actual changes were:

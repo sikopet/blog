@@ -5,6 +5,11 @@
 *   [Starting a git repository](#Starting a git repository)
 *   [Getting a git repository](#Getting a git repository)
 *   [Making changes](#Making changes)
+
+*   [Overview](#overview)
+    *   [Philosophy](#philosophy)
+    *   [Inline HTML](#html)
+    *   [Automatic Escaping for Special Characters](#autoescape)
     
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 

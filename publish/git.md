@@ -61,7 +61,7 @@ This will prompt you for a commit message. You've now stored the first version o
     ## any server with ssh and git
     $ git clone ssh://[user@]server.xy/path/to/repo.git/
 
-## Making changes
+<h2 id="changes">Making changes</h2>
 
 When dealing with git, it's best to work in small bits. Rule of thumb: **if you can't summarise it in a sentence, you've gone too long without committing**.
 

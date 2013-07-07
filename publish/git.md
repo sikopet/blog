@@ -109,3 +109,7 @@ For example if you don't want to track dot-files, setup `.gitignore` like this:
     !/.gitignore
 
 See more [here](http://github.com/guides/ignore-for-git).
+
+If some of your files is already beeing tracked by git, you can untrack it like this:
+
+    git rm --cached <filename>

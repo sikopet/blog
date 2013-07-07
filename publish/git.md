@@ -2,8 +2,8 @@
 ###### various
 
 *   [First-Time Git Setup](#setup)
-*   [Starting a git repository](#Starting a git repository)
-*   [Getting a git repository](#Getting a git repository)
+*   [Starting a git repository](#starting)
+*   [Getting a git repository](#getting)
 *   [Making changes](#changes)
 
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
@@ -36,7 +36,7 @@ or
 
 To start using git, you can either create a new project or get one from the Internet and start working on it.
 
-## Starting a git repository
+<h2 id="starting">Starting a git repository</h2>
 
     $ mkdir project
     $ cd project
@@ -54,7 +54,7 @@ This snapshot is now stored in a *temporary staging area* which git calls the "i
 
 This will prompt you for a commit message. You've now stored the first version of your project in git.
 
-## Getting a git repository
+<h2 id="getting">Getting a git repository</h2>
 
     ## the Linux kernel (approx. 150MB download):
     $ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git

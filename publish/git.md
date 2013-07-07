@@ -1,10 +1,10 @@
 # Git
 ###### various
 
-*   [First-Time Git Setup](# First-Time Git Setup)
-*   [Starting a git repository](# Starting a git repository)
-*   [Getting a git repository](# Getting a git repository)
-*   [Making changes](# Making changes)
+*   [First-Time Git Setup](#First-Time Git Setup)
+*   [Starting a git repository](#Starting a git repository)
+*   [Getting a git repository](#Getting a git repository)
+*   [Making changes](#Making changes)
     
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 

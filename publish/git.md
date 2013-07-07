@@ -97,3 +97,14 @@ Alternatively, instead of running `git-add` beforehand, you can use
 which will automatically notice any modified (but not new) files, add them to the index, and commit, all in one step.
 
 A note on commit messages: Though not required, it's a good idea to begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. Tools that turn commits into email, for example, use the first line on the `Subject:` line and the rest of the commit in the body.
+
+## Exclude some files
+
+To set certain files or patterns to be ignored by Git, you must either modify the `$GIT_DIR/info/exclude` file or create a file called `.gitignore` in your project’s root directory. The former is not shared between repositories (so you can set ignores for your specific environment), while the `.gitignore` is usually checked into Git and distributed along with everything else.
+
+For example if you don't want to track dot-files, setup `.gitignore` like this:
+
+    .*
+    !/.gitignore
+
+See more [here](http://github.com/guides/ignore-for-git).

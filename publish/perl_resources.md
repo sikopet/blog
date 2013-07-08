@@ -2,6 +2,9 @@
 ###### perl
 
 * [Online Documentation](#online)
+* [Paper Books](#paper)
+* [System Documentation](#system)
+* [Relevance of Perl](#relevance)
 
 <h2 id="online">Online Documentation</h2>
 
@@ -27,7 +30,7 @@ Videos
 
 * [The Perl Renaissance](http://mirror.linux.org.au/linux.conf.au/2013/mp4/The_Perl_Renaissance.mp4) (2013) -- modern Perl features (like cpanm, perlbrew, Moose, Dancer, Task::Kensho) you should be using
 
-## Paper Books
+<h2 id="paper">Paper Books</h2>
 
 <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" id="Player_270c1583-561e-4abe-adba-d83e669b01e3"  WIDTH="600px" HEIGHT="200px"> <PARAM NAME="movie" VALUE="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#FFFFFF"><PARAM NAME="allowscriptaccess" VALUE="always"><embed src="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=GetDisplayTemplate" id="Player_270c1583-561e-4abe-adba-d83e669b01e3" quality="high" bgcolor="#ffffff" name="Player_270c1583-561e-4abe-adba-d83e669b01e3" allowscriptaccess="always"  type="application/x-shockwave-flash" align="middle" height="200px" width="600px"></embed></OBJECT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_cw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fopen057-20%2F8010%2F270c1583-561e-4abe-adba-d83e669b01e3&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
 
@@ -38,7 +41,7 @@ Videos
 * [Modern Perl](http://modernperlbooks.com/books/modern_perl/) -- modern Perl programming
 * [Books about and related to Perl](http://perldoc.perl.org/perlbook.html) (perldoc.perl.org)
 
-## System Documentation
+<h2 id="system">System Documentation</h2>
 
 Documentation you can access from your shell:
 
@@ -48,7 +51,7 @@ Documentation you can access from your shell:
 * `perldoc <Installed::Module::Name>`
 * `perlfind '\@'    ## App::perlfind`
 
-## Relevance of Perl
+<h2 id="relevance">Relevance of Perl</h2>
 
 ### Statistics
 

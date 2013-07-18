@@ -59,8 +59,10 @@ Ongoing
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
- * Tiobe gets it data from weird sources. Only idiots rely on that index. When you look out in the real world, it's far different picture. -- Randal L. [Schwarz](https://plus.google.com/105487854388646525021/posts/iLuWFCgABLF)
  * [Economics 101](http://blogs.perl.org/users/ovid/2013/01/economics-101.html)
+ * Tiobe gets it data from weird sources. Only idiots rely on that index. When you look out in the real world, it's far different picture. -- Randal L. [Schwarz](https://plus.google.com/105487854388646525021/posts/iLuWFCgABLF)
+ * http://blog.timbunce.org/2009/05/17/tiobe-index-is-being-gamed/
+
 
 One-time
 
@@ -102,6 +104,8 @@ Blogs etc.
 <td align="right"><a href="http://www.indeed.com/jobs?q=Perl">Perl jobs</a> - <a href="http://www.indeed.com/jobs?q=PHP">PHP jobs</a> - <a href="http://www.indeed.com/jobs?q=Python">Python jobs</a> - <a href="http://www.indeed.com/jobs?q=Ruby">Ruby jobs</a></td>
 </tr></table>
 </div>
+
+* <http://blog.timbunce.org/2008/02/12/comparative-language-job-trend-graphs/>
 
 ### (Some of the) Organizations Using Perl
 

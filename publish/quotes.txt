@@ -1,3 +1,5 @@
+when all else fails, read the error message -- TimToady (http://irclog.perlgeek.de/perl6/2013-07-21)
+
 Which is not to say that “true” and “false” aren’t useful concepts. I just tend to view them along the same lines as “infinity” or “the square root of negative one”—extremely useful abstractions that quite possibly don’t have any concrete representation in the physical world. -- Barefoot Coder (http://barefootcoder.blogspot.sk/2010/08/balance-and-paradox.html)
 
 You can either howl at the injustice of it all, or you can delight in the fact that a single well-handled trouble ticket scores as many brownie points as five hours of midnight debugging. You pick! -- Unix and Linux System Administration Handbook

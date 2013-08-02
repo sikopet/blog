@@ -1,5 +1,9 @@
 ## I Done This
 
+2013-08
+
+* some more [wiki](http://www.openhouse.sk/wiki) pages made pulic
+
 2013-07
 
 * working on [rex](https://github.com/jreisinger/rex) and [monitor](https://github.com/jreisinger/monitor)

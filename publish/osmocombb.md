@@ -3,12 +3,13 @@
 
 [OsmocomBB](http://bb.osmocom.org/trac/) (Open source mobile communications BaseBand) is an GSM Baseband software implementation. It intends to completely replace the need for a proprietary GSM baseband software. By using OsmocomBB on a compatible phone, you are able to make and receive phone calls, send and receive SMS, etc. based on Free Software. You can learn, hack and audit mobile networks with this tool.
 
+Follow notes on how I got OsmocomBB runnning on Mororola C118 ![Motorola C118](http://files.openhouse.sk/pics/motorola_c118.jpg "Motorola C118").
+
 ## Compile
- 1. http://bb.osmocom.org/trac/wiki/GettingStarted
+ 1. [get started](http://bb.osmocom.org/trac/wiki/GettingStarted)
  1. `cd ~/osmocom-bb/src/target/firmware/`
  1. uncomment `CFLAGS += -DCONFIG_TX_ENABLE` in `Makefile`
- 1. http://baseband-devel.722152.n3.nabble.com/I-wanna-make-sure-why-LOCATION-UPDATE-REQUEST-is-always-faild-td2655847.html
- 1. http://bb.osmocom.org/trac/wiki/SIMReader
+ 1. read [this](http://baseband-devel.722152.n3.nabble.com/I-wanna-make-sure-why-LOCATION-UPDATE-REQUEST-is-always-faild-td2655847.html) and [this](http://bb.osmocom.org/trac/wiki/SIMReader)
 
 ## Run
 load layer1 code into mobile phone RAM

@@ -59,10 +59,10 @@ Ongoing
 
 * [The Transparent Language Popularity Index](http://lang-index.sourceforge.net/)
 * [TIOBE Programming Comunity Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
+ * [Do your piece to fix TIOBE or stop talking about it](http://blogs.perl.org/users/mithaldu/2013/08/do-your-piece-to-fix-tiobe-or-stop-talking-about-it.html)
  * [Economics 101](http://blogs.perl.org/users/ovid/2013/01/economics-101.html)
  * Tiobe gets it data from weird sources. Only idiots rely on that index. When you look out in the real world, it's far different picture. -- Randal L. [Schwarz](https://plus.google.com/105487854388646525021/posts/iLuWFCgABLF)
  * http://blog.timbunce.org/2009/05/17/tiobe-index-is-being-gamed/
-
 
 One-time
 

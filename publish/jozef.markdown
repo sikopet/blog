@@ -1,8 +1,16 @@
 ## I Done This
 
+2013-09
+
+* started to work on my sysadmin [utility belt](https://github.com/jreisinger/perl5lib)
+* created [program](https://github.com/jreisinger/teacher) for teaching vocabulary
+* reviewed my [dot-files](https://github.com/jreisinger/dot-files) (removed e-mail, added `backup` function)
+
 2013-08
 
-* some more [wiki](http://www.openhouse.sk/wiki) pages made pulic
+* started to read ULSAH
+* reinventing [scripts](https://github.com/jreisinger/linux/tree/master/otter) from "The Otter Book"
+* some more [wiki](http://www.openhouse.sk/wiki) pages made public
 
 2013-07
 

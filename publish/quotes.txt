@@ -1,3 +1,7 @@
+It is very difficult to quantify and measure quality, ... However, like porn, we know quality when we see it. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)
+
+Red cars tend to be fast, but your car will not go faster if you paint it red. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)
+
 when all else fails, read the error message -- TimToady (http://irclog.perlgeek.de/perl6/2013-07-21)
 
 Which is not to say that “true” and “false” aren’t useful concepts. I just tend to view them along the same lines as “infinity” or “the square root of negative one”—extremely useful abstractions that quite possibly don’t have any concrete representation in the physical world. -- Barefoot Coder (http://barefootcoder.blogspot.sk/2010/08/balance-and-paradox.html)

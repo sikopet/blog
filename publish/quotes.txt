@@ -1,3 +1,5 @@
+That's also error-prone; eyes are not optimized for picking out small differences in the middle of large amounts of nearly identical text. -- Damian Conway (http://www.perl.com/pub/2005/07/14/bestpractices.html)
+
 It is very difficult to quantify and measure quality, ... However, like porn, we know quality when we see it. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)
 
 Red cars tend to be fast, but your car will not go faster if you paint it red. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)

@@ -14,6 +14,7 @@ Dictionaries
 
 Varia
 
+* [Ten Essential Development Practices](http://www.perl.com/pub/2005/07/14/bestpractices.html) by Damian Conway
 * [DevOps toolchain](http://dev2ops.squarespace.com/toolchain/)
 * [UNIX history](http://www.bell-labs.com/history/unix/)
 * [X Forwarding with Putty on Windows](http://www.math.umn.edu/systems_guide/putty_xwin32.html)

@@ -1,6 +1,14 @@
 ## Bookmarks/Links
 
-Virtual servers
+Sysadmin
+
+* [Know your System Administrator](http://www.gnu.org/fun/jokes/know.your.sysadmin.html) :-)
+* [So you want to be a systems administrator?](http://silverwraith.com/blog/2011/07/so-you-want-to-be-a-systems-administrator/)
+* [DevOps toolchain](http://dev2ops.squarespace.com/toolchain/)
+* [UNIX history](http://www.bell-labs.com/history/unix/)
+* [X Forwarding with Putty on Windows](http://www.math.umn.edu/systems_guide/putty_xwin32.html)
+
+Virtual servers online mngt.
 
 * [AWS Management Console](https://console.aws.amazon.com/console/home)
 * [Linode Login](https://manager.linode.com/)
@@ -15,6 +23,4 @@ Dictionaries
 Varia
 
 * [Ten Essential Development Practices](http://www.perl.com/pub/2005/07/14/bestpractices.html) by Damian Conway
-* [DevOps toolchain](http://dev2ops.squarespace.com/toolchain/)
-* [UNIX history](http://www.bell-labs.com/history/unix/)
-* [X Forwarding with Putty on Windows](http://www.math.umn.edu/systems_guide/putty_xwin32.html)
+

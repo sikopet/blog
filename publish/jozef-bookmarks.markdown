@@ -2,6 +2,7 @@
 
 Sysadmin
 
+* [Tobi Oetiker](http://tobi.oetiker.ch/) -- ULSAH contributor
 * [12 reasons why every SA should be lazy](http://www.thegeekstuff.com/2011/07/lazy-sysadmin/)
 * [Know your System Administrator](http://www.gnu.org/fun/jokes/know.your.sysadmin.html) :-)
 * [So you want to be a systems administrator?](http://silverwraith.com/blog/2011/07/so-you-want-to-be-a-systems-administrator/)

@@ -56,7 +56,7 @@ The primary Perl slogan is: "There's more than one way to do it." The secondary 
 
 But if Perl is everything it ought to be, it will naturally attract serious attention over the long term. If ecological niches are natural, and if nature abhors a vacuum, it follows that ecological niches abhor vacuums too. I expect to hear some great sucking sounds over the next ten or twenty years. -- Larry Wall in <a href="http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and">2002</a>
 
-It is an unfortunate fact that, human nature being what it is, an ounce of cheerleading often beats a puound of rational discussion. -- Larry <a href="http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and">Wall</a>
+It is an unfortunate fact that, human nature being what it is, an ounce of cheerleading often beats a pound of rational discussion. -- Larry <a href="http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and">Wall</a>
 
 It should be possible to explain the laws of physics to a barmaid. -- Albert Einstein
 

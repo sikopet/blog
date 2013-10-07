@@ -1,3 +1,5 @@
+Yes, I know I write perl code like a C programmer, that's not an insult to me. -- Greg Kroah-Hartman (http://kroah.com/log/blog/2013/09/11/xxd-i/)
+
 The only meaningful definition of a "generalist" is a specialist who can relate his own small area to the universe of knowledge. -- Peter Drucker (http://tomtunguz.com/the-myth-of-the-generalist)
 
 That's also error-prone; eyes are not optimized for picking out small differences in the middle of large amounts of nearly identical text. -- Damian Conway (http://www.perl.com/pub/2005/07/14/bestpractices.html)

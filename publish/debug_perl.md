@@ -70,3 +70,4 @@ To have the command line history, you need:
 ## More
 
 * [Basic debugging checklist](http://perlmonks.org/?node=Basic%20debugging%20checklist)
+* [Debugging Perl with hdb](http://perlmaven.com/debugging-perl-with-hdb)

@@ -1,3 +1,7 @@
+When my career in technology started, I was a system administrator. If you think programmers are lazy, you don't know many really good system administrators. My rule was "If I'm bored four days out of five, I've done my job well." A bad system administrator will ignore problems. A good system administrator will prevent problems, often through a combination of automation and monitoring. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)
+
+Laziness is a virtue in programmers, but like any virtue, it's easy to take it too far (or not far enough), in which it becomes a vice. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)
+
 Yes, I know I write perl code like a C programmer, that's not an insult to me. -- Greg Kroah-Hartman (http://kroah.com/log/blog/2013/09/11/xxd-i/)
 
 The only meaningful definition of a "generalist" is a specialist who can relate his own small area to the universe of knowledge. -- Peter Drucker (http://tomtunguz.com/the-myth-of-the-generalist)

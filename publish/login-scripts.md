@@ -1,7 +1,7 @@
 # Bash Login Scripts
-###### linux
+###### linux, shell
 
-See also [my dot-files](https://github.com/jreisinger/dot-files).
+See also [my dot-files](https://github.com/jreisinger/dot-files), [Prostredie shellu](http://wiki.openhouse.sk/Linux1/ShellSkriptovanie/02ProstredieShellu).
 
 When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create
@@ -26,6 +26,6 @@ command aliases, run programs.
 </table>
 
  * login shell -- a shell started by the `login` program or a remote login server such as SSH
- * non-login shell -- ex. inside an X-based terminal
+ * non-login shell -- not started by the `login` (ex. shell inside an X-based terminal)
  
 Creating a symlink between `~/.bashrc` and `~/.bash_profile` will ensure that the same startup scripts run for both login and non-login sessions. Debian's `~/.profile` sources `~/.bashrc`, which has the same effect.

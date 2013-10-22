@@ -2,6 +2,7 @@
 
 Sysadmin
 
+* [Perl & cron](http://perltricks.com/article/43/2013/10/11/How-to-schedule-Perl-scripts-using-cron)
 * [12 reasons why every SA should be lazy](http://www.thegeekstuff.com/2011/07/lazy-sysadmin/)
 * [Know your System Administrator](http://www.gnu.org/fun/jokes/know.your.sysadmin.html) :-)
 * [So you want to be a systems administrator?](http://silverwraith.com/blog/2011/07/so-you-want-to-be-a-systems-administrator/)

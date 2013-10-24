@@ -1,3 +1,5 @@
+and so far they seem like a great bunch of folks. the sort of folk who just like to quietly do good in the world :) -- TimToady a.k.a. Larry Wall (http://irclog.perlgeek.de/perl6/2013-10-17#i_7723873)
+
 When my career in technology started, I was a system administrator. If you think programmers are lazy, you don't know many really good system administrators. My rule was "If I'm bored four days out of five, I've done my job well." A bad system administrator will ignore problems. A good system administrator will prevent problems, often through a combination of automation and monitoring. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)
 
 Laziness is a virtue in programmers, but like any virtue, it's easy to take it too far (or not far enough), in which it becomes a vice. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)

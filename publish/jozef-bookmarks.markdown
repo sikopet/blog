@@ -2,6 +2,7 @@
 
 Sysadmin
 
+* [Rosetta Stone for Unix](http://bhami.com/rosetta.html)
 * [Perl & cron](http://perltricks.com/article/43/2013/10/11/How-to-schedule-Perl-scripts-using-cron)
 * [12 reasons why every SA should be lazy](http://www.thegeekstuff.com/2011/07/lazy-sysadmin/)
 * [Know your System Administrator](http://www.gnu.org/fun/jokes/know.your.sysadmin.html) :-)

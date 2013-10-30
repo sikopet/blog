@@ -1,56 +1,56 @@
 The notion of "play" and "work" are best described as a quantum superposition blur for a sysadmin... -- David N. Blank-Edelman
 
-and so far they seem like a great bunch of folks. the sort of folk who just like to quietly do good in the world :) -- TimToady a.k.a. Larry Wall (http://irclog.perlgeek.de/perl6/2013-10-17#i_7723873)
+and so far they seem like a great bunch of folks. the sort of folk who just like to quietly do good in the world :) -- <a href="http://irclog.perlgeek.de/perl6/2013-10-17#i_7723873">TimToady a.k.a. Larry Wall</a>
 
-When my career in technology started, I was a system administrator. If you think programmers are lazy, you don't know many really good system administrators. My rule was "If I'm bored four days out of five, I've done my job well." A bad system administrator will ignore problems. A good system administrator will prevent problems, often through a combination of automation and monitoring. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)
+When my career in technology started, I was a system administrator. If you think programmers are lazy, you don't know many really good system administrators. My rule was "If I'm bored four days out of five, I've done my job well." A bad system administrator will ignore problems. A good system administrator will prevent problems, often through a combination of automation and monitoring. -- <a href="http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html">chromatic</a>
 
-Laziness is a virtue in programmers, but like any virtue, it's easy to take it too far (or not far enough), in which it becomes a vice. -- chromatic (http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html)
+Laziness is a virtue in programmers, but like any virtue, it's easy to take it too far (or not far enough), in which it becomes a vice. -- <a href="http://www.modernperlbooks.com/mt/2013/10/automation-paralysis-and-false-laziness.html">chromatic</a>
 
-Yes, I know I write perl code like a C programmer, that's not an insult to me. -- Greg Kroah-Hartman (http://kroah.com/log/blog/2013/09/11/xxd-i/)
+Yes, I know I write perl code like a C programmer, that's not an insult to me. -- <a href="http://kroah.com/log/blog/2013/09/11/xxd-i/">Greg Kroah-Hartman</a>
 
-The only meaningful definition of a "generalist" is a specialist who can relate his own small area to the universe of knowledge. -- Peter Drucker (http://tomtunguz.com/the-myth-of-the-generalist)
+The only meaningful definition of a "generalist" is a specialist who can relate his own small area to the universe of knowledge. -- <a href="http://tomtunguz.com/the-myth-of-the-generalist">Peter Drucker</a>
 
-That's also error-prone; eyes are not optimized for picking out small differences in the middle of large amounts of nearly identical text. -- Damian Conway (http://www.perl.com/pub/2005/07/14/bestpractices.html)
+That's also error-prone; eyes are not optimized for picking out small differences in the middle of large amounts of nearly identical text. -- <a href="http://www.perl.com/pub/2005/07/14/bestpractices.html">Damian Conway</a>
 
-It is very difficult to quantify and measure quality, ... However, like porn, we know quality when we see it. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)
+It is very difficult to quantify and measure quality, ... However, like porn, we know quality when we see it. -- <a href="http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee">Kwalitee wiki</a>
 
-Red cars tend to be fast, but your car will not go faster if you paint it red. -- Kwalitee wiki (http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee)
+Red cars tend to be fast, but your car will not go faster if you paint it red. -- <a href="http://perl-qa.hexten.net/wiki/index.php?title=Kwalitee">Kwalitee wiki</a>
 
-when all else fails, read the error message -- TimToady (http://irclog.perlgeek.de/perl6/2013-07-21)
+when all else fails, read the error message -- <a href="http://irclog.perlgeek.de/perl6/2013-07-21">TimToady</a>
 
-Which is not to say that “true” and “false” aren’t useful concepts. I just tend to view them along the same lines as “infinity” or “the square root of negative one”—extremely useful abstractions that quite possibly don’t have any concrete representation in the physical world. -- Barefoot Coder (http://barefootcoder.blogspot.sk/2010/08/balance-and-paradox.html)
+Which is not to say that “true” and “false” aren’t useful concepts. I just tend to view them along the same lines as “infinity” or “the square root of negative one”—extremely useful abstractions that quite possibly don’t have any concrete representation in the physical world. -- <a href="http://barefootcoder.blogspot.sk/2010/08/balance-and-paradox.html">Barefoot Coder</a>
 
 You can either howl at the injustice of it all, or you can delight in the fact that a single well-handled trouble ticket scores as many brownie points as five hours of midnight debugging. You pick! -- Unix and Linux System Administration Handbook
 
-A university exists to teach a student how to teach themselves, to sift through data and find information, and to separate the proprable from the improbable. -- maddog (http://www.lpi.org/blog/free-software-small-country-part-two-training)
+A university exists to teach a student how to teach themselves, to sift through data and find information, and to separate the proprable from the improbable. -- <a href="http://www.lpi.org/blog/free-software-small-country-part-two-training">maddog</a>
 
-I remember a family friend telling me when I was a kid that computers are going to be the future and that there will be a lot of jobs in this field. I also remember that the idea of sitting all day, alone, in front of a minitel-like computer scared the hell out of me. -- Matt Aimonetti (http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/)
+I remember a family friend telling me when I was a kid that computers are going to be the future and that there will be a lot of jobs in this field. I also remember that the idea of sitting all day, alone, in front of a minitel-like computer scared the hell out of me. -- <a href="http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/">Matt Aimonetti</a>
 
-For that you need some sort of metrics helping you to see if you are getting closer or farther from the direction you set for yourself. -- Matt Aimonetti (http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/)
+For that you need some sort of metrics helping you to see if you are getting closer or farther from the direction you set for yourself. -- <a href="http://matt.aimonetti.net/posts/2012/11/14/engineers-suck-at-finding-right-jobs/">Matt Aimonetti</a>
 
-Do not jump into management too quickly. Spend a long time learning the technology. -- Ed Amoroso (http://itc.conversationsnetwork.org/shows/detail965.html)
+Do not jump into management too quickly. Spend a long time learning the technology. -- <a href="http://itc.conversationsnetwork.org/shows/detail965.html">Ed Amoroso</a>
 
-Perl is just a language and you can get almost anything done with it, but the more valuable thing is knowledge about the problem you're trying to solve. -- brian d foy (http://www.learning-perl.com/2013/05/advice-to-a-new-perl-user/)
+Perl is just a language and you can get almost anything done with it, but the more valuable thing is knowledge about the problem you're trying to solve. -- <a href="http://www.learning-perl.com/2013/05/advice-to-a-new-perl-user/">brian d foy</a>
 
-Byl to velmi zvláštní člověk. Komunistický režim jej po sovětském vzoru prohlásil za psychicky nemocného (diagnóza paranoia kverulans), protože režimní psychiatři i režim sám uvažoval logicky: každý, kdo se bouří proti neporazitelnému systému s vědomím, že nemá šanci, musí být přece blázen. -- Martin M. Šimečka (http://respekt.ihned.cz/ost-blog/c1-59565650-na-okraj-jednoho-vyroci)
+Byl to velmi zvláštní člověk. Komunistický režim jej po sovětském vzoru prohlásil za psychicky nemocného (diagnóza paranoia kverulans), protože režimní psychiatři i režim sám uvažoval logicky: každý, kdo se bouří proti neporazitelnému systému s vědomím, že nemá šanci, musí být přece blázen. -- <a href="http://respekt.ihned.cz/ost-blog/c1-59565650-na-okraj-jednoho-vyroci">Martin M. Šimečka</a>
 
-Use what you find comfortable, and hopefully try out new things once in a while. -- Sawyer X (http://blogs.perl.org/users/sawyer_x/2013/05/interview-with-pragmatic-perl-in-english.html)
+Use what you find comfortable, and hopefully try out new things once in a while. -- <a href="http://blogs.perl.org/users/sawyer_x/2013/05/interview-with-pragmatic-perl-in-english.html">Sawyer X</a>
 
-Do you have an actual use case for these? Or are you just imagining things that might possibly potentially be cool in the future maybe? -- petdance (http://perlmonks.org/?node_id=1030905)
+Do you have an actual use case for these? Or are you just imagining things that might possibly potentially be cool in the future maybe? -- <a href="http://perlmonks.org/?node_id=1030905">petdance</a>
 
 I the HN [Hacker News] echo chamber, it seems like everyone who's anyone has moved on to ruby, rails, python, django, etc. Look into the every-web. My god, it's full of perl. -- noonespecial (https://news.ycombinator.com/item?id=4461427)
 
-Also sword is not sharpened on the thick side. Go find and sharpen your strenghts and learn to accept your weaknesses. Both are essential parts of you. -- Johnnie Thinker (http://www.johnnie-thinker.com/)
+Also sword is not sharpened on the thick side. Go find and sharpen your strenghts and learn to accept your weaknesses. Both are essential parts of you. -- <a href="http://www.johnnie-thinker.com/">Johnnie Thinker</a>
 
 What did The Hustle™ accomplish? I gained weight. I wasn’t spending enough time with my (now) wife. I felt like shit. I began to resent my work, and the work I was producing clearly wasn’t my best. I started cutting corners. I went from a mindset of shipping with quality and integrity to “when is this going to be over?” -- Kyle Bragger (https://medium.com/i-m-h-o/ef4772e3c628)
 
-Just what exactly is the problem you're looking to solve here? What are the metrics to support that? Whom are you looking to convince? How will the solution be rolled out? Who's going to do the work? What's it going to cost? How will you know when the work is done? How will you know whether it's working? -- VM Brasseur (http://anonymoushash.vmbrasseur.com/2013/02/28/rename-perl-5-marketing-ur-doin-it-wrong/)
+Just what exactly is the problem you're looking to solve here? What are the metrics to support that? Whom are you looking to convince? How will the solution be rolled out? Who's going to do the work? What's it going to cost? How will you know when the work is done? How will you know whether it's working? -- <a href="http://anonymoushash.vmbrasseur.com/2013/02/28/rename-perl-5-marketing-ur-doin-it-wrong/">VM Brasseur</a>
 
-If you're making a mess, stop. Take a deep breath. Then solve a small piece of the problem in an elegant way. Make sure you understand it. Then solve another small piece. Make both pieces work together elgantly. Make sure you understand that. Repeat until you have solved the problem. -- chromatic (http://www.modernperlbooks.com/mt/2013/04/how-to-identify-clunky-perl-5-code.html)
+If you're making a mess, stop. Take a deep breath. Then solve a small piece of the problem in an elegant way. Make sure you understand it. Then solve another small piece. Make both pieces work together elgantly. Make sure you understand that. Repeat until you have solved the problem. -- <a href="http://www.modernperlbooks.com/mt/2013/04/how-to-identify-clunky-perl-5-code.html">chromatic</a>
 
-The greatness is measured by how much freedom you give to others, not by how much you can coerce others to do that you want. -- Larry Wall (http://www.wall.org/~larry/pm.html) 
+The greatness is measured by how much freedom you give to others, not by how much you can coerce others to do that you want. -- <a href="http://www.wall.org/~larry/pm.html">Larry Wall</a> 
 
-The very fact that it's possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to write extremely clean, concise, and beautiful programs. The potential for greater good goes right along with the potential for greater evil. -- Larry Wall (http://www.wall.org/~larry/pm.html)
+The very fact that it's possible to write messy programs in Perl is also what makes it possible to write programs that are cleaner in Perl than they could ever be in a language that attempts to write extremely clean, concise, and beautiful programs. The potential for greater good goes right along with the potential for greater evil. -- <a href="http://www.wall.org/~larry/pm.html">Larry Wall</a>
 
 Time flies like an arrow. Fruit flies like a banana. -- <a href="http://perlmonks.org/?node_id=396320">punch_card_don</a>
 
@@ -72,7 +72,7 @@ It should be possible to explain the laws of physics to a barmaid. -- Albert Ein
 
 You learn a natural language once and use it many times. The lesson for a language designer is that a language should be optimized for expressive power [breadth of ideas that can be represented and communicated] rather than for ease of learning. .. It's okay if a language is difficult to learn, as long as you don't have to learn it all at once. -- Larry Wall: <a href="http://www.wall.org/~larry/natural.html">Natural Language Principles in Perl</a>
 
-It can do everything I want to do, and I already know it. If I wasn't a Perl programmer, I'd probably be happy in Ruby or Python. But so long as there's Perl, I see no reason to become as familiar with those languages as I am with Perl. -- Nathan Torkington (http://www.perl.com/pub/2001/07/03/nat.html)
+It can do everything I want to do, and I already know it. If I wasn't a Perl programmer, I'd probably be happy in Ruby or Python. But so long as there's Perl, I see no reason to become as familiar with those languages as I am with Perl. -- <a href="http://www.perl.com/pub/2001/07/03/nat.html">Nathan Torkington</a>
 
 Keď je nebezpečenstvo veľké, človek nesmie utekať. Odstúpiť sa dá v kľudnej chvíli, alebo keď už proste nemôžete ďalej. -- Joseph Ratzinger
 

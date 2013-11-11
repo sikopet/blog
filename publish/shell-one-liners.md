@@ -5,6 +5,10 @@ See also <http://www.commandlinefu.com>.
 
 ## Various
 
+* count number of cores
+
+        for n in `grep 'cpu cores' /proc/cpuinfo | cut -d: -f2 | sed 's/ //'`; do t=$(($t+$n)); done; echo $t
+
 * compute strings' SHA1 message digests
 
         $ for name in "jano" "fero" "daniel"; do echo -n $name | sha1sum; done

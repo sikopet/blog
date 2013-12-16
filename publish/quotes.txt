@@ -1,3 +1,7 @@
+If you're not learning something new, you're falling behind the competition. -- Andy Lester
+
+Consider yourself as working for You And Your Family, Inc., and you are a contractor to whomever your current employer is. -- Andy Lester
+
 The notion of "play" and "work" are best described as a quantum superposition blur for a sysadmin... -- David N. Blank-Edelman
 
 and so far they seem like a great bunch of folks. the sort of folk who just like to quietly do good in the world :) -- <a href="http://irclog.perlgeek.de/perl6/2013-10-17#i_7723873">TimToady a.k.a. Larry Wall</a>

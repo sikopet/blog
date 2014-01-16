@@ -1,3 +1,5 @@
+Today's kids have too much technology, so they think a simple FTP archive is stupid. They try to build overly-complex systems which they then lose interest in. -- brian d foy (http://www.perlmonks.org/?node_id=674742)
+
 If you dance with the devil, the devil don't change. The devil changes you. -- Max California
 
 If you're not learning something new, you're falling behind the competition. -- Andy Lester

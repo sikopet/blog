@@ -1,19 +1,15 @@
-# Virtual Machines Management
-###### linux
+# KVM Virtual Machines Management
 
-* [virt-manager](http://virt-manager.org/) -- GUI tool
-* virsh -- CLI tool
+Virtualization seems to be really useful and I've seen it being used in all companies I've worked so far. I've spent more or less time working with WMWare and Xen but recently I've been working mainly with KVM. The management tools I've used are <a href="http://virt-manager.org/">virt-manager</a> (GUI) and <code>virsh</code> (command line). Here are the basic commands for managing virtual machines (VMs) under KVM.
 
-## virt-manger + libvirt + KVM
+<h2>virt-manager</h2>
 
-    virt-manager
+This tool is fairly self-explanatory. The only thing I'll mention is how to get it running from a Windows machine via putty (see <a href="http://www.math.umn.edu/systems_guide/putty_xwin32.html">here</a> for more details):
 
-* if runing from Windows [via putty](http://www.math.umn.edu/systems_guide/putty_xwin32.html):
  1. Install and start Xming (Xming Server:0.0) - you don't need to be admin
- 1. Setup putty: "Enable X11 forwarding", "X display location: localhost:0"
+ 1. Setup putty: "Enable X11 forwarding" => "X display location: localhost:0"
 
-
-## virsh + libvirt + KVM
+## virsh
 
 List VMs
 

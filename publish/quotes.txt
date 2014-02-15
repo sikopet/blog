@@ -1,3 +1,7 @@
+Perl’s syntax rules make dereferencing complex expressions tricky—it falls into the category of “hard things that should be possible.” -- Alpaca Book
+
+All of these tasks can be improved with better tools. Good tools are a stepping stone to automation. -- Limoncelli
+
 Today's kids have too much technology, so they think a simple FTP archive is stupid. They try to build overly-complex systems which they then lose interest in. -- brian d foy (http://www.perlmonks.org/?node_id=674742)
 
 If you dance with the devil, the devil don't change. The devil changes you. -- Max California

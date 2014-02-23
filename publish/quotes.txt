@@ -1,3 +1,5 @@
+My career advice is to only do projects that produce usable output every few weeks or months. Being on a project that will not show any results for a year or more is a good way to hide from management. Being invisible is a career killer. -- Limoncelli
+
 Perl’s syntax rules make dereferencing complex expressions tricky—it falls into the category of “hard things that should be possible.” -- Alpaca Book
 
 All of these tasks can be improved with better tools. Good tools are a stepping stone to automation. -- Limoncelli

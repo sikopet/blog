@@ -1,3 +1,5 @@
+Be a carpenter, not a hammer operator. -- abw (http://www.reddit.com/r/perl/comments/1ykvr8/the_midcareer_crisis_of_the_perl_programmer/cflrs5n)
+
 My career advice is to only do projects that produce usable output every few weeks or months. Being on a project that will not show any results for a year or more is a good way to hide from management. Being invisible is a career killer. -- Limoncelli
 
 Perl’s syntax rules make dereferencing complex expressions tricky—it falls into the category of “hard things that should be possible.” -- Alpaca Book

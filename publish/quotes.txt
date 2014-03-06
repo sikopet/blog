@@ -1,3 +1,7 @@
+The more that we can show our appreciation, the better we'll feel, the nicer we'll be to each other and the more we'll be able to do together. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)
+
+There is not such thing as best practice unless you specify the context. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)
+
 Be a carpenter, not a hammer operator. -- abw (http://www.reddit.com/r/perl/comments/1ykvr8/the_midcareer_crisis_of_the_perl_programmer/cflrs5n)
 
 My career advice is to only do projects that produce usable output every few weeks or months. Being on a project that will not show any results for a year or more is a good way to hide from management. Being invisible is a career killer. -- Limoncelli

@@ -1,3 +1,5 @@
+The basic purpose of a filesystem is to represent and organize the system's storage resources. -- ULSAH, 4th
+
 The more that we can show our appreciation, the better we'll feel, the nicer we'll be to each other and the more we'll be able to do together. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)
 
 There is not such thing as best practice unless you specify the context. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)

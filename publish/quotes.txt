@@ -1,3 +1,5 @@
+The distinguishing characteristic of commands in /sbin is usually that they're linked with "static" versions of the system libraries and therefore don't have many dependencies on other parts of the system. -- ULSAH, 4th
+
 The basic purpose of a filesystem is to represent and organize the system's storage resources. -- ULSAH, 4th
 
 The more that we can show our appreciation, the better we'll feel, the nicer we'll be to each other and the more we'll be able to do together. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)

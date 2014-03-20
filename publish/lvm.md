@@ -1,11 +1,10 @@
 # Logical Volume Manager (LVM)
-###### linux
 
-LVM -- implementation of [logical volume management](https://en.wikipedia.org/wiki/Logical_volume_management) in Linux
+LVM is the implementation of [logical volume management](https://en.wikipedia.org/wiki/Logical_volume_management) in Linux. As I don't use it on a day-to-day basis, I created this blog in case I forgot the basics :-).
 
 ## Terminology
 
-           hda1   sdc       (PVs on partitions or whole disks)
+           sda1   sdc       (PVs on partitions or whole disks)
               \   /
                \ /
               diskvg        (VG)
@@ -13,62 +12,55 @@ LVM -- implementation of [logical volume management](https://en.wikipedia.org/wi
              /   |   \
          usrlv rootlv varlv (LVs)
            |      |     |
-        ext2  reiserfs  xfs (filesystems)
+        ext4  reiserfs  xfs (filesystems)
 
 
-* Physical volume (PV) -- partition (ex. `/dev/hda1`), disc (ex. `/dev/sdc`) or RAID device (ex. `/dev/md0`)
+* Physical volume (PV) -- partition (ex. `/dev/sda1`), disk (ex. `/dev/sdc`) or RAID device (ex. `/dev/md0`)
 * Volume group (VG) -- group of physical volumes (ex. `diskvg`)
-* Logical volume (LV) -- equivalent of standard partitions, where filesystems can be created (ex. `/usr`)
+* Logical volume (LV) -- equivalent of standard partitions, where filesystems can be created (ex. `/usrlv`)
 
 ## Working with LVM
 
 Creating Volumes
 
-1. Creating PV (initialize disk)
+1. Create PV (initialize disk)
 
-        # pvcreate /dev/md0
-        Physical volume "/dev/md0" successfully created
+        pvcreate /dev/md0
 
     Check the results with `pvdisplay`
 
-1. Creating VG
+1. Create VG
 
-        # vgcreate raid1vg /dev/md0
-        Volume group "raid1vg" successfully created
+        vgcreate raid1vg /dev/md0
 
     Check the results with `vgdisplay`
 
-1. Creating LV
+1. Create LV
 
-        # lvcreate --name backuplv --size 50G raid1vg
-        Logical volume "backuplv" created
+        lvcreate --name backuplv --size 50G raid1vg
 
     Check the results with `lvdisplay`
 
 1. Create filesystem
 
-        # mkfs.ext3 /dev/raid1vg/backuplv
+        mkfs.ext3 /dev/raid1vg/backuplv
 
-    Edit `/etc/fstab`
+1. Edit `/etc/fstab`
 
         # RAID 1 + LVM
-        /dev/raid1vg/backuplv   /mnt/raid/backup        ext3    rw,noatime      0       0
+        /dev/raid1vg/backuplv   /backup        ext3    rw,noatime      0       0
 
-    Create mount points and mount volumes
+1. Create mount point and mount volume(s)
 
-        # mkdir -p /mnt/raid/backup
-        # mount -a
+        mkdir -p /backup
+        mount -a
 
 Extending LV
 
-    # lvextend -L +5G /dev/raid1vg/varlv
-    Extending logical volume varlv to 10,00 GB
-    Logical volume varlv successfully resized
+1. Extend the LV
     
-    # resize2fs /dev/raid1vg/varlv
-    resize2fs 1.41.0 (10-Jul-2008)
-    Filesystem at /dev/raid1vg/varlv is mounted on /mnt/raid/var; on-line resizing required
-    old desc_blocks = 1, new_desc_blocks = 1
-    Performing an on-line resize of /dev/raid1vg/varlv to 2621440 (4k) blocks.
-    The filesystem on /dev/raid1vg/varlv is now 2621440 blocks long.
-
+        lvextend -L +5G /dev/raid1vg/backuplv
+    
+1. Re-size the filesystem (online re-sizing doesn't seem to cause troubles)
+    
+        resize2fs /dev/raid1vg/backuplv

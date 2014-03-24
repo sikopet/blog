@@ -16,21 +16,21 @@ OSI layering benefits
 
            OSI              TCP/IP             TCP/IP             Sample
                             original           updated            protocol
-      +------------+     +------------+     +------------+     +--------------+
-    7 |Application |     |            |     |            |     |Telnet HTTP   |
-      |------------+     |            |     |            |     |FTP SMTP      |
-    6 |Presentation|     |Application | 5-7 |Application |     |POP3 VoIP     |
-      |------------+     |            |     |            |     |SNMP          |
-    5 |Session     |     |            |     |            |     |              |
-      |------------+- - -+------------+- - -+------------+- - -+--------------+
-    4 |Transport   |     |Transport   |  4  |Transport   |     |TCP UDP       |
-      |------------+- - -+------------+- - -+------------+- - -+--------------+
-    3 |Network     |     |Internetwork|  3  |Internetwork|     |IP            |
-      |------------+- - -+------------+- - -+------------+- - -+--------------+
-    2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP  |
-      |------------+     |            |- - -|------------|- - -|--------------|
-    1 |Physical    |     |access      |  1  |Physical    |     |RJ-45 Eth V.35|
-      +------------+     +------------+     +------------+     +--------------+
+      +------------+     +------------+     +------------+     +----------------+
+    7 |Application |     |            |     |            |     |Telnet HTTP     |
+      |------------+     |            |     |            |     |FTP SMTP        |
+    6 |Presentation|     |Application | 5-7 |Application |     |POP3 VoIP       |
+      |------------+     |            |     |            |     |SNMP DNS Halo 3 |
+    5 |Session     |     |            |     |            |     |arp traceroute  |
+      |------------+- - -+------------+- - -+------------+- - -+----------------+
+    4 |Transport   |     |Transport   |  4  |Transport   |     |TCP UDP         |
+      |------------+- - -+------------+- - -+------------+- - -+----------------+
+    3 |Network     |     |Internetwork|  3  |Internetwork|     |IP ICMP         |
+      |------------+- - -+------------+- - -+------------+- - -+----------------+
+    2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP ARP|
+      |------------+     |            |- - -|------------|- - -|----------------|
+    1 |Physical    |     |access      |  1  |Physical    |     |RJ-45 Eth V.35  |
+      +------------+     +------------+     +------------+     +----------------+
 
  * Please Do Not Throw Sausage Pizza Away
  * Same-layer interaction -- the protocol defined by each layer uses a header data to communicate what each computer wants to do

@@ -1,5 +1,4 @@
 # Git
-###### various
 
 *   [First-Time Git Setup](#setup)
 *   [Starting a git repository](#starting)
@@ -17,7 +16,7 @@ Every Git clone is a full-fledged [in svk: ucelený, kompletný] repository with
 Introduce yourself to git with your name and public email address before doing any operation:
 
     git config --global user.name "Jeffrey Lebowski"
-    git config --global user.email "jeffrey.lebowski@dude.com"
+    git config --global user.email "jlebowski@dude.org"
 
 Other useful things is to add some colors, alias(es), your editor and diff tool:
 
@@ -30,7 +29,7 @@ You only need to do this *once*.
 
 You can see your configuration like this:
 
-    $ git config --list # output depends on whether you're in a git repo directory or not
+    $ git config --list    # output depends on whether you're in a git repo directory or not
 
 or
 
@@ -48,11 +47,11 @@ You've now initialized the working directory -- you may notice a new directory c
 
 Next, tell git to take a snapshot [in svk: momentka] of the contents of all files under the current directory (note the `.`), with git-add:
 
-    $ git add .   # temporary storage (index)
+    $ git add .     # temporary storage (index)
 
 This snapshot is now stored in a *temporary staging area* which git calls the "index". You can permanently store the contents of the index in the repository with git-commit:
 
-    $ git commit  # permanent storage
+    $ git commit    # permanent storage
 
 This will prompt you for a commit message. You've now stored the first version of your project in git.
 
@@ -120,3 +119,4 @@ If some of your files is already beeing tracked by git, you can untrack it like 
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 * [O'Reilly Webcast: Git in One hour](http://www.youtube.com/watch?v=OFkgSjRnay4)
 * [Pro Git - Online book](http://progit.org/book/)
+* [My blog post derived from this text](http://jreisinger.blogspot.sk/2014/01/simple-source-code-management-with-git.html)

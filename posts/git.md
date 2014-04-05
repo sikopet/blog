@@ -116,7 +116,8 @@ If some of your files is already beeing tracked by git, you can untrack it like 
 
 <h2 id="more">More</h2>
 
+* See OHwiki for more
+* [My blog post derived from this text](http://jreisinger.blogspot.sk/2014/01/simple-source-code-management-with-git.html)
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 * [O'Reilly Webcast: Git in One hour](http://www.youtube.com/watch?v=OFkgSjRnay4)
 * [Pro Git - Online book](http://progit.org/book/)
-* [My blog post derived from this text](http://jreisinger.blogspot.sk/2014/01/simple-source-code-management-with-git.html)

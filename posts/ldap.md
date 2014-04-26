@@ -1,4 +1,4 @@
-Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/ldap.md) of this post.
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/ldap.md) of this post.)
 
 ## Concepts and terms
 

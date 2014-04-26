@@ -250,3 +250,4 @@ Use GUI tools like [ADExplorer](http://technet.microsoft.com/en-us/sysinternals/
 * [Querying LDAP from Perl](https://github.com/jreisinger/audit/blob/master/orsr/lib/My/Ldap.pm)
 * Perl Cookbook: 18.8 Accessing an LDAP Server (p. 738)
 * The Otter Book: Ch. 9 Directory Services (p. 313)
+* ULSAH: 19.3 LDAP (p. 728)

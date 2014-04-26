@@ -69,6 +69,7 @@ To have the command line history, you need:
 
 ## More
 
+* [Blog post](http://jreisinger.blogspot.sk/2013/12/debugging-perl-scripts.html) based on this text.
 * [LEARNING THE PERL DEBUGGER](http://techblog.net-a-porter.com/2014/03/learning-the-perl-debugger-introduction/) -- an interactive tutorial on GitHub
 * [Basic debugging checklist](http://perlmonks.org/?node=Basic%20debugging%20checklist)
 * [Debugging Perl with hdb](http://perlmaven.com/debugging-perl-with-hdb)

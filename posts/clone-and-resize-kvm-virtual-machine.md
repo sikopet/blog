@@ -3,9 +3,9 @@
 I needed to upgrade (from Squeeze to Wheezy) some important virtual servers. As
 I wanted a minimal impact of the upgrade, I chose this procedure:
 
-1) Create identical copy of the server to upgrade
-2) Upgrade the copy
-3) Upgrade the server if everything worked ok with the copy
+1. Create identical copy of the server to upgrade
+2. Upgrade the copy
+3. Upgrade the server if everything worked ok with the copy
 
 The servers to upgrade were virtual machines (VMs) running on KVM. I also
 discovered that some servers needed more space because their disks had filled

@@ -30,6 +30,7 @@ inconsistencies a running machine could create.
     /etc/hosts
     
 4) Change back the VLAN and shutdown the cloned VM
+
 5) Increase the disk size
 
     # convert the qcow image to a plain raw file
@@ -43,6 +44,7 @@ inconsistencies a running machine could create.
     
 6) Boot the cloned VM and using cfdisk delete the old small partition and
 create a new one with the free space
+
 7) Increase the filesystem using:
 
     e2fsck -f

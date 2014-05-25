@@ -1,3 +1,5 @@
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/traceroute-explained.md) of this post.)
+
 `traceroute` shows the route the packets have to take to get to a destination host. For example:
 
     $ traceroute sdf.lonestar.org
@@ -18,4 +20,4 @@ It displays the sequence of gateways (showing the name and the IP address) throu
 
 `traceroute` works by sending three packets to each gateway on its route. These packets have artificially low TTL field (actually "hop count to live") set. The first three packets have TTL of 1. When they reach the gateway their TTL is descreased and when it reaches 0 the gateway discards the packet and sends back an ICMP "time exceeded" message. The originating hosts exctracts the gateway's IP address from the header of the error packet and resolves it to a name by using the DNS. This process repeats until the destination is reached or the gateway number limit (30) is exceeded.
 
-![traceroute in Wireshark](https://raw.github.com/jreisinger/blog/master/files/wireshark-traceroute.png)
+![traceroute in Wireshark](https://raw.github.com/jreisinger/blog/master/files/wireshark-traceroute.png "traceroute in Wireshark")

@@ -7,7 +7,7 @@
 Transport protocols
 
 * v3 - choice of UDP or TCP
-* v4 - only TCP
+* v4 - only TCP (typically port 2049)
 
 State
 

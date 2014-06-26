@@ -1,3 +1,9 @@
+* Network File System
+* lets you share files among computers
+* nearly transparent to users (you need to mount it)
+* no information lost when an NFS server crashes
+* introduced in 1984 by Sun Microsystems
+
 Transport protocols
 
 * v3 - choice of UDP or TCP

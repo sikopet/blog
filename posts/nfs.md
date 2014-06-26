@@ -13,3 +13,10 @@ State
 
 * v3 - stateless (cookies)
 * v4 - stateful (both client and server maintain info on open files an locks)
+
+Security
+
+* NFS is security mechanism independent, supporting mulitple "flavors" of authentication
+ * AUTH_NONE - no authentication
+ * AUTH_SYS (traditional, weak security) - UNIX-style user and group access control
+ * RPCSEC_GSS (optional in v3, mandatory in v4) - integrity and privacy (confidentiality) in addition to authentication

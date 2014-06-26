@@ -11,7 +11,7 @@ Transport protocols
 
 State
 
-* v3 - stateless (cookies)
+* v3 - stateless (secret cookies)
 * v4 - stateful (both client and server maintain info on open files an locks)
 
 Security

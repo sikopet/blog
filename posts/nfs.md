@@ -21,4 +21,4 @@ Security
  * AUTH_SYS (traditional, weak security) - UNIX-style user and group access control
  * RPCSEC_GSS (optional in v3, mandatory in v4) - integrity and privacy (confidentiality) in addition to authentication
 * identity mapping plays no role in authentication or access control!
-* `krb5i` in /etc/exports means Kerberos authentication and integrity
+* `krb5i` in /etc/exports (on server) or /etc/fstab (on client) means Kerberos authentication and integrity

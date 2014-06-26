@@ -22,3 +22,6 @@ Security
  * RPCSEC_GSS (optional in v3, mandatory in v4) - integrity and privacy (confidentiality) in addition to authentication
 * identity mapping plays no role in authentication or access control!
 * `krb5i` in /etc/exports (on server) or /etc/fstab (on client) means Kerberos authentication and integrity
+
+Sources
+* ULSAH, 4th

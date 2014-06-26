@@ -1,4 +1,9 @@
 Transport protocols
 
-* NFSv3 - choice of UDP or TCP
-* NFSv4 - only TCP
+* v3 - choice of UDP or TCP
+* v4 - only TCP
+
+State
+
+* v3 - stateless (cookies)
+* v4 - stateful (both client and server maintain info on open files an locks)

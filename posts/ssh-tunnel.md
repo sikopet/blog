@@ -36,5 +36,5 @@ We want to connect to a database but it is running only on localhost (127.0.0.1)
 
 ## See also
 
- * [ssh -L 3307:localhost:3306 user@host](http://explainshell.com/explain?cmd=ssh+-L+3307%3Alocalhost%3A3306+user%40host)
  * [ssh -R 2222:localhost:22 user@host](http://explainshell.com/explain?cmd=ssh+-R+2222%3Alocalhost%3A22+user%40host)
+ * [ssh -L 3307:localhost:3306 user@host](http://explainshell.com/explain?cmd=ssh+-L+3307%3Alocalhost%3A3306+user%40host)

@@ -1,4 +1,4 @@
-## Firewall tunneling via SSH
+## Forwarding remote port (firewall tunneling via SSH)
 
 We want to allow the tech access the incomp (intranet) host from the outcomp.sk (Internet) host:
 
@@ -13,8 +13,6 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 
     outcomp.sk:~$ ssh -p 2222 root@localhost
 
-## Connecting to a router web interface accessible only from intranet
-
 We want to connect to router web interface (to make some configuration changes) which is not accessible from Internet. However we can connect to a Linux server behind the router.
 
 1) `/etc/ssh/sshd_config` of host.in.internet.com has to contain:
@@ -28,3 +26,10 @@ We want to connect to router web interface (to make some configuration changes) 
 3) Web browser somewhere in Internet:
 
     https://host.in.internet.com:3333
+
+## Forwarding local port
+
+We want to connect to a database but it is running only on localhost (127.0.0.1).
+
+    beer:~$ ssh -L 3307:localhost:3306 root@dbserver
+    beer:~$ mysql -u root -p dbname

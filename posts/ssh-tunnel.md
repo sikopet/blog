@@ -1,3 +1,5 @@
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/ssh-tunnel.md) of this post.)
+
 ## Forwarding remote port (firewall tunneling via SSH)
 
 We want to allow the tech access the incomp (intranet) host from the outcomp.sk (Internet) host:

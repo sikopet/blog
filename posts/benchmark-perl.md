@@ -32,9 +32,9 @@ The program's output:
          naive:  2 wallclock secs ( 0.58 usr +  1.49 sys =  2.07 CPU) @ 11661.84/s (n=24140)
     schwartzian:  2 wallclock secs ( 1.57 usr +  0.59 sys =  2.16 CPU) @ 21200.00/s (n=45792)
 
-The output says that the Schwartzian Transform is faster, as expected. The
-reason is the we don't ask for the file size each time we want to compare two
-files' sizes; we ask just once for each file's size.
+The output says that the Schwartzian Transform is much faster (the function ran more times in 2 seconds). The
+reason is that we don't ask for the file size each time we want to compare two
+files sizes; we ask just once for each file size.
 
 ## See Also
 

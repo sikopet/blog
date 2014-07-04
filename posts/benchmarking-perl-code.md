@@ -1,11 +1,11 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/benchmarking-perl-code.md) of this post.)
 
-Sometimes my code takes a really long time and I'd like to know which of the
+Sometimes my code takes a really long time to run and I'd like to know which of the
 alternatives run faster.
 
 In this example I compare two sorting subroutines; a "naive" approach and "The
 Schwartzian Transform". The former subroutine just compares all files' sizes to
-each other, while the latter first precomputes the size of each file and then
+each other while the latter first precomputes the size of each file and then
 does the comparisons.
 
     use Benchmark qw(timethese);
@@ -42,3 +42,4 @@ files sizes; we ask just once for each file size.
 
 * http://perldoc.perl.org/Benchmark.html
 * Intermediate Perl, 2nd, p. 144
+* http://www.perlmonks.com/?node_id=393128

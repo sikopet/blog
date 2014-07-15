@@ -31,10 +31,10 @@ We want to connect to router web interface (to make some configuration changes) 
 
 ## Forwarding local port
 
-We want to connect to a database but it is running only on localhost (127.0.0.1).
+We want to connect to a remote database running on dbserver but it is configured to allow connections only from localhost (127.0.0.1). We use port 3307 on the client because the default 3306 port is already being used (e.g. you are running MySQL server on the client).
 
-    beer:~$ ssh -L 3307:localhost:3306 root@dbserver
-    beer:~$ mysql -u root -p dbname -P 3307
+    client:~$ ssh -L 3307:localhost:3306 root@dbserver
+    client:~$ mysql -u root -p dbname -P 3307
 
 ## See also
 

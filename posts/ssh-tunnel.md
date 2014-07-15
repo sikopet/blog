@@ -34,7 +34,7 @@ We want to connect to router web interface (to make some configuration changes) 
 We want to connect to a database but it is running only on localhost (127.0.0.1).
 
     beer:~$ ssh -L 3307:localhost:3306 root@dbserver
-    beer:~$ mysql -u root -p dbname
+    beer:~$ mysql -u root -p dbname -P 3307
 
 ## See also
 

@@ -15,7 +15,7 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 
     outcomp.sk:~$ ssh -p 2222 root@localhost
 
-We want to connect to router web interface (to make some configuration changes) which is not accessible from Internet. However we can connect to a Linux server behind the router.
+We want to connect to a router web interface (192.168.1.1:443), to make some configuration changes, which is not accessible from Internet. However we can connect to a host behind the router - LAN (intranet) host.
 
 1) `/etc/ssh/sshd_config` of host.in.internet.com has to contain:
 

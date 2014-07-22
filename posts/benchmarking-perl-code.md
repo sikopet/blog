@@ -1,7 +1,7 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/benchmarking-perl-code.md) of this post.)
 
 Sometimes my code takes a really long time to run and I'd like to know which of the
-alternatives run faster.
+alternatives runs faster.
 
 In this example I compare two sorting subroutines; a "naive" approach and "The
 Schwartzian Transform". The former subroutine just compares all files' sizes to

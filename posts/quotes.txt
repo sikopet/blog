@@ -1,3 +1,5 @@
+The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to. -- Richard Feynman (http://genius.cat-v.org/richard-feynman/writtings/letters/problems)
+
 The name servers listed in resolv.conf must be configured to allow your host to submit querries and must answer them completely (be recursive), not refer you to other name servers. -- ULSAH, 4th, p. 561
 
 the GUIs tend to ignore advanced configurations, and they are relatively inconvenient for remote and automated administration. -- ULSAH, 4th

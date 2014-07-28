@@ -1,6 +1,10 @@
 # KVM Virtual Machines Management
 
-Virtualization seems to be really useful and I've seen it being used in all companies I've worked so far. I've spent more or less time working with WMWare and Xen but recently I've been working mainly with KVM. The management tools I've used are <a href="http://virt-manager.org/">virt-manager</a> (GUI) and <code>virsh</code> (command line). Here are the basic commands for managing virtual machines (VMs) under KVM.
+Virtualization seems to be really useful and I've seen it being used in all companies I've worked so far. I've spent more or less time working with WMWare and Xen but recently I've been working mainly with KVM. 
+
+KVM uses the Linux kernel itself for the hypervisor role; memory management and scheduling are handled by the host's kernel, and guest machines are normal Linux processes which you can see and manage through standard commands like `top`, `ps`, and `kill`.
+
+The management tools I've used are <a href="http://virt-manager.org/">virt-manager</a> (GUI) and <code>virsh</code> (command line). Here are the basic commands for managing virtual machines (VMs) under KVM.
 
 <h2>virt-manager</h2>
 
@@ -46,6 +50,7 @@ Remove VM
     
 More
 
+* ULSAH 4th, p. 995
 * [Guest Management](http://wiki.libvirt.org/page/Main_Page#Guest_Management) (libvirt)
 * [Manage your virtual machines](https://help.ubuntu.com/community/KVM/Managing) (Ubuntu)
 * [converting dist to qcow2](http://forums.fedoraforum.org/showthread.php?t=260126)

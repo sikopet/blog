@@ -11,3 +11,12 @@ Change user password:
 
     SET PASSWORD FOR 'debian-sys-maint'@'localhost' = PASSWORD('ThePassword');
     FLUSH PRIVILEGES;
+
+Grant privileges for user:
+
+    GRANT SELECT ON bacula.* TO 'bakstat'@'1.2.3.4' IDENTIFIED BY 'ThePassword';
+    
+Show grants for user:
+
+    SHOW GRANTS FOR 'bakstat'@'1.2.3.4';
+    

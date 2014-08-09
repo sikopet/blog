@@ -23,3 +23,4 @@ Run commands:
 --
 
 * add new module(s): `$ module-starter --module=Sheep,Cow,Horse --dist=.`
+* you don't have to use config file: `$ module-starter --plugin=Module::Starter::AddModule --module=Sheep,Cow,Horse --dist=. --email=foo@bar.org`

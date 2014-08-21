@@ -1,4 +1,4 @@
-Blog [posts](http://jreisinger.blogspot.sk) (or maybe wiki sites) and other related data (`code` or `files`).
+My technical documentation (wiki) and diary (blog). Some stuff is posted on [blogspotpost](http://jreisinger.blogspot.sk) too.
 
 Networking
 

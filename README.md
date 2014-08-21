@@ -1,4 +1,4 @@
-My technical documentation (wiki) and diary (blog). Some stuff is posted on [blogspotpost](http://jreisinger.blogspot.sk) too.
+My technical documentation (wiki) and diary (blog). Some stuff is posted on [blogspot](http://jreisinger.blogspot.sk) too.
 
 Networking
 

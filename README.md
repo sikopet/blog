@@ -1,5 +1,24 @@
 My technical documentation (wiki) and diary (blog). Some stuff is reposted on [blogspot](http://jreisinger.blogspot.sk) too.
 
+OS
+
+ * [Clone and Resize Kvm Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
+ * [Get Passwd](posts/get-passwd.md)
+ * [Kerberos](posts/kerberos.md)
+ * [Ldap](posts/ldap.md)
+ * [Login Scripts](posts/login-scripts.md)
+ * [LVM](posts/lvm.md)
+ * [Mysql](posts/mysql.md)
+ * [New Linux Server](posts/new-linux-server.md)
+ * [NFS](posts/nfs.md)
+ * [PAM](posts/pam.md)
+ * [RAID](posts/raid.md)
+ * [Scan Win Shares](posts/scan_win_shares.md)
+ * [Shell Completion](posts/shell-completion.md)
+ * [Shell One Liners](posts/shell-one-liners.md)
+ * [Unix Times](posts/unix-times.md)
+ * [VM Managemet](posts/vm-mngt.md)
+
 Networking
 
  * [DHCP](posts/dhcp.md)
@@ -30,7 +49,7 @@ Perl Programming
  * [Module Build](posts/module-build.md)
  * [Moms Age](posts/moms-age.md)
  * [Send Mail from Perl](posts/send-mail-from-perl.md)
- 
+
 Various
  
  * [Blogspot Export 2014 03 20.Xml](posts/blogspot_export_2014_03_20.xml)
@@ -42,22 +61,3 @@ Various
  * [It Audit Resources](posts/it-audit-resources.md)
  * [Nmap2Excel](posts/nmap2excel.md)
  * [Search Github](posts/search-github.md)
-
-OS
-
- * [Clone and Resize Kvm Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
- * [Get Passwd](posts/get-passwd.md)
- * [Kerberos](posts/kerberos.md)
- * [Ldap](posts/ldap.md)
- * [Login Scripts](posts/login-scripts.md)
- * [LVM](posts/lvm.md)
- * [Mysql](posts/mysql.md)
- * [New Linux Server](posts/new-linux-server.md)
- * [NFS](posts/nfs.md)
- * [PAM](posts/pam.md)
- * [RAID](posts/raid.md)
- * [Scan Win Shares](posts/scan_win_shares.md)
- * [Shell Completion](posts/shell-completion.md)
- * [Shell One Liners](posts/shell-one-liners.md)
- * [Unix Times](posts/unix-times.md)
- * [VM Managemet](posts/vm-mngt.md)

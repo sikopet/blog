@@ -52,12 +52,11 @@ Perl Programming
 
 Various
  
- * [Blogspot Export 2014 03 20.Xml](posts/blogspot_export_2014_03_20.xml)
  * [Check Web App](posts/check-web-app.md)
  * [Gen Ascii Table](posts/gen_ascii_table.md)
  * [Gen Rand File](posts/gen_rand_file.md)
  * [Google Hacks](posts/google-hacks.md)
- * [Html Parsing](posts/html-parsing.md)
- * [It Audit Resources](posts/it-audit-resources.md)
+ * [HTML Parsing](posts/html-parsing.md)
+ * [IT Audit Resources](posts/it-audit-resources.md)
  * [Nmap2Excel](posts/nmap2excel.md)
- * [Search Github](posts/search-github.md)
+ * [Search GitHub](posts/search-github.md)

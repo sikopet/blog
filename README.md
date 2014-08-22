@@ -1,4 +1,4 @@
-My technical documentation (wiki) and diary (blog). Some stuff is reposted on [blogspot](http://jreisinger.blogspot.sk) too.
+My technical documentation (wiki) and diary (blog). Some stuff is reposted on [blogspot](http://jreisinger.blogspot.sk) too. (Run [./bin/displayed_posts.pl](bin/displayed_posts.pl) to make sure all posts are displayed in README.md).
 
 OS
 

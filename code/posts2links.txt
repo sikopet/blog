@@ -1,0 +1,2 @@
+# One liner to convert posts to Markdown links
+find posts | perl -wpe 's/(.*)/($1)/' | perl -MText::Autoformat -pe '$title = $1 if /\/([^\)]+)/; $title =~ s/\.md//; $title = autoformat($title, {case => highlight}); chomp $title; chomp $title; $title =~ s/[-_]/ /g; print "[$title]"' | perl -pwe 's/^/ * /' | sort

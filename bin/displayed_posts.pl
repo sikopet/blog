@@ -18,7 +18,7 @@ while (<$fh>) {
 }
 
 say "Posts that are not displayed in README.md:";
-for my $post (@posts) {
+for my $post ( sort @posts ) {
     say make_md_link($post) unless grep $post eq $_, @links;
 }
 

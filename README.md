@@ -27,7 +27,7 @@ Networking
  * [Net Basics](posts/01_net_basics.md) 
  * [netcat](posts/netcat.md)
  * [Osmocombb](posts/osmocombb.md)
- * [Ssh Tunnel](posts/ssh-tunnel.md)
+ * [SSH Tunnel](posts/ssh-tunnel.md)
  * [Switching](posts/02_switching.md)
  * [traceroute](posts/traceroute-explained.md)
  * [VLANs](posts/vlans.md)

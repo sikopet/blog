@@ -1,4 +1,4 @@
-My technical documentation (wiki) and diary (blog). Some stuff is reposted on [blogspot](http://jreisinger.blogspot.sk) too. (Run `./bin/displayed_posts.pl` to make sure all posts are displayed in `README.md`).
+My technical diary and documentation (i.e. a blog/wiki hybrid). Some stuff from here is reposted on [blogspot](http://jreisinger.blogspot.sk). (Run `./bin/displayed_posts.pl` to make sure all posts are displayed in `README.md`).
 
 Operating Systems
 

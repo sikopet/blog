@@ -52,7 +52,7 @@ Perl Programming
 * [Get Passwords on Command Line](posts/get-passwd.md)
 * [Module Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
-* [Perl-Resources](posts/perl-resources.md)
+* [Perl Resources](posts/perl-resources.md)
 * [Send Mail from Perl](posts/send-mail-from-perl.md)
 
 Various

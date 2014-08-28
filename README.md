@@ -22,44 +22,44 @@ Operating Systems
 
 Networking
 
- * [DHCP](posts/dhcp.md)
- * [GSM](posts/gsm.md)
- * [IP Networks](posts/ip-networks.md) 
- * [Networking Basics](posts/01_net_basics.md) 
- * [netcat](posts/netcat.md)
- * [OsmocomBB](posts/osmocombb.md)
- * [SSH Tunnel](posts/ssh-tunnel.md)
- * [Switching](posts/02_switching.md)
- * [traceroute](posts/traceroute-explained.md)
- * [VLANs](posts/vlans.md)
+* [DHCP](posts/dhcp.md)
+* [GSM](posts/gsm.md)
+* [IP Networks](posts/ip-networks.md) 
+* [Networking Basics](posts/01_net_basics.md) 
+* [netcat](posts/netcat.md)
+* [OsmocomBB](posts/osmocombb.md)
+* [SSH Tunnel](posts/ssh-tunnel.md)
+* [Switching](posts/02_switching.md)
+* [traceroute](posts/traceroute-explained.md)
+* [VLANs](posts/vlans.md)
  
 Security 
  
- * [Attack Phases](posts/attack-phases.md)
- * [Store Nmap Results to Excel File](posts/nmap2excel.md)
+* [Attack Phases](posts/attack-phases.md)
+* [Store Nmap Results to Excel File](posts/nmap2excel.md)
 
 Programming
 
- * [Git](posts/git.md)
- * [Programming Resources](posts/programming-resources.md)
- * [Search Your GitHub](posts/search-github.md)
+* [Git](posts/git.md)
+* [Programming Resources](posts/programming-resources.md)
+* [Search Your GitHub](posts/search-github.md)
 
 Perl Programming
  
- * [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
- * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
- * [File::Find](posts/file-find.md)
- * [Get Passwords on Command Line](posts/get-passwd.md)
- * [Module Build](posts/module-build.md)
- * [Mom's Age](posts/moms-age.md)
- * [Perl-Resources](posts/perl-resources.md)
- * [Send Mail from Perl](posts/send-mail-from-perl.md)
+* [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
+* [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
+* [File::Find](posts/file-find.md)
+* [Get Passwords on Command Line](posts/get-passwd.md)
+* [Module Build](posts/module-build.md)
+* [Mom's Age](posts/moms-age.md)
+* [Perl-Resources](posts/perl-resources.md)
+* [Send Mail from Perl](posts/send-mail-from-perl.md)
 
 Various
  
- * [Check Web Site Uptime](posts/check-web-app.md)
- * [Generate Ascii Table](posts/gen_ascii_table.md)
- * [Google Hacks](posts/google-hacks.md)
- * [HTML Parsing](posts/html-parsing.md)
- * [IT Audit Resources](posts/it-audit-resources.md)
- * [Numbers to Remember](posts/numbers-to-remember.md)
+* [Check Web Site Uptime](posts/check-web-app.md)
+* [Generate Ascii Table](posts/gen_ascii_table.md)
+* [Google Hacks](posts/google-hacks.md)
+* [HTML Parsing](posts/html-parsing.md)
+* [IT Audit Resources](posts/it-audit-resources.md)
+* [Numbers to Remember](posts/numbers-to-remember.md)

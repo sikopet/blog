@@ -33,6 +33,6 @@ sub make_md_link {
     chomp $title;
     $_ = "[$title]($_)";
     $title =~ s/[-_]/ /g;
-    s/^/ * /;
+    s/^/* /;
     return $_;
 }

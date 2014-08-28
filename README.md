@@ -2,22 +2,23 @@ My technical diary and documentation (i.e. a blog/wiki hybrid). Some stuff from 
 
 Operating Systems
 
- * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
- * [Generate File of Defined Size](posts/gen_rand_file.md)
- * [Kerberos](posts/kerberos.md)
- * [LDAP](posts/ldap.md)
- * [Bash Login Scripts](posts/login-scripts.md)
- * [LVM](posts/lvm.md)
- * [MySQL](posts/mysql.md)
- * [New Linux Server](posts/new-linux-server.md)
- * [NFS](posts/nfs.md)
- * [PAM](posts/pam.md)
- * [RAID](posts/raid.md)
- * [Scan Windows Shares](posts/scan_win_shares.md)
- * [Shell Completion](posts/shell-completion.md)
- * [Shell One Liners](posts/shell-one-liners.md)
- * [Unix Times](posts/unix-times.md)
- * [KVM VMs Managemet](posts/vm-mngt.md)
+* [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
+* [Generate File of Defined Size](posts/gen_rand_file.md)
+* [Kerberos](posts/kerberos.md)
+* [LDAP](posts/ldap.md)
+* [Bash Login Scripts](posts/login-scripts.md)
+* [LVM](posts/lvm.md)
+* [MySQL](posts/mysql.md)
+* [New Linux Server](posts/new-linux-server.md)
+* [NFS](posts/nfs.md)
+* [OS Resources](posts/os-resources.md)
+* [PAM](posts/pam.md)
+* [RAID](posts/raid.md)
+* [Scan Windows Shares](posts/scan_win_shares.md)
+* [Shell Completion](posts/shell-completion.md)
+* [Shell One Liners](posts/shell-one-liners.md)
+* [Unix Times](posts/unix-times.md)
+* [KVM VMs Managemet](posts/vm-mngt.md)
 
 Networking
 
@@ -51,6 +52,7 @@ Perl Programming
  * [Get Passwords on Command Line](posts/get-passwd.md)
  * [Module Build](posts/module-build.md)
  * [Mom's Age](posts/moms-age.md)
+ * [Perl-Resources](posts/perl-resources.md)
  * [Send Mail from Perl](posts/send-mail-from-perl.md)
 
 Various

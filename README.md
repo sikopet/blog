@@ -59,4 +59,5 @@ Various
  * [HTML Parsing](posts/html-parsing.md)
  * [IT Audit Resources](posts/it-audit-resources.md)
  * [Nmap2Excel](posts/nmap2excel.md)
+ * [Numbers to Remember](posts/numbers-to-remember.md)
  * [Search GitHub](posts/search-github.md)

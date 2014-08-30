@@ -51,7 +51,6 @@ Programming
 * [Programming Resources](posts/programming-resources.md)
 
 Perl Programming
-----------------
 
 * [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)

@@ -41,6 +41,7 @@ Security
 
 Programming
 
+* [Programming in General](posts/prog-general.md)
 * [Git](posts/git.md)
 * [Programming Resources](posts/programming-resources.md)
 * [Search Your GitHub](posts/search-github.md)

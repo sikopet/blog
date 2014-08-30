@@ -1,6 +1,7 @@
 My technical diary and documentation (i.e. a blog/wiki hybrid). Some stuff from here is reposted on [blogspot](http://jreisinger.blogspot.sk). (Run `./bin/displayed_posts.pl` to make sure all posts are displayed in `README.md`).
 
 Operating Systems
+-----------------
 
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Generate File of Defined Size](posts/gen_rand_file.md)
@@ -21,6 +22,7 @@ Operating Systems
 * [KVM VMs Managemet](posts/vm-mngt.md)
 
 Networking
+----------
 
 * [DHCP](posts/dhcp.md)
 * [GSM](posts/gsm.md)
@@ -34,12 +36,15 @@ Networking
 * [VLANs](posts/vlans.md)
  
 Security 
+--------
+
+* [Security in General](posts/general-security.md)
  
 * [Attack Phases](posts/attack-phases.md)
-* [Security in General](posts/general-security.md)
 * [Store Nmap Results to Excel File](posts/nmap2excel.md)
 
 Programming
+-----------
 
 * [Programming in General](posts/prog-general.md)
 * [Git](posts/git.md)
@@ -47,6 +52,7 @@ Programming
 * [Search Your GitHub](posts/search-github.md)
 
 Perl Programming
+----------------
  
 * [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
@@ -58,6 +64,7 @@ Perl Programming
 * [Send Mail from Perl](posts/send-mail-from-perl.md)
 
 Various
+-------
  
 * [Check Web Site Uptime](posts/check-web-app.md)
 * [Generate Ascii Table](posts/gen_ascii_table.md)

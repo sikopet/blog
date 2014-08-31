@@ -57,6 +57,17 @@ Programming
 5. Testing and debugging
 6. Maintenance (most programs are never finished)
 
+Programming hints
+
+* TIMTOWTDI
+    * don't rush to code up the first idea that pops into your head
+    * after you have an algorithm strive for clarity, simplicity, efficiency, scalability and elegance (poems of logic)
+* ask yourself how would you solve the problem - the straightforward solution is often (not always) simple, clear, and efficient enough
+* generality is good - consideration of a more general problem can lead to a better solution for some special case (max of "n" numbers instead of "three")
+    * if the general program is as easy to write as the special one go for the general one as it is more likely to be useful in other situations (maximum utility from the effort)
+* don't reinvent the wheel - a lot of very smart programmers have designed countless good algorithms and programs
+    * good for learning though
+
 Function
 
 * kind of a subprogram

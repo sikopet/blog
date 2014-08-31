@@ -57,6 +57,14 @@ Programming
 5. Testing and debugging
 6. Maintenance (most programs are never finished)
 
+Function
+
+* kind of a subprogram
+* why:
+    * to reduce code duplication
+    * to make program more modular (better structured)
+    * to make a program more self-documenting (you don't need that many comments)
+
 Sources:
 
 * Python Programming: An Introduction to Computer Science, 2nd

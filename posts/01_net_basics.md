@@ -290,7 +290,7 @@ ARP
 1. Hey everybody, if you are 10.1.1.2 tell me your MAC address!
 2. I'm 10.1.1.2 and my MAC is 0200.2222.222
 
-[DHCP](http://www.openhouse.sk/blog/linux/dhcp.html)
+[DHCP](dhcp.md)
 
 1. Client -- DHCP discover message (LAN broadcast)
 2. Server -- DHCP offer message (LAN broadcast)

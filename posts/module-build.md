@@ -7,12 +7,12 @@ Create config file `~/.module-starter/config`:
     email: foo@bar.org
     builder: Module::Build
     verbose: 1
-    # Add new modules to existing distro.
+    # Allow adding new modules to existing distro.
     plugins: Module::Starter::AddModule
     
 Run commands:
 
-* install modules: `cpanm Module::Build module-starter`
+* install modules: `cpanm Module::Build module-starter Module::Starter::AddModule`
 * create initial distro: `module-starter --module=Animal`
 * change to distro dir: `cd Animal`
 * create the `Build` script: `perl Build.PL`

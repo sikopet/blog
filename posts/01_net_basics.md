@@ -269,7 +269,7 @@ IP addressing
 
 * all IP addresses in the same group (class) must not be separated by a router
 
-Classful addressing scheme: <http://www.openhouse.sk/blog/ip-networks.html>
+Classful addressing scheme: [IP Networks](ip-networks.md)
 
 Router logic
 

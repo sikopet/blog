@@ -19,9 +19,6 @@ Run commands:
 * build the distro: `./Build`
 * make sure the tests pass: `./Build test` (most frequent command)
 * test the distro: `./Build disttest`
-* create the distro: `./Build dist`
-
---
-
+* create the distro: `./Build dist`  
 * add new module(s): `module-starter --module=Sheep,Cow,Horse --dist=.`
 * you don't have to use config file: `module-starter --plugin=Module::Starter::AddModule --module=Sheep,Cow,Horse --dist=. --email=foo@bar.org`

@@ -342,7 +342,7 @@ Multiplexing relies on sockets
 * transport protocol (ex. TCP)
 * port number (ex. 80)
 
-TCP connection establishment:
+TCP connection establishment (three-way handshake):
 
      +-------+             SEQ=200                 +------+
      |Web    |     SYN, DPORT=80, SPORT=1027       |Web   |

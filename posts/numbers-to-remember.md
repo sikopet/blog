@@ -57,3 +57,5 @@ LTO-4 write speed ;  ;  ;  ; 120MB/s ; $0.05/GB
 HD ; Terrabytes ; 100MB/s ; 2MB/s ;  ; $0.10/GB
 SSD ; Gigabytes ; 250MB/s ; 250MB/s ;  ; $3/GB
 -->
+
+[IP Networks](ip-networks.md)

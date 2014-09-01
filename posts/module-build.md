@@ -12,7 +12,7 @@ Create config file `~/.module-starter/config`:
     
 Run commands:
 
-* install modules: `cpanm Module::Build module-starter Module::Starter::AddModule`
+* install modules: `cpanm Module::Build Module::Starter Module::Starter::AddModule`
 * create initial distro: `module-starter --module=Animal`
 * change to distro dir: `cd Animal`
 * create the `Build` script: `perl Build.PL`

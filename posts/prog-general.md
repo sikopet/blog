@@ -48,6 +48,12 @@ Programming languages
     * variables
     * expressions
 
+(Perl) program
+
+* statements are made up of expressions
+* expressions are made up of terms
+* term (terminal) - leaf node of a syntax tree; "a thing that functions grammatically as an operand for the operators in an expression"
+
 Programming
 
 1. Problem analysis

@@ -46,7 +46,7 @@ Programming languages
 * expressions - fragments of program that produce data
     * literals
     * variables
-    * expressions
+    * operators
 
 (Perl) program
 

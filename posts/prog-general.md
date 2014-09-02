@@ -68,6 +68,13 @@ Programming hints
 * don't reinvent the wheel - a lot of very smart programmers have designed countless good algorithms and programs
     * good for learning though
 
+Why test
+
+* find out problems sooner
+* force us to write code in smaller chunks
+* psychologically esier to modify the code
+* more confidence answering questions about our code
+
 Function
 
 * kind of a subprogram
@@ -79,3 +86,4 @@ Function
 Sources:
 
 * Python Programming: An Introduction to Computer Science, 2nd
+* Intermediate Perl, 2nd

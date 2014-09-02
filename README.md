@@ -58,7 +58,7 @@ Perl Programming
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
 * [File::Find](posts/file-find.md)
 * [Get Passwords on Command Line](posts/get-passwd.md)
-* [Module Build](posts/module-build.md)
+* [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
 * [Send Mail from Perl](posts/send-mail-from-perl.md)  
 * [Perl Resources](posts/perl-resources.md)

@@ -220,6 +220,10 @@ Deleting accounts:
 
 ### Linux
 
+GUI
+
+* [JXplorer](http://jxplorer.org/)
+
 See also [Querying Active Directory with Unix LDAP tools](http://jrwren.wrenfam.com/blog/2006/11/17/querying-active-directory-with-unix-ldap-tools/).
 
 * `getent` returns info from various sources, including local account DB

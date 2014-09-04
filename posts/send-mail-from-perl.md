@@ -1,4 +1,4 @@
-Using the mail command:
+Using the `mail` command:
 
     sub send_mail {
         my $recipient = shift;

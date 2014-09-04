@@ -1,4 +1,4 @@
-Using the `mail` command:
+Using the `mail` command (you might need to setup something like [ssmtp](http://jreisinger.blogspot.sk/2014/02/fixing-email-aliases-when-using-ssmtp.html)):
 
     sub send_mail {
         my $recipient = shift;

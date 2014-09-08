@@ -11,6 +11,7 @@ Create config file `~/.module-starter/config`:
     
 ... or use command line arguments like:
 
+    --mb
     --email=foo@bar.org
     --plugin=Module::Starter::AddModule
     
@@ -20,8 +21,8 @@ Run basic commands
 * create initial distro: `module-starter --module=Animal`
 * change to distro dir: `cd Animal`
 * create the `Build` script: `perl Build.PL`
-* build the distro: `./Build`
-* make sure the tests pass: `./Build test` (most frequent command)
+* build the distro (modules from `lib` copied to `blib` staging area and embedded documenation translated into Unix manpage in `blib/libdoc`): `./Build`
+* make sure the tests pass: `./Build test` (most frequent command or run individual tests)
 * test the distro: `./Build disttest`
 * create the distro: `./Build dist`
 

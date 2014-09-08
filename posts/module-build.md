@@ -14,7 +14,7 @@ Create config file `~/.module-starter/config`:
     --email=foo@bar.org
     --plugin=Module::Starter::AddModule
     
-Basic commands
+Run basic commands
 
 * install modules: `cpanm Module::Build Module::Starter Module::Starter::AddModule`
 * create initial distro: `module-starter --module=Animal`
@@ -25,16 +25,16 @@ Basic commands
 * test the distro: `./Build disttest`
 * create the distro: `./Build dist`
 
-Adding modules
+Add modules
 
 * add new module(s): `module-starter --module=Sheep,Cow,Horse --dist=.`
 
-Running individual tests
+Run individual tests
 
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Iblib/lib -T t/Cow.t`
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Mblib t/Cow.t`
 
-Measuring out test coverage
+Measure out test coverage
 
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`

@@ -33,3 +33,8 @@ Running individual tests
 
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Iblib/lib -T t/Cow.t`
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Mblib t/Cow.t`
+
+Measuring out test coverage
+
+* run `testcover` target: `./Build testcover`
+* turn the collected statistics into human-readable reports: `cover`

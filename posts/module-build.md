@@ -1,5 +1,4 @@
-# Creating a Module::Build Distribution
-###### perl
+## Creating a Module::Build Distribution
 
 Create config file `~/.module-starter/config`:
 
@@ -10,7 +9,12 @@ Create config file `~/.module-starter/config`:
     # Allow adding new modules to existing distro.
     plugins: Module::Starter::AddModule
     
-Run commands:
+.. or use command line arguments like:
+
+    --email=foo@bar.org
+    --plugin=Module::Starter::AddModule
+    
+Basic commands
 
 * install modules: `cpanm Module::Build Module::Starter Module::Starter::AddModule`
 * create initial distro: `module-starter --module=Animal`
@@ -21,7 +25,10 @@ Run commands:
 * test the distro: `./Build disttest`
 * create the distro: `./Build dist`
 
--- 
+Adding modules
 
 * add new module(s): `module-starter --module=Sheep,Cow,Horse --dist=.`
-* you don't have to use config file: `module-starter --plugin=Module::Starter::AddModule --module=Sheep,Cow,Horse --dist=. --email=foo@bar.org`
+
+Running individual tests
+
+* `./Build && perl -Mblib t/Cow.t`

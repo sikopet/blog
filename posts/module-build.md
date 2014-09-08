@@ -31,4 +31,5 @@ Adding modules
 
 Running individual tests
 
-* rebuild distro and run test including modules from `blib`: `./Build && perl -Mblib t/Cow.t  # or −Iblib/lib −T`
+* rebuild distro and run test including modules from `blib`: `./Build && perl -Mblib t/Cow.t`
+* rebuild distro and run test including modules from `blib`: `./Build && perl -Iblib/lib -T t/Cow.t`

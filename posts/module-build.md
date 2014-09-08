@@ -9,7 +9,7 @@ Create config file `~/.module-starter/config`:
     # Allow adding new modules to existing distro.
     plugins: Module::Starter::AddModule
     
-.. or use command line arguments like:
+... or use command line arguments like:
 
     --email=foo@bar.org
     --plugin=Module::Starter::AddModule

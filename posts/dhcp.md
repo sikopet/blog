@@ -3,7 +3,9 @@
 
 ## Dynamic Host Configuration Protocol
 
-* replacement of `bootp`
+* lets a client to "lease" a variety of network and administrative parameters (IP address and netmask, gateway, DNS server, syslog host, WINS server, X font server, proxy server, NTP server, TFTP server, ...) => *autoconfiguration* at boot time
+* clients must report backup to the server periodically to renew their leases
+* backward-compatible replacement of `bootp`
 * server listens on udp 67, answers through udp 68
 * often paired with DNS role
 * SOHO broadband routers can serve as DHCP servers (and also as NAT routers, switches)
@@ -11,6 +13,11 @@
 * ISC DHCP server -- most common; `dhcp`, `dhcp-server`, `dhcp3-server`, `isc-dhcp-server`
 * Dnsmasq -- DHCP + DNS, good for small networks
 
+## How DHCP works
+
+1. Client broadcasts "Help! Who am I?" (on generic all-ones broadcast address as it doesn't know its netmask yet)
+2. DHCP server negotiates with the client the IP address and other networking parameters
+3. When the client's lease time is half over, it tries to renew its lease
 
 ## Setting up a DHCP
 
@@ -40,6 +47,11 @@
       # Default GW
       option routers 192.168.128.1;
     }
+
+    # Dummy entry for external interface -- every subnet must be declared, even if no DHCP service is provided on it    
+    subnet 209.180.251.0 netmask 255.255.255.0 {
+    }
+
 
     ## Fixed addresses (not the same as static addresses)
     host neptune {
@@ -84,3 +96,4 @@ If you have multiple network segments (with routers in between the segments):
 Source
 
 * Roderick W. Smith: LPIC-2 (2011)
+* ULSAH

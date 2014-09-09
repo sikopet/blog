@@ -1,5 +1,4 @@
-# Unix Times
-###### linux, perl
+# Unix Times and Perl
 
 Unix filesystem consists of two parts: 
 
@@ -67,3 +66,8 @@ In those rare cases when you want to lie to other programs about when a file was
 .. the third timestamp (ctime) is always set to "now" whenever anything alters a file - there's no way to set it with `utime`
 
 .. the primary purpose of ctime is for incremental backups - if the file's ctime is newer that the date on the backup tape, it's time to back it up again
+
+## Sources
+
+* Perl Cookbook
+* ULSAH

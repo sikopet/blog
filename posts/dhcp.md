@@ -48,7 +48,8 @@
       option routers 192.168.128.1;
     }
 
-    # Dummy entry for external interface -- every subnet must be declared, even if no DHCP service is provided on it    
+    # Dummy entry for external interface -- every subnet must be declared, even
+    #  if no DHCP service is provided on it    
     subnet 209.180.251.0 netmask 255.255.255.0 {
     }
 

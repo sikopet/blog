@@ -61,7 +61,7 @@ To access an inode from within Perl, use:
 In those rare cases when you want to lie to other programs about when a file was most recently accessed (atime) or modified (mtime), use the `utime` function:
 
     my $atime = time;                 # now
-    my $mtime = $time - 24 * 60 * 60; # one day (2 073 600 secs) ago
+    my $mtime = $time - 24 * 60 * 60; # one day (86400 secs) ago
     utime $atime, $mtime, glob "*";   # set access to now, mod to a day ago
 
 .. the third timestamp (ctime) is always set to "now" whenever anything alters a file - there's no way to set it with `utime`

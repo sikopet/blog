@@ -5,7 +5,15 @@ Unix filesystem consists of two parts:
 * data blocks - contents of files and directories (special files with inode-name pairs)
 * index to those data blocks
 
-Entries in the index are called `inodes` (index nodes). Inodes contain medatada (data about data) on the files, like a pointer to the data blocks, the type of thing it represents (directory, file, etc.), the size of the thing, permissions bits, info on owner and group, etc. There is also a time information among the metadata. Actually three types of them:
+Entries in the index are called `inodes` (index nodes). Inodes contain medatada (data about data) on the files, like:
+
+* pointer to the data blocks
+* type of thing it represents (directory, file, etc.)
+* size of the thing
+* "mode" of the thing (nine permissions bits + three bits that primarily affect the operation of executables)
+* info on owner and group
+
+There is also a time information among the metadata. Actually three types of them:
 
     .----------------------------------------------------------------------------------------------------.
     | Type        | Short name | ls option | Description                                                 |

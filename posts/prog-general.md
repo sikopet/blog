@@ -73,6 +73,7 @@ Programming hints
     * if the general program is as easy to write as the special one go for the general one as it is more likely to be useful in other situations (maximum utility from the effort)
 * don't reinvent the wheel - a lot of very smart programmers have designed countless good algorithms and programs
     * good for learning though
+* Just because you CAN do something a particular way doesn't mean that you SHOULD do it that way. Perl is designed to give you several ways to do anything, so consider picking the most readable one. See [perlstyle](http://perldoc.perl.org/perlstyle.html) for more.
 
 Why test
 

@@ -1,3 +1,9 @@
+Computer science (CS)
+
+* studies what can be computed
+* uses techniques of design, analysis and experimentation
+* computers are to CS what telescopes are to astronomy
+
 Computer
 
 * universal machine for information storage and manipulation
@@ -12,12 +18,6 @@ Hardware (functional view)
 * Input/Output devices - for entering/displaying information
 * running a program: HD --> RAM --> CPU (fetch, decode, execute - with blazing
     speed!)
-
-Computer science (CS)
-
-* studies what can be computed
-* uses techniques of design, analysis and experimentation
-* computers are to CS what telescopes are to astronomy
 
 Programming languages
 
@@ -54,14 +54,13 @@ Programming languages
 * expressions are made up of terms
 * term (terminal) - leaf node of a syntax tree; "a thing that functions grammatically as an operand for the operators in an expression"
 
-Programming
+Function
 
-1. Problem analysis
-2. Program specification (what to do)
-3. Design (how to do it - algorithm)
-4. Implementation (algorithm gets translated into programming language)
-5. Testing and debugging
-6. Maintenance (most programs are never finished)
+* kind of a subprogram
+* why:
+    * to reduce code duplication
+    * to make program more modular (better structured)
+    * to make a program more self-documenting (you don't need that many comments)
 
 Programming hints
 
@@ -75,20 +74,22 @@ Programming hints
     * good for learning though
 * Just because you CAN do something a particular way doesn't mean that you SHOULD do it that way. Perl is designed to give you several ways to do anything, so consider picking the most readable one. See [perlstyle](http://perldoc.perl.org/perlstyle.html) for more.
 
+
+Programming
+
+1. Problem analysis
+2. Program specification (what to do)
+3. Design (how to do it - algorithm)
+4. Implementation (algorithm gets translated into programming language)
+5. Testing and debugging
+6. Maintenance (most programs are never finished)
+
 Why test
 
 * find out problems sooner
 * force us to write code in smaller chunks
 * psychologically esier to modify the code
 * more confidence answering questions about our code
-
-Function
-
-* kind of a subprogram
-* why:
-    * to reduce code duplication
-    * to make program more modular (better structured)
-    * to make a program more self-documenting (you don't need that many comments)
 
 Sources:
 

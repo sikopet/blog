@@ -80,6 +80,9 @@ Programming
 1. Problem analysis
 2. Program specification (what to do)
 3. Design (how to do it - algorithm)
+    * Top-down
+    * Prototyping
+    * Spiral
 4. Implementation (algorithm gets translated into programming language)
 5. Testing and debugging
 6. Maintenance (most programs are never finished)

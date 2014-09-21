@@ -1,0 +1,136 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+use autodie;
+use Getopt::Long;
+use Pod::Usage;
+
+#################
+# Configuration #
+#################
+
+# Command line options
+my $help = 0;
+my $man  = 0;
+my $a    = 50;
+my $b    = 40;
+my $n    = 1000;
+GetOptions(
+    "help|?" => \$help,
+    man      => \$man,
+    "a=i"    => \$a,
+    "b=i"    => \$b,
+    "n=i"    => \$n,
+) or pod2usage(2);
+
+# Help
+pod2usage(1) if $help;
+pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $man;
+
+########
+# Main #
+########
+
+# Get service probabilities of player A, B and number of games from user
+my $prob_a  = $a / 100;
+my $prob_b  = $b / 100;
+my $n_games = $n;
+
+# Simulate games
+my ( $wins_a, $wins_b ) = sim_games( $n_games, $prob_a, $prob_b );
+
+# Print results
+print "Games simulated: ",  $n_games, "\n";
+print "Wins for A ($a%): ", $wins_a,  "\n";
+print "Wins for B ($b%): ", $wins_b,  "\n";
+
+#############
+# Functions #
+#############
+
+sub sim_games {
+
+    # Simulate $n_games between players A and B whose abilities are represented
+    # by the probability of winning a serve.
+
+    my ( $n_games, $prob_a, $prob_b ) = @_;
+
+    my ( $wins_a, $wins_b ) = ( 0, 0 );
+
+    for my $game ( 1 .. $n_games ) {
+        my ( $score_a, $score_b ) = sim_game( $prob_a, $prob_b );
+        if ( $score_a > $score_b ) {
+            $wins_a++;
+        } else {
+            $wins_b++;
+        }
+    }
+
+    return $wins_a, $wins_b;
+}
+
+sub sim_game {
+
+    # Simulate one game between players A and B whose abilities are represented
+    # by the probability of winning a serve.
+
+    my ( $prob_a, $prob_b ) = @_;
+
+    my $serves = 'a';
+    my ( $score_a, $score_b ) = ( 0, 0 );
+
+    while ( $score_a != 15 and $score_b != 15 ) {
+        if ( $serves eq 'a' ) {
+            if ( rand() < $prob_a ) {
+                $score_a++;
+            } else {
+                $serves = 'b';
+            }
+        } else {
+            if ( rand() < $prob_b ) {
+                $score_b++;
+            } else {
+                $serves = 'a';
+            }
+        }
+
+    }
+
+    return $score_a, $score_b;
+}
+
+__END__
+
+=head1 NAME
+
+    rball - simulate racquetball games
+
+=head1 SYNOPSIS
+
+    rball [options]
+
+      Options:
+        -h, --help  brief help message
+        -m, --man   full documentation
+        -a <PROB>   probability that player A wins a serve (default 50)
+        -b <PROB>   probability that player B wins a serve (default 40)
+        -n <N>      simulate N games (default 1000)
+
+=head1 DESCRIPTION
+
+This program is designed to simulate racquetball games between two players.
+
+The players alternate hitting the ball -- this is called a I<rally>. The rally
+ends when one of the players fails to hit a legal shot. If the loser is the
+player who served, then service passes to the other player. If the server wins
+a rally, he is awarded a point.
+
+=head1 EXAMPLES
+
+Simulate 10000 games where player A has the probability to win a serve of 70% and player B of 50%:
+
+    ./rball -a 70 -b 50 -n 10_000
+
+=cut
+

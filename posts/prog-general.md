@@ -41,7 +41,7 @@ Programming languages
 
 * sequence of commands (statements) telling computer what to do
 * statement = identifiers + expressions
-* indentifiers - names, begin with an underscore or letter followed by letter,
+* identifiers - names, begin with an underscore or letter followed by letter,
     digit or underscore
 * expressions - fragments of program that produce data
     * literals
@@ -61,6 +61,10 @@ Function
     * to reduce code duplication
     * to make program more modular (better structured)
     * to make a program more self-documenting (you don't need that many comments)
+    * to facilitate unit testing (test each function separately)
+* see [rball](code/cs_intro/rball) for separating concerns using functions
+    * abstraction (concerns separation) -- determining important
+        characteristics and ignoring other details
 
 Programming hints
 
@@ -91,7 +95,7 @@ Why test
 
 * find out problems sooner
 * force us to write code in smaller chunks
-* psychologically esier to modify the code
+* psychologically easier to modify the code
 * more confidence answering questions about our code
 
 Sources:

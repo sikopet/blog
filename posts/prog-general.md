@@ -62,7 +62,7 @@ Function
     * to make program more modular (better structured)
     * to make a program more self-documenting (you don't need that many comments)
     * to facilitate unit testing (test each function separately)
-* see [rball](code/cs_intro/rball) for separating concerns using functions
+* see [rball](../code/cs_intro/rball) for separating concerns using functions
     * abstraction (concerns separation) -- determining important
         characteristics and ignoring other details
 

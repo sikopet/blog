@@ -126,6 +126,8 @@ ends when one of the players fails to hit a legal shot. If the loser is the
 player who served, then service passes to the other player. If the server wins
 a rally, he is awarded a point.
 
+Based on John Zelle's Python Programming: An Introduction to Computer Science, 2nd edition.
+
 =head1 EXAMPLES
 
 Simulate 10000 games where player A has the probability to win a serve of 70% and player B of 50%:

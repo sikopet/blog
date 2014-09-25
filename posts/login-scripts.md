@@ -1,7 +1,6 @@
 # Bash Login Scripts
-###### linux, shell
 
-See also [my dot-files](https://github.com/jreisinger/dot-files), [Prostredie shellu](http://wiki.openhouse.sk/Linux1/ShellSkriptovanie/02ProstredieShellu).
+See also [my dot-files](https://github.com/jreisinger/dot-files), ULSAH p. 189, [Prostredie shellu](http://prnet.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu).
 
 When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create

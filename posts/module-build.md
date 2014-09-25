@@ -39,3 +39,5 @@ Measure out test coverage
 
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
+
+Consider using [Dist::Zilla](http://dzil.org/).

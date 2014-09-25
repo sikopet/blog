@@ -33,7 +33,7 @@ Add modules
 Run individual tests
 
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Iblib/lib -T t/Cow.t`
-* rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Mblib t/Cow.t`
+* rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Mblib -T t/Cow.t`
 
 Measure out test coverage
 

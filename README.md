@@ -19,6 +19,7 @@ Operating Systems
 * [Scan Windows Shares](posts/scan_win_shares.md)
 * [Shell Completion](posts/shell-completion.md)
 * [Shell One Liners](posts/shell-one-liners.md)
+* [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
 * [KVM VMs Managemet](posts/vm-mngt.md)  
 * [OS Resources](posts/os-resources.md)

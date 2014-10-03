@@ -44,6 +44,8 @@ Send 2K bytes over 1 Gbps network ; 20,000 ns ; 20 µs
 
 ## Sysadmin
 
+Media
+
     .----------------------------------------------------------------------------------------------------.
     |                                     Source: ULSAH, p. 210, 204                                     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
@@ -62,7 +64,7 @@ HD ; Terrabytes ; 100MB/s ; 2MB/s ;  ; $0.10/GB
 SSD ; Gigabytes ; 250MB/s ; 250MB/s ;  ; $3/GB
 -->
 
-### IPv4 Address Classes
+IPv4 Address Classes
 
     .--------------------------------------------------------------------------------------------------------.
     | Class | First octet | Networks                  | Number of networks | Purpose                         |
@@ -83,7 +85,7 @@ E;240 - 255;;;Experimental
 
 -->
 
-### RFC 1918 Private Address Space
+RFC 1918 Private Address Space
 
     .------------------------------------------------------------------.
     | Network class | Networks                    | Number of networks |

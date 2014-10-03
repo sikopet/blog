@@ -31,7 +31,6 @@ Networking
 * [Switching](posts/02_switching.md)
 * [DHCP](posts/dhcp.md)
 * [GSM](posts/gsm.md)
-* [IP Networks](posts/ip-networks.md) 
 * [netcat](posts/netcat.md)
 * [OsmocomBB](posts/osmocombb.md)
 * [SSH Tunnel](posts/ssh-tunnel.md)

@@ -1,5 +1,4 @@
 # Virtual LANs
-###### networking
 
 Broadcast sent by one host in a VLAN => received and processed by all hosts
 

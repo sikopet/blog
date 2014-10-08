@@ -5,6 +5,7 @@
 *   [Getting a git repository](#getting)
 *   [Making changes](#changes)
 *   [Exclude some files](#exclude)
+*   [Tips and Tricks](#tricks)
 *   [More](#more)
 
 [Git](http://git-scm.com/) is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
@@ -113,6 +114,16 @@ See more [here](http://github.com/guides/ignore-for-git).
 If some of your files is already beeing tracked by git, you can untrack it like this:
 
     git rm --cached <filename>
+
+<h2 id="tricks">Tips and Tricks</h2>
+
+While in Git-tracked directory, print the filename followed by its author:
+
+    for f in `find -type f`; do
+            git log -1 --date=iso -- $f |
+            grep ^Author |
+            perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
+    done
 
 <h2 id="more">More</h2>
 

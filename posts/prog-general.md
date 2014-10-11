@@ -2,12 +2,12 @@ Computer science (CS)
 
 * studies what can be computed
 * uses techniques of design, analysis and experimentation
-* computers are to CS what telescopes are to astronomy
 
 Computer
 
 * universal machine for information storage and manipulation
 * can carry out any instructions described in sufficient detail (program)
+* computers are to CS what telescopes are to astronomy
 
 Hardware (functional view)
 

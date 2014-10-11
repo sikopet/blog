@@ -13,7 +13,7 @@ Hardware (functional view)
 
 * CPU - simple arithmetic (adding two numbers) and logical (testing two numbers
     are equal) operations
-* Main memory - RAM (fast but volatile) -- stores information (data and programs) that CPU acts on
+* Main memory - RAM (fast but volatile) -- stores information ([data](../terms/data) and programs) that CPU acts on
 * Secondary memory (HD, CD, DVD) - stores more permanent information
 * Input/Output devices - for entering/displaying information
 * running a program: HD --> RAM --> CPU (fetch, decode, execute - with blazing

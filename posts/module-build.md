@@ -18,7 +18,7 @@ Create config file `~/.module-starter/config`:
 Run basic commands
 
 * install modules: `cpanm Module::Build Module::Starter Module::Starter::AddModule`
-* create initial distro: `module-starter --module=Animal`
+* create (initial) module distribution: `module-starter --module=Animal`
 * change to distro dir: `cd Animal`
 * create the `Build` script: `perl Build.PL`
 * build the distro (modules from `lib` copied to `blib` staging area and embedded documenation translated into Unix manpage in `blib/libdoc`): `./Build`

@@ -43,6 +43,10 @@ Stop VM
 .. or
     
     virsh -c qemu:///system destroy vm01
+    
+Start VM
+
+    virsh -c qemu:///system create /path/to/host.xml
 
 Remove VM
 

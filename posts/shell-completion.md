@@ -25,7 +25,7 @@ If you don't get any meaningful results add some of your hosts into `~/.ssh/conf
     host login.example.org
     host bigserver.example.net
     
-If you have ssh keys deployed one the remote hosts, try out:
+If you have ssh keys deployed on the remote hosts, try out:
 
     scp bigserver.example.net:[TAB]
 

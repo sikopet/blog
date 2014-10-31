@@ -16,6 +16,19 @@ Then you may need to source it from `/etc/bashrc` or `~/.bashrc`:
 
 Debian does this for you via `/etc/bash.bashrc`. 
 
+Try it out by typing:
+
+    ssh[TAB]
+    
+If you don't get any meaningful results add some of your hosts into `~/.ssh/config` and try again:
+
+    host login.example.org
+    host bigserver.example.net
+    
+If you have ssh keys deployed one the remote hosts, try out:
+
+    scp bigserver.example.net:[TAB]
+
 ## Bash Completion with Perl
 
 Bash completion project builds on shell scripting which is easy to write but limited. You might prefer to use a more complete language, like Perl. 

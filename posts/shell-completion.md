@@ -1,6 +1,3 @@
-# Shell Completion
-###### shell, perl
-
 (Created 2013-03-12)
 
 Bash (one of the most popular shells) offers a great feature that makes many people's Tab key pretty worn. It completes the names of commands, directories and files you start to write. The `complete` command (`man bash` => "Programmable Completion") lets users extend the standard completion fucntion.
@@ -16,6 +13,8 @@ Then you may need to source it from `/etc/bashrc` or `~/.bashrc`:
     # Use bash-completion, if available
     [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
         . /usr/share/bash-completion/bash_completion
+
+Debian does this for you via `/etc/bash.bashrc`. 
 
 ## Bash Completion with Perl
 

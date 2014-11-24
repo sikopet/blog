@@ -1,10 +1,9 @@
-# Netcat
-
 <img src="https://raw.github.com/jreisinger/blog/master/files/knife.jpg" alt="Knife" height="63" width="109" align="right">
 
 TCP/IP swiss army knife. Simple (yet powerful!) Unix utility that reads and writes data across network connections, using TCP or UDP.
 
-## Netcat as a Client
+Netcat as a Client
+==================
 
 Connect to some port of some host:
 
@@ -34,17 +33,18 @@ Change source port / address (ex. to evade a FW):
     nc -p 16000 host.tld 22
     nc -s 1.2.3.4 host.tld 8181
 
-## Netcat as a Server
+Netcat as a Server
+==================
 
-Netcat as a server:
+Listen for an incoming connection on some port:
 
-    nc -l -p <port>
+    nc -l <port>
 
 Send a directory over the network:
 
 .. host A (receiving data)
 
-    nc -l -p 1234 | tar xvf -
+    nc -l 1234 | tar xvf -
 
 .. host B (sending data)
 
@@ -54,7 +54,7 @@ Send a whole partition over the network:
 
 .. host A (receiving data)
 
-    nc -l -p 1234 | dd of=backup_sda1
+    nc -l 1234 | dd of=backup_sda1
 
 .. host B (sending data)
 
@@ -64,12 +64,13 @@ Run a command (potentially dangerous!); ex. open a shell access:
 
 .. host A (server)
 
-    nc -l -p 9999 -e /bin/bash
+    nc -l 9999 -e /bin/bash
 
 .. host B (client)
 
     nc hostA 9999
 
-## More
+More
+====
 
 * <http://mylinuxbook.com/linux-netcat-command/>

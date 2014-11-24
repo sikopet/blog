@@ -6,7 +6,7 @@ TCP/IP swiss army knife. Simple (yet powerful!) Unix utility that reads and writ
 
 ## Netcat as a Client
 
-Netcat as a client:
+Connect to some port of some host:
 
     nc <host> <port>
 

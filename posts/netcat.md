@@ -40,13 +40,13 @@ Netcat as a Server
 
 Listen for an incoming connection on some port:
 
-    nc -l <port>
+    nc -l -p <port>
 
 Send a directory over the network:
 
 .. host A (receiving data)
 
-    nc -l 1234 | tar xvf -
+    nc -l -p 1234 | tar xvf -
 
 .. host B (sending data)
 
@@ -56,7 +56,7 @@ Send a whole partition over the network:
 
 .. host A (receiving data)
 
-    nc -l 1234 | dd of=backup_sda1
+    nc -l -p 1234 | dd of=backup_sda1
 
 .. host B (sending data)
 
@@ -66,7 +66,7 @@ Run a command (potentially dangerous!); ex. open a shell access:
 
 .. host A (server)
 
-    nc -l 9999 -e /bin/bash
+    nc -l -p 9999 -e /bin/bash
 
 .. host B (client)
 

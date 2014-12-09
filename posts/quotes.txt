@@ -1,3 +1,5 @@
+Failure free operations require experience with failure. -- Richard Cook (http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
+
 As in bash, Perl has a dedicated "else if" condition, but its keyword is elsif rather than elif. (For you who use both languages, these fun, minute differences either keep you mentally nimble or drive you insane.) -- ULSAH
 
 Keep in mind that hostnames are really just a convenient shortcut for IP addresses, and as such, they refer to network interfaces rather than computers. -- ULSAH

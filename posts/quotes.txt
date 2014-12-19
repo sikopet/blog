@@ -1,3 +1,5 @@
+Information security professionals and System Administrators alike have a tendency to strive for a perfect solution. System Administrators, however, often times have enough practical experience to know that those rarely exist, and that deploying a reasonable, but not perfect, solution to a problem upon which can be iterated in the future is almost always preferable. -- Jan Schaumann (http://sysadvent.blogspot.co.at/2014/12/day-20-infosec-basics-reason-behind.html)
+
 Failure free operations require experience with failure. -- Richard Cook (http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 
 As in bash, Perl has a dedicated "else if" condition, but its keyword is elsif rather than elif. (For you who use both languages, these fun, minute differences either keep you mentally nimble or drive you insane.) -- ULSAH

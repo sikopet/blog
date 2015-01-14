@@ -49,7 +49,7 @@ Media
     .----------------------------------------------------------------------------------------------------.
     |                                     Source: ULSAH, p. 210, 204                                     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
-    | What              | Size       | Sequenial Read Speed | Random Read Speed | Write Speed | Cost     |
+    | What              | Size       | Sequential Read Speed | Random Read Speed | Write Speed | Cost     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
     | LTO-3 write speed |            |                      |                   | 80MB/s      | $0.06/GB |
     | LTO-4 write speed |            |                      |                   | 120MB/s     | $0.05/GB |
@@ -57,7 +57,7 @@ Media
     | SSD               | Gigabytes  | 250MB/s              | 250MB/s           |             | $3/GB    |
     '-------------------+------------+----------------------+-------------------+-------------+----------'
 <!-- Original table data:
-What ; Size ; Sequenial Read Speed ; Random Read Speed ; Write Speed ; Cost
+What ; Size ; Sequential Read Speed ; Random Read Speed ; Write Speed ; Cost
 LTO-3 write speed ;  ;  ;  ; 80MB/s ; $0.06/GB
 LTO-4 write speed ;  ;  ;  ; 120MB/s ; $0.05/GB
 HD ; Terrabytes ; 100MB/s ; 2MB/s ;  ; $0.10/GB
@@ -73,7 +73,7 @@ IPv4 Address Classes
     +-------+-------------+---------------------------+--------------------+---------------------------------+
     | A     | 1 - 126     | 10.0.0.0 - 126.0.0.0      | 2^7 - 2 = 126      | Unicast (large networks)        |
     | B     | 128 - 191   | 128.0.0.0 - 191.255.0.0   | 2^14 = 16,384      | Unicast (medium-sized networks) |
-    | C     | 192 - 223   | 192.0.0.0 - 223.255.255.0 | 2^21 = 2,097,152   | Unicat (small networks)         |
+    | C     | 192 - 223   | 192.0.0.0 - 223.255.255.0 | 2^21 = 2,097,152   | Unicast (small networks)         |
     | D     | 224 - 239   |                           |                    | Multicast                       |
     | E     | 240 - 255   |                           |                    | Experimental                    |
     '-------+-------------+---------------------------+--------------------+---------------------------------'
@@ -81,7 +81,7 @@ IPv4 Address Classes
 Class;First octet;Networks;Number of networks;Purpose
 A;1 - 126;10.0.0.0 - 126.0.0.0;2^7 - 2 = 126;Unicast (large networks)
 B;128 - 191;128.0.0.0 - 191.255.0.0;2^14 = 16,384;Unicast (medium-sized networks)
-C;192 - 223;192.0.0.0 - 223.255.255.0;2^21 = 2,097,152;Unicat (small networks)
+C;192 - 223;192.0.0.0 - 223.255.255.0;2^21 = 2,097,152;Unicast (small networks)
 D;224 - 239;;;Multicast
 E;240 - 255;;;Experimental
 

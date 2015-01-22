@@ -9,10 +9,11 @@ my $file = shift;
 my $size = shift;
 
 die "Usage: $0 file size_in_bytes\n" if not defined $file or not defined $size;
+die "File '$file' already exists\n" if -e $file;
 
 open my $fh, ">", $file;
 
-while ( -s $file < $size ) {
+while ( -s $file <= $size ) {
     my @words = qw( abcdef ghi jklmno prstuvw xyz );
     print $fh join( " ", @words ), "\n";
 }

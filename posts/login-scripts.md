@@ -9,8 +9,8 @@ command aliases, run programs.
 <table>
   <tr>
     <th></th>
-    <th>Login shell (variables like PATH, PS1 and startup programs like umask)</th>
-    <th>Non-login shell (aliases, functions)</th>
+    <th>Login shell</th>
+    <th>Non-login shell</th>
   </tr>
   <tr>
     <th>Global config</th>
@@ -24,7 +24,7 @@ command aliases, run programs.
   </tr>
 </table>
 
- * login shell -- a shell started by the `login` program or a remote login server such as SSH
+ * login shell -- a shell started by the `login` program or a remote login server such as SSH; place for variables like `PATH`, `PS1` and startup programs like `umask`
  * non-login shell -- not started by the `login` (ex. shell inside an X-based terminal); run on every instance; place for aliases and functions
  
 Creating a symlink between `~/.bashrc` and `~/.bash_profile` will ensure that the same startup scripts run for both login and non-login sessions. Debian's `~/.profile` sources `~/.bashrc`, which has the same effect.

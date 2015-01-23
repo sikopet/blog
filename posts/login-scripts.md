@@ -9,8 +9,8 @@ command aliases, run programs.
 <table>
   <tr>
     <th></th>
-    <th>Login shell</th>
-    <th>Non-login shell</th>
+    <th>Login shell (variables like PATH, PS1 and startup programs like umask)</th>
+    <th>Non-login shell (aliases, functions)</th>
   </tr>
   <tr>
     <th>Global config</th>

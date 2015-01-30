@@ -1,21 +1,29 @@
 # Processing Files Recursively (File::Find)
-###### perl
 
-Sometimes you need to do something to many/all files within certain directory:
+Sometimes you need to do something to many/all files within certain directory. [File::Find](http://perldoc.perl.org/File/Find.html) efficiently walks through list of directories and executes a subroutine for each file or directory found recursively below starting directory:
 
     use File::Find;
+    
     sub process_file {
         # do something;
     }
     find(\&process_file, @DIRLIST);
+    
+    ## or use anonymous subroutine
+    find(
+        sub {
+            # do something
+        }
+        @DIRLIST
+    }
 
 .. `find` function from `File::Find` scans directories in `@DIRLIST` recursively and for each file calls the referenced function (coderef) `process_file`
 
-.. before calling your function `find` by default changes to the directory being scanned and sets the following variables:
+.. before calling your function `find` by default changes to the directory being scanned and sets the following (global) variables:
 
 * `$File::Find::dir` -- visited directory path relative to the starting directory
+* `$File::Find::name` -- full path of the file being visited relative to the starting directory
 * `$_` -- basename of the file being visited
-* `$File::Find::name` -- full path of the file being visited
 
 ## Find the largest file
 

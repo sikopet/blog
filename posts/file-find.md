@@ -27,6 +27,8 @@ Sometimes you need to do something to many/all files within certain directory. [
 
 ## Find the largest file
 
+NOTE: when dereferenced, a subroutine can see all visible lexical variables when reference to the subroutine is taken.
+
     #!/usr/bin/perl
     use strict;
     use warnings;

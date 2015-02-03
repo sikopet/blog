@@ -1,5 +1,4 @@
 # LAN Switching
-###### networking
 
 ## Concepts
 
@@ -46,8 +45,8 @@ Switch features
 
 ## LAN design
 
-* collision domain (switch) -- set of NICs whose frames can collide (NICs share the available bandwidth)
-* broadcast domain (router) -- set of NICs who all receive a broadcast frame sent be one of them
+* collision domain (seprated by switch) -- set of NICs whose frames can collide (NICs share the available bandwidth)
+* broadcast domain (separated by router) -- set of NICs who all receive a broadcast frame sent be one of them
 
 VLANs
 

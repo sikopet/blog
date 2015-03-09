@@ -21,7 +21,7 @@ Operating Systems
 * [Shell One Liners](posts/shell-one-liners.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
-* [KVM VMs Managemet](posts/vm-mngt.md)  
+* [KVM VMs Managemet](posts/vm-mngt.md)
 * [OS Resources](posts/os-resources.md)
 
 Networking
@@ -47,9 +47,9 @@ Security
 Programming
 -----------
 
-* [Programming in General](posts/prog-general.md)  
+* [Programming in General](posts/prog-general.md)
 * [Git](posts/git.md)
-* [Search Your GitHub](posts/search-github.md)  
+* [Search Your GitHub](posts/search-github.md)
 * [Programming Resources](posts/programming-resources.md)
 
 Perl Programming
@@ -60,7 +60,7 @@ Perl Programming
 * [Get Passwords on Command Line](posts/get-passwd.md)
 * [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
-* [Send Mail from Perl](posts/send-mail-from-perl.md)  
+* [Send Mail from Perl](posts/send-mail-from-perl.md)
 * [Perl Resources](posts/perl-resources.md)
 
 Various
@@ -70,5 +70,5 @@ Various
 * [Generate Ascii Table](posts/gen_ascii_table.md)
 * [Google Hacks](posts/google-hacks.md)
 * [HTML Parsing](posts/html-parsing.md)
-* [Numbers to Remember](posts/numbers-to-remember.md)  
+* [Numbers to Remember](posts/numbers-to-remember.md)
 * [IT Audit Resources](posts/it-audit-resources.md)

@@ -13,8 +13,10 @@ Create config file `~/.module-starter/config`:
     
 ... or use `module-starter` (see below) command line arguments like:
 
-    --mb
-    --email=foo@bar.org
+    --author="Foo Bar" \
+    --email=foo@bar.org \
+    --mb \
+    --verbose \
     --plugin=Module::Starter::AddModule
     
 Run basic commands

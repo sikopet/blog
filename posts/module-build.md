@@ -32,7 +32,8 @@ Run basic commands
 
 Add modules
 
-* add new module(s): `module-starter --module=Sheep,Cow,Horse --dist=.`
+* add new modules: `module-starter --module=Sheep,Cow,Horse --dist=Animal`
+* add new modules: `module-starter --module=Sheep,Cow,Horse --dist=.`       # we are inside our distribution directory
 
 Run individual tests
 
@@ -44,3 +45,6 @@ Measure out test coverage
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
 
+For more see:
+
+* Alpaca Book, Ch. 12

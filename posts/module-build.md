@@ -1,6 +1,6 @@
 ## Creating a Module::Build Distribution
 
-We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other common build system (we don't show here) is `ExtUtils::MakeMaker`.
+We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other common build systems (we don't show here) are `ExtUtils::MakeMaker` and [Dist::Zilla](http://dzil.org/).
 
 Create config file `~/.module-starter/config`:
 
@@ -42,4 +42,3 @@ Measure out test coverage
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
 
-Consider using [Dist::Zilla](http://dzil.org/).

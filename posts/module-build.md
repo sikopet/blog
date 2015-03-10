@@ -1,5 +1,7 @@
 ## Creating a Module::Build Distribution
 
+We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other common build system (we don't show here) is `ExtUtils::MakeMaker`.
+
 Create config file `~/.module-starter/config`:
 
     author: Foo Bar

@@ -33,7 +33,7 @@ Run basic commands
 Add modules
 
 * add new modules: `module-starter --module=Sheep,Cow,Horse --dist=Animal`
-* add new modules: `module-starter --module=Sheep,Cow,Horse --dist=.`       # we are inside our distribution directory
+* add new modules: `module-starter --module=Sheep,Cow,Horse --dist=.       # we are inside our distribution directory`
 
 Run individual tests
 

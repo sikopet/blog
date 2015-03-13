@@ -8,6 +8,7 @@ Operating Systems
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Generate File of Defined Size](posts/gen_rand_file.md)
 * [Kerberos](posts/kerberos.md)
+* [KVM VMs Managemet](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
 * [Bash Login Scripts](posts/login-scripts.md)
 * [LVM](posts/lvm.md)
@@ -21,7 +22,7 @@ Operating Systems
 * [Shell One Liners](posts/shell-one-liners.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
-* [KVM VMs Managemet](posts/vm-mngt.md)
+* [ZFS](posts/zfs.md)
 * [OS Resources](posts/os-resources.md)
 
 Networking

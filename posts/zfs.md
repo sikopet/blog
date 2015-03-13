@@ -17,6 +17,17 @@ Adding disk
 * filesystem root inside `mypool` was created
 * filesystem was mounted as `/mypool` (will be remounted automatically on (re)boot)
 
+Filesystems
+
+    zfs create mypool/myfs
+    zfs list -r mypool    # -r -- recurse through child filesystems
+
+* all filesystems living in a pool can draw from pool's available space
+* hierarchically dependent (unlike traditional filesystems which are independent of each other)
+* automounted as soon as created
+
+
+
 More
 
 * ULSAH, ch. 8

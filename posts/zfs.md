@@ -1,12 +1,15 @@
+Overview
+
 * refererred to as a filesystem but it's a comprehensive storage management (LVM, RAID)
 * can't be included into the Linux kernel due to licence terms (although it's open source)
 * ZFS secretly writes a GPT-style partition table and allocates all disks' space to its first partition
+* organized around *copy-on-write* principle
+* ZFS's RAID-Z ~ RAID 5
 
-pool 
+Pool
+
 * ~ volume group
 * composed of virtual devices - raw storage (disks, partitions, SAN), mirror groups, RAID arrays
-
-RAID-Z ~ RAID 5
 
 Adding disk
 
@@ -31,9 +34,21 @@ Change default mount point (a property) of the root filesystem
     zfs set mountpoint=/opt/mypool mypool
     zfs get all mypool/myfs    # filesystem properties
 
+Snapshots
 
+    touch /opt/mypool/myfs/file
+    zfs snapshot mypool/myfs@friday
+    rm /opt/mypool/myfs/file
+    ls /opt/mypool/myfs/.zfs/snapshot/friday
+    zfs rollback mypool/myfs@friday
 
+* copy-on-write brought to the user level (just as in LVM)
+* per-filesystem not per-volume
+* comptele identifier: `<filesystem>@<snapshot>`
+* read-only
+* not true filesystems however can be turned into one:
 
+        zfs clone mypool/myfs@friday mypool/myfs_clone
 
 More
 

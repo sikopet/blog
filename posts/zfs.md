@@ -23,8 +23,15 @@ Filesystems
     zfs list -r mypool    # -r -- recurse through child filesystems
 
 * all filesystems living in a pool can draw from pool's available space
-* hierarchically dependent (unlike traditional filesystems which are independent of each other)
+* unlike traditional filesystems which are independent of each other, hierarchically dependent (property inheritance)
 * automounted as soon as created
+
+Change default mount point (a property) of the root filesystem
+
+    zfs set mountpoint=/opt/mypool mypool
+    zfs get all mypool/myfs    # filesystem properties
+
+
 
 
 

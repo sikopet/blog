@@ -13,6 +13,7 @@ Pool
 Adding disk
 
     zpool create mypool sdb
+    zpool list
     zpool status
     
 * disk was labeled

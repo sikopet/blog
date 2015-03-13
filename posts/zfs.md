@@ -14,6 +14,7 @@ Pool
 Adding disk
 
     zpool create mypool sdb
+    zpool status
     
 * disk was labeled
 * `mypool` pool was created

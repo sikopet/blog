@@ -40,7 +40,7 @@ Snapshots
     zfs snapshot mypool/myfs@friday
     rm /opt/mypool/myfs/file
     ls /opt/mypool/myfs/.zfs/snapshot/friday
-    zfs rollback mypool/myfs@friday
+    zfs rollback mypool/myfs@friday    # restore removed file by restoring FS
 
 * copy-on-write brought to the user level (just as in LVM)
 * per-filesystem not per-volume

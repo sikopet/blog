@@ -8,4 +8,15 @@ pool
 
 RAID-Z ~ RAID 5
 
+Adding disk
 
+    zpool create mypool sdb
+    
+* disk was labeled
+* `mypool` pool was created
+* filesystem root inside `mypool` was created
+* filesystem was mounted as `/mypool` (will be remounted automatically on (re)boot)
+
+More
+
+* ULSAH, ch. 8

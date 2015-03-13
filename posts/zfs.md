@@ -1,3 +1,6 @@
+ZFS
+===
+
 Overview
 
 * refererred to as a filesystem but it's a comprehensive storage management (LVM, RAID)
@@ -63,3 +66,56 @@ Adding (five) disks
 More
 
 * ULSAH, ch. 8
+
+Encrypted backups with snapshots (on an external HDD)
+=====================================================
+
+Setup external disk
+
+    dd if=/dev/zero of=/dev/sdc bs=1M count=10
+    zpool create extusb /dev/sdc
+    zfs create extusb/backup
+    encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+
+Unmount the disk
+
+    fusermount -u /extusb/backup/decrypted  # encfs
+    umount /extusb/backup                   # zfs
+    umount /extusb                          # zfs root
+    /etc/init.d/zfs-fuse stop
+
+Mount the disk
+
+    /etc/init.d/zfs-fuse restart
+    encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+
+Rsync data
+
+    #!/bin/bash
+    
+    # Make sure backups are ecnrypted via encFS.
+    mount | grep /extusb/backup/decrypted > /dev/null
+    EV=$?
+    if [[ $EV -ne 0 ]]; then
+            echo "Backups not running, because encrypted FS is not mounted. Run:"
+            echo
+            echo "    encfs /extusb/backup/.encrypted /extusb/backup/decrypted"
+            exit 1
+    fi
+    
+    # Rsync
+    rsync --quiet --delete -az \
+            remote.host.org:/data1 \
+            remote.host.org:/data2 \
+            /extusb/backup/decrypted/remote.host.org
+    
+    # Snapshot
+    zfs snapshot extusb/backup@`date +%F`
+
+Restore data
+
+    zfs clone extusb/backup@2015-03-13 extusb/2015-03-13
+    encfs /extusb/2015-03-13/.encrypted /extusb/2015-03-13/decrypted/
+    #### take the files you need from /extusb/2015-03-13/decrypted/
+    fusermount -u /extusb/2015-03-13/decrypted
+    zfs destroy extusb/2015-03-13

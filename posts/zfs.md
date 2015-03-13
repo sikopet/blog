@@ -4,7 +4,6 @@ Overview
 * can't be included into the Linux kernel due to licence terms (although it's open source)
 * ZFS secretly writes a GPT-style partition table and allocates all disks' space to its first partition
 * organized around *copy-on-write* principle
-* ZFS's RAID-Z ~ RAID 5
 
 Pool
 
@@ -50,6 +49,15 @@ Snapshots
 * not true filesystems however can be turned into one:
 
         zfs clone mypool/myfs@friday mypool/myfs_clone
+
+Adding (five) disks
+
+    zpool destroy mypool
+    zpool create mybigpool raidz1 sdb sdc sdd    # raidz<parity>
+    zpool add -f mybigpool mirror sde sdf
+    zpool status mybigpool
+
+* ZFS's RAID-Z ~ RAID 5
 
 More
 

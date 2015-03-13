@@ -1,5 +1,5 @@
 ZFS
-===
+---
 
 Overview
 
@@ -68,7 +68,7 @@ More
 * ULSAH, ch. 8
 
 Encrypted backups with snapshots (on an external HDD)
-=====================================================
+-----------------------------------------------------
 
 Setup external disk
 

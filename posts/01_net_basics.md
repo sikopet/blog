@@ -268,8 +268,6 @@ IP addressing
 
 * all IP addresses in the same group (class) must not be separated by a router
 
-Classful addressing scheme: [IP Networks](ip-networks.md)
-
 Router logic
 
 1. use FCS to check for errors, if error occurred discard the frame and repeat this step

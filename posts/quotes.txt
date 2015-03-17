@@ -1,3 +1,5 @@
+Diversity of software, hardware, and network connectivity are the keys to surviving the Darwinian pressure of the Internet. Add geographical location and sysadmin skills to your diversity pile and you will be in fine shape. -- ULSAH: DNS
+
 A host can only route packets to gateway machines that are reachable through a directly connected network. The local hosts's job is limited to moving packets one hop closer to their destinations, so it is pointless to include information about nonadjacent gateways in the local routing table. -- ULSAH
 
 Information security professionals and System Administrators alike have a tendency to strive for a perfect solution. System Administrators, however, often times have enough practical experience to know that those rarely exist, and that deploying a reasonable, but not perfect, solution to a problem upon which can be iterated in the future is almost always preferable. -- Jan Schaumann (http://sysadvent.blogspot.co.at/2014/12/day-20-infosec-basics-reason-behind.html)

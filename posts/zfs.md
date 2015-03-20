@@ -89,7 +89,7 @@ Mount the disk
     /etc/init.d/zfs-fuse restart
     encfs /extusb/backup/.encrypted /extusb/backup/decrypted
 
-Rsync data
+Backup data
 
     #!/bin/bash
     
@@ -111,6 +111,10 @@ Rsync data
     
     # Snapshot
     zfs snapshot extusb/backup@`date +%F`
+
+Check snaphosts' timestamps
+
+    zfs get -H -o name,value creation `zfs list -H -o name -t snapshot`
 
 Restore data
 

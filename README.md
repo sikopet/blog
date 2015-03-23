@@ -31,6 +31,7 @@ Networking
 * [Networking Basics](posts/01_net_basics.md)
 * [Switching](posts/02_switching.md)
 * [DHCP](posts/dhcp.md)
+* [DNS](posts/dns.md)
 * [GSM](posts/gsm.md)
 * [netcat](posts/netcat.md)
 * [OsmocomBB](posts/osmocombb.md)

@@ -1,4 +1,5 @@
 Resource records
+----------------
 
     [name] [ttl] [class] type data
     
@@ -25,7 +26,23 @@ type
 * MX - Mail Exchanger (Controls email routing)
 * CNAM - Canonical Name (Nicknames or aliases for a host)
 
+Testing and debugging tools
+---------------------------
+
+host
+
+    host name|addr [server]
+    
+nslookup
+
+    nslookup [name|addr] [server]
+
+dig
+
+    dig [@server] [-x addr] [name] [type] [+trace]
+
 Sources
+-------
 
 * ULSAH
 

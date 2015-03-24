@@ -66,7 +66,7 @@
       filename "/tftpboot/bootpneptune.boot";
     }
 
-To find out MAC address from DHCP server: `ping -c 1 <ip.addr>; /sbin/arp <ip.addr>`.
+To find out MAC - IP address mapping: `ping -c 1 <ip-addr>; /sbin/arp <ip-addr>`.
 
 ## dhcpd.leases
 

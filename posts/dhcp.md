@@ -3,7 +3,7 @@
 ## Dynamic Host Configuration Protocol
 
 * lets a client to "lease" a variety of network and administrative parameters (IP address and netmask, gateway, DNS server, syslog host, WINS server, X font server, proxy server, NTP server, TFTP server, ...) => *autoconfiguration* at boot time
-* clients must report backup to the server periodically to renew their leases
+* clients must report back to the server periodically to renew their leases
 * backward-compatible replacement of `bootp`
 * server listens on udp 67, answers through udp 68
 * often paired with DNS role

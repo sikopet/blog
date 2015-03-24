@@ -1,5 +1,4 @@
 # DHCP
-###### linux
 
 ## Dynamic Host Configuration Protocol
 

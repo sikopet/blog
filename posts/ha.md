@@ -1,0 +1,12 @@
+Pacemaker - high-availability resource manager for small or large clusters
+* recovery of machine or application failures
+* "dry run"
+* XML (CIB) wrapped in shell (`crmsh`) or GUI tools
+* combined with one of:
+ * Corosync
+ * Hearbeat
+ 
+ crmsh - CLI tool for managing
+ * Pacemaker
+ * Corosync
+ * Resource agents (wrapper scripts)

@@ -6,7 +6,12 @@ Pacemaker - high-availability resource manager for small or large clusters
  * Corosync
  * Hearbeat
  
- crmsh - CLI tool for managing
+crmsh - CLI tool for managing
  * Pacemaker
  * Corosync
  * Resource agents (wrapper scripts)
+
+Corosync
+* cluster executive
+* cluster communication system
+* messaging, membership and quorum info

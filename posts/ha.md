@@ -1,4 +1,4 @@
-Pacemaker - high-availability resource manager for small or large clusters
+Pacemaker - high-availability *resource manager* for small or large clusters
 * recovery of machine or application failures
 * "dry run"
 * XML (CIB) wrapped in shell (`crmsh`) or GUI tools
@@ -9,7 +9,7 @@ Pacemaker - high-availability resource manager for small or large clusters
 Corosync
 * cluster executive
 * cluster communication system
-* messaging, membership and quorum info
+* *messaging*, membership and quorum info
 
 `crmsh` - CLI tool for managing
  * Pacemaker

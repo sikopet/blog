@@ -1,5 +1,4 @@
 # Search Hacks
-###### security
 
 ## GitHub
 

@@ -1,31 +1,22 @@
-# Shell One-Liners
-###### shell, perl
+Count number of cores
 
-See also <http://www.commandlinefu.com>.
+    for n in `grep 'cpu cores' /proc/cpuinfo | cut -d: -f2 | sed 's/ //'`; do t=$(($t+$n)); done; echo $t
 
-## Various
+Compute strings' SHA1 message digests
 
-* count number of cores
+    $ for name in "jano" "fero" "daniel"; do echo -n $name | sha1sum; done
+    b07fe6fe542d2d3b400e59b6e08eab04901148be  -
+    792615d815e90d6fdd35e5916b2ce5a8014bd4e1  -
+    3d0f3b9ddcacec30c4008c5e030e6c13a478cb4f  -
 
-        for n in `grep 'cpu cores' /proc/cpuinfo | cut -d: -f2 | sed 's/ //'`; do t=$(($t+$n)); done; echo $t
+Find and rename multiple files (`*.log` => `*.LOG`)
 
-* compute strings' SHA1 message digests
+    $ find . -type f -name '*.log ' | grep -v .do-not-touch | while read fname
+    > do
+    > echo mv $fname ${fname/.log/.LOG/}
+    > done
 
-        $ for name in "jano" "fero" "daniel"; do echo -n $name | sha1sum; done
-        b07fe6fe542d2d3b400e59b6e08eab04901148be  -
-        792615d815e90d6fdd35e5916b2ce5a8014bd4e1  -
-        3d0f3b9ddcacec30c4008c5e030e6c13a478cb4f  -
-
-* find and rename multiple files (`*.log` => `*.LOG`)
-
-        $ find . -type f -name '*.log ' | grep -v .do-not-touch | while read fname
-        > do
-        > echo mv $fname ${fname/.log/.LOG/}
-        > done
-
-### Search inside files 
-
-E.g. search MS Word files for "robot" string:
+Search inside files; e.g. search MS Word files for "robot" string:
 
     find /data -type f -iname "*.doc" -print0 | xargs -0 strings -f |  grep -i 'robot' > find.out
 
@@ -33,3 +24,6 @@ E.g. search MS Word files for "robot" string:
 
         cat find.out | cut -d: -f1 | sort | uniq
 
+See also 
+
+* http://www.commandlinefu.com

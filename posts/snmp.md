@@ -58,6 +58,14 @@ output as an SNMP response (you can monitor almost anything).
 NET-SNMP tools
 --------------
 
+snmpget
+
+snmpwalk - list available OIDs
+
+    snmpwalk -c community-string -v1 my-device
+
+* v1 -- use simple authentication
+
 Source
 ======
 

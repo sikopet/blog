@@ -58,13 +58,17 @@ output as an SNMP response (you can monitor almost anything).
 NET-SNMP tools
 --------------
 
-snmpget
+snmpget - query for a specific OID value
+
+    snmpget -v1 -c commnunity-string my-device .1.3.6.1.2.1.1.1.0
+
+* `-v1` -- use simple authentication
+* `.1.3.6.1.2.1.1.1.0` -- OID for system description
 
 snmpwalk - list available OIDs
 
-    snmpwalk -c community-string -v1 my-device
+    snmpwalk -v1 -c community-string my-device
 
-* v1 -- use simple authentication
 
 Source
 ======

@@ -1,12 +1,41 @@
+SNMP
+----
+
 Network management protocol:
+
 * discover device configuration, health, network connections
 * modify some configuration
 * agents (managed devices, server program) can send *traps* (notification
     messages) to management stations (client program)
 
+SNMP organization
+-----------------
+
 SNMP defines a hierarchical namespace of variables. The naming hierarchy is
 made up of *MIB*s - structured text files that describe the data accessible
-through SNMP. *OID*s - names for a specific managed piece of data.
+through SNMP. *OID*s - names for a specific managed piece of data. For example
+the OID that refers to the uptime of the system is 1.3.6.1.2.1.1.3.
 
-Source:
+The current basic MIB for TCP/IP is MIB-II (defined by RFC1213). In addition to
+basic MIB, there are MIBs for
+* various hardware interfaces
+* various protocols
+* individual vendors
+
+A MIB is *just a schema* for naming management data. To be useful, there must be
+an agent-side program that maps between the SNMP namespace and the device's
+actual state. SNMP agents (like NET-SNMP) come with built-in support for MIB-II
+and can be extended to support supplemental MIBs.
+
+SNMP operations
+---------------
+
+1. get -- read data
+2. get-next -- step through MIB hierarchy or read table
+3. set -- write data
+4. trap -- unsolicited, asynchronous notification from server (agent)
+
+Source
+------
+
 * ULSAH

@@ -45,11 +45,12 @@ NET-SNMP agent
 http://net-snmp.sourceforge.net
 
 Authoritative free implementation of SNMP for UNIX and Linux. Includes:
-* agent
-* command line tools
+* agent (deb: `snmpd`)
+* command line tools (deb: `snmp`)
 * server (for receiving traps)
-* library for developing SNMP-aware applications
-* MIBs for network interfaces, memory, disk, processes and CPU
+* library for developing SNMP-aware applications (deb: `libsnmp15`)
+* MIBs for network interfaces, memory, disk, processes and CPU (deb:
+    `libsnmp-base`)
 
 The agent is *easily extensible* - it can execute any command and return its
 output as an SNMP response (you can monitor almost anything).

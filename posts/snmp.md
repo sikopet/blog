@@ -35,6 +35,25 @@ SNMP operations
 3. set -- write data
 4. trap -- unsolicited, asynchronous notification from server (agent)
 
+Since SNMP messages could modify data some security is needed. The simplest
+version is based on *community strings* (for reading and writing) which is
+another name for passwords. SNMP v3 brings access control with higher security.
+
+NET-SNMP agent
+--------------
+
+http://net-snmp.sourceforge.net
+
+Authoritative free implementation of SNMP for UNIX and Linux. Includes:
+* agent
+* command line tools
+* server (for receiving traps)
+* library for developing SNMP-aware applications
+* MIBs for network interfaces, memory, disk, processes and CPU
+
+The agent is *easily extensible* - it can execute any command and return its
+output as an SNMP response (you can monitor almost anything).
+
 Source
 ------
 

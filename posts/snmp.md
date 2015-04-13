@@ -39,8 +39,8 @@ Since SNMP messages could modify data some security is needed. The simplest
 version is based on *community strings* (for reading and writing) which is
 another name for passwords. SNMP v3 brings access control with higher security.
 
-NET-SNMP agent
---------------
+NET-SNMP
+--------
 
 http://net-snmp.sourceforge.net
 
@@ -54,6 +54,9 @@ Authoritative free implementation of SNMP for UNIX and Linux. Includes:
 
 The agent is *easily extensible* - it can execute any command and return its
 output as an SNMP response (you can monitor almost anything).
+
+NET-SNMP tools
+==============
 
 Source
 ------

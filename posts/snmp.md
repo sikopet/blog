@@ -1,5 +1,5 @@
 SNMP
-----
+====
 
 Network management protocol:
 
@@ -9,7 +9,7 @@ Network management protocol:
     messages) to management stations (client program)
 
 SNMP organization
------------------
+=================
 
 SNMP defines a hierarchical namespace of variables. The naming hierarchy is
 made up of *MIB*s - structured text files that describe the data accessible
@@ -28,7 +28,7 @@ actual state. SNMP agents (like NET-SNMP) come with built-in support for MIB-II
 and can be extended to support supplemental MIBs.
 
 SNMP operations
----------------
+===============
 
 1. get -- read data
 2. get-next -- step through MIB hierarchy or read table
@@ -40,7 +40,7 @@ version is based on *community strings* (for reading and writing) which is
 another name for passwords. SNMP v3 brings access control with higher security.
 
 NET-SNMP
---------
+========
 
 http://net-snmp.sourceforge.net
 
@@ -56,9 +56,9 @@ The agent is *easily extensible* - it can execute any command and return its
 output as an SNMP response (you can monitor almost anything).
 
 NET-SNMP tools
-==============
+--------------
 
 Source
-------
+======
 
 * ULSAH

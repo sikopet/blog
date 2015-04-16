@@ -65,9 +65,9 @@ Extending LV
     
         resize2fs /dev/raid1vg/backuplv
 
-NOTE: when shrinking, first resize filesystem then shrink the LV.
+* when shrinking, first resize filesystem then shrink the LV.
 
-Snapshotting LVs (e.g. for doing backups)
+Snapshotting LV (e.g. for doing backups)
 
     lvcreate -L 50G -s -n backuplv-snap raid1vg/backuplv  # should be short-lived or of the same size as source LV
     

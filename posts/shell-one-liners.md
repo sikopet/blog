@@ -1,3 +1,7 @@
+Sort running processes by memory use
+
+    ps -eo pmem,pcpu,rss,vsize,args | sort -k 1 -r | less
+
 Find files you might want to backup
 
     find / -type f ! -path '*/.*' -mtime -30 2>/dev/null | \

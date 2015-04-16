@@ -40,10 +40,10 @@ Compute strings' SHA1 message digests
 
 Find and rename multiple files (`*.log` => `*.LOG`)
 
-    $ find . -type f -name '*.log ' | grep -v .do-not-touch | while read fname
-    > do
-    > echo mv $fname ${fname/.log/.LOG/}
-    > done
+    find . -type f -name '*.log ' | grep -v .do-not-touch | while read fname
+    do
+        echo mv $fname ${fname/.log/.LOG/}
+    done
 
 Search inside files; e.g. search MS Word files for "robot" string:
 

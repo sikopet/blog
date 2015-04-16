@@ -1,3 +1,17 @@
+Find files you might want to backup
+
+    find / -type f -mtime -30 2>/dev/null | \
+    egrep -v -e '^/proc' \
+    -e '^/sys' \
+    -e '^/var/(lib|cache|log|spool|mail|backups)' \
+    -e '^/tmp' \
+    -e '^/run' \
+    -e '^/etc' \
+    -e '^/usr' \
+    -e '^/lib' \
+    -e '^/boot' \
+    -e '^/dev'
+
 Check which machines you can login into
 
     for h in `cat /tmp/hosts | do printf "ssh-ing into %20s ... " $h ; if ssh -q -o BatchMode=yes root@$h exit; then echo "OK"; else echo "FAIL"; fi; done

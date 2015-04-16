@@ -54,3 +54,27 @@ Whatch the array rebuilding - `watch cat /proc/mdstats`
           [>....................]  recovery =  0.6% (1024896/156287488) finish=68.1min speed=37959K/sec
 
     unused devices: <none>
+
+## Configuration
+
+Via command line arguments or file (recommended)
+
+    echo DEVICE /dev/sda /dev/sdb > /etc/mdadm.conf
+    mdadm --detail --scan >> /etc/mdadm.conf
+        
+Enable array (at startup)
+
+    mdadm -As /dev/md0
+    
+Stop array
+
+    mdadm -S /dev/md0
+    
+## Monitoring
+
+Set `MAILADDR` in mdadm.conf to get notified
+
+Arrange for automatic start of `mdadm --monitor` at boot
+
+    ubuntu# update-rc.d mdadm enable
+    redhat# chkconfig mdmonitor on

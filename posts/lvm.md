@@ -52,8 +52,8 @@ Creating Volumes
 
 1. Create mount point and mount volume(s)
 
-        mkdir -p /backup
-        mount -a
+        mkdir /backup
+        mount /backup
 
 Extending LV
 
@@ -64,3 +64,5 @@ Extending LV
 1. Re-size the filesystem (online re-sizing doesn't seem to cause troubles)
     
         resize2fs /dev/raid1vg/backuplv
+
+When shrinking, first resize filesystem then shrink the LV.

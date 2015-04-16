@@ -1,6 +1,6 @@
 Find files you might want to backup
 
-    find / -type f -mtime -30 2>/dev/null | \
+    find / -type f ! -path '*/.*' -mtime -30 2>/dev/null | \
     grep -E -v \
     -e '^/proc' \
     -e '^/sys' \

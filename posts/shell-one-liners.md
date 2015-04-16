@@ -19,13 +19,13 @@ Find files you might want to backup
 Check which machines you can login into
 
     for h in `cat /tmp/hosts`
-    > do printf "ssh-ing into %20s ... " $h
-    >     if ssh -q -o BatchMode=yes root@$h exit; then
-    >         echo "OK"
-    >     else
-    >         echo "FAIL"
-    >     fi
-    > done
+    do printf "ssh-ing into %20s ... " $h
+        if ssh -q -o BatchMode=yes root@$h exit; then
+            echo "OK"
+        else
+            echo "FAIL"
+        fi
+    done
 
 Count number of cores
 

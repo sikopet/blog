@@ -1,5 +1,4 @@
 # RAID
-###### linux
 
 RAID (Redundant Array of Independent/Inexpensive Drives/Disks) -- a technology allowing to use two or more "disks" with the aim of
 

@@ -40,7 +40,7 @@ nslookup
 dig
 
     dig [@server] [-x addr] [name] [type] [+trace]
-    
+
 Determine DNS server version
 ----------------------------
 
@@ -52,6 +52,11 @@ Query the the version (can be concealed in some cases)
 
     dig @ns1.ist.ac.at version.bind txt chaos
 
+Finding master server
+---------------------
+
+    dig SOA <domain-name>
+    
 Sources
 -------
 

@@ -48,7 +48,7 @@ Find out the name of the nameserver for the domain
 
     dig ist.ac.at ns
     
-Query the the (bind) version (can be concealed in some cases)
+Query the the version (can be concealed in some cases)
 
     dig @ns1.ist.ac.at version.bind txt chaos
 

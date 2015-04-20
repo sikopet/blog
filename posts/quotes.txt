@@ -1,3 +1,5 @@
+We're a Puppet shop, though If I could do it over, I'd switch to either Ansible or SaltStack. -- Linux Foundation System Administrator Konstanin Ryabitsev (http://www.linux.com/news/featured-blogs/200-libby-clark/814542-15-reddit-ama-questions-for-kernelorg-sysadmin-konstantin-ryabitsev)
+
 Diversity of software, hardware, and network connectivity are the keys to surviving the Darwinian pressure of the Internet. Add geographical location and sysadmin skills to your diversity pile and you will be in fine shape. -- ULSAH: DNS
 
 A host can only route packets to gateway machines that are reachable through a directly connected network. The local hosts's job is limited to moving packets one hop closer to their destinations, so it is pointless to include information about nonadjacent gateways in the local routing table. -- ULSAH

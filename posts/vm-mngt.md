@@ -10,7 +10,7 @@ The management tools I've used are <a href="http://virt-manager.org/">virt-manag
 
 This tool is fairly self-explanatory. The only thing I'll mention is how to get it running from a Windows machine via putty (see <a href="http://www.math.umn.edu/systems_guide/putty_xwin32.html">here</a> for more details):
 
- 1. Install and start Xming - an X server for Windows (Xming Server:0.0). You don't need to be admin.
+ 1. Install and start Xming - an X(11) server for Windows (Xming Server:0.0). You don't need to be admin.
  1. Setup putty to forward X connections: "Enable X11 forwarding" => "X display location: localhost:0"
 
 ## virsh

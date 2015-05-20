@@ -1,5 +1,4 @@
 # GSM
-###### telco
 
 ## Cellular network
 
@@ -25,13 +24,13 @@
 
 GSM PLMN has two main logical domains:
 
-* access network => most used access networks in western Europe as of 2009 (can be deployed in parallel):
+1. access network - most used access networks in western Europe as of 2009 (can be deployed in parallel):
  * GERAN (GSM EDGE radio access network)
- * UTRAN (UMTS terrestrial radion access network) <= HSPA can be implemented into UMTS to increase data transfer speed
-* core network
+ * UTRAN (UMTS terrestrial radio access network) - HSPA can be implemented into UMTS to increase data transfer speed
+2. core network
  * circuit switched domain
  * packet switched domain
- * IP mutlimedia subsystem (IMS)
+ * IP multimedia subsystem (IMS)
 
 GPRS/UMTS architecture with the main interfaces:
 
@@ -41,7 +40,7 @@ The network is structured into a number of discrete sections:
 
  * the base station subsystem (**BSS**) - handles traffic and signaling between a mobile phone and the NSS (access network)
  * the network and switching subsystem (**NSS**) - part of the network most similar to a fixed network (VOICE, circuit switched)
- * the **GPRS core network** - optional part fot packet based Internet connections (NON-VOICE, packet switched)
+ * the **GPRS core network** - optional part for packet based Internet connections (NON-VOICE, packet switched)
  * operations support system (**OSS**) for maintenance
 
 ![GSM network](https://raw.github.com/jreisinger/blog/master/files/gsm_structure.png)
@@ -73,7 +72,7 @@ See [this picture](https://raw.github.com/jreisinger/blog/master/files/gsm_commu
 
 **AUC**
 
- * database of authentification keys
+ * database of authentication keys
 
 **EIR**
 
@@ -92,8 +91,8 @@ See [this picture](https://raw.github.com/jreisinger/blog/master/files/gsm_commu
 
 **GGSN** = Gateway GPRS Support Node
 
- * **main component** ot the GPRS network
- * internetworking between the GPRS network and external packet switched networks
+ * **main component** of the GPRS network
+ * inter-networking between the GPRS network and external packet switched networks
  * router to a sub-network
 
 ## AT commands

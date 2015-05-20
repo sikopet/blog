@@ -1,4 +1,4 @@
-# OsmocomBB
+(Up-to-date <a href="https://github.com/jreisinger/blog/blob/master/posts/osmocombb.md">source</a> of this post.)
 
 [OsmocomBB](http://bb.osmocom.org/trac/) (Open source mobile communications BaseBand) is an GSM Baseband software implementation. It intends to completely replace the need for a proprietary GSM baseband software. By using OsmocomBB on a compatible phone, you are able to make and receive phone calls, send and receive SMS, etc. based on Free Software. You can [learn](https://raw.github.com/jreisinger/blog/master/files/gsm_communication.jpg), hack and audit mobile networks with this tool.
 

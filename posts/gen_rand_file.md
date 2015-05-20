@@ -19,9 +19,4 @@ text file:
 
     base64 /dev/urandom | dd of=file.txt bs=1M count=100 iflag=fullblock
 
-or
-
-([gen-txt-file.pl](https://github.com/jreisinger/blog/blob/master/code/gen-txt-file.pl) script):
-
-    perl gen-txt-file.pl file.txt `echo $((100*1024*1024))`
 

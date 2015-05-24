@@ -39,7 +39,7 @@ type
     CNAME  Canonical Name (Nicknames or aliases for a host)
 
 Nameservers
------------
+===========
 
 * authoritative - an official representative of a zone
  * master, primary - gets data from a disk file
@@ -51,7 +51,7 @@ Nameservers
 * non-recursive - refers you to another server if it can't answer a query
 
 Testing and debugging tools
----------------------------
+===========================
 
 host
 
@@ -82,7 +82,7 @@ Finding master server
     dig SOA <domain-name>
     
 Sources
--------
+=======
 
 * ULSAH
 

@@ -7,7 +7,7 @@ A zone's DNS database (zone files) - set of text files maintained by the sysadmi
 
 Zone files have two types of entries:
 
-* parser commands (ex. `$ORIGIN`, `$TTL`) - shorthand ways to enter records
+* parser commands (shorthand ways to enter resource records)
 * resource records
 
 Parser commands (directives)

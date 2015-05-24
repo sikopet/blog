@@ -1,16 +1,14 @@
+DNS database
+============
+
 Zone - a domain minus its subdomain(s)
 
-Nameservers
------------
+A zone's DNS database (zone files) - set of text files maintained by the sysadmin on the zone's master name server.
 
-* authoritative - an official representative of a zone
- * master, primary - gets data from a disk file
- * slave, secondary - copies data from the master
-* non-authoritative - answers queries from cache; doesn't know if the data is still valid
- * caching - caches data from previous queries; usually has no local zones
- * forwarder - performs queries on behalf of many clients; builds a large cache
-* recursive - queries on your behalf until it returns either an answer or an error
-* non-recursive - refers you to another server if it can't answer a query
+Zone files have two types of entries:
+
+* parser commands (ex. `$ORIGIN`, `$TTL`) - shorthand ways to enter records
+* resource records
 
 Resource records
 ----------------
@@ -39,6 +37,18 @@ type
     PTR    Pointer (Address-to-name translation)
     MX     Mail Exchanger (Controls email routing)
     CNAME  Canonical Name (Nicknames or aliases for a host)
+
+Nameservers
+-----------
+
+* authoritative - an official representative of a zone
+ * master, primary - gets data from a disk file
+ * slave, secondary - copies data from the master
+* non-authoritative - answers queries from cache; doesn't know if the data is still valid
+ * caching - caches data from previous queries; usually has no local zones
+ * forwarder - performs queries on behalf of many clients; builds a large cache
+* recursive - queries on your behalf until it returns either an answer or an error
+* non-recursive - refers you to another server if it can't answer a query
 
 Testing and debugging tools
 ---------------------------

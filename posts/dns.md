@@ -1,3 +1,17 @@
+Zone - a domain minus its subdomain(s)
+
+Nameservers
+-----------
+
+* authoritative - an official representative of a zone
+ * master, primary - gets data from a disk file
+ * slave, secondary - copies data from the master
+* non-authoritative - answers queries from cache; doesn't know if the data is still valid
+ * caching - caches data from previous queries; usually has no local zones
+ * forwarder - performs queries on behalf of many clients; builds a large cache
+* recursive - queries on your behalf until it returns either an answer or an error
+* non-recursive - refers you to another server if it can't answer a query
+
 Resource records
 ----------------
 

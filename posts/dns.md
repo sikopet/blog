@@ -10,6 +10,15 @@ Zone files have two types of entries:
 * parser commands (ex. `$ORIGIN`, `$TTL`) - shorthand ways to enter records
 * resource records
 
+Parser commands (directives)
+----------------------------
+
+`$ORIGIN <domain-name>` - sets/changes the origin, i.e. the default domain (defaults to the domain name specified in the name server's config file)
+
+`$INCLUDE <filename> [origin]` - allows you to separate records into files or to keep cryptographic keys in a file with restricted permissions
+
+`$TTL <default-ttl>` - must be the first line of the zone file
+
 Resource records
 ----------------
 

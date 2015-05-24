@@ -20,10 +20,10 @@ class
 
 type
 
-* NS - Name Server
-* A - IPv4 Address (Name-to-address translation)
-* PTR - Pointer (Address-to-name translation)
-* MX - Mail Exchanger (Controls email routing)
+* NS   - Name Server
+* A    - IPv4 Address (Name-to-address translation)
+* PTR  - Pointer (Address-to-name translation)
+* MX   - Mail Exchanger (Controls email routing)
 * CNAM - Canonical Name (Nicknames or aliases for a host)
 
 Testing and debugging tools

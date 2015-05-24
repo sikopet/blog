@@ -37,6 +37,13 @@ type
     PTR    Pointer (Address-to-name translation)
     MX     Mail Exchanger (Controls email routing)
     CNAME  Canonical Name (Nicknames or aliases for a host)
+    
+Special characters in resource records
+
+    ;   comment
+    @   the current zone name
+    ()  allows data to span lines
+    *   wild card (`name` field only)
 
 Nameservers
 ===========

@@ -22,9 +22,11 @@ Test remote HTTP server:
 
 (press Enter two times after the `GET` line)
 
-Check UDP port is open:
+Check UDP port is open (`telnet` does not work for UDP ports):
 
-    nc -vu ns.nameserver.tld 53
+    $ netcat -vu vpn.ist.ac.at 1194
+    Connection to vpn.ist.ac.at 1194 port [udp/openvpn] succeeded!
+    
 
 Make sure no data (zero) is sent to the port you connect to:
 

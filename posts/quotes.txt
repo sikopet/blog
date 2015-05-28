@@ -1,3 +1,5 @@
+The best optimization strategy is to steal from what smarter people have already done. -- brian d foy (http://www.masteringperl.org/2015/05/computing-excellent-numbers/)
+
 Networking is when you can't get any work done because of the failure of a machine you have never heard of. -- ULSAH
 
 We're a Puppet shop, though If I could do it over, I'd switch to either Ansible or SaltStack. -- Linux Foundation System Administrator Konstanin Ryabitsev (http://www.linux.com/news/featured-blogs/200-libby-clark/814542-15-reddit-ama-questions-for-kernelorg-sysadmin-konstantin-ryabitsev)

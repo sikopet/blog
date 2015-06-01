@@ -7,6 +7,7 @@ Operating Systems
 
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Generate File of Defined Size](posts/gen_rand_file.md)
+* [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)
 * [Kerberos](posts/kerberos.md)
 * [KVM VMs Managemet](posts/vm-mngt.md)

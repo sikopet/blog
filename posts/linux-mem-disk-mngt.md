@@ -1,3 +1,6 @@
+Linux ate my memory
+===================
+
 Linux uses free memory for *disk* caching and buffering but this memory can be
 allocated to applications immediately if needed.
 
@@ -43,3 +46,7 @@ To see it in action:
     dd if=/dev/urandom of=/tmp/bla  # cache some data
     ./munch          # run until SIGINT or killed by kernel
 
+Resources
+=========
+
+* http://www.linuxatemyram.com/

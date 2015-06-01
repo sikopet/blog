@@ -14,7 +14,7 @@ File and directories
 GRUB 2 generally automates lot of steps (helper scripts search the partitions
 for know OSs and create the required entries).
 
-When GRUB starts it launches all executable scripts in `/etc/grub.d`.
+When GRUB starts it launches all executable scripts in `/etc/grub.d/`. If you modify scripts in this directory run `update-grub`.
 
 Adding a menu entry
 ===================

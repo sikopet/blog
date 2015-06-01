@@ -10,10 +10,10 @@ Operating Systems
 * [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)
 * [Kerberos](posts/kerberos.md)
-* [KVM VMs Managemet](posts/vm-mngt.md)
+* [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
 * [Bash Login Scripts](posts/login-scripts.md)
-* [Linux Memory and Disk Management](posts/linux-mem-disk-mngt.md)
+* [Linux Memory Management](posts/linux-mem-mngt.md)
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)
 * [New Linux Server](posts/new-linux-server.md)
@@ -73,7 +73,7 @@ Various
 -------
 
 * [Check Web Site Uptime](posts/check-web-app.md)
-* [Generate Ascii Table](posts/gen_ascii_table.md)
+* [Generate ASCII Table](posts/gen_ascii_table.md)
 * [Google Hacks](posts/google-hacks.md)
 * [HTML Parsing](posts/html-parsing.md)
 * [Numbers to Remember](posts/numbers-to-remember.md)

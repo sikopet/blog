@@ -1,5 +1,5 @@
-Linux ate my memory
-===================
+Linux ate my memory!
+====================
 
 Linux uses free memory for *disk* caching and buffering but this memory can be
 allocated to applications immediately if needed.
@@ -15,7 +15,7 @@ So the machine above has 1144 MB of memory free from the kernel point of view
 of memory free from the applications point of view (since programs don't
 consider memory used by caches and buffers).
 
-To prove disk, let's run this memory eating program:
+To demonstrate this, let's run this memory eating program:
 
     #include <stdlib.h>
     #include <stdio.h>

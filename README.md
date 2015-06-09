@@ -25,6 +25,7 @@ Operating Systems
 * [Shell One Liners](posts/shell-one-liners.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
+* [Vagrant](posts/vagrant.md)
 * [ZFS](posts/zfs.md)
 * [OS Resources](posts/os-resources.md)
 

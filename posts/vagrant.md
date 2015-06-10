@@ -3,7 +3,7 @@ Search boxes - https://atlas.hashicorp.com/boxes/search
 Add a box:
 
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
-    
+ 
 * added box is global to the vagrant install
 * boxes are store in `~/.vagrant.d/boxes`
 

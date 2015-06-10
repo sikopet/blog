@@ -30,10 +30,10 @@ Ssh to a box:
 
 Clean up:
 
-    # fastest to start again; eats most diskspace (hard disk + saved state of RAM)
+    # save VM's state; fastest to start again; eats most diskspace (hard disk + saved state of RAM)
     vagrant suspend
 
-    # graceful shutdown; slower to start again, still eats disk space
+    # graceful shutdown; slower to start again, still eats disk space (hard disk)
     vagrant halt
 
     # power down and remove all of the guest hard disks; even slower to

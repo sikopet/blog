@@ -120,6 +120,14 @@ If some of your files is already beeing tracked by git, you can untrack it like 
 
     git rm --cached <filename>
 
+To to list tracked files:
+
+    # currently tracked files under master branch
+    git ls-tree -r master --name-only
+    
+    # files that ever existed (i.e. including deleted files)
+    git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
+
 Tips and Tricks
 ===============
 

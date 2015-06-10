@@ -42,7 +42,7 @@ Clean up:
 
 Show status of all vagrant environments on the host (independent of the directory you're in):
 
-    vagrant global-status
+    vagrant global-status [--prune]
 
 Resources
 ---------

@@ -18,7 +18,7 @@ Start vagrant environment:
 
     vagrant up
 
-* vagrant copies the base box to provider specific location (ex. `~/.VirtualBox`)
+* vagrant "imports" (copies) the base box to provider specific location (ex. `~/.VirtualBox`)
 
 Check box(es) status:
 

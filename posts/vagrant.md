@@ -1,32 +1,32 @@
-Search boxes - https://atlas.hashicorp.com/boxes/search
-
-Add a box:
+[Search](https://atlas.hashicorp.com/boxes/search) and add a (base) box:
 
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
  
 * added box is global to the vagrant install
-* boxes are store in `~/.vagrant.d/boxes`
+* this is the *base* box (used to start the VM from the clean state)
+* base boxes are stored in `~/.vagrant.d/boxes`
 
-Initialize the box:
+Initialize vagrant environment:
 
     mkdir ubuntu-trusty64
     cd ubuntu-trusty64
     vagrant init ubuntu/trusty64
 
-
-Start the box:
+Start vagrant environment:
 
     vagrant up
 
-Check the box status:
+* vagrant copies the base box to provider specific location (ex. `~/.VirtualBox`)
+
+Check box(es) status:
 
     vagrant status
 
-Ssh to the box:
+Ssh to a box:
 
     vagrant ssh
 
-Cleaning up:
+Clean up:
 
     # fastest to start again; eats most diskspace (hard disk + saved state of RAM)
     vagrant suspend
@@ -35,10 +35,10 @@ Cleaning up:
     vagrant halt
 
     # power down and remove all of the guest hard disks; even slower to
-    # start again (reimport and reprovisioning)
+    # start again (reimport of the base box and reprovisioning)
     vagrant destroy
 
-Show status of all boxes on the host (independent of the directory you're in):
+Show status of all vagrant environments on the host (independent of the directory you're in):
 
     vagrant global-status
 

@@ -1,4 +1,4 @@
-[Search](https://atlas.hashicorp.com/boxes/search) and add a (base) box:
+[Search](https://atlas.hashicorp.com/boxes/search) and add a box:
 
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
  
@@ -11,6 +11,8 @@ Initialize vagrant environment:
     mkdir ubuntu-trusty64
     cd ubuntu-trusty64
     vagrant init ubuntu/trusty64
+    
+* `Vagrantfile` is created
 
 Start vagrant environment:
 

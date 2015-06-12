@@ -279,7 +279,7 @@ Port security
     show running-config
     show port-security interface fastEthernet 0/1
 
-[VLAN](posts/vlans.md)
+VLANs => vlans.md
 	
 Securing unused interfaces
 

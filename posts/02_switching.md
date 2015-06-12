@@ -144,17 +144,21 @@ Managing config files
 
 .. file => RAM -- merge
 
+.. save configuration changes
+
+    copy running-config startup-config
+
 .. revert changes in running-config
 
     copy startup-config running-config  # not 100% reliable
     reload                              # 100% reliable
-    
+ 
 .. erase NVRAM
 
     erase nvram:  # new, recommended
     write erase
     erase startup-config
-    
+ 
 .. erase running config -- erase NVRAM + `reload`
 
 IFS (IOS File System) alternative names

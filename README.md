@@ -13,6 +13,7 @@ Operating Systems
 * [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
 * [Bash Login Scripts](posts/login-scripts.md)
+* [Linux - the Big Picture](posts/linux-big-picture.md)
 * [Linux Memory Management](posts/linux-mem-mngt.md)
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)

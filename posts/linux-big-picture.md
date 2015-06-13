@@ -5,10 +5,10 @@ don't care about details of the components (subsystems, modules, packages,
 Levels of abstraction in a Linux system
 =======================================
 
-We need to organizes the components somehow, however. In this case we create
+We need to organize the components somehow, however. In this case we create
 groupings going from hardware to user:
 
-Users processes
+User processes
 * GUI
 * servers
 * shell
@@ -91,6 +91,8 @@ System calls and pseudodevices
     (implemented purely in software) - ex. `/dev/random`
 
 Userspace and users
+-------------------
+
 * userspace - the main memory allocated by the kernel to user processes
 * user - object for supporting permissions and boundaries
 * group - a set of users used mainly for sharing files access

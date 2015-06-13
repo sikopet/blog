@@ -64,15 +64,14 @@ Process mngt.
     is called *context switch*
 * kernel runs between processes' time slices during a context switch
 * the appearance of multiple processes running at the same time - *multitasking*
-* in multi-CPU systems kernel doesn't need to relinquish control of its current
-    CPU in order in order to allow a different process to run on a different
-    CPU
+* in *multi-CPU* systems kernel doesn't need to relinquish control of its current
+    CPU in order to allow a different process to run on a different CPU
 
 Memory mngt.
 * it is a complex task for the kernel - modern CPUs come with a help => memory
     management unit (MMU) using the virtual memory
 * MMU interfaces processes' access to physical memory via memory address map
-* kernel must still maintained the memory address map (page table -
+* kernel must still maintain the memory address map (page table -
     implementation of memory address map)
 
 System calls and pseudodevices

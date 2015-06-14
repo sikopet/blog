@@ -31,8 +31,8 @@ sub make_md_link {
     $title = autoformat( $title, { case => 'highlight' } );
     chomp $title;
     chomp $title;
-    $_ = "[$title]($_)";
     $title =~ s/[-_]/ /g;
+    $_ = "[$title]($_)";
     s/^/* /;
     return $_;
 }

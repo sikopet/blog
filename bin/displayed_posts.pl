@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Show posts that are not listed in README.md
+# Show posts (posts/*.md) that are not listed in README.md
 # Usage: blog$ ./bin/displayed_posts.pl
 use strict;
 use warnings;
@@ -9,7 +9,7 @@ use File::Find;
 use Text::Autoformat;
 
 my @posts;
-find( sub { push @posts, $File::Find::name if -f }, 'posts' );
+find( sub { push @posts, $File::Find::name if -f && /\.md$/ }, 'posts' );
 
 my @links;
 open my $fh, "<", "README.md";

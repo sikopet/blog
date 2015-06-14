@@ -14,7 +14,7 @@ Operating Systems
 * [LDAP](posts/ldap.md)
 * [Bash Login Scripts](posts/login-scripts.md)
 * [Linux - the Big Picture](posts/linux-big-picture.md)
-* [Linux Memory Management](posts/linux-mem-mngt.md)
+* [Linux Ate My Memory!](posts/linux-ate-my-memory.md)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md)
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)

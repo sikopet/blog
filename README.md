@@ -15,6 +15,7 @@ Operating Systems
 * [Bash Login Scripts](posts/login-scripts.md)
 * [Linux - the Big Picture](posts/linux-big-picture.md)
 * [Linux Memory Management](posts/linux-mem-mngt.md)
+* [Linux Performance Analysis](posts/linux-performance-analysis.md)
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)
 * [New Linux Server](posts/new-linux-server.md)

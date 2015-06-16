@@ -47,9 +47,9 @@ type
     AAAA   IPv6 Address
     PTR    Pointer (Address-to-name translation)
     MX     Mail Exchanger (Controls email routing)
-    DNSKEY Public Key (Public key for a DNS name)
+    DNSKEY Public Key (Public key for a DNS name - used for DNSSEC)
     SPF    Sender Policy (Identifies mail servers, inhibits forging)
-    DKIM   Domain Keys (Verify email sender and message integrity)
+    DKIM   DomainKeys Identified Mail (Signature system for email - verify email sender and message integrity)
     CNAME  Canonical Name (Nicknames or aliases for a host)
     SRV    Services (Gives locations of well-known services)
     TXT    Text (Comments or untyped information; used for trying out new ideas)

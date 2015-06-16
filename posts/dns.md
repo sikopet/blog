@@ -41,12 +41,19 @@ class
 
 type
 
+    SOA    Start of Authority (Defines a DNS zone)
     NS     Name Server
     A      IPv4 Address (Name-to-address translation)
+    AAAA   IPv6 Address
     PTR    Pointer (Address-to-name translation)
     MX     Mail Exchanger (Controls email routing)
+    DNSKEY Public Key (Public key for a DNS name)
+    SPF    Sender Policy (Identifies mail servers, inhibits forging)
+    DKIM   Domain Keys (Verify email sender and message integrity)
     CNAME  Canonical Name (Nicknames or aliases for a host)
-    
+    SRV    Services (Gives locations of well-known services)
+    TXT    Text (Comments or untyped information; used for trying out new ideas)
+
 Special characters in resource records
 
     ;   comment

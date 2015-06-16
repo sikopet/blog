@@ -47,4 +47,6 @@ Show status of all vagrant environments on the host (independent of the director
 Resources
 ---------
 
+* https://docs.vagrantup.com
 * https://sysadmincasts.com/episodes/4-vagrant
+* http://docs-v1.vagrantup.com/v1/docs/

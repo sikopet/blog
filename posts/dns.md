@@ -58,6 +58,13 @@ type
 behalf of a given domain by creating a specific SPF record (or TXT record) in
 the Domain Name System (DNS).
 
+*DKIM* - powered by asymmetric cryptography
+1. The sender's Mail Transfer Agent (MTA) signs every outgoing message with a
+private key.
+2. The recipient retrieves the public key from the sender's DNS records and
+verifies if the message body and some of the header fields were not altered
+since the message signing took place.
+
 Special characters in resource records
 
     ;   comment
@@ -113,4 +120,4 @@ Sources
 
 * [ULSAH](http://ulsah.com/)
 * [SPF](https://www.digitalocean.com/community/tutorials/how-to-use-an-spf-record-to-prevent-spoofing-improve-e-mail-reliability)
-
+* [DKIM](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-dkim-with-postfix-on-debian-wheezy)

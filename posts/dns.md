@@ -54,6 +54,10 @@ type
     SRV    Services (Gives locations of well-known services)
     TXT    Text (Comments or untyped information; used for trying out new ideas)
 
+*SPF* - allows administrators to specify which hosts are allowed to send mail on
+behalf of a given domain by creating a specific SPF record (or TXT record) in
+the Domain Name System (DNS).
+
 Special characters in resource records
 
     ;   comment
@@ -107,6 +111,6 @@ Finding master server
 Sources
 =======
 
-* ULSAH
-
+* [ULSAH](http://ulsah.com/)
+* [SPF](https://www.digitalocean.com/community/tutorials/how-to-use-an-spf-record-to-prevent-spoofing-improve-e-mail-reliability)
 

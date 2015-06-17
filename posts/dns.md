@@ -59,6 +59,7 @@ behalf of a given domain by creating a specific SPF record (or TXT record) in
 the Domain Name System (DNS).
 
 *DKIM* - powered by asymmetric cryptography
+
 1. The sender's Mail Transfer Agent (MTA) signs every outgoing message with a
 private key.
 2. The recipient retrieves the public key from the sender's DNS records and

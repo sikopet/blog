@@ -15,21 +15,13 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 
     outcomp.sk:~$ ssh -p 2222 root@localhost
 
-We want to connect to a router web interface (192.168.1.1:443), to make some configuration changes, which is not accessible from Internet. However we can connect to a host behind the router - LAN (intranet) host.
-
-1) `/etc/ssh/sshd_config` of host.in.internet.com has to contain:
-
-    GatewayPorts yes
-
-2) LAN (intranet) host:
-
-    ssh -R "*:3333:192.168.1.1:443" host.in.internet.com
-
-3) Web browser somewhere in Internet:
-
-    https://host.in.internet.com:3333
-
 ## Forwarding local port
+
+We want to connect to a home router web interface (192.168.1.1:80), to make some configuration changes. The home router is not accessible from Internet. However we can ssh to a host behind the home router (homebox.duckdns.org):
+
+    localhost$ ssh -L 8080:192.168.1.1:80 homebox.duckdns.org
+
+Nov we enter `http://localhost:8080` into the browser on localhost.
 
 We want to connect to a remote database running on dbserver but it is configured to allow connections only from localhost (127.0.0.1). We use port 3307 on the client because the default 3306 port is already being used (e.g. you are running MySQL server on the client).
 

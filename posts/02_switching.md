@@ -12,7 +12,7 @@ Switching logic
 1. learn MAC addresses by seeing frames' source MAC address
 1. avoid loops by using STP
 
-Switch's MAC address table = switching table = bridging table = CAM
+Switch's MAC address table = switching table = bridging table = CAM = forwarding table
 
 Flooding
 

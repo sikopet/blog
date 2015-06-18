@@ -23,6 +23,8 @@ We want to connect to a home router web interface (192.168.1.1:80), to make some
 
 Nov we enter `http://localhost:8080` into the browser on localhost.
 
+---
+
 We want to connect to a remote database running on dbserver but it is configured to allow connections only from localhost (127.0.0.1). We use port 3307 on the client because the default 3306 port is already being used (e.g. you are running MySQL server on the client).
 
     client:~$ ssh -L 3307:localhost:3306 root@dbserver

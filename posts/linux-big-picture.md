@@ -6,7 +6,7 @@ Levels of abstraction in a Linux system
 =======================================
 
 We need to organize the components somehow, however. In this case we create
-groupings going from hardware to user:
+groupings going from user to hardware:
 
 User processes
 * GUI

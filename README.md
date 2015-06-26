@@ -1,4 +1,4 @@
-My technical diary and documentation, i.e. a blog/wiki hybrid. Some stuff from here is cross-posted on [blogspot](http://jreisinger.blogspot.sk).
+My technical documentation, notes and diary, i.e. a wiki/blog hybrid. Some stuff from here is cross-posted on [blogspot](http://jreisinger.blogspot.sk).
 
 Run `./bin/displayed_posts.pl` to make sure all posts are displayed in `README.md` .
 

@@ -1,6 +1,6 @@
 # Bash Login Scripts
 
-See also [my dot-files](https://github.com/jreisinger/dot-files), ULSAH p. 189, [Prostredie shellu](http://prnet.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu).
+(Up-to-date <a href="https://github.com/jreisinger/blog/blob/master/posts/login-scripts.md">source</a> of this post.)
 
 When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create
@@ -28,3 +28,9 @@ command aliases, run programs.
  * non-login shell -- not started by the `login` program, run on every instance (ex. shell inside an X-based terminal); place for aliases and functions
  
 Creating a symlink between `~/.bashrc` and `~/.bash_profile` will ensure that the same startup scripts run for both login and non-login sessions. Debian's `~/.profile` sources `~/.bashrc`, which has the same effect.
+
+More
+
+* [Prostredie shellu](http://prnet.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu) (in Slovak)
+* [my dot-files](https://github.com/jreisinger/dot-files)
+* ULSAH p. 189

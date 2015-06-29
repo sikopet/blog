@@ -12,7 +12,6 @@ Operating Systems
 * [Kerberos](posts/kerberos.md)
 * [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
-* [Bash Login Scripts](posts/login-scripts.md)
 * [Linux - the Big Picture](posts/linux-big-picture.md)
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md)
@@ -23,8 +22,6 @@ Operating Systems
 * [PAM](posts/pam.md)
 * [RAID](posts/raid.md)
 * [Scan Windows Shares](posts/scan_win_shares.md)
-* [Shell Completion](posts/shell-completion.md)
-* [Shell One Liners](posts/shell-one-liners.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
 * [Vagrant](posts/vagrant.md)
@@ -61,7 +58,13 @@ Programming
 * [Search Your GitHub](posts/search-github.md)
 * [Programming Resources](posts/programming-resources.md)
 
-Perl Programming
+Shell
+
+* [Bash Login Scripts](posts/login-scripts.md)
+* [Shell Completion](posts/shell-completion.md)
+* [Shell One Liners](posts/shell-one-liners.md)
+
+Perl
 
 * [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)

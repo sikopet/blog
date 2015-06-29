@@ -1,5 +1,3 @@
-# Bash Login Scripts
-
 (Up-to-date <a href="https://github.com/jreisinger/blog/blob/master/posts/login-scripts.md">source</a> of this post.)
 
 When `bash` is started it runs a series of scripts to prepare the environment

@@ -1,7 +1,7 @@
 # Programming Resources
 ###### various
 
-Include <https://wiki.openhouse.sk/Prog> before puhlishing.
+Include <https://jreisinger.duckdns.org/Prog> before puhlishing.
 
 * [Teach yourself programming in ten years](http://norvig.com/21-days.html) ([Slovak version](http://www.efton.sk/sk/learn_programming_in_10_years.html)) -- wise words from Peter Norvig, a computer scientist
 * [Programming cheat sheets](http://overapi.com)

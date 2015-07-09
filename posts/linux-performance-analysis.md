@@ -87,6 +87,7 @@ Some processes can be divided into pieces called *threads*:
 * processes don't share system resources
 * all threads inside a single process share system resources (I/O connections, 
     memory)
+
 Many processes have only one thread - *single-threaded* processes (usually
 called just processes).
 

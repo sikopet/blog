@@ -84,20 +84,20 @@ Threads
 Some processes can be divided into pieces called *threads*:
 
 * very similar to processes: have TID, are scheduled and run by the kernel
-* processs don't share system resources
+* processes don't share system resources
 * all threads inside a single process share system resources (I/O connections, 
     memory)
-* useful when process has a lot to do because threads can run simultaneously on
-    on multiple processors and start faster and intercommunicate more
-    efficiently (via shared memory) than processes (via network connection or
-    pipe)
-
 Many processes have only one thread - *single-threaded* processes (usually
 called just processes).
 
 All processes start out single-threaded. This starting thread is called *main
 thread*. The main thread then starts new threads in similar fashion a process
 calls `fork()` to start a new process.
+
+Threads are useful when process has a lot to do because threads can run
+simultaneously on multiple processors and *start faster* than processes and
+*intercommunicate more efficiently* (via shared memory) than processes (via
+network connection or pipe).
 
 It's usually not a good idea to interact with individual threads as you would
 with processes.

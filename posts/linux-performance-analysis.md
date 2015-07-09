@@ -78,6 +78,15 @@ Processes and other system information regularly updated:
 * `u`        - display only one user's processes
 * `f`        - select statistics to display
 
+How much CPU time a process uses:
+
+    $ time ls    # or /usr/bin/time
+
+* user time - time the CPU spent running the program's *own* code
+* system time - time the kernel spends doing the process's work (ex. reading files or directories)
+* real/elapsed time - total time it took to run the process, including the time
+ the CPU spent running other tasks
+
 Threads
 -------
 

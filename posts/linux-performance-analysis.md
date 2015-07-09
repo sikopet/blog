@@ -45,15 +45,20 @@ Is CPU the bottleneck?
 Load average
 ------------
 
-Average number of runnable processes (how many pieces is the CPU
-divided into)?
+How many pieces is the CPU divided into?
+
+Average number of runnable (ready to run) processes:
 
     $ uptime 
      13:03:23 up 8 days, 13:06,  2 users,  load average: 1.13, 1.31, 1.38
 
 * 5, 10, and 15-minute averages 
-* on a multicore system - number of cores = max. load
-* on a single-processor system - 3 means busy, > 8 means problem
+* on a single-processor system - usually 3 means busy, > 8 means problem
+* on a multi-core system - if number of cores = load average => all cores have
+ just enough to do all the time
+* process waiting for input (e.g. from keyboard, network) are not considered
+ ready to run (only processes that are actually doing something contribute to
+ load average)
 
 Per process consumption
 -----------------------

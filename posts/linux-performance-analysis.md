@@ -18,7 +18,10 @@ Network:
 CPU
 ===
 
-Overall utilization - is CPU the bottleneck?
+Overall utilization
+-------------------
+
+Is CPU the bottleneck?
 
     $ vmstat 5 5 --unit M
     procs -----------memory---------- ---swap-- -----io---- -system-- ----cpu----
@@ -39,7 +42,10 @@ Overall utilization - is CPU the bottleneck?
 * `id` - idle time 
 * `wa` - waiting for I/O
 
-Load average - average number of runnable processes (how many pieces is the CPU
+Load average
+------------
+
+Average number of runnable processes (how many pieces is the CPU
 divided into)?
 
     $ uptime 
@@ -49,9 +55,25 @@ divided into)?
 * on a multicore system - number of cores = max. load
 * on a single-processor system - 3 means busy, > 8 means problem
 
-Per process consumption - which processes are hogging resources?
+Per process consumption
+-----------------------
+
+Which processes are hogging resources?
+
+Snapshot of current processes:
 
     $ ps -aux
+
+Processes and other system information regularly updated:
+
+    $ top
+
+* `z`, `x`   - turn on colors and highlight sort column
+* `Spacebar` - update display immediately
+* `M`        - sort by current resident memory usage
+* `T`        - sort by total (cumulative) CPU usage
+* `u`        - display only one user's processes
+* `f`        - select statistics to display
 
 Memory
 ======
@@ -115,3 +137,4 @@ Resources
 =========
 
 * ULSAH
+* How Linux Works

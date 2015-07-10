@@ -154,6 +154,7 @@ Storage I/O
     dm-2            107.96      1612.16       347.05 1191762057  256547336
 
 * `tps` - total I/O transfers per second
+* `kB_read/s` - average number of kilobytes read per second
 * `kB_read` - total kiloBytes read
 
 Processes using file or directory on `/usr` filesystem (mount point):

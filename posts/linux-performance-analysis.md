@@ -32,12 +32,12 @@ Is CPU the bottleneck?
      0  0      0    230    687  44374    0    0 82432    18 3069 5674  3  1 95  0
      1  0      0    233    687  44372    0    0 86400    18 3705 5215  3  2 95  0
 
-* first line reports averages since system's boot
+* first line reports averages since system's boot (the entire uptime)
 * `r`  - runnable processes
 * `b`  - processes blocked for I/O
 * `in` - interrupts
-* `cs` - context switches
-* `us` - user time
+* `cs` - context switches (number of times the kernel switches into kernel code)
+* `us` - user time (the percentage of time the CPU is spending on user tasks)
 * `sy` - system (kernel) time
 * `id` - idle time 
 * `wa` - waiting for I/O
@@ -132,8 +132,8 @@ Amount of paging (swap) space that's currently used:
 
 `vmstat` (see above) fields:
 
-* `si` - swapped in
-* `so` - swapped out => if your system has constant stream of page outs, buy more memory
+* `si` - swapped in (from the disk)
+* `so` - swapped out (to the disk) => if your system has constant stream of page outs, buy more memory
 
 Storage I/O
 ===========

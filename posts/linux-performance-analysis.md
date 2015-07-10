@@ -178,5 +178,5 @@ List open files:
 Resources
 =========
 
-* ULSAH
-* How Linux Works
+* ULSAH, 4th, Ch. 29 
+* How Linux Works, 2nd, Ch. 8

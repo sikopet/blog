@@ -1,5 +1,7 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/ssh-tunnel.md) of this post.)
 
+Tunneling is the process of packaging and transporting one network connection using another one.
+
 ## Forwarding remote port (firewall tunneling via SSH)
 
 We want to allow the tech access the incomp (intranet) host from the outcomp.sk (Internet) host:

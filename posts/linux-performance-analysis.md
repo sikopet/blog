@@ -190,6 +190,10 @@ To see info on network connections:
 * `-n` - don't resolve IP addresses
 * `-p` - print name and PID of the programming owning the socket
 
+To list all programs using or listening to ports:
+
+    lsof -i
+
 Resources
 =========
 

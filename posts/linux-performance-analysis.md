@@ -175,6 +175,20 @@ Processes using file or directory on `/usr` filesystem (mount point):
 List open files:
 
     $ lsof    # pipe output to pager or use options
+    
+Network I/O
+===========
+
+To see info on network connections:
+
+    netstat -tulanp
+    
+* `-t` - print TCP ports info
+* `-u` - print UDP ports info
+* `-l` - print listening ports
+* `-a` - print all active ports
+* `-n` - don't resolve IP addresses
+* `-p` - print name and PID of the programming owning the socket
 
 Resources
 =========

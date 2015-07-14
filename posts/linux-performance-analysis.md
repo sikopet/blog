@@ -187,12 +187,28 @@ To see info on network connections:
 * `-u` - print UDP ports info
 * `-l` - print listening ports
 * `-a` - print all active ports
-* `-n` - don't resolve IP addresses
+* `-n` - don't reverse-resolve IP addresses
 * `-p` - print name and PID of the programming owning the socket
 
-To list all programs using or listening to ports:
+To list all programs using or listening to ports (when run as regular user, only shows user's processes):
 
-    lsof -i
+    lsof -ni -P
+
+* `-n` - don't reverse-resolve IP addresses
+* `-P` - disable /etc/services port name lookups
+
+lsof network connections filtering
+----------------------------------
+
+by protocol, host and port:
+
+    lsof -i[<protocol>@<host>]:<port>
+    lsof -i:22
+    lsof -iTCP:80
+
+by connection status:
+
+    lsof -iTCP -sTCP:LISTEN
 
 Resources
 =========

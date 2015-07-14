@@ -203,6 +203,7 @@ lsof network connections filtering
 by protocol, host and port:
 
     lsof -i[<protocol>@<host>]:<port>
+    
     lsof -i:22
     lsof -iTCP:80
 

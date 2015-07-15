@@ -197,6 +197,10 @@ To list all programs using or listening to ports (when run as regular user, only
 * `-n` - don't reverse-resolve IP addresses
 * `-P` - disable /etc/services port name lookups
 
+To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:
+
+    lsof -U  # unnamed sockets have "socket" in NAME column
+
 lsof network connections filtering
 ----------------------------------
 

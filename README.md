@@ -63,6 +63,7 @@ Shell
 * [Bash Login Scripts](posts/login-scripts.md)
 * [Shell Completion](posts/shell-completion.md)
 * [Shell One Liners](posts/shell-one-liners.md)
+* [Working with Temporary Files in Shell Scripts](posts/shell-temporary-files.md)
 
 Perl
 

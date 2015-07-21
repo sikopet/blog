@@ -37,3 +37,4 @@ More
 * [Prostredie shellu](http://prnet.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu) (in Slovak)
 * [my dot-files](https://github.com/jreisinger/dot-files)
 * ULSAH p. 189
+* How Linux Works, 2nd, ch. 13

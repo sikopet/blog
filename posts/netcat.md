@@ -34,8 +34,8 @@ Make sure no data (zero) is sent to the port you connect to:
 
 Change source port / address (ex. to evade a FW):
 
-    nc -p 16000 host.tld 22
-    nc -s 1.2.3.4 host.tld 8181
+    nc -p 16000 host.tld 22      # 16000 is the local port
+    nc -s 1.2.3.4 host.tld 8181  # 1.2.3.4 is the local source address
 
 Netcat as a Server
 ==================

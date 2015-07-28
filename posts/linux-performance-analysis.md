@@ -32,12 +32,12 @@ Is CPU the bottleneck?
      0  0      0    230    687  44374    0    0 82432    18 3069 5674  3  1 95  0
      1  0      0    233    687  44372    0    0 86400    18 3705 5215  3  2 95  0
 
-* first line reports averages since system's boot
+* first line reports averages since system's boot (the entire uptime)
 * `r`  - runnable processes
 * `b`  - processes blocked for I/O
 * `in` - interrupts
-* `cs` - context switches
-* `us` - user time
+* `cs` - context switches (number of times the kernel switches into kernel code)
+* `us` - user time (the percentage of time the CPU is spending on user tasks)
 * `sy` - system (kernel) time
 * `id` - idle time 
 * `wa` - waiting for I/O
@@ -132,8 +132,8 @@ Amount of paging (swap) space that's currently used:
 
 `vmstat` (see above) fields:
 
-* `si` - swapped in
-* `so` - swapped out => if your system has constant stream of page outs, buy more memory
+* `si` - swapped in (from the disk)
+* `so` - swapped out (to the disk) => if your system has constant stream of page outs, buy more memory
 
 Storage I/O
 ===========
@@ -154,6 +154,7 @@ Storage I/O
     dm-2            107.96      1612.16       347.05 1191762057  256547336
 
 * `tps` - total I/O transfers per second
+* `kB_read/s` - average number of kilobytes read per second
 * `kB_read` - total kiloBytes read
 
 Processes using file or directory on `/usr` filesystem (mount point):
@@ -174,9 +175,48 @@ Processes using file or directory on `/usr` filesystem (mount point):
 List open files:
 
     $ lsof    # pipe output to pager or use options
+    
+Network I/O
+===========
+
+To see info on network connections:
+
+    netstat -tulanp
+    
+* `-t` - print TCP ports info
+* `-u` - print UDP ports info
+* `-l` - print listening ports
+* `-a` - print all active ports
+* `-n` - don't reverse-resolve IP addresses
+* `-p` - print name and PID of the programming owning the socket
+
+To list all programs using or listening to ports (when run as regular user, only shows user's processes):
+
+    lsof -ni -P
+
+* `-n` - don't reverse-resolve IP addresses
+* `-P` - disable /etc/services port name lookups
+
+To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:
+
+    lsof -U  # unnamed sockets have "socket" in NAME column
+
+lsof network connections filtering
+----------------------------------
+
+by protocol, host and port:
+
+    lsof -i[<protocol>@<host>]:<port>
+    
+    lsof -i:22
+    lsof -iTCP:80
+
+by connection status:
+
+    lsof -iTCP -sTCP:LISTEN
 
 Resources
 =========
 
-* ULSAH
-* How Linux Works
+* ULSAH, 4th, Ch. 29 
+* How Linux Works, 2nd, Ch. 8

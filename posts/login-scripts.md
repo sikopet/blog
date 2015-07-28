@@ -1,8 +1,13 @@
 (Up-to-date <a href="https://github.com/jreisinger/blog/blob/master/posts/login-scripts.md">source</a> of this post.)
 
+Bash Startup Files
+==================
+
 When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create
 command aliases, run programs.
+
+There are two main types of a shell instance, interactive and noninteractive. However noninteractive shells (such as those running shell scripts) usually don't read any startup files.
 
 <table>
   <tr>
@@ -12,12 +17,12 @@ command aliases, run programs.
   </tr>
   <tr>
     <th>Global config</th>
-    <td><code>/etc/profile</code>, <code>/etc/profile.d/</code></td>
+    <td><code>/etc/profile</code> (, <code>/etc/profile.d/</code>)</td>
     <td><code>/etc/bash.bashrc</code>, <code>/etc/bash/bashrc</code>, <code>/etc/bashrc</code></td>
   </tr>
   <tr>
     <th>User config</th>
-    <td><code>~/.bash_profile</code>, <code>~/.bash_login</code>, <code>~/.profile</code></td>
+    <td><code>~/.bash_profile</code>, <code>~/.bash_login</code>, <code>~/.profile</code> (only the first found is run) </td>
     <td><code>~/.bashrc</code></td>
   </tr>
 </table>
@@ -32,3 +37,4 @@ More
 * [Prostredie shellu](http://prnet.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu) (in Slovak)
 * [my dot-files](https://github.com/jreisinger/dot-files)
 * ULSAH p. 189
+* How Linux Works, 2nd, ch. 13

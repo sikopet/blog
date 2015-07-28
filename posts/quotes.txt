@@ -1,28 +1,28 @@
-The best optimization strategy is to steal from what smarter people have already done. -- brian d foy (http://www.masteringperl.org/2015/05/computing-excellent-numbers/)
+The best optimization strategy is to steal from what smarter people have already done. -- <a href="http://www.masteringperl.org/2015/05/computing-excellent-numbers/">brian d foy</a>
 
 Networking is when you can't get any work done because of the failure of a machine you have never heard of. -- ULSAH
 
-We're a Puppet shop, though If I could do it over, I'd switch to either Ansible or SaltStack. -- Linux Foundation System Administrator Konstanin Ryabitsev (http://www.linux.com/news/featured-blogs/200-libby-clark/814542-15-reddit-ama-questions-for-kernelorg-sysadmin-konstantin-ryabitsev)
+We're a Puppet shop, though If I could do it over, I'd switch to either Ansible or SaltStack. -- <a href="http://www.linux.com/news/featured-blogs/200-libby-clark/814542-15-reddit-ama-questions-for-kernelorg-sysadmin-konstantin-ryabitsev">Linux Foundation System Administrator Konstanin Ryabitsev</a>
 
 Diversity of software, hardware, and network connectivity are the keys to surviving the Darwinian pressure of the Internet. Add geographical location and sysadmin skills to your diversity pile and you will be in fine shape. -- ULSAH: DNS
 
 A host can only route packets to gateway machines that are reachable through a directly connected network. The local hosts's job is limited to moving packets one hop closer to their destinations, so it is pointless to include information about nonadjacent gateways in the local routing table. -- ULSAH
 
-Information security professionals and System Administrators alike have a tendency to strive for a perfect solution. System Administrators, however, often times have enough practical experience to know that those rarely exist, and that deploying a reasonable, but not perfect, solution to a problem upon which can be iterated in the future is almost always preferable. -- Jan Schaumann (http://sysadvent.blogspot.co.at/2014/12/day-20-infosec-basics-reason-behind.html)
+Information security professionals and System Administrators alike have a tendency to strive for a perfect solution. System Administrators, however, often times have enough practical experience to know that those rarely exist, and that deploying a reasonable, but not perfect, solution to a problem upon which can be iterated in the future is almost always preferable. -- <a href="http://sysadvent.blogspot.co.at/2014/12/day-20-infosec-basics-reason-behind.html">Jan Schaumann</a>
 
-Failure free operations require experience with failure. -- Richard Cook (http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
+Failure free operations require experience with failure. -- <a href="http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf">Richard Cook</a>
 
 As in bash, Perl has a dedicated "else if" condition, but its keyword is elsif rather than elif. (For you who use both languages, these fun, minute differences either keep you mentally nimble or drive you insane.) -- ULSAH
 
 Keep in mind that hostnames are really just a convenient shortcut for IP addresses, and as such, they refer to network interfaces rather than computers. -- ULSAH
 
-... when I'm learning something new, my approach is to have a well defined end-goal in mind, the I learn the details as I solve problems to get to that point. -- Andrew Solomon (http://www.linuxcareer.com/perl-as-a-career-option)
+... when I'm learning something new, my approach is to have a well defined end-goal in mind, the I learn the details as I solve problems to get to that point. -- <a href="http://www.linuxcareer.com/perl-as-a-career-option">Andrew Solomon</a>
 
-Know your place in the world and evaluate yourself fairly, not in terms of your naive ideals of your own youth, nor in terms of what you erroneously imagine your teacher's ideals are. -- Richard Feynman (http://genius.cat-v.org/richard-feynman/writtings/letters/problems)
+Know your place in the world and evaluate yourself fairly, not in terms of your naive ideals of your own youth, nor in terms of what you erroneously imagine your teacher's ideals are. -- <a href="http://genius.cat-v.org/richard-feynman/writtings/letters/problems">Richard Feynman</a>
 
-I would advise you to take even simpler, or as you say, humbler, problems until you find some you really solve easily, no matter how trivial. -- Richard Feynman (http://genius.cat-v.org/richard-feynman/writtings/letters/problems)
+I would advise you to take even simpler, or as you say, humbler, problems until you find some you really solve easily, no matter how trivial. -- <a href="http://genius.cat-v.org/richard-feynman/writtings/letters/problems">Richard Feynman</a>
 
-The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to. -- Richard Feynman (http://genius.cat-v.org/richard-feynman/writtings/letters/problems)
+The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to. -- <a href="http://genius.cat-v.org/richard-feynman/writtings/letters/problems">Richard Feynman</a>
 
 The name servers listed in resolv.conf must be configured to allow your host to submit querries and must answer them completely (be recursive), not refer you to other name servers. -- ULSAH, 4th, p. 561
 
@@ -32,11 +32,11 @@ The distinguishing characteristic of commands in /sbin is usually that they're l
 
 The basic purpose of a filesystem is to represent and organize the system's storage resources. -- ULSAH, 4th
 
-The more that we can show our appreciation, the better we'll feel, the nicer we'll be to each other and the more we'll be able to do together. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)
+The more that we can show our appreciation, the better we'll feel, the nicer we'll be to each other and the more we'll be able to do together. -- <a href="http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy">brian d foy</a>
 
-There is not such thing as best practice unless you specify the context. -- brian d foy (http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy)
+There is not such thing as best practice unless you specify the context. -- <a href="http://perltricks.com/article/75/2014/3/6/Perl-master-an-interview-with-brian-d-foy">brian d foy</a>
 
-Be a carpenter, not a hammer operator. -- abw (http://www.reddit.com/r/perl/comments/1ykvr8/the_midcareer_crisis_of_the_perl_programmer/cflrs5n)
+Be a carpenter, not a hammer operator. -- <a href="http://www.reddit.com/r/perl/comments/1ykvr8/the_midcareer_crisis_of_the_perl_programmer/cflrs5n">abw</a>
 
 My career advice is to only do projects that produce usable output every few weeks or months. Being on a project that will not show any results for a year or more is a good way to hide from management. Being invisible is a career killer. -- Limoncelli
 
@@ -44,7 +44,7 @@ Perl’s syntax rules make dereferencing complex expressions tricky—it falls i
 
 All of these tasks can be improved with better tools. Good tools are a stepping stone to automation. -- Limoncelli
 
-Today's kids have too much technology, so they think a simple FTP archive is stupid. They try to build overly-complex systems which they then lose interest in. -- brian d foy (http://www.perlmonks.org/?node_id=674742)
+Today's kids have too much technology, so they think a simple FTP archive is stupid. They try to build overly-complex systems which they then lose interest in. -- <a href="http://www.perlmonks.org/?node_id=674742">brian d foy</a>
 
 If you dance with the devil, the devil don't change. The devil changes you. -- Max California
 

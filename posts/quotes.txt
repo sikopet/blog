@@ -1,3 +1,5 @@
+As a system grows, it will become more complex. That is a fact of life. Therefore, starting out as simple as possible delays the day when a system becomes too complex. -- PoSaNa
+
 The best optimization strategy is to steal from what smarter people have already done. -- <a href="http://www.masteringperl.org/2015/05/computing-excellent-numbers/">brian d foy</a>
 
 Networking is when you can't get any work done because of the failure of a machine you have never heard of. -- ULSAH

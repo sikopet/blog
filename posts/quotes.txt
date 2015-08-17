@@ -1,3 +1,7 @@
+From a career-management point of view, I think it is important to be really really really good at one of them [Perl/Ruby/Python] and know a little of the others; even if that means just reading the first few chapters of a book on the topic. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)
+
+The choice of perl/python/ruby is usually driven by what is already in use at your shop. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)
+
 I think every Unix/Linux sysadmin should know shell (sh or bash) plus one of Perl, Ruby, Python. It doesn't matter which. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)
 
 As a system grows, it will become more complex. That is a fact of life. Therefore, starting out as simple as possible delays the day when a system becomes too complex. -- PoSaNa

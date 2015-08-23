@@ -1,3 +1,7 @@
+He used the word "kata", because he understood that repetition creates habits, and habits are what enable mastery. -- The Phoenix Project
+
+Mike Rothers says that it almost doesn't matter what you improve, as long as you are improving something. -- The Phoenix Project
+
 From a career-management point of view, I think it is important to be really really really good at one of them [Perl/Ruby/Python] and know a little of the others; even if that means just reading the first few chapters of a book on the topic. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)
 
 The choice of perl/python/ruby is usually driven by what is already in use at your shop. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)

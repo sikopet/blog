@@ -162,7 +162,7 @@ It can get confusing. Hey, I'm confused most of the time. -- Larry Wall, Perl Co
 
 Master Foo nodded and replied: “When you are hungry, eat; when you are thirsty, drink; when you are tired, sleep.” -- Master Foo and the Shell Tools (http://catb.org/~esr/writings/unix-koans/shell-tools.html)
 
-I have no talent. What I do have is a lot of practice. -- John Nunemaker (http://johnnunemaker.com/): <a href="http://railstips.org/blog/archives/2010/01/12/i-have-no-talent/">I Have No Talent</a>
+I have no talent. What I do have is a lot of practice. -- John Nunemaker (http://johnnunemaker.com/): I Have No Talent (http://railstips.org/blog/archives/2010/01/12/i-have-no-talent/)
 
 Learning new techniques is good, but using the techniques you already know appropriately is better. -- chromatic (http://www.perlmonks.org/?node_id=208803)
 
@@ -206,9 +206,9 @@ I know that to get good at anything you have to practice every day, even if I su
 
 In the third phase, you realize that Python is actually a great help to you and that Python represents the *collective intelligence* of hundreds of programmers who have given you some powerful and brilliant tools and capabilities. -- Tao of Programming (http://doc.pyschools.com/html/tao.html)
 
-Because humans have unlimited storage capacity, having total recall would be a mess. -- Rober Bjork (http://www.psych.ucla.edu/faculty/faculty_page?id=41&area=3) (UCLA): <a href="http://www.wired.com/geekdad/2012/01/everything-about-learning/">Everything You Thought You Knew About Learning Is Wrong</a>
+Because humans have unlimited storage capacity, having total recall would be a mess. -- Rober Bjork (http://www.psych.ucla.edu/faculty/faculty_page?id=41&area=3) (UCLA): Everything You Thought You Knew About Learning Is Wrong (http://www.wired.com/geekdad/2012/01/everything-about-learning/)
 
-You're never too old to learn. One of the best programmers I ever interviewed for a job was 60! -- David Bolton (http://cplus.about.com/bio/David-Bolton-20620.htm): <a href="http://cplus.about.com/od/introductiontoprogramming/a/career.htm">How Do I Get into Programming as a Career?</a>
+You're never too old to learn. One of the best programmers I ever interviewed for a job was 60! -- David Bolton (http://cplus.about.com/bio/David-Bolton-20620.htm): How Do I Get into Programming as a Career? (http://cplus.about.com/od/introductiontoprogramming/a/career.htm)
 
 You only get old if you let yourself be old; then it's too late. -- Andrew Wulf: Am I Too Old To Be A Programmer? (http://thecodist.com/article/am-i-too-old-to-be-a-programmer)
 
@@ -226,7 +226,7 @@ Similarly, Perl was designed to be a mess (though in the nicest of possible ways
 
 The race is on to own certain classes of core data: location, identity, calendaring of public events, product identifiers and namespaces. -- Tim O'Reilly: What Is Web 2.0 (http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page=1) (2005)
 
-To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky (Moose (http://search.cpan.org/dist/Moose/) core developer): <a href="http://stackoverflow.com/questions/150043/python-v-perl">Python v. Perl</a>
+To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky (Moose (http://search.cpan.org/dist/Moose/) core developer): Python v. Perl (http://stackoverflow.com/questions/150043/python-v-perl)
 
 Laziness = a tendency to judiciously exploit available resources to accomplish your programming goals with minimal effort. -- Minimal Perl for UNIX and Linux People</a> (in the Perl community - Laziness = using your energy efficiently)
 

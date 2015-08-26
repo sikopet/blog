@@ -35,15 +35,21 @@ Is CPU the bottleneck?
      0  0      0    230    687  44374    0    0 82432    18 3069 5674  3  1 95  0
      1  0      0    233    687  44372    0    0 86400    18 3705 5215  3  2 95  0
 
-* first line reports averages since system's boot (the entire uptime)
+* first line reports averages since system's boot (the entire uptime), subsequent lines are averages within the previous sample period (default is 5 seconds)
 * `r`  - runnable processes
 * `b`  - processes blocked for I/O
 * `in` - interrupts
-* `cs` - context switches (number of times the kernel switches into kernel code)
+* `cs` - context switches (number of times the kernel switches into kernel code; i.e. changing which process is running)
 * `us` - user time (the percentage of time the CPU is spending on user tasks)
 * `sy` - system (kernel) time
 * `id` - idle time 
 * `wa` - waiting for I/O
+
+On multiprocessor machines, most tools present an average of processor statistics across all processors.
+
+High `us` numbers generally indicate computation, high `sy` numbers mean that processes are doing lot of syscalls or I/O. A rule of thumb for a general server is that the system should spend 50% in user space and 50% in system space; the overall idle time should be 0.
+
+Extremely high `cs` or `in` values typically indicate a misbehaving or misconfigured hardware device.
 
 Load average
 ------------

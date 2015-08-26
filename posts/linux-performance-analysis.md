@@ -3,13 +3,16 @@ Taking stock of hardware
 
 Sources of hardware information:
 
+    lscpu
     /proc/cpuinfo       # one entry for each core seen by the OS
+    free -m
     /proc/meminfo
+    fdisk -l
     /proc/diskstats
 
 Desktop Management Interface (DMI, aka SMBIOS):
 
-    dmidecode -t <type>
+    dmidecode -t <type>    # see man page for TYPES
 
 Network:
 

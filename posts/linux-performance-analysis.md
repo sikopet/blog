@@ -62,12 +62,14 @@ Average number of runnable (ready to run) processes:
      13:03:23 up 8 days, 13:06,  2 users,  load average: 1.13, 1.31, 1.38
 
 * 5, 10, and 15-minute averages 
-* on a single-processor system - usually 3 means busy, > 8 means problem
-* on a multi-core system - if number of cores = load average => all cores have
- just enough to do all the time
 * process waiting for input (e.g. from keyboard, network) are not considered
  ready to run (only processes that are actually doing something contribute to
  load average)
+* on a single-processor system -- 3 usually means busy, > 8 means problem (you should start to look for ways to spread the load artificially, such as by using `nice` to set process priorities)
+* on a multi-core system -- if number of cores = load average, all cores have
+ just enough to do all the time
+
+The system load average is an excellent metric to track as part of a system baseline. If you know your system’s load average on a normal day and it is in that same range on a bad day, this is a hint that you should look elsewhere (such as the network) for performance problems. A load average above the expected norm suggests that you should look at the processes running on the system itself.
 
 Per process consumption
 -----------------------

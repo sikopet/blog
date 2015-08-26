@@ -94,6 +94,8 @@ Processes and other system information regularly updated:
 * `u`        - display only one user's processes
 * `f`        - select statistics to display
 
+On a busy system, at least 70% of the CPU is often consumed by just one or two processes. Deferring the execution of the CPU hogs or reducing their priority makes the CPU more available to other processes.
+
 How much CPU time a process uses:
 
     $ time ls    # or /usr/bin/time

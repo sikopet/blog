@@ -86,7 +86,7 @@ System calls and pseudodevices
                            +-> copy of shell ---> exec(ls) ---> ls 
 
 * `exec` is actually an entire family of syscalls for similar tasks
-* *psesudodevice* looks like a devices but it's another kernel feature
+* *psesudodevice* looks like a device but it's another kernel feature
     (implemented purely in software) - ex. `/dev/random`
 
 Userspace and users

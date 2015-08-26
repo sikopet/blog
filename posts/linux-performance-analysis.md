@@ -151,7 +151,7 @@ Amount of paging (swap) space that's currently used:
 Storage I/O
 ===========
 
-    $ iostat
+    $ iostat 5 5
     Linux 3.2.0-4-amd64 (backup2)   06/14/2015  _x86_64_    (16 CPU)
     
     avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -166,9 +166,10 @@ Storage I/O
     dm-1            172.96     13428.25     15012.67 9926593437 11097845392
     dm-2            107.96      1612.16       347.05 1191762057  256547336
 
+* the first report provides statistics since the system was booted, subsequent reports cover the time since the previous report
 * `tps` - total I/O transfers per second
 * `kB_read/s` - average number of kilobytes read per second
-* `kB_read` - total kiloBytes read
+* `kB_read` - total kilobytes read
 
 Processes using file or directory on `/usr` filesystem (mount point):
 
@@ -233,3 +234,4 @@ Resources
 
 * ULSAH, 4th, Ch. 29 
 * How Linux Works, 2nd, Ch. 8
+* Corresponding `man` pages

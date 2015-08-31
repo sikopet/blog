@@ -23,6 +23,10 @@ Start vagrant environment:
 Check box(es) status:
 
     vagrant status
+    
+Check box(es) SSH configuration:
+
+    vagrant ssh-config
 
 Ssh to a box:
 

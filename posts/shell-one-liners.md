@@ -1,3 +1,9 @@
+Count number of lines if Perl files
+
+    for f in $(ack -f --perl); do wc -l $f; done | \
+    sort -n | \
+    perl -nE '$n += (split)[0]; print; END {say "-" x 40, "\n", $n}'
+
 Sort running processes by memory use
 
     ps -eo pmem,pcpu,rss,vsize,args | sort -k 1 -r | less

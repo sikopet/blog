@@ -1,4 +1,4 @@
-As a system administrator, automating the work that needs to be done should be the majority of your job. We should not make changes to the system, we should instruct the automation to make those changes. -- ULSAH2
+As a system administrator, automating the work that needs to be done should be the majority of your job. We should not make changes to the system, we should instruct the automation to make those changes. -- PSNA2
 
 He used the word "kata", because he understood that repetition creates habits, and habits are what enable mastery. -- The Phoenix Project
 

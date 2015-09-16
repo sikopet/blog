@@ -119,6 +119,6 @@ Finding master server
 Sources
 =======
 
-* [ULSAH](http://ulsah.com/)
+* [ULSAH](http://ulsah.com/) ch. 17. DNS: The Domain Name System
 * [SPF](https://www.digitalocean.com/community/tutorials/how-to-use-an-spf-record-to-prevent-spoofing-improve-e-mail-reliability)
 * [DKIM](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-dkim-with-postfix-on-debian-wheezy)

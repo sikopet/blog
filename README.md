@@ -1,6 +1,16 @@
-My technical documentation, notes and diary, i.e. a wiki/blog hybrid. Some stuff from here is cross-posted on [blogspot](http://jreisinger.blogspot.sk).
+This is not a blog :-). At most it's a wiki/blog hybrid. Actually it is my
+technical documentation, notes and diary. Some stuff from here is cross-posted
+on [blogspot](http://jreisinger.blogspot.sk).
 
-Run `./bin/displayed_posts.pl` to make sure all posts are displayed in `README.md` .
+Contents
+* bin - tools for managing the blog
+* code - programs referred to from blog posts
+* files - files referred to from blog posts
+* posts - the *actual* blog posts
+* terms - a dictionary of terms
+
+Run `./bin/displayed_posts.pl` to make sure all posts are displayed in
+`README.md` and have symlinks within subdirectories.
 
 Operating Systems
 -----------------
@@ -42,8 +52,8 @@ Networking
 * [SSH Tunnel](posts/ssh-tunnel.md)
 * [traceroute](posts/traceroute-explained.md)
 * [VLANs](posts/vlans.md)
- 
-Security 
+
+Security
 --------
 
 * [Security in General](posts/general-security.md)

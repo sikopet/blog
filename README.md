@@ -78,6 +78,7 @@ Shell
 Perl
 
 * [Benchmarking Perl Code](posts/benchmarking-perl-code.md)
+* [Date Time](posts/perl-date-time.md)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
 * [File::Find](posts/file-find.md)
 * [Get Passwords on Command Line](posts/get-passwd.md)

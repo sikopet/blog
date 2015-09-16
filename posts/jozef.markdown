@@ -25,7 +25,7 @@
 
 2013-06
 
-* wrote [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl) -- experiential learning :) 
+* wrote [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl) -- experiential learning :)
 * evaluating SSO implementations (pete)
 
 2013-05
@@ -55,7 +55,7 @@
 **2013**-02
 
 * read [some](http://www.openhouse.sk/blog/gsm.html) stuff on mobile networks
-* reviewed LAN switching [notes](http://www.openhouse.sk/blog/02_switching.html)
+* reviewed LAN switching [notes](http://www.openhouse.sk/blog/switching.html)
 * [posted](http://perlmonks.org/?node_id=1020778) on PerlMonks
 * added [blog entry](http://openhouse.sk/blog/file-find.html) on `File::Find`
 * created a (throw-away) [script](https://gist.github.com/jreisinger/5071103) that sorts serials on TV (by `touch`-ing them) served via [MiniDLNA](https://wiki.archlinux.org/index.php/MiniDLNA)
@@ -65,7 +65,7 @@
 * [oh-servers](https://github.com/open-house/oh-servers) working! (merged puppet into master)
 * made progress with [oh-servers](https://github.com/open-house/oh-servers) (puppet branch)
 * read two case studies from [IT Security Matrix](http://www.amazon.com/Security-Metrics-Practical-Framework-Protecting/dp/0071713409/ref=sr_1_3?s=books&ie=UTF8&qid=1361298694&sr=1-3&keywords=security+metrics)
-* finished [LAN switching](http://www.openhouse.sk/blog/02_switching.html) notes
+* finished [LAN switching](http://www.openhouse.sk/blog/switching.html) notes
 * created [pub_proc.pl](https://github.com/jreisinger/varia/blob/master/pub_proc.pl) that sends information on [Slovak public procurement](http://www.uvo.gov.sk/evestnik/-/vestnik/aktual) by email
 * read XML chapter from Perl Cookbook
 * read an [article on procrastination](http://lesswrong.com/lw/3w3/how_to_beat_procrastination/) (that's why I hadn't done my Christmas homework at high-school? :)

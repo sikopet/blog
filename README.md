@@ -41,8 +41,8 @@ Operating Systems
 Networking
 ----------
 
-* [Networking Basics](posts/01_net_basics.md)
-* [Switching](posts/02_switching.md)
+* [Networking Basics](posts/net-basics.md)
+* [Switching](posts/switching.md)
 * [DHCP](posts/dhcp.md)
 * [DNS](posts/dns.md)
 * [GSM](posts/gsm.md)

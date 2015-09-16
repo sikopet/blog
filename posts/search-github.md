@@ -10,8 +10,8 @@ Use [gitmeta](https://github.com/jreisinger/gitmeta) to clone the desired repos.
 
 Look for files:
 
-    find /tmp/jreisinger -type f -iname "*back*"
+    find -type f -iname "*back*"
 
 Search inside files:
 
-    grep --color -R backup /tmp/jreisinger/
+    grep --color -R backup

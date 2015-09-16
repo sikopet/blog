@@ -52,8 +52,10 @@ The program's output:
 
 The output says that the Schwartzian Transform and the Orcish Manoeuvre are much
 faster (the function ran more times in 2 seconds). The reason is that we don't
-ask for the file size each time we want to compare two files sizes; we ask just
-once for each file size.
+ask for the file size (a relatively expensive operation) each time we want to 
+compare two files sizes; we ask just once for each file and we cache the result.
+This way we run the expensive function N times instead of N.log(N) times (N is 
+the number of files, N.log(N) is the number of comparisons).
 
 ## See Also
 

@@ -1,6 +1,7 @@
 #!/usr/bin/perl
-# Show posts (posts/*.md) that are not listed in README.md
-# Usage: blog$ ./bin/displayed_posts.pl
+# Show posts (posts/*.md) that are not listed in README.md or have no symlink
+# within subdirectories.
+# Usage: blog$ ./bin/wild-posts
 use strict;
 use warnings;
 use 5.010;
@@ -18,7 +19,6 @@ while (<$fh>) {
     push @links, $1 if /\((posts\/[^\)]+)\)/;
 }
 
-say "Posts that are not displayed in README.md:";
 for my $post ( sort @posts ) {
 
     if ( -l $post ) {

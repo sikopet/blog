@@ -3,15 +3,20 @@
 Sometimes my code takes a really long time to run and I'd like to know which of the
 alternatives runs faster.
 
-In this example I compare two sorting subroutines; a "naive" approach and "The
-Schwartzian Transform". The former subroutine just compares all files' sizes to
-each other while the latter first precomputes the size of each file and then
+In this example I compare three sorting subroutines; a "naive" approach, "The
+Schwartzian Transform" and "The Orcish Manouvre" caching. The first subroutine
+just compares all files' sizes to each other while the latter first precomputes the size of each file and then
 does the comparisons.
 
+    #!/usr/bin/perl
+    use strict;
+    use warnings;
+    use 5.010;
     use Benchmark qw(timethese);
 
     chdir;    # change to my home directory
-    my @files = glob '*';
+    my @files = grep -f, glob '* .*';
+    print "found ", scalar @files, " files\n";
 
     timethese(
         -2,
@@ -25,14 +30,22 @@ does the comparisons.
                   sort { $a->[1] <=> $b->[1] }
                   map  { [ $_, -s $_ ] } @files;
             },
+            orcish => sub {
+                my %size;
+                my @sorted =
+                  sort { ( $size{$a} //= -s $a ) <=> ( $size{$b} //= -s $b ) }
+                  @files;
+            },
         }
     );
 
 The program's output:
 
-    Benchmark: running naive, schwartzian for at least 2 CPU seconds...
-         naive:  2 wallclock secs ( 0.58 usr +  1.49 sys =  2.07 CPU) @ 11661.84/s (n=24140)
-    schwartzian:  2 wallclock secs ( 1.57 usr +  0.59 sys =  2.16 CPU) @ 21200.00/s (n=45792)
+    found 25 files
+    Benchmark: running naive, orcish, schwartzian for at least 2 CPU seconds...
+         naive:  2 wallclock secs ( 1.00 usr +  1.03 sys =  2.03 CPU) @ 7182.27/s (n=14580)
+        orcish:  2 wallclock secs ( 1.55 usr +  0.51 sys =  2.06 CPU) @ 22422.33/s (n=46190)
+    schwartzian:  2 wallclock secs ( 1.58 usr +  0.50 sys =  2.08 CPU) @ 22015.38/s (n=45792)
 
 The output says that the Schwartzian Transform is much faster (the function ran more times in 2 seconds). The
 reason is that we don't ask for the file size each time we want to compare two

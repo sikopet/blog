@@ -1,0 +1,1 @@
+../clone-and-resize-kvm-virtual-machine.md

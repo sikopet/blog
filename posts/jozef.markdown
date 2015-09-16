@@ -73,7 +73,7 @@
 
 **2012**-09
 
-* read "Introduction to References" ([AlpacaBook](http://www.openhouse.sk/blog/perl_resources.html)) for the second time (Laguna Beach, CA)
+* read "Introduction to References" (AlpacaBook) for the second time (Laguna Beach, CA)
 
 **2011**-04
 
@@ -82,11 +82,11 @@
 
 **2010**-03
 
-* started to study the [LlamaBook](http://www.openhouse.sk/blog/perl_resources.html) (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
+* started to study the LlamaBook (wondering what a [hash](http://perldoc.perl.org/perlintro.html#Perl-variable-types) was :)
 
 **2009**-04
 
-* 08:04:49: [Revision 1](https://wiki.openhouse.sk/action/recall/ShellScripting?action=recall&rev=1) (private) of Classic Shell Scripting notes (started to enjoy the book on Christmas 2008 though)
+* 08:04:49: Revision 1 of Classic Shell Scripting wiki notes (started to enjoy the book on Christmas 2008 though)
 
 2008-06
 

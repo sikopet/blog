@@ -13,7 +13,7 @@ Sometimes you need to do something to many/all files within certain directory. [
     find(
         sub {
             # do something
-        }
+        },
         @DIRLIST
     }
 

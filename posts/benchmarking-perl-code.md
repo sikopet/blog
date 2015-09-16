@@ -5,8 +5,8 @@ of this post.)
 Sometimes my code takes a really long time to run and I'd like to know which of
 the alternatives runs faster.
 
-In this example I compare three sorting subroutines; a "naive" approach, "The
-Schwartzian Transform" and "The Orcish Manouvre". The first subroutine just
+In this example I compare three sorting subroutines; a "naive" approach, "the
+Schwartzian Transform" and "the Orcish Manoeuvre". The first subroutine just
 compares all files' sizes to each other. The second first precomputes the size
 of each file and then does the comparisons. The third only computes the size if
 not already cached in a hash.
@@ -50,7 +50,7 @@ The program's output:
         orcish:  2 wallclock secs ( 1.55 usr +  0.51 sys =  2.06 CPU) @ 22422.33/s (n=46190)
     schwartzian:  2 wallclock secs ( 1.58 usr +  0.50 sys =  2.08 CPU) @ 22015.38/s (n=45792)
 
-The output says that the Schwartzian Transform and the Orcish Manouvre are much
+The output says that the Schwartzian Transform and the Orcish Manoeuvre are much
 faster (the function ran more times in 2 seconds). The reason is that we don't
 ask for the file size each time we want to compare two files sizes; we ask just
 once for each file size.

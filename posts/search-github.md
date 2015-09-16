@@ -7,8 +7,8 @@ I have some code and documetation hosted on GitHub and I sometimes need to searc
 
 2. Search through the data
 
-    # look for files
-    find -type f -iname "*back*"
+        # look for files
+        find -type f -iname "*back*"
     
-    # Search inside files
-    grep --color -R backup
+        # Search inside files
+        grep --color -R backup

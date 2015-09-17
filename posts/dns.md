@@ -120,9 +120,7 @@ Finding master server
 
     dig SOA <domain-name>
 
-Checking for open resolvers
-
-    http://dns.measurement-factory.com/tools/ => open resolver test
+Checking for open resolvers: http://dns.measurement-factory.com/tools/ => open resolver test
 
 * recursive, caching name server that accepts and answers queries from anyone
  on the Internet

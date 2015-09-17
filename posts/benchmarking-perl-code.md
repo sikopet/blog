@@ -34,7 +34,7 @@ not already cached in a hash.
                   map  { [ $_, -s $_ ] } @files;
             },
             orcish => sub {
-                my %size;
+                my %size;  # cache of files' sizes
                 my @sorted =
                   sort { ( $size{$a} //= -s $a ) <=> ( $size{$b} //= -s $b ) }
                   @files;

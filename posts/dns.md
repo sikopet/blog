@@ -85,13 +85,16 @@ Nameservers
 * recursive - queries on your behalf until it returns either an answer or an error
 * non-recursive - refers you to another server if it can't answer a query
 
-Testing and debugging tools
-===========================
+Testing and debugging
+=====================
+
+Tools
+-----
 
 host
 
     host name|addr [server]
-    
+ 
 nslookup
 
     nslookup [name|addr] [server]
@@ -100,22 +103,33 @@ dig
 
     dig [@server] [-x addr] [name] [type] [+trace]
 
-Determine DNS server version
-----------------------------
+Howtos
+------
 
-Find out the name of the nameserver for the domain
+Determine DNS server version:
 
-    dig ist.ac.at ns
-    
-Query the the version (can be concealed in some cases)
+1. Find out the name of the nameserver for the domain
 
-    dig @ns1.ist.ac.at version.bind txt chaos
+        dig ist.ac.at ns
+ 
+2. Query the the version (can be concealed in some cases)
+
+        dig @ns1.ist.ac.at version.bind txt chaos
 
 Finding master server
----------------------
 
     dig SOA <domain-name>
-    
+
+Checking for open resolvers
+
+    http://dns.measurement-factory.com/tools/ => open resolver test
+
+* recursive, caching name server that accepts and answers queries from anyone
+ on the Internet
+* resources consumption
+* resolver's cache poisoning
+* amplification of DDoS attacks
+ 
 Sources
 =======
 

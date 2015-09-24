@@ -36,7 +36,6 @@ Operating Systems
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)
 * [ZFS](posts/zfs.md) (125 lines)
-* [OS Resources](posts/os-resources.md) (10 lines)
 
 Networking
 ----------

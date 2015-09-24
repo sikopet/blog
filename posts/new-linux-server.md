@@ -19,9 +19,9 @@ Things I do after installing a fresh Linux machine.
 
 ## Optional
 
- * Setup [firewall](https://github.com/jreisinger/varia/blob/master/iptables.sh) to increase network security.
+ * Setup [firewall](https://github.com/jreisinger/varia/blob/master/iptables.sh) to increase network security. Restart `fail2ban` after you install the firewall rules.
 
- * Load some [personalization files](https://github.com/jreisinger/dot-files).
+ * Load some [personalization files and tools](https://github.com/jreisinger/dotfiles).
 
  * Setup `sudo` to increase security - add the following to `/etc/sudoers`:
 

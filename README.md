@@ -32,7 +32,6 @@ Operating Systems
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)
 * [RAID](posts/raid.md) (80 lines)
-* [Scan Windows Shares](posts/scan_win_shares.md) (6 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)
@@ -57,8 +56,9 @@ Networking
 Security
 --------
 
-* [Security in General](posts/general-security.md) (33 lines)
 * [Attack Phases](posts/attack-phases.md) (7 lines)
+* [Scanning Windows Shares](posts/scan_win_shares.md) (6 lines)
+* [Security in General](posts/general-security.md) (33 lines)
 * [Store Nmap Results to Excel File](posts/nmap2excel.md) (30 lines)
 
 Programming

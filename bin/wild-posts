@@ -7,8 +7,10 @@ use warnings;
 use 5.010;
 use autodie;
 use File::Find;
-use Text::Autoformat;
 use File::Basename;
+
+use lib 'lib';
+use Local::Display;
 
 my @posts;
 find( sub { push @posts, $File::Find::name if -f && /\.md$/ }, 'posts' );
@@ -32,21 +34,6 @@ for my $post ( sort @posts ) {
 
     my $link = make_md_link($post) unless grep $post eq $_, @links;
     say $link if $link;
-}
-
-# Create link that can be pasted into README under a category
-sub make_md_link {
-    $_ = shift;
-    my $title = $1 if /\/([^\)]+)/;
-    return unless defined $title;
-    $title =~ s/\.md//;
-    $title = autoformat( $title, { case => 'highlight' } );
-    chomp $title;
-    chomp $title;
-    $title =~ s/[-_]/ /g;
-    $_ = "[$title]($_)";
-    s/^/* /;
-    return $_;
 }
 
 # Is there at least one symlink, i.e. category, for this post?

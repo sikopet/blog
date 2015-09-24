@@ -6,6 +6,7 @@ Contents
 * bin - tools for managing the blog
 * code - programs referred to from blog posts
 * files - files referred to from blog posts
+* lib - code used by tools in bin
 * posts - the *actual* blog posts
 * terms - a dictionary of terms
 

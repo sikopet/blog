@@ -1,5 +1,4 @@
 # Get Password From User
-###### perl
 
 Sometimes you need to use a password in your command line script. One of the ways how to get it, is to ask the user.
 

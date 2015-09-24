@@ -66,7 +66,6 @@ Programming
 * [Programming in General](posts/prog-general.md) (104 lines)
 * [Git](posts/git.md) (149 lines)
 * [Search Your GitHub](posts/search-github.md) (14 lines)
-* [Programming Resources](posts/programming-resources.md) (9 lines)
 
 Shell
 
@@ -78,14 +77,13 @@ Shell
 Perl
 
 * [Benchmarking Perl Code](posts/benchmarking-perl-code.md) (64 lines)
-* [Date Time](posts/perl-date-time.md) (12 lines)
+* [Dates and Times in Perl](posts/perl-date-time.md) (12 lines)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md) (74 lines)
 * [File::Find](posts/file-find.md) (83 lines)
 * [Get Passwords on Command Line](posts/get-passwd.md) (34 lines)
 * [Module::Build](posts/module-build.md) (50 lines)
 * [Mom's Age](posts/moms-age.md) (33 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
-* [Perl Resources](posts/perl-resources.md) (4 lines)
 
 Various
 -------

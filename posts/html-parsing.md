@@ -1,5 +1,4 @@
 # HTML Parsing
-###### perl
 
 I wanted to store the names of [Slovak MPs](http://www.nrsr.sk/web/?sid=poslanci/zoznam_abc) in a text file. Perl programming [documentation](http://perldoc.perl.org/perlfaq6.html#How-do-I-match-XML%2c-HTML%2c-or-other-nasty%2c-ugly-things-with-a-regex%3f) says to forget about regular expressions when messing with ugly things like HTML. So I used [HTML::TreeBuilder](https://metacpan.org/module/HTML::TreeBuilder) and read a few articles about it:
 

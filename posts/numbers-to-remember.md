@@ -1,4 +1,4 @@
-## Programming
+## Programmer
 
     .--------------------------------------------------------------------------------.
     |               Source: https://gist.github.com/hellerbarde/2843375              |
@@ -51,7 +51,7 @@ Media
     .----------------------------------------------------------------------------------------------------.
     |                                     Source: ULSAH, p. 210, 204                                     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
-    | What              | Size       | Sequential Read Speed | Random Read Speed | Write Speed | Cost     |
+    | What              | Size       | Sequential Read Speed| Random Read Speed | Write Speed | Cost     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
     | LTO-3 write speed |            |                      |                   | 80MB/s      | $0.06/GB |
     | LTO-4 write speed |            |                      |                   | 120MB/s     | $0.05/GB |

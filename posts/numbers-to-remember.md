@@ -42,6 +42,8 @@ Compress 1K bytes with Zippy ; 3,000 ns ; 3 µs
 Send 2K bytes over 1 Gbps network ; 20,000 ns ; 20 µs
 -->
 
+`*` Assuming ~1GB/sec SSD
+
 ## Sysadmin
 
 Media

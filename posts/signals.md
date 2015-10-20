@@ -24,3 +24,4 @@ Each process has a default disposition (what to do) for each possible signal. Yo
 Source:
 * How Linux Works, 2nd
 * Perl Cookbook, 2nd
+* `man 7 signal` - overview of signals

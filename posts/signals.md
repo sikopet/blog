@@ -12,8 +12,8 @@ Signal types:
 * STOP - freeze the process (stays in memory ready to continue where it left
     off)
 * CONT - continue running the process
-* INT - interrupt (Ctrl-C). Simple programs usually just die, more important ones (ex. shells, editors) just stop long-running operations.
-* QUIT - generate core dump (Ctrl-\)
+* INT - interrupt (Ctrl-C). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
+* QUIT - generate core dump (`Ctrl-\`)
 * CHLD - one of the child processes stopped running - or, more likely, exited
 
 Each process has a default disposition (what to do) for each possible signal. You may install your own handler or otherwise change the disposition of most signals. Only SIGKILL and SIGSTOP cannot be changed. The rest you can:

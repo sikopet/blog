@@ -32,6 +32,7 @@ Operating Systems
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)
 * [RAID](posts/raid.md) (80 lines)
+* [Signals](posts/signals.md) (18 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)

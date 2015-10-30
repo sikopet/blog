@@ -3,7 +3,7 @@ use Text::Autoformat;
 
 use Exporter qw(import);
 our @EXPORT = qw(
-  make_md_link
+  make_readme_line
   count_lines
 );
 
@@ -32,13 +32,13 @@ sub count_lines {
     return $count;
 }
 
-=head2 make_md_link
+=head2 make_readme_line
 
 Create link that can be pasted into README.md under a category.
 
 =cut
 
-sub make_md_link {
+sub make_readme_line {
     my $post = shift;    # ex. "posts/zfs.md"
 
     my $title = $1 if $post =~ /\/([^\)]+)/;
@@ -53,7 +53,7 @@ sub make_md_link {
     $link =~ s/^/* /;
 
     my $count = count_lines($post);
-    
+
     return "$link ($count lines)";
 }
 

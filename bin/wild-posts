@@ -32,7 +32,7 @@ for my $post ( sort @posts ) {
           unless symlink_exists($post);
     }
 
-    my $readme_line = make_md_link($post) unless grep $post eq $_, @readme_links;
+    my $readme_line = make_readme_line($post) unless grep $post eq $_, @readme_links;
     say $readme_line if $readme_line;
 }
 

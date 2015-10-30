@@ -13,7 +13,7 @@ use lib 'lib';
 use Local::Display;
 
 my @posts;
-find( sub { push @posts, $File::Find::name if -f && /\.md$/ }, 'posts' );
+find( sub { push @posts, $File::Find::name if -f && ! -l && /\.md$/ }, 'posts' );
 
 my @readme_links;
 open my $fh, "<", "README.md";
@@ -32,8 +32,17 @@ for my $post ( sort @posts ) {
           unless symlink_exists($post);
     }
 
-    my $readme_line = make_readme_line($post) unless grep $post eq $_, @readme_links;
-    say $readme_line if $readme_line;
+    my $post_in_readme = grep $post eq $_, @readme_links;
+
+    my $readme_line = make_readme_line($post);
+
+    if (not $post_in_readme) {
+        say "Not in README:";
+        say $readme_line if $readme_line;
+    } elsif (line_count_changed($post)) {
+        say "Updated line count:";
+        say $readme_line if $readme_line;
+    }
 }
 
 # Is there at least one symlink, i.e. category, for this post?

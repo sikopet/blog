@@ -5,6 +5,7 @@ use Exporter qw(import);
 our @EXPORT = qw(
   make_readme_line
   count_lines
+  line_count_changed
 );
 
 =head1 NAME
@@ -32,9 +33,31 @@ sub count_lines {
     return $count;
 }
 
+=head2 line_count_changed
+
+Did I add/remove lines in a post?
+
+=cut
+
+sub line_count_changed {
+    my $post = shift;
+
+    my $lines = count_lines($post);
+
+    my $lines_in_readme;
+    open my $fh, "<", "README.md" or die "Can't open README.md: $!";
+    while (<$fh>) {
+        if ( /\($post\)\s*\((\d+)/ ) {
+            $lines_in_readme = $1
+        }
+    }
+
+    return $lines != $lines_in_readme ? 1 : 0;
+}
+
 =head2 make_readme_line
 
-Create link that can be pasted into README.md under a category.
+Create line that can be pasted into README.md under a category.
 
 =cut
 

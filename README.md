@@ -32,7 +32,7 @@ Operating Systems
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)
 * [RAID](posts/raid.md) (80 lines)
-* [Signals](posts/signals.md) (18 lines)
+* [Signals](posts/signals.md) (27 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)
@@ -58,15 +58,15 @@ Security
 
 * [Attack Phases](posts/attack-phases.md) (7 lines)
 * [Randomness](posts/randomness.md) (28 lines)
-* [Scanning Windows Shares](posts/scan_win_shares.md) (6 lines)
+* [Scanning Windows Shares](posts/scan_win_shares.md) (4 lines)
 * [Security in General](posts/general-security.md) (33 lines)
-* [Store Nmap Results to Excel File](posts/nmap2excel.md) (30 lines)
+* [Store Nmap Results to Excel File](posts/nmap2excel.md) (28 lines)
 
 Programming
 -----------
 
 * [Programming in General](posts/prog-general.md) (104 lines)
-* [Git](posts/git.md) (149 lines)
+* [Git](posts/git.md) (154 lines)
 * [Search Your GitHub](posts/search-github.md) (14 lines)
 
 Shell
@@ -82,17 +82,17 @@ Perl
 * [Dates and Times in Perl](posts/perl-date-time.md) (12 lines)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md) (74 lines)
 * [File::Find](posts/file-find.md) (83 lines)
-* [Get Passwords on Command Line](posts/get-passwd.md) (34 lines)
+* [Get Passwords on Command Line](posts/get-passwd.md) (33 lines)
 * [Module::Build](posts/module-build.md) (50 lines)
-* [Mom's Age](posts/moms-age.md) (33 lines)
+* [Mom's Age](posts/moms-age.md) (32 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
 
 Various
 -------
 
-* [Check Web Site Uptime](posts/check-web-app.md) (43 lines)
-* [Generate ASCII Table](posts/gen_ascii_table.md) (17 lines)
+* [Check Web Site Uptime](posts/check-web-app.md) (41 lines)
+* [Generate ASCII Table](posts/gen_ascii_table.md) (16 lines)
 * [Google Hacks](posts/google-hacks.md) (25 lines)
-* [HTML Parsing](posts/html-parsing.md) (39 lines)
-* [Numbers to Remember](posts/numbers-to-remember.md) (104 lines)
-* [IT Audit Resources](posts/it-audit-resources.md) (38 lines)
+* [HTML Parsing](posts/html-parsing.md) (38 lines)
+* [Numbers to Remember](posts/numbers-to-remember.md) (106 lines)
+* [IT Audit Resources](posts/it-audit-resources.md) (37 lines)

@@ -41,7 +41,9 @@ for my $post ( sort @posts ) {
         say $readme_line if $readme_line;
     } elsif (line_count_changed($post)) {
         say "Updated line count:";
-        say $readme_line if $readme_line;
+        my $output = $readme_line;
+        $output =~ s/\[[^\]]+\]/... /;
+        say $output if $output;
     }
 }
 

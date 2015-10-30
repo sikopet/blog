@@ -33,9 +33,9 @@ You can see your configuration like this:
 
     $ git config --list    # output depends on whether you're in a git repo directory or not
 
-or
+You can also manage you configuration via `~/.gitconfig` file.
 
-    $ cat ~/.gitconfig
+If you want to manage the current repository configuration just leave out the `--global` option or use the local config file `.git/config`.
 
 To start using git, you can either create a new project or get one from the Internet and start working on it.
 
@@ -46,15 +46,15 @@ Starting a git repository
     $ cd project
     $ git init
 
-You've now initialized the working directory -- you may notice a new directory created, named `.git`.
+You've now initialized the working directory -- you may notice a new directory created, named `.git`. Git stores all of its stuff in this hidden directory. If you want Git to stop tracking your files, just remove `.git`.
 
 Next, tell git to take a snapshot [in svk: momentka] of the contents of all files under the current directory (note the `.`), with git-add:
 
-    $ git add .     # temporary storage (index)
+    $ git add .     # temporary storage (staging index)
 
-This snapshot is now stored in a *temporary staging area* which git calls the "index". You can permanently store the contents of the index in the repository with git-commit:
+This snapshot is now stored in a *temporary staging area* which git calls the "staging index" or just "index". You can permanently store the contents of the index in the repository with `git-commit`:
 
-    $ git commit    # permanent storage
+    $ git commit    # permanent storage (repository)
 
 This will prompt you for a commit message. You've now stored the first version of your project in git.
 
@@ -127,6 +127,11 @@ To to list tracked files:
     
     # files that ever existed (i.e. including deleted files)
     git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
+    
+To remove files not tracked by Git (like log files, zipped files, compiled files)
+
+    git clean -n  # dry-run
+    git clean -f  # files removed!
 
 Tips and Tricks
 ===============

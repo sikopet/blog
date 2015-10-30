@@ -15,10 +15,10 @@ use Local::Display;
 my @posts;
 find( sub { push @posts, $File::Find::name if -f && /\.md$/ }, 'posts' );
 
-my @links;
+my @readme_links;
 open my $fh, "<", "README.md";
 while (<$fh>) {
-    push @links, $1 if /\((posts\/[^\)]+)\)/;
+    push @readme_links, $1 if /\((posts\/[^\)]+)\)/;
 }
 
 for my $post ( sort @posts ) {
@@ -32,8 +32,8 @@ for my $post ( sort @posts ) {
           unless symlink_exists($post);
     }
 
-    my $link = make_md_link($post) unless grep $post eq $_, @links;
-    say $link if $link;
+    my $readme_line = make_md_link($post) unless grep $post eq $_, @readme_links;
+    say $readme_line if $readme_line;
 }
 
 # Is there at least one symlink, i.e. category, for this post?

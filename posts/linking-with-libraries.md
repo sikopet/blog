@@ -1,7 +1,10 @@
 The C compiler doesn't know enough about your system to create a useful program
 all by itself. You need libraries to build complete programs.
 
-C library - *precompiled* function that can be built into your program
+C library - *precompiled* function that can be built into your program.
+
+The two standard directories on Linux containing libraries are `/lib` and
+`/usr/lib`. `/lib` should not contain static libraries.
 
 Static libraries
 ----------------
@@ -32,9 +35,6 @@ Advantages:
 Disadvantages:
 * library management
 * missing libraries
-
-The two standard directories on Linux containing libraries are `/lib` and
-`/usr/lib`. `/lib` should not contain static libraries.
 
 Executables know just the names of shared libraries (performance and
 flexibility reasons). A small program `ld.so` (runtime dynamic linked/loader)

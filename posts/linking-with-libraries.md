@@ -44,5 +44,5 @@ shared libraries:
     ldd /bin/bash
 
 More
-* How Linux Works, 2nd: Ch. 15
 * http://jreisinger.duckdns.org/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice
+* How Linux Works, 2nd: Ch. 15

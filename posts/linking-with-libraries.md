@@ -45,4 +45,4 @@ shared libraries:
 
 More
 * How Linux Works, 2nd: Ch. 15
-* Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice
+* http://jreisinger.duckdns.org/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice

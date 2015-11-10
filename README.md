@@ -67,8 +67,8 @@ Programming
 -----------
 
 * [Big O Notation](posts/big-o-notation.md) (22 lines)
-* [Programming in General](posts/prog-general.md) (104 lines)
 * [Git](posts/git.md) (154 lines)
+* [Programming in General](posts/prog-general.md) (104 lines)
 * [Search Your GitHub](posts/search-github.md) (14 lines)
 
 Shell

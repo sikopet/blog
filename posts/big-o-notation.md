@@ -1,5 +1,5 @@
 * a mathematical way of describing *scaling*
-* used to classify a system based on how it responds to changes in input size
+* **used to classify a system based on how it responds to changes in input size**
 * *O* is used because the growth rate of an algorithm's run-time is known as its
     *order*
 

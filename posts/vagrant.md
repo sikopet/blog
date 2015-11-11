@@ -1,4 +1,4 @@
-[Search](https://atlas.hashicorp.com/boxes/search) and add a box:
+[Search](https://atlas.hashicorp.com/boxes/search) and add a box (virtual machine image):
 
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
  

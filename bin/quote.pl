@@ -8,8 +8,12 @@ use warnings;
 use LWP::Simple;
 use CGI;
 
-my @quotes = split /\n+/, get
-  "https://raw.githubusercontent.com/jreisinger/blog/master/posts/quotes.txt";
+my $url =
+  'https://raw.githubusercontent.com/jreisinger/blog/master/posts/quotes.txt';
+my $doc = get $url;
+exit unless $doc;
+
+my @quotes = split /\n+/, $doc;
 my $quote = $quotes[ rand @quotes ];
 
 # -- TimToady (http://irclog.perlgeek.de/perl6/2013-07-21)

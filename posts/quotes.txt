@@ -1,3 +1,5 @@
+One of the best programmers I ever hired had only a High School degree; ... -- Peter Norvig (http://norvig.com/21-days.html)
+
 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Kernighan & Plauger: The Elements of Programming Style (1978)
 
 ... you don't know whether you can do something until you've done it. -- ULSAH

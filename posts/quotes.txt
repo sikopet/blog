@@ -1,3 +1,5 @@
+Talk to all the people that are involved and figure out what real need is and re-examine whether the "largest value" is actually needed, how it is needed, and whether the entire process can be improved by looking at it end-to-end. -- Tom Limoncelli (http://everythingsysadmin.com/2015/11/operations-and-big-o-analysis.html)
+
 One of the best programmers I ever hired had only a High School degree; ... -- Peter Norvig (http://norvig.com/21-days.html)
 
 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Kernighan & Plauger: The Elements of Programming Style (1978)

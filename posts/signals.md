@@ -6,7 +6,7 @@ To ask the kernel to a send a signal:
 
     kill [-SIGNAL] PID  # default signal is TERM
 
-Signal types:
+(Common) signal types:
 * TERM - terminate the process (polite request to die)
 * KILL - terminate the process and remove it forcibly from memory
 * STOP - freeze the process (stays in memory ready to continue where it left

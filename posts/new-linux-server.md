@@ -37,7 +37,12 @@ Things I do after installing a fresh Linux machine.
         Wed Feb 17 08:35:29 UTC 2010
 
 ### Perl stuff
- * Install `cpanminus` to have a nice installer of [CPAN](https://metacpan.org/) modules (there will be a stable Debian package in the future): `cpan App::cpanminus` or `curl -L http://cpanmin.us | perl - --sudo App::cpanminus`
+ * Install `cpanminus` to have a nice installer of [CPAN](https://metacpan.org/) modules:
+ 
+        sudo apt-get install cpanminus  # or
+        sudo cpan App::cpanminus        # or
+        curl -L http://cpanmin.us | perl - --sudo App::cpanminus
+
  * Install `Module::Starter` used for building Perl distributions:
 
         aptitude install make

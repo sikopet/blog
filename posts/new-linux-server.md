@@ -31,7 +31,7 @@ Things I do after installing a fresh Linux machine.
 
  * Set your timezone (ex. to UTC):
 
-        $ sudo cp -p /etc/localtime{,.orig}
+        $ sudo cp -p /etc/localtime{,.orig}  # don't bother viewing it, it's a binary file
         $ sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
         $ date
         Wed Feb 17 08:35:29 UTC 2010

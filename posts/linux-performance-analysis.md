@@ -12,7 +12,7 @@ Sources of hardware information:
 
 Desktop Management Interface (DMI, aka SMBIOS):
 
-    dmidecode -t <type>    # see man page for TYPES
+    dmidecode -t <type>    # see "DMI TYPES" in manpage
 
 Network:
 

@@ -195,25 +195,25 @@ Network I/O
 
 To see info on network connections:
 
-    netstat -tulanp
+    # netstat -tulanp
     
 * `-t` - print TCP ports info
 * `-u` - print UDP ports info
 * `-l` - print listening ports
 * `-a` - print all active ports
 * `-n` - don't reverse-resolve IP addresses
-* `-p` - print name and PID of the programming owning the socket
+* `-p` - print name and PID of the program owning the socket
 
 To list all programs using or listening to ports (when run as regular user, only shows user's processes):
 
-    lsof -ni -P
+    # lsof -ni -P
 
 * `-n` - don't reverse-resolve IP addresses
 * `-P` - disable /etc/services port name lookups
 
 To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:
 
-    lsof -U  # unnamed sockets have "socket" in NAME column
+    # lsof -U  # unnamed sockets have "socket" in NAME column
 
 lsof network connections filtering
 ----------------------------------
@@ -221,7 +221,9 @@ lsof network connections filtering
 by protocol, host and port:
 
     lsof -i[<protocol>@<host>]:<port>
-    
+
+.. ex.
+
     lsof -i:22
     lsof -iTCP:80
 

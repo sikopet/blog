@@ -58,6 +58,8 @@ Load average
 
 How many pieces is the CPU divided into?
 
+An estimate of how many processes are capable of using the CPU at any given time.
+
 Average number of runnable (ready to run) processes:
 
     $ uptime 

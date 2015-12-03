@@ -1,3 +1,5 @@
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/linux-performance-analysis.md) of this post.)
+
 Taking stock of hardware
 ========================
 
@@ -213,7 +215,7 @@ To list all programs using or listening to ports (when run as regular user, only
 
 To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:
 
-    # lsof -U  # unnamed sockets have "socket" in NAME column
+    # lsof -U    # unnamed sockets have "socket" in NAME column
 
 lsof network connections filtering
 ----------------------------------

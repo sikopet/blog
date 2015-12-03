@@ -78,7 +78,7 @@ Which processes are hogging resources?
 
 Snapshot of current processes:
 
-    $ ps -aux
+    $ ps aux
 
 * `m` - show threads
 

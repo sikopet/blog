@@ -235,6 +235,23 @@ by connection status:
 
     lsof -iTCP -sTCP:LISTEN
 
+Other tools
+===========
+
+iotop - per process I/O utilization and monitoring
+
+    $ iotop
+
+pidstat - per process monitoring
+
+    $ pidstat -p <PID> <interval>
+    
+dstat - versatile replacement for vmstat, iostat and ifstat
+
+    $ dstat
+    
+sar - record resource utilization over time
+
 Resources
 =========
 

@@ -9,6 +9,13 @@ Sysadmin
 * Ansible: Up and Running, 2015
 * Automating System Administration with Perl, 2009
 
+Configuration management
+------------------------
+
+* Ansible: Up and Running (2015)
+* Learning Ansible (2014)
+* Infrastructure as Code (2016)
+
 Programming
 -----------
 

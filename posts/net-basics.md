@@ -28,7 +28,7 @@ OSI layering benefits
       |------------+- - -+------------+- - -+------------+- - -+----------------+
     2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP ARP|
       |------------+     |            |- - -|------------|- - -|----------------|
-    1 |Physical    |     |access      |  1  |Physical    |     |RJ-45 Eth V.35  |
+    1 |Physical    |     |access      |  1  |Physical    |     |Eth RJ-45 V.35  |
       +------------+     +------------+     +------------+     +----------------+
 
  * Please Do Not Throw Sausage Pizza Away

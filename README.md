@@ -44,6 +44,7 @@ Networking
 
 * [Networking Basics](posts/net-basics.md) (442 lines)
 * [Switching](posts/switching.md) (577 lines)
+* [VLANs](posts/vlans.md) (69 lines)
 * [DHCP](posts/dhcp.md) (99 lines)
 * [DNS](posts/dns.md) (136 lines)
 * [GSM](posts/gsm.md) (149 lines)
@@ -52,7 +53,6 @@ Networking
 * [SNMP](posts/snmp.md) (76 lines)
 * [SSH Tunnel](posts/ssh-tunnel.md) (38 lines)
 * [traceroute](posts/traceroute-explained.md) (23 lines)
-* [VLANs](posts/vlans.md) (69 lines)
 
 Security
 --------

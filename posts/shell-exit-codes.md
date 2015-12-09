@@ -14,7 +14,7 @@ code can be used in conditionals like this:
     $ if grep -q bla /etc/passwd; then echo ok; else echo error; fi
     error
 
-Note that some programs, like `grep` and `diff`, use non zero exit codes to
+Note that some programs (like `grep` and `diff`) use non zero exit codes to
 indicate normal conditions:
 
     ## grep returns 0 if it finds a match and 1 if it doesn't

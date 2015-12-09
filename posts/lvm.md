@@ -72,3 +72,7 @@ Snapshotting LV (e.g. for doing backups)
     lvcreate -L 50G -s -n backuplv-snap raid1vg/backuplv  # should be short-lived or of the same size as source LV
     
 * in theory `/backup` should by first unmounted to ensure consistency, in practice `etx4` protects us aginst filesystem corruption although we may lose a few of recent data blocks updates (perfectly OK for backup purposes)
+
+See also
+
+* [Increase VMware LVM by adding new disk](https://www.rootusers.com/how-to-increase-the-size-of-a-linux-lvm-by-adding-a-new-disk/)

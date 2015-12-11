@@ -27,7 +27,7 @@ Operating Systems
 * [Linux - the Big Picture](posts/linux-big-picture.md) (102 lines)
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md) (52 lines)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md) (260 lines)
-* [LVM](posts/lvm.md) (74 lines)
+* [LVM](posts/lvm.md) (78 lines)
 * [MySQL](posts/mysql.md) (22 lines)
 * [New Linux Server](posts/new-linux-server.md) (60 lines)
 * [NFS](posts/nfs.md) (27 lines)
@@ -73,10 +73,10 @@ Programming
 
 Shell
 
-* [Bash Login Scripts](posts/login-scripts.md) (40 lines)
 * [Shell Completion](posts/shell-completion.md) (67 lines)
 * [Shell Exit Codes](posts/shell-exit-codes.md) (37 lines)
 * [Shell One Liners](posts/shell-one-liners.md) (1 lines)
+* [Shell Startup Files](posts/shell-startup-files.md) (40 lines)
 * [Working with Temporary Files in Shell Scripts](posts/shell-temporary-files.md) (8 lines)
 
 Perl

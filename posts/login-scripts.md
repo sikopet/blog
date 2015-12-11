@@ -7,7 +7,7 @@ When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create
 command aliases, run programs.
 
-There are two main types of a shell instance, interactive and noninteractive. However noninteractive shells (such as those running shell scripts) usually don't read any startup files.
+There are two main types of a shell instance, interactive and noninteractive. However, noninteractive shells (such as those running shell scripts) usually don't read any startup files.
 
 <table>
   <tr>

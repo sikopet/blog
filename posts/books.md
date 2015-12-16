@@ -5,8 +5,13 @@ Sysadmin
 
 * Unix and Linux System Administration Handbook [ULSAH], 2010
 * The Practice of System and Network Administration [PoSaNA], 2007
-* How Linux Works, 2014
 * Automating System Administration with Perl, 2009
+
+Unix
+----
+
+* How Linux Works, 2014
+* The Design of the UNIX Operating System, 1986
 
 Configuration management
 ------------------------

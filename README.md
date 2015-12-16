@@ -93,7 +93,7 @@ Perl
 Various
 -------
 
-* [Books](posts/books.md) (34 lines)
+* [Books](posts/books.md) (33 lines)
 * [Check Web Site Uptime](posts/check-web-app.md) (41 lines)
 * [Generate ASCII Table](posts/gen_ascii_table.md) (16 lines)
 * [Google Hacks](posts/google-hacks.md) (25 lines)

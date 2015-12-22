@@ -1,17 +1,17 @@
 At $work, I was to upgrade several Debians from Squeezy through Wheezy to
 Jessie (6 to 8). I wanted to be sure that after the upgrade (mostly) the same
 processes are running as before. I whipped up a script, that simply stores the
-list of running process before the upgrade. When run subsequently it reports
+list of running processes before the upgrade. When run subsequently it reports
 missing processes (if any). 
 
 To make the script reliable and easy to maintain I wanted to test it somehow.
 To do that I turned the script into a
-(modulino)[http://www.perlmonks.org/index.pl?node_id=396759] following brian d
+[modulino](http://www.perlmonks.org/index.pl?node_id=396759) following brian d
 foy's advice in chapter 17 of Mastering Perl. The trick was to put all the code
 into subroutines that can be tested and using the
 [caller()](http://perldoc.perl.org/functions/caller.html) function to decide
-whether the script is used as a script or as a module. The beginning of the
-script now looks like this:
+whether the script is used as a script or as a module. The script looks something 
+like this now:
 
     #!/usr/bin/env perl
     use strict;
@@ -33,48 +33,16 @@ script now looks like this:
     run() unless caller();
     
     sub run {
-        die "You're not root, exiting ...\n" unless $< == 0;
+        # code
+    }
     
-        # File for data persistence
-        my $file = do {
-            if   ($net) { 'checkprocs_net.data' }
-            else        { 'checkprocs.data' }
-        };
-    
-        my $procs = do {
-            if   ($net) { get_net_procs() }
-            else        { get_procs() }
-        };
-    
-        my $what = $net ? 'netstat' : 'ps';
-    
-        if ($print) {
-            say "Current $what processes:";
-            say for map { "  $_" } @$procs;
-        } else {
-            my $frozen = freeze($procs);
-    
-            if ( -e $file ) {    # second or later run
-                my $contents = do { local ( @ARGV, $/ ) = $file; <> };
-                my $old_procs = thaw($contents);
-    
-                my @missing_procs =
-                  missing_procs( $old_procs, $procs, { verbose => $verbose } );
-                if (@missing_procs) {
-                    say "Missing $what processes:";
-                    say for map { "  $_" } @missing_procs;
-                } else {
-                    say "No missing $what processes" if $verbose;
-                }
-            } else {             # first run; store running processes
-                open my $fh, '>', $file;
-                print $fh $frozen;
-                close $fh;
-                say "Stored running $what procs to $file" if $verbose;
-            }
-        }
+    sub missing_procs {
+        # code
     }
 
+    sub get_procs {
+        # code
+    }
 
 After this modification I created a symlink
 

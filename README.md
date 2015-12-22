@@ -89,6 +89,7 @@ Perl
 * [Module::Build](posts/module-build.md) (50 lines)
 * [Mom's Age](posts/moms-age.md) (32 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
+* [Testing a Perl Script](posts/testing-perl-script.md) (149 lines)
 
 Various
 -------

@@ -6,7 +6,7 @@ Computer science (CS)
 Computer
 
 * universal machine for information storage and manipulation
-* can carry out any instructions described in sufficient detail (program)
+* can carry out any instructions described in sufficient detail ([program](../terms/program))
 * computers are to CS what telescopes are to astronomy
 
 Hardware (functional view)

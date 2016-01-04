@@ -1,3 +1,5 @@
+If you shut the door to all the errors, truth will be shut out. -- Rabindranath Tagore
+
 Be prepared to not understand things immediately, and take the time to go over things again and again until you've learned them. When you are teaching someone, expect to repeat yourself a lot. -- Joshua Zimmerman (http://sysadvent.blogspot.sk/2015/12/day-22-simplicity-in-complex-systems.html)
 
 Talk to all the people that are involved and figure out what real need is and re-examine whether the "largest value" is actually needed, how it is needed, and whether the entire process can be improved by looking at it end-to-end. -- Tom Limoncelli (http://everythingsysadmin.com/2015/11/operations-and-big-o-analysis.html)

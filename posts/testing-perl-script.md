@@ -2,9 +2,10 @@
 
 At $work, I was to upgrade several Debians from Squeezy through Wheezy to
 Jessie (6 to 8). I wanted to be sure that after the upgrade (mostly) the same
-processes are running as before. I whipped up a script, that simply stores the
-list of running processes before the upgrade. When run subsequently it reports
-missing processes (if any). 
+processes are running as before. I whipped up a
+[script](https://github.com/jreisinger/checkprocs/blob/master/checkprocs), that
+simply stores the list of running processes before the upgrade. When run
+subsequently it reports missing processes (if any). 
 
 To make the script reliable and easy to maintain I wanted to test it somehow.
 To do that I turned the script into a

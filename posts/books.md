@@ -3,13 +3,13 @@ Technical books (roughly in order of decreasing quality and importance for me).
 Sysadmin
 --------
 
-* Unix and Linux System Administration Handbook [ULSAH], 2010
 * The Practice of System and Network Administration [PoSaNA], 2007
 * Automating System Administration with Perl, 2009
 
 Unix
 ----
 
+* Unix and Linux System Administration Handbook [ULSAH], 2010
 * How Linux Works, 2014
 * The Design of the UNIX Operating System, 1986
 

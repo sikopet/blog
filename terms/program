@@ -1,3 +1,2 @@
-- executable file residing on disk in a directory. It is read into memory and
-  is executed by the kernel as a result of one of the seven `exec` functions 
-  -- Advanced Programming in the UNIX Environment, 3rd (2013)
+Executable file residing on disk in a directory. It is read into memory and is
+executed by the kernel as a result of one of the seven `exec` functions.

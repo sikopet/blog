@@ -1,3 +1,5 @@
+Our migration plan was formed through an iterative process of research and implementation. -- Sebastian Gierlinger (https://www.digitalocean.com/customers/ghost)
+
 If you shut the door to all the errors, truth will be shut out. -- Rabindranath Tagore
 
 Be prepared to not understand things immediately, and take the time to go over things again and again until you've learned them. When you are teaching someone, expect to repeat yourself a lot. -- Joshua Zimmerman (http://sysadvent.blogspot.sk/2015/12/day-22-simplicity-in-complex-systems.html)

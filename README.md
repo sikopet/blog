@@ -33,7 +33,7 @@ Operating Systems
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)
 * [RAID](posts/raid.md) (80 lines)
-* [Signals](posts/signals.md) (27 lines)
+* [Signals](posts/signals.md) (28 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)
@@ -88,8 +88,9 @@ Perl
 * [Get Passwords on Command Line](posts/get-passwd.md) (33 lines)
 * [Module::Build](posts/module-build.md) (50 lines)
 * [Mom's Age](posts/moms-age.md) (32 lines)
+* [Perl2Python](posts/perl2python.md) (45 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
-* [Testing a Perl Script](posts/testing-perl-script.md) (149 lines)
+* [Testing a Perl Script](posts/testing-perl-script.md) (120 lines)
 
 Various
 -------

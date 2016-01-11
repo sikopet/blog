@@ -39,11 +39,18 @@ Slurp the whole file/stdin
     # one string per line, newlines removed
     list_of_strings = file('filename.txt').readlines()
     all_input_as_list = sys.stdin.readlines()
-    
+
 Write to a file
 
-    
+    f = open("out", "w")
+    while year <= numyears:
+        principal = principal * (1 + rate)
+        # or f.write("%3d %0.2f" % (year, principal))
+        print >>f, "%3d %0.2f" % (year, principal)
+        year += 1
+    f.close()
 
 Resources:
 
 * http://everythingsysadmin.com/perl2python.html
+* Python: Essential Reference

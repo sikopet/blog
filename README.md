@@ -88,7 +88,7 @@ Perl
 * [Get Passwords on Command Line](posts/get-passwd.md) (33 lines)
 * [Module::Build](posts/module-build.md) (50 lines)
 * [Mom's Age](posts/moms-age.md) (32 lines)
-* [Perl2Python](posts/perl2python.md) (45 lines)
+* [Perl to Python](posts/perl2python.md) (45 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
 * [Testing a Perl Script](posts/testing-perl-script.md) (120 lines)
 

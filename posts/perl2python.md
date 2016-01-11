@@ -11,7 +11,7 @@ File I/O
 
 Process every line in a file
 	
-    for line in file('filename.txt'):
+    for line in file('filename.txt'):  # or open("filename.txt")
         print line
 
 Process every line in a file on command line or stdio if no file
@@ -39,6 +39,10 @@ Slurp the whole file/stdin
     # one string per line, newlines removed
     list_of_strings = file('filename.txt').readlines()
     all_input_as_list = sys.stdin.readlines()
+    
+Write to a file
+
+    
 
 Resources:
 

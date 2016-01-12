@@ -7,7 +7,7 @@ Login to mysql server:
     
 Show processes:
 
-    show processlist;
+    SHOW PROCESSLIST;
 
 Identify the user you are logged in as:
 
@@ -36,8 +36,8 @@ Replication
 
 Master/slave status:
 
-    show master status\G
-    show slave status\G
+    SHOW MASTER STATUS\G
+    SHOW SLAVE STATUS\G
 
 More
 

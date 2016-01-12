@@ -43,3 +43,4 @@ More
 
 * MySQL High Availability
  * Chapter 3. MySQL Replication Fundamentals 
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-master-slave-replication-in-mysql

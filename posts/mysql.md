@@ -1,3 +1,6 @@
+General
+-------
+
 Login to mysql server:
 
     mysql --defaults-file=/etc/mysql/debian.cnf
@@ -28,3 +31,10 @@ Show grants for user:
 
     SHOW GRANTS FOR 'bakstat'@'1.2.3.4';
     
+Replication
+-----------
+
+Master/slave status:
+
+    show master status\G
+    show slave status\G

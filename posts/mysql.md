@@ -38,3 +38,8 @@ Master/slave status:
 
     show master status\G
     show slave status\G
+
+More
+
+* MySQL High Availability
+ * Chapter 3. MySQL Replication Fundamentals 

@@ -1,3 +1,11 @@
+Login to mysql server:
+
+    mysql --defaults-file=/etc/mysql/debian.cnf
+    
+Show processes:
+
+    show processlist;
+
 Identify the user you are logged in as:
 
     SELECT USER();          # logged in as

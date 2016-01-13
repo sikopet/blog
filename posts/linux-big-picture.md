@@ -29,7 +29,7 @@ Difference between running kernel and user processes:
 * code running in *user mode* has access only to a subset of memory and safe
     CPU operations
 * code running in *kernel mode* has unrestricted access
-
+* user and kernel modes are the processor's states
 
 Main memory (RAM)
 -----------------
@@ -76,8 +76,8 @@ Memory mngt.
 
 System calls and pseudodevices
 * *syscalls*
- * feature of kernel allowing user processes to request specific actions
-    (ex. opening, reading and writing files)
+ * feature of kernel allowing user processes to request specific actions: ex.
+     opening, reading and writing files; creating a new process
  * the kernel's API
  * interactions between a process and the kernel
 * all user processes (except for init) start as a result of `fork()` usually
@@ -102,4 +102,4 @@ Resources
 =========
 
 * Brian Ward: How Linux Works, 2nd  Edition; No Starch Press 2014
-* The Linux Programming Interface
+* Michael Kerrisk: The Linux Programming Interface, No Starch Press 2010

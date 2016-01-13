@@ -75,9 +75,11 @@ Memory mngt.
     implementation of memory address map)
 
 System calls and pseudodevices
-* *syscalls* - feature of kernel for user processes to perform specific tasks
+* *syscalls*
+ * feature of kernel allowing user processes to request specific actions
     (ex. opening, reading and writing files)
-* syscall is an interaction between a process and the kernel
+ * the kernel's API
+ * interactions between a process and the kernel
 * all user processes (except for init) start as a result of `fork()` usually
     followed by `exec()`, ex.:
 
@@ -100,3 +102,4 @@ Resources
 =========
 
 * Brian Ward: How Linux Works, 2nd  Edition; No Starch Press 2014
+* The Linux Programming Interface

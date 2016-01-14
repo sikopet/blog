@@ -80,6 +80,9 @@ System calls and pseudodevices
      opening, reading and writing files; creating a new process
  * the kernel's API
  * interactions between a process and the kernel
+ * to execute a system call the kernel must temporarily switch to kernel mode,
+     verify syscall's arguments and transfer data between user and kernel
+     memory
 * all user processes (except for init) start as a result of `fork()` usually
     followed by `exec()`, ex.:
 

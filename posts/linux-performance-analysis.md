@@ -28,7 +28,7 @@ Overall utilization
 
 Is CPU the bottleneck?
 
-    $ vmstat 5 5 --unit M
+    $ vmstat 5 5 -S M    # in MB
     procs -----------memory---------- ---swap-- -----io---- -system-- ----cpu----
      r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa
      1  0      0    230    687  44366    0    0  2923  3037    1    0  4  3 85  7

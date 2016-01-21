@@ -12,3 +12,9 @@ Hosts and clusters
 Networking
 * vSphere Distributed Switch - acts as a single virtual switch across all
     associated hosts
+
+Storage
+* Datastore - a logical container that holds VMs files. Can exist on different
+    types of physical storage (local disks, iSCSI, Fibre Channel SAN, NFS). Can
+    be VMFS-based or NFS-based. Can be created by formatting LUNs or by
+    mounting NFS volumes to an existing host.

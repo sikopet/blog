@@ -37,7 +37,7 @@ Operating Systems
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
 * [Vagrant](posts/vagrant.md) (56 lines)
-* [VMware](posts/vmware.md) (13 lines)
+* [VMware](posts/vmware.md) (14 lines)
 * [ZFS](posts/zfs.md) (126 lines)
 
 Networking

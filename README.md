@@ -24,7 +24,7 @@ Operating Systems
 * [KVM VMs Management](posts/vm-mngt.md) (60 lines)
 * [LDAP](posts/ldap.md) (256 lines)
 * [Linking with Libraries](posts/linking-with-libraries.md) (48 lines)
-* [Linux - the Big Picture](posts/linux-big-picture.md) (105 lines)
+* [Linux - the Big Picture](posts/linux-big-picture.md) (108 lines)
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md) (52 lines)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md) (260 lines)
 * [LVM](posts/lvm.md) (78 lines)

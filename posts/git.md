@@ -144,6 +144,10 @@ While in Git-tracked directory, print the filename followed by its author:
             perl -wnla -s -F: -e 'print "$file --" . $F[1]' -- -file=$f
     done
 
+Ignore changes of the files' mode (for current repo):
+
+    git config core.fileMode false
+
 More
 ====
 

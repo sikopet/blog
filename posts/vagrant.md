@@ -48,6 +48,11 @@ Show status of all vagrant environments on the host (independent of the director
 
     vagrant global-status [--prune]
 
+To share a folder from the host on the guest, add following to `Vagrantfile`:
+
+    config.vm.synced_folder "../../eset-repos", "/shared/eset-repos",
+      owner: "jreisinger", group: "jreisinger"
+
 Resources
 ---------
 

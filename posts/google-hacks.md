@@ -6,6 +6,10 @@
 
 ## Google
 
+Search site
+
+    site:https://github.com/jreisinger <search_term>
+
 Confindential Excel spreadsheets from South Africa
 
     filetype:xls site:za confidential

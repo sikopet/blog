@@ -2,14 +2,15 @@ Terminology
 -----------
 
 Hosts and clusters
+
+![VMware terms](https://raw.github.com/jreisinger/blog/master/files/vmware_terms.png)
+
 * vSphere Client - thick client for managing vCenter servers
 * vCenter Server - container for Datacenters
 * Datacenter - container for Clusters and Hosts. Large companies might use
     datacenters to represent organizational units.
 * Cluster - group of hosts
 * Host - computer that uses virtualization software (ESX or ESXi) to run VMs
-
-![VMware terms](https://raw.github.com/jreisinger/blog/master/files/vmware_terms.png)
 
 Networking
 * vSphere Distributed Switch - acts as a single virtual switch across all

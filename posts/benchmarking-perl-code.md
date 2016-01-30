@@ -57,6 +57,8 @@ compare two files sizes; we ask just once for each file and we cache the result.
 This way we run the expensive function N times instead of N.log(N) times (N is 
 the number of files, N.log(N) is the number of comparisons).
 
+If you want to see a comparison chart of the runtimes use `cmpthese()` instead of `timethese()`.
+
 ## See Also
 
 * http://perldoc.perl.org/Benchmark.html

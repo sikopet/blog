@@ -244,7 +244,7 @@ Similarly, Perl was designed to be a mess (though in the nicest of possible ways
 
 The race is on to own certain classes of core data: location, identity, calendaring of public events, product identifiers and namespaces. -- Tim O'Reilly: What Is Web 2.0 (http://oreilly.com/pub/a/web2/archive/what-is-web-20.html?page=1) (2005)
 
-To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky (Moose (http://search.cpan.org/dist/Moose/) core developer): Python v. Perl (http://stackoverflow.com/questions/150043/python-v-perl)
+To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky: Python v. Perl (http://stackoverflow.com/questions/150043/python-v-perl)
 
 Laziness = a tendency to judiciously exploit available resources to accomplish your programming goals with minimal effort. -- Minimal Perl for UNIX and Linux People</a> (in the Perl community - Laziness = using your energy efficiently)
 

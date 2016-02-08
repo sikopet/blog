@@ -85,7 +85,10 @@ System calls and pseudodevices
      memory
 * (library calls)
  * functions provided by standard C library (`glibc` on Linux)
- * some library functions employ system calls, other perform tasks entirely within user space
+ * some library functions employ system calls, other perform tasks entirely within user space (ex. the string manipulation libraries)
+ * often designed to provide a more user-friendly interface than the underlying
+     syscall, ex: `printf()` function provides output formatting and data
+     buffering, whereas the `write()` syscall just outputs a block of bytes
 * all user processes (except for init) start as a result of `fork()` usually
     followed by `exec()`, ex.:
 

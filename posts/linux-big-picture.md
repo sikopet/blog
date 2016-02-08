@@ -83,16 +83,15 @@ System calls and pseudodevices
  * to execute a system call the kernel must temporarily switch to kernel mode,
      verify syscall's arguments and transfer data between user and kernel
      memory
+* (library calls)
+ * functions provided by standard C library (`glibc` on Linux)
+ * some library functions employ system calls, other perform tasks entirely within user space
 * all user processes (except for init) start as a result of `fork()` usually
     followed by `exec()`, ex.:
 
         shell ---> fork() ---> shell
                            |
                            +-> copy of shell ---> exec(ls) ---> ls 
-
-* (library calls)
- * functions provided by standard C library (`glibc` on Linux)
- * some library functions employ system calls, other perform tasks entirely within user space
 * `exec` is actually an entire family of syscalls for similar tasks
 * *psesudodevice* looks like a device but it's another kernel feature
     (implemented purely in software) - ex. `/dev/random`

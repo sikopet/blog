@@ -75,7 +75,7 @@ Memory mngt.
     implementation of memory address map)
 
 System calls and pseudodevices
-* *syscalls*
+* *syscalls* (system calls)
  * feature of kernel allowing user processes to request specific actions: ex.
      opening, reading and writing files; creating a new process
  * the kernel's API
@@ -90,6 +90,9 @@ System calls and pseudodevices
                            |
                            +-> copy of shell ---> exec(ls) ---> ls 
 
+* (library calls)
+ * functions provided by standard C library (`glibc` on Linux)
+ * some library functions employ system calls, other perform tasks entirely within user space
 * `exec` is actually an entire family of syscalls for similar tasks
 * *psesudodevice* looks like a device but it's another kernel feature
     (implemented purely in software) - ex. `/dev/random`

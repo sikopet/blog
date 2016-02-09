@@ -1,3 +1,5 @@
+You can talk and talk and have great ideas, but if you don't have a way of sharing those ideas then you are just saying it in you own bubble. -- Tom Limoncelli (http://stephenibaraki.com/acm/interviews/v0116/tom_limoncelli_acm.html)
+
 There is one thing which will make no difference to your performance as a system administrator but will make getting another job in technology vastly easier, and that is a college degree, preferably in computer science or a related field. -- Elizabeth Zwicky (https://www.usenix.org/system/files/login/issues/1404_login_web.pdf)
 
 Our migration plan was formed through an iterative process of research and implementation. -- Sebastian Gierlinger (https://www.digitalocean.com/customers/ghost)

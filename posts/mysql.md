@@ -38,6 +38,10 @@ Master/slave status:
 
     SHOW MASTER STATUS\G
     SHOW SLAVE STATUS\G
+    
+Change IP address of slave on master:
+
+    UPDATE mysql.user SET host='NEW_IP' WHERE host='OLD_IP';
 
 More
 

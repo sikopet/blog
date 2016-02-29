@@ -42,6 +42,12 @@ Master/slave status:
 Change IP address of slave on master:
 
     UPDATE mysql.user SET host='NEW_IP' WHERE host='OLD_IP';
+    
+Stop slave, skip one error, start slave (both threads - Slave_IO_Running and Slave_SQL_Running):
+
+    STOP SLAVE;
+    SET GLOBAL SQL_SLAVE_SKIP_COUNTER=1;
+    START SLAVE;
 
 More
 

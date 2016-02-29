@@ -24,11 +24,11 @@ Operating Systems
 * [KVM VMs Management](posts/vm-mngt.md) (60 lines)
 * [LDAP](posts/ldap.md) (256 lines)
 * [Linking with Libraries](posts/linking-with-libraries.md) (48 lines)
-* [Linux - the Big Picture](posts/linux-big-picture.md) (108 lines)
+* [Linux - the Big Picture](posts/linux-big-picture.md) (113 lines)
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md) (52 lines)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md) (260 lines)
 * [LVM](posts/lvm.md) (78 lines)
-* [MySQL](posts/mysql.md) (46 lines)
+* [MySQL](posts/mysql.md) (50 lines)
 * [New Linux Server](posts/new-linux-server.md) (60 lines)
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)
@@ -36,14 +36,14 @@ Operating Systems
 * [Signals](posts/signals.md) (28 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
-* [Vagrant](posts/vagrant.md) (56 lines)
-* [VMware](posts/vmware.md) (14 lines)
+* [Vagrant](posts/vagrant.md) (61 lines)
+* [VMware](posts/vmware.md) (24 lines)
 * [ZFS](posts/zfs.md) (126 lines)
 
 Networking
 ----------
 
-* [Networking Basics](posts/net-basics.md) (442 lines)
+* [Networking Basics](posts/net-basics.md) (464 lines)
 * [Switching](posts/switching.md) (577 lines)
 * [VLANs](posts/vlans.md) (69 lines)
 * [DHCP](posts/dhcp.md) (99 lines)
@@ -68,7 +68,7 @@ Programming
 -----------
 
 * [Big O Notation](posts/big-o-notation.md) (24 lines)
-* [Git](posts/git.md) (154 lines)
+* [Git](posts/git.md) (158 lines)
 * [Programming in General](posts/prog-general.md) (104 lines)
 * [Search Your GitHub](posts/search-github.md) (14 lines)
 
@@ -82,7 +82,7 @@ Shell
 
 Perl
 
-* [Benchmarking Perl Code](posts/benchmarking-perl-code.md) (64 lines)
+* [Benchmarking Perl Code](posts/benchmarking-perl-code.md) (66 lines)
 * [Dates and Times in Perl](posts/perl-date-time.md) (12 lines)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md) (74 lines)
 * [File::Find](posts/file-find.md) (83 lines)
@@ -99,7 +99,7 @@ Various
 * [Books](posts/books.md) (38 lines)
 * [Check Web Site Uptime](posts/check-web-app.md) (41 lines)
 * [Generate ASCII Table](posts/gen_ascii_table.md) (16 lines)
-* [Google Hacks](posts/google-hacks.md) (25 lines)
+* [Google Hacks](posts/google-hacks.md) (29 lines)
 * [HTML Parsing](posts/html-parsing.md) (38 lines)
 * [Numbers to Remember](posts/numbers-to-remember.md) (106 lines)
 * [IT Audit Resources](posts/it-audit-resources.md) (37 lines)

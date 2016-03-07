@@ -16,12 +16,12 @@ GetOptions(
 # Help
 pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $help;
 
-my $string = shift // '';
+my $string = shift or die "What STRING are you looking for?\n";
 
 if ($post) {
     print sort `find posts -type f -iname "*$string*"`;
 } elsif ($inpost) {
-    print sort `grep --color=always -R -i $string posts`;
+    print sort `grep --color=always -l -R -i $string posts`;
 } else {
     print sort `find posts -type d -iname "*$string*"`;
 }
@@ -38,6 +38,7 @@ findb [options] STRING
 
   options:
     -h, -?, --help  brief help message
-    -p, --post      find post titles matching STRING
-    -i, --inpost    find posts with contents matchine STRING
+    -p, --post      find post titles containing STRING
+    -i, --inpost    find posts cointaining STRING
 
+  Find areas (topics) containing STRING if no option is used.

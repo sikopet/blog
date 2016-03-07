@@ -28,7 +28,7 @@ Operating Systems
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md) (52 lines)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md) (260 lines)
 * [LVM](posts/lvm.md) (78 lines)
-* [MySQL](posts/mysql.md) (50 lines)
+* [MySQL](posts/mysql.md) (56 lines)
 * [New Linux Server](posts/new-linux-server.md) (60 lines)
 * [NFS](posts/nfs.md) (27 lines)
 * [PAM](posts/pam.md) (105 lines)

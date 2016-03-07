@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+use autodie;
+use Getopt::Long;
+use Pod::Usage;
+
+# Command line options
+GetOptions(
+    "h|?|help" => \my $help,
+    "p|post"   => \my $post,
+    "i|inpost" => \my $inpost,
+) or pod2usage(1);
+
+# Help
+pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $help;
+
+my $string = shift // '';
+
+if ($post) {
+    print sort `find posts -type f -iname "*$string*"`;
+} elsif ($inpost) {
+    print sort `grep --color=always -R -i $string posts`;
+} else {
+    print sort `find posts -type d -iname "*$string*"`;
+}
+
+__END__
+
+=head1 NAME
+
+findb - search though my blog posts
+
+=head1 SYNOPSIS
+
+findb [options] STRING
+
+  options:
+    -h, -?, --help  brief help message
+    -p, --post      find post titles matching STRING
+    -i, --inpost    find posts with contents matchine STRING
+

@@ -2,7 +2,9 @@ Going from Perl to Python ...
 
 Data types:
 
-	list  -> tuple (immutable)  ( 10, 20, 30 ) 
+    Perl     Python             Example
+    ----     ------             -------
+    list  -> tuple (immutable)  ( 10, 20, 30 ) 
     array -> list               [ 1, 3.4, 'hello' ]
     hash  -> dictionary         { 'a': 3, 'b': 42 }
 

@@ -7,7 +7,7 @@ GRUB 2 vs. GRUB (Legacy)
 `/boot/grub/grub.cfg` still exists but is not supposed to be edited.
 
 File and directories
-* `/boot/grub/grub.cgf` - automatically created central config file
+* `/boot/grub/grub.cfg` - automatically created central config file
 * `/etc/default/grub` - general options (no menu entries)
 * `/etc/grub.d` - helper scripts; you can add scripts here to add menu entries
 

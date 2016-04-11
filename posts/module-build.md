@@ -45,6 +45,18 @@ Measure out test coverage
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
 
+The following is a typical release cycle for github users:
+
+1. Work on changes until all tests pass
+2. Make sure the *Changes* file documents all major changes
+3. Make your changes atomic, all changes related to a particular fix or feature should go in a single commit, including the *Changes* entry.
+4. Bump the version
+5. Upload to PAUSE
+6. Tag with the version. By convention for version 1.01 the tag would be 'v1.01'
+7. Push to github
+
+
 For more see:
 
 * Alpaca Book, Ch. 12
+* [The Perl Toolchain: developing your module](http://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html)

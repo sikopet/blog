@@ -258,7 +258,7 @@ The real job of a university is to teach a student how to self-educate, and (of 
 
 Is what I'm about to say: Thoughtful, Honest, Intelligent, Necessary, Kind? -- Andy Lester: Think, for Perl's sake (http://perlbuzz.com/2010/11/think-for-perls-sake.html)
 
-Don't repeat yourself (DRY), make functions, subroutines, procedures. -- A. Hunt, D. Thomas: The Pragmatic Programmer, by (1999)
+Don't repeat yourself (DRY), make functions, subroutines, procedures. -- A. Hunt, D. Thomas: The Pragmatic Programmer (1999)
 
 Understand what you want, find your talent, focus, and get to work. -- Lenny Zeltser, Students of IT security: Career advice from the masters (http://www.techrepublic.com/blog/security/students-of-it-security-career-advice-from-the-masters/5101?tag=content;blog-list-river)
 

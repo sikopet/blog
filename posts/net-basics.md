@@ -71,6 +71,8 @@ Binary to hexadecimal conversion:
     
                       6    E    Hexadecimal byte
 
+Hex to decimal: hex => bin => dec
+
 ## LANs
 
 Most common Ethernet types

@@ -49,6 +49,8 @@ TCP error recovery service provided to HTTP:
 
 ## Binary math
 
+Binary to hexadecimal conversion:
+
                      01101110   Binary (representation of) byte
     
                       +    +

@@ -1,3 +1,5 @@
+I have never taken any courses in computer science or software engineering.  -- esr (http://www.catb.org/~esr/resume.html)
+
 Rush to launch something... anything... and build on it. Reduce the scope to the minimum; avoid the temptation to add "just this one last thing" before you launch. -- Tom Limoncelli (http://everythingsysadmin.com/2016/03/wasting-one-million-dollars.html)
 
 You can talk and talk and have great ideas, but if you don't have a way of sharing those ideas then you are just saying it in you own bubble. -- Tom Limoncelli (http://stephenibaraki.com/acm/interviews/v0116/tom_limoncelli_acm.html)

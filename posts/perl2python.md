@@ -91,3 +91,4 @@ Resources:
 
 * http://everythingsysadmin.com/perl2python.html
 * Python: Essential Reference
+* The Quick Python Book

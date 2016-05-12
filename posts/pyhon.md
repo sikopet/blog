@@ -12,7 +12,7 @@ Variables
 * can have any built-in data type, user-defined object, function, or module
     assigned to them
 
-Synopsis
+Python synopsis
 
 * built-in data types can be manipulated with operators, built-in functions,
     library functions, or a data type's own methods
@@ -57,13 +57,24 @@ Built-in data types
         False
 
  * when membership and uniqueness in the set are important
- * likes dictionary keys without values
+ * like dictionary keys without values
 
 * file objects
 
         f = open("myfile", "r")
         line1 = f.readline()
         f.close()
+
+Control flow structures
+
+* `False` (boolean constant), `0`, `None` (Python nil value) and empty values (ex. `[ ]`, `""`)
+    are taken as `False`
+* `True` and everything else are considered `True`
+
+Exceptions (errors)
+
+* handled using the `try-except-finally-else` compound statement
+* any uncaught exception will cause the program to exit
 
 Sources
 

@@ -52,6 +52,41 @@ Write to a file
         year += 1
     f.close()
 
+Error handling
+--------------
+
+Perl
+
+    my @filenames = qw(README.md y empty);
+
+    for my $file (@filenames) {
+        my $fh;
+        unless ( open $fh, $file ) {
+            warn "$file: could not be opened: $!\n";
+            next;
+        }
+        warn "$file: is empty\n" unless readline $fh;
+    }
+
+Python
+
+    class EmptyFileError(Exception):
+        pass
+
+    filenames = [ "README.md", "y", "empty" ]
+
+    for file in filenames:
+        try:
+            f = open(file, "r")
+            line = f.readline()
+            if line == "":
+                f.close()
+                raise EmptyFileError("%s: is empty" % file)
+        except IOError as error:
+            print("%s: could not be opened: %s" % (file, error.strerror))
+        except EmptyFileError as error:
+            print(error)
+
 Resources:
 
 * http://everythingsysadmin.com/perl2python.html

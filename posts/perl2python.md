@@ -87,6 +87,21 @@ Python
         except EmptyFileError as error:
             print(error)
 
+map() => list comprehension
+---------------------------
+
+Perl
+
+    perl -we '@a_list = qw(1 2 3 5); print map { $_ * 2 } @a_list'
+
+Python
+
+    >>> a_list = [1, 2, 3, 5]
+    >>> a_list
+    [1, 2, 3, 5]
+    >>> [ elem * 2 for elem in a_list ]
+    [2, 4, 6, 10]
+
 Resources:
 
 * http://everythingsysadmin.com/perl2python.html

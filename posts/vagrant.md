@@ -1,3 +1,6 @@
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md) of
+this post.)
+
 [Search](https://atlas.hashicorp.com/boxes/search) and add a box (virtual machine image):
 
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64

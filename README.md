@@ -76,7 +76,7 @@ Shell
 
 * [Shell Completion](posts/shell-completion.md) (67 lines)
 * [Shell Exit Codes](posts/shell-exit-codes.md) (37 lines)
-* [Shell One Liners](posts/shell-one-liners.md) (1 lines)
+* [Shell One Liners](posts/shell-one-liners.md) (52 lines)
 * [Shell Startup Files](posts/shell-startup-files.md) (40 lines)
 * [Working with Temporary Files in Shell Scripts](posts/shell-temporary-files.md) (8 lines)
 

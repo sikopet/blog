@@ -28,6 +28,14 @@ Common areas of security compromise:
     What if a user enters `../../../etc/passwd`?
 * configuration errors (not-so-securely is often a default software configuration)
 
+Attack phases
+
+* Reconnaissance
+* Scanning
+* Gaining access
+* Maintaining access
+* Clearing tracks
+
 Sources:
 
 * ULSAH, Ch. 22 - Security

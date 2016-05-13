@@ -58,10 +58,9 @@ Networking
 Security
 --------
 
-* [Attack Phases](posts/attack-phases.md) (7 lines)
 * [Randomness](posts/randomness.md) (28 lines)
 * [Scanning Windows Shares](posts/scan_win_shares.md) (4 lines)
-* [Security in General](posts/general-security.md) (33 lines)
+* [Security in General](posts/general-security.md) (41 lines)
 * [Store Nmap Results to Excel File](posts/nmap2excel.md) (28 lines)
 
 Programming

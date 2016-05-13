@@ -30,6 +30,12 @@ Programming
 * Learning Perl, 2011
 * Classic Shell Scripting, 2005
 
+Security
+--------
+
+* Applied Network Security Monitoring, 2013: binary math, BPF
+* Network Security Through Data Analysis, 2014
+
 Other
 -----
 

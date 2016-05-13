@@ -36,7 +36,7 @@ Operating Systems
 * [Signals](posts/signals.md) (28 lines)
 * [Using Aliases with SSMTP](posts/ssmtp.md) (9 lines)
 * [Unix Times](posts/unix-times.md) (81 lines)
-* [Vagrant](posts/vagrant.md) (61 lines)
+* [Vagrant](posts/vagrant.md) (64 lines)
 * [VMware](posts/vmware.md) (24 lines)
 * [ZFS](posts/zfs.md) (126 lines)
 

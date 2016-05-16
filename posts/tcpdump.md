@@ -2,7 +2,7 @@
 * can sniff traffic on many network type (including 802.1Q VLAN)
 * de facto standard for command line packet analysis in Unix environment
 
-Useful options
+Useful options:
 
 `-D` -- list available interfaces
 
@@ -22,7 +22,7 @@ bytes (default if version >= 4.0)
 
 `-c COUNT` -- capture COUNT packets and stop
 
-Examples
+Examples:
 
     tcpdump -nni eth1 -w packets.pcap
     tcpdump -nnr packets.pcap

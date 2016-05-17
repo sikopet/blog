@@ -1,3 +1,7 @@
+(Up-to-date
+[source](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
+of this post.)
+
 * despite its name it can do much more than capturing TCP headers
 * can sniff traffic on many network types (including 802.1Q VLAN)
 * de facto standard for command line packet analysis in Unix environment

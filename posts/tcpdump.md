@@ -1,5 +1,5 @@
 * despite its name it can do much more than capturing TCP headers
-* can sniff traffic on many network type (including 802.1Q VLAN)
+* can sniff traffic on many network types (including 802.1Q VLAN)
 * de facto standard for command line packet analysis in Unix environment
 
 Useful options:
@@ -44,7 +44,16 @@ Output format will vary based upon what protocols are in use:
 * use `-A` to get entire packets in hex and ASCII format
 * use `-X` to get entire packets in hex and ASCII format
 
+Packet Filtering
 
-Resources:
+* utilizes the Berkeley Packet Filter (BPF) format
+* added to the end of the command (recommended to use single quotes)
+
+        tcpdump -nnr packets.pcap 'tcp dst port 8080' -w packets_tcp8080.pcap
+        tcpdump -nnr packets.pcap -F known_good_hosts.bpf
+
+---
+
+Resources
 
 * Applied Network Security Monitoring

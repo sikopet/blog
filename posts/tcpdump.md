@@ -45,12 +45,52 @@ Output format will vary based upon what protocols are in use:
 * use `-X` to get entire packets in hex and ASCII format
 
 Packet Filtering
+================
 
 * utilizes the Berkeley Packet Filter (BPF) format
 * added to the end of the command (recommended to use single quotes)
 
         tcpdump -nnr packets.pcap 'tcp dst port 8080' -w packets_tcp8080.pcap
         tcpdump -nnr packets.pcap -F known_good_hosts.bpf
+
+BPF
+---
+
+               operator
+     primitive   |      primitive
+         |       |         |
+    +---------+  | +----------------+
+    |         |  | |                |
+    udp port 53 && dst host 192.0.2.2
+     |        |
+     |        value
+    qualifier
+
+Qualifiers
+
+* host
+* net - network in CIDR notation
+* port
+* src - communication source
+* dst - communication destination
+* ip - IP protocol
+* tcp - TCP protocol
+* upd - UPP protocol
+
+Logical operators
+
+* && - true when both conditions are true
+* || - true when either condition is true
+* ! - true when a condition is NOT met
+
+Examples
+
+* host 192.0.2.100 -  match traffic to/from 192.0.2.100
+* dst host 2001:db8:85a3::8a2e:370:7334 - match traffic to the IPv6 address
+* ether host 00:50:56:98:60:92 - match traffic to the specified MAC address
+* !port 22 - match any traffic not to/from port 22
+* icmp - match all ICMP traffic
+* !ip6 - match everything that is not IPv6
 
 ---
 

@@ -95,7 +95,7 @@ Perl
 
 Python
 
-* [Pyhon](posts/python.md) (81 lines)
+* [Pyhon](posts/python.md) (98 lines)
 
 Various
 -------

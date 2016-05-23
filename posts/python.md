@@ -76,6 +76,23 @@ Exceptions (errors)
 * handled using the `try-except-finally-else` compound statement
 * any uncaught exception will cause the program to exit
 
+Calling to System
+
+1) `os` library (module)
+
+    import os
+    os.getcwd()
+    os.getenv('PATH')
+    os.system('ls -la')
+
+2) `subprocess` module
+
+    from subprocess import call
+    call(['ls', '-la'])
+
+---
+
 Sources
 
 * The Quick Python Books
+* Mastering Python (Safari video)

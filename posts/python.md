@@ -90,6 +90,47 @@ Calling to System
     from subprocess import call
     call(['ls', '-la'])
 
+Threading
+
+    #!/usr/bin/env python3
+
+    import threading
+    import time
+
+    class aThread(threading.Thread):
+        def __init__(self, num, val):
+            threading.Thread.__init__(self)
+            self.threadNum=num
+            self.loopCount=val
+
+        def run(self):
+            print("Starting to run thread: ", self.threadNum)
+            myfunc(self.threadNum, self.loopCount)
+
+    def myfunc(num, val):
+        count=0
+        while count < val:
+            print(num, " : ", val*count)
+            count=count+1
+            #time.sleep(1)
+
+    t1=aThread(1, 15)
+    t2=aThread(2, 20)
+    t3=aThread(3, 30)
+
+    t1.start()
+    t2.start()
+    t3.start()
+
+    threads = []
+    threads.append(t1)
+    threads.append(t2)
+    threads.append(t3)
+
+    # wait for all threads to complete by entering them
+    for t in threads:
+        t.join()
+
 ---
 
 Sources

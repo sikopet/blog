@@ -146,6 +146,7 @@ Argument parsing and error handling
     try:
         fh = open(f)
         line = fh.readline()
+    # generic exception; more specific exceptions could be caught before
     except Exception as e: 
         print("There was an error: ", e)
     else:

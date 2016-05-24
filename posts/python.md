@@ -131,6 +131,27 @@ Threading
     for t in threads:
         t.join()
 
+Argument parsing and error handling
+
+    #!/usr/bin/env python3
+
+    import argparse
+
+    parser = argparse.ArgumentParser(description="This program's description")
+    parser.add_argument('-f', type=str, help='Name of file to open', required=True)
+
+    cmdargs = parser.parse_args()
+    f = cmdargs.f
+
+    try:
+        fh = open(f)
+        line = fh.readline()
+    except Exception as e: 
+        print("There was an error: ", e)
+    else:
+        print("1st line from", f, "is", line, end="")
+        fh.close()
+
 ---
 
 Sources

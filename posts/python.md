@@ -149,6 +149,7 @@ Argument parsing and error handling
     # generic exception; more specific exceptions could be caught before
     except Exception as e: 
         print("There was an error: ", e)
+        exit(1)  # like tchrist said
     else:
         print("1st line from", f, "is", line, end="")
         fh.close()

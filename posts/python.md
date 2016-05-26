@@ -154,6 +154,28 @@ Argument parsing and error handling
         print("1st line from", f, "is", line, end="")
         fh.close()
 
+Classes and instances
+
+    #!/usr/bin/env python
+
+    class me:
+        def __init__(self, foo):
+            self.myvar = foo
+
+        def getval(self):
+            return self.myvar
+
+        def setval(self, bar):
+            self.myvar = bar
+
+    x = me('bla')
+    y = x.getval()
+    z = me('baz')
+    print(y)
+    x.setval('ble')
+    print x.getval()
+    print z.getval()
+
 ---
 
 Sources

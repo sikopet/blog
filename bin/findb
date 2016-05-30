@@ -8,37 +8,36 @@ use Pod::Usage;
 
 # Command line options
 GetOptions(
-    "h|?|help" => \my $help,
-    "p|post"   => \my $post,
-    "i|inpost" => \my $inpost,
+    "h|?|help"   => \my $help,
+    "p|post=s"   => \my $post,
+    "i|inpost=s" => \my $inpost,
 ) or pod2usage(1);
 
 # Help
 pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $help;
 
-my $string = shift or die "What STRING are you looking for?\n";
-
 if ($post) {
-    print sort `find posts -type f -iname "*$string*"`;
+    print sort `find posts -type f -iname "*$post*"`;
 } elsif ($inpost) {
-    print sort `grep --color=always -l -R -i $string posts`;
+    print sort `grep --color=always -l -R -i $inpost posts`;
 } else {
-    print sort `find posts -type d -iname "*$string*"`;
+    print sort `find posts -type d | sort`;
 }
 
 __END__
 
 =head1 NAME
 
-findb - search though my blog posts
+findb - search through my blog posts
 
 =head1 SYNOPSIS
 
-findb [options] STRING
+findb [options]
 
   options:
-    -h, -?, --help  brief help message
-    -p, --post      find post titles containing STRING
-    -i, --inpost    find posts cointaining STRING
+    -h, -?, --help      brief help message
+    -p, --post STRING   find post titles containing STRING
+    -i, --inpost STRING find posts cointaining STRING
 
-  Find areas (topics) containing STRING if no option is used.
+  List available areas (topics) if no option is used. Searches are case
+    insensitive.

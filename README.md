@@ -10,8 +10,9 @@ Contents
 * posts - the *actual* blog posts
 * terms - a dictionary of terms
 
-Run `./bin/wild-posts` to make sure all posts are displayed in
-`README.md` and have symlinks within subdirectories.
+Run `./bin/wild-posts` to make sure all posts are displayed in `README.md` and
+have symlinks within subdirectories. Use `./bin/findb` to search through blog
+posts.
 
 Operating Systems
 -----------------

@@ -14,9 +14,9 @@ But what does the output mean exactly and how does `traceroute` work?
 
 It displays the sequence of gateways (showing the name and the IP address) through which an IP packet travels to reach its destination. The three numbers are the round trip times for each gateway. You can sometimes see the following instead of the number of miliseconds:
 
- * `*` -- no response (error packet) received [congestion or ICMP packet was dropped because it has a low priority]
- * `* * *` -- no "time exceed" messages received at all [gateway is down, firewall discards the packets or packets are slow to return]
- * `!N`, `!H`, `!P` -- "network unreachable", "host unreachable", "protocol unreachable" - in any of these cases usually this is the last gateway you can get to [routing problem or a broken network link]
+ * `*` -- one response (i.e. error) packet not received => congestion or ICMP packet was dropped because it has a low priority
+ * `* * *` -- no "time exceed" messages received at all => gateway is down, firewall discards the packets or packets are slow to return
+ * one of `!N`, `!H`, `!P` -- "network unreachable", "host unreachable", "protocol unreachable" - in any of these cases usually this is the last gateway you can get to => routing problem or a broken network link
 
 `traceroute` works by sending three packets to each gateway on its route. These packets have artificially low TTL field (actually "hop count to live") set. The first three packets have TTL of 1. When they reach the gateway their TTL is decreased and when it reaches 0 the gateway discards the packet and sends back an ICMP "time exceeded" message. The originating host exctracts the gateway's IP address from the header of the error packet and resolves it to a name by using the DNS. This process repeats until the destination is reached or the gateway number limit (30) is exceeded.
 

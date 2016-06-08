@@ -9,6 +9,13 @@ Splunk stores data it indexed and its indexes within *flat files* in a structure
 
 Splunk data pipeline: input => parsing => indexing => searching
 
+Splunk is designed as a platform extensible via Apps and Technology Add-ons (TAs):
+
+* Apps - extended functionality + standard features (like saved searches, dashboard, defined inputs) + own user interfaces
+* TAs - only additional functionality
+
+Search is the default App.
+
 Searching
 ---------
 

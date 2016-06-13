@@ -27,11 +27,25 @@ Splunk data pipeline:
 
 These four stages of processing are generally split across two to four layers.
 
-Forwardes
+Forwarders
+
 * Universal Forwarder - Splunk minus indexing and searching
 * Full installation of Splunk can be configuread as:
  * light forwarder (deprecated) - no parsing, just sending of raw data to indexer
  * heave Forwarder - parse events and send them to the indexers
+* important config files: inputs.conf, outputs.conf, props.conf,
+  default-mode.conf, limits.conf
+
+Indexers
+
+* parsing and indexing of events (sometimes searching)
+* needs direct access to fast disks (local, SAN); NFS is not recommended
+* important config files: inputs.conf, indexes.conf
+
+Search
+
+* configuration mostly managed via web interface - Manager => Distributed
+  Search
 
 Searching
 ---------

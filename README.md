@@ -90,13 +90,13 @@ Perl
 * [Get Passwords on Command Line](posts/get-passwd.md) (33 lines)
 * [Module::Build](posts/module-build.md) (62 lines)
 * [Mom's Age](posts/moms-age.md) (32 lines)
-* [Perl to Python](posts/perl2python.md) (184 lines)
+* [Perl to Python](posts/perl2python.md) (110 lines)
 * [Send Mail from Perl](posts/send-mail-from-perl.md) (21 lines)
 * [Testing a Perl Script](posts/testing-perl-script.md) (120 lines)
 
 Python
 
-* [Pyhon](posts/python.md) (160 lines)
+* [Pyhon](posts/python.md) (184 lines)
 
 Various
 -------
@@ -106,5 +106,6 @@ Various
 * [Generate ASCII Table](posts/gen_ascii_table.md) (16 lines)
 * [Google Hacks](posts/google-hacks.md) (29 lines)
 * [HTML Parsing](posts/html-parsing.md) (38 lines)
-* [Numbers to Remember](posts/numbers-to-remember.md) (106 lines)
 * [IT Audit Resources](posts/it-audit-resources.md) (37 lines)
+* [Numbers to Remember](posts/numbers-to-remember.md) (106 lines)
+* [Splunk](posts/splunk.md) (22 lines)

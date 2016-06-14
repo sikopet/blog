@@ -15,10 +15,11 @@ been optimized).
   plus journal information that the indexer can use to reconstitute the index's
 index files.
 
-Splunk is designed as a platform extensible via Apps and Technology Add-ons (TAs):
+Splunk is designed as a platform extensible via Apps and Add-ons. Both are
+packaged sets of configuration.
 
-* Apps - extended functionality + standard features (like saved searches, dashboard, defined inputs) + own user interfaces
-* TAs - only additional functionality
+* Apps - generally offer user interface
+* TAs - generally enable digesting of particular type of data
 
 Search is the default App.
 

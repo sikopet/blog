@@ -40,7 +40,7 @@ Forwarders
 
 * Universal Forwarder - Splunk minus indexing and searching
 * Full installation of Splunk can be configured as:
- * light forwarder (deprecated?) - no parsing, just sending of raw data to indexer
+ * light forwarder (deprecated in 6.0) - no parsing, just sending of raw data to indexer
  * heavy Forwarder - parse events and send them to the indexers
 * important config files: inputs.conf, outputs.conf, props.conf,
   default-mode.conf, limits.conf

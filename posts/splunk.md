@@ -23,8 +23,8 @@ packaged sets of configuration.
 
 "Search" is the default App.
 
-Instance types
---------------
+Instance types (components)
+---------------------------
 
 Splunk data pipeline:
 

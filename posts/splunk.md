@@ -10,7 +10,7 @@ Splunk stores data it indexed and its indexes within *flat files* in a structure
 cold, frozen, thawed (hot bucket is being written to, and has not necessarily
 been optimized).
 * event data - all IT data that has been added to software indexes. The
-  individual pieces of data are called envents.
+  individual pieces of data are called events.
 * rawdata file - compressed file in an index bucket that contains event data
   plus journal information that the indexer can use to reconstitute the index's
 index files.
@@ -19,9 +19,9 @@ Splunk is designed as a platform extensible via Apps and Add-ons. Both are
 packaged sets of configuration.
 
 * Apps - generally offer user interface
-* TAs - generally enable digesting of particular type of data
+* Add-ons - generally enable digesting of particular type of data
 
-Search is the default App.
+"Search" is the default App.
 
 Instance types
 --------------

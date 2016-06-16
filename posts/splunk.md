@@ -66,10 +66,13 @@ inputs.conf
 
         # --- Cisco PIX ---
         [monitor:///logs/cisco_pix/*/*.log]
+        
         # which parsing rules in props.conf to apply to these events
         # NOTE: important to set, otherwise explosion of sourcetypes will happen
         sourcetype = cisco:pix
+        
         index = firewall_emea
+        
         # set host from 3rd directory path segment
         host_segment = 3
 

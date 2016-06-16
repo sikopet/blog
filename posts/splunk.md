@@ -56,6 +56,27 @@ Search (SEARCHING)
 * configuration mostly managed via web interface: Manager => Distributed
   Search
 
+.conf files
+-----------
+
+inputs.conf
+
+* after leaving this stage data has some basic metadata associated with it:
+  host, source, sourcetype, index
+
+    # --- Cisco PIX ---
+    [monitor:///logs/cisco_pix/*/*.log]
+    # which parsing rules in props.conf to apply to these events
+    # NOTE: important to set, otherwise explosion of sourcetypes will happen
+    sourcetype = cisco:pix
+    index = firewall_emea
+    # set host from 3rd directory path segment
+    host_segment = 3
+
+props.conf
+
+* which events to match based on host, source, and sourcetype
+
 Searching
 ---------
 

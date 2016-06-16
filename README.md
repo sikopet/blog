@@ -108,4 +108,4 @@ Various
 * [HTML Parsing](posts/html-parsing.md) (38 lines)
 * [IT Audit Resources](posts/it-audit-resources.md) (37 lines)
 * [Numbers to Remember](posts/numbers-to-remember.md) (106 lines)
-* [Splunk](posts/splunk.md) (22 lines)
+* [Splunk](posts/splunk.md) (67 lines)

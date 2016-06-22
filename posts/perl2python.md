@@ -16,15 +16,15 @@ Process every line in a file
     for line in file('filename.txt'):  # or open("filename.txt")
         print line
 
-Process every line in a file on command line or stdio if no file
+Process every line in a file on command line or stdin if no file
 
     while (<>) { 
-		print $_;
-	}
-
-	import fileinput
-	for line in fileinput.input():
-		print line
+        print $_;
+    }
+    
+    import fileinput
+    for line in fileinput.input():
+        print line
 
 Access stdin directly
 

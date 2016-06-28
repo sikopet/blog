@@ -50,10 +50,12 @@ Indexers (PARSING/INDEXING)
 
 * do the heavy lifting; parse and index the data and run searches
 * needs direct access to fast disks (local, SAN); NFS is not recommended
+* each indexer just indexes data and performs searches across its own indexes
 * important config files: inputs.conf, indexes.conf
 
 Search heads (SEARCH)
 
+* search management, i.e. coordinate searches across the set of indexers, consolidating the results and presenting them to the user
 * configuration mostly managed via web interface: Manager => Distributed
   Search
 

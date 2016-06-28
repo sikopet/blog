@@ -38,6 +38,7 @@ These four stages of processing are generally split across two to four layers.
 
 Forwarders (INPUT/PARSING)
 
+* consume data on the machines where the data originates and then forward it to an indexer
 * Universal Forwarder - Splunk minus indexing and searching
 * Full installation of Splunk can be configured as:
  * light forwarder (deprecated in 6.0) - no parsing, just sending of raw data to indexer
@@ -47,6 +48,7 @@ Forwarders (INPUT/PARSING)
 
 Indexers (PARSING/INDEXING)
 
+* do the heavy lifting; index the data and run searches
 * parsing and indexing of events; sometimes searching
 * needs direct access to fast disks (local, SAN); NFS is not recommended
 * important config files: inputs.conf, indexes.conf
@@ -90,4 +92,5 @@ As events are stored by time, time is *always* the most efficient filter. After 
 Resources
 
 * Implementing Splunk (Packt Publishing, 2015)
-* https://docs.splunk.com/Splexicon
+* http://docs.splunk.com/Splexicon
+* http://docs.splunk.com/Documentation

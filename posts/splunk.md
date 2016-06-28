@@ -48,8 +48,7 @@ Forwarders (INPUT/PARSING)
 
 Indexers (PARSING/INDEXING)
 
-* do the heavy lifting; index the data and run searches
-* parsing and indexing of events; sometimes searching
+* do the heavy lifting; parse and index the data and run searches
 * needs direct access to fast disks (local, SAN); NFS is not recommended
 * important config files: inputs.conf, indexes.conf
 

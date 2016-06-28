@@ -40,9 +40,9 @@ Forwarders (INPUT/PARSING)
 
 * consume data on the machines where the data originates and then forward it to an indexer
 * Universal Forwarder - Splunk minus indexing and searching
-* Full installation of Splunk can be configured as:
+* full installation of Splunk can be configured as:
  * light forwarder (deprecated in 6.0) - no parsing, just sending of raw data to indexer
- * heavy Forwarder - parse events and send them to the indexers
+ * Heavy Forwarder - parse events and send them to the indexers
 * important config files: inputs.conf, outputs.conf, props.conf,
   default-mode.conf, limits.conf
 
@@ -50,7 +50,7 @@ Indexers (PARSING/INDEXING)
 
 * do the heavy lifting; parse and index the data and run searches
 * needs direct access to fast disks (local, SAN); NFS is not recommended
-* each indexer just indexes data and performs searches across its own indexes
+* each indexer just indexes data and performs searches *across its own indexes*
 * important config files: inputs.conf, indexes.conf
 
 Search heads (SEARCH)
@@ -58,6 +58,11 @@ Search heads (SEARCH)
 * search management, i.e. coordinate searches across the set of indexers, consolidating the results and presenting them to the user
 * configuration mostly managed via web interface: Manager => Distributed
   Search
+
+Deployment server
+
+* tool for distributing configurations, apps, and content *updates* to groups of components (classes) - forwarders, non-clustered indexers, and search heads
+* can't be used for initial or upgrade installation
 
 .conf files
 -----------

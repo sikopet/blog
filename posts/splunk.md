@@ -32,7 +32,7 @@ Splunk data pipeline:
 2. PARSING (analyzing) - raw data split into events, time parsing, running
    transforms, setting base metadata, ...
 3. INDEXING - data storage and optimization of indexes
-4. SEARCHING - running of queries and results presentation
+4. SEARCH - running of queries and results presentation
 
 These four stages of processing are generally split across two to four layers.
 
@@ -51,7 +51,7 @@ Indexers (PARSING/INDEXING)
 * needs direct access to fast disks (local, SAN); NFS is not recommended
 * important config files: inputs.conf, indexes.conf
 
-Search heads (SEARCHING)
+Search heads (SEARCH)
 
 * configuration mostly managed via web interface: Manager => Distributed
   Search

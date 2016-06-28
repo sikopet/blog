@@ -51,7 +51,7 @@ Indexers (PARSING/INDEXING)
 * needs direct access to fast disks (local, SAN); NFS is not recommended
 * important config files: inputs.conf, indexes.conf
 
-Search (SEARCHING)
+Search heads (SEARCHING)
 
 * configuration mostly managed via web interface: Manager => Distributed
   Search

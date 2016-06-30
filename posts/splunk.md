@@ -91,7 +91,7 @@ props.conf
 Searching
 =========
 
-     search terms (keywords, "quoted phrases", fields, wildcard*, booleans)
+     search terms (keywords, "quoted phrases", fields, wildcard*, booleans, comparisons)
                          +
                          |                                    clause
                          |                                      +

@@ -1,3 +1,5 @@
+A daemon that is properly started with no controlling terminal will never receive SIGHUP from the OS. Thus, it is convenient to repurpose SIGHUP to tell the daemon to read its configuration file. -- Steven W. McDougall (http://world.std.com/~swmcd/steven/tech/daemon.html)
+
 Do not meddle in the affairs of wizards, for you are crunchy and good with ketchup. -- Steven W. McDougall (http://world.std.com/~swmcd/steven/perl/pm/xs/intro/index.html)
 
 Computers, networks, and algorithms are at the heart of all of our complex social and political issues. -- Bruce Schneier (https://www.schneier.com/blog/archives/2016/06/computer_scienc.html)

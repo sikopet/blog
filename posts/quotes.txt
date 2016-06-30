@@ -1,3 +1,5 @@
+Do not meddle in the affairs of wizards, for you are crunchy and good with ketchup. -- Steven W. McDougall (http://world.std.com/~swmcd/steven/perl/pm/xs/intro/index.html)
+
 Computers, networks, and algorithms are at the heart of all of our complex social and political issues. -- Bruce Schneier (https://www.schneier.com/blog/archives/2016/06/computer_scienc.html)
 
 I have never taken any courses in computer science or software engineering.  -- esr (http://www.catb.org/~esr/resume.html)

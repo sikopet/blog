@@ -91,9 +91,22 @@ props.conf
 Searching
 ---------
 
-* field - searchable name/value pair in event data
-
 As events are stored by time, time is *always* the most efficient filter. After time, the most powerful keywords are `host`, `source`, `sourcetype`. The more you tell Splunk, the better the chance for good results.
+
+     search terms (fields, keywords, phrases, booleans)
+                         +                                  clause
+                         |                                   +
+                         |                                   |
+                         v                                   v
+          sourcetype=access_* status=503 | stats sum(price) as lost_revenue
+                                             ^     ^    ^
+                                             |     |    |
+                                             +     |    +
+                                        command    |   argument
+                                                   +
+                                              function
+
+* field - searchable name/value pair in event data
 
 Resources
 

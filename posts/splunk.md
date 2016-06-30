@@ -89,9 +89,7 @@ props.conf
 * which events to match based on host, source, and sourcetype
 
 Searching
----------
-
-As events are stored by time, time is *always* the most efficient filter. After time, the most powerful keywords are `host`, `source`, `sourcetype`. The more you tell Splunk, the better the chance for good results.
+=========
 
      search terms (fields, keywords, phrases, booleans)
                          +                                  clause
@@ -107,6 +105,15 @@ As events are stored by time, time is *always* the most efficient filter. After 
                                               function
 
 * field - searchable name/value pair in event data
+
+Performance tips
+----------------
+
+As events are stored by time, time is *always* the most efficient filter. After time, the most powerful keywords are `host`, `source`, `sourcetype`.
+
+The more you tell Splunk, the better the chance for good results.
+
+Field extraction is one of the most costly parts of a search. `fields [+] <wc-field-list>` - include *only* the specified fields; occurs before field extraction => improved performance.
 
 Resources
 

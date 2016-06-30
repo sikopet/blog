@@ -91,18 +91,19 @@ props.conf
 Searching
 =========
 
-     search terms (fields, keywords, phrases, booleans)
-                         +                                  clause
-                         |                                   +
-                         |                                   |
-                         v                                   v
-          sourcetype=access_* status=503 | stats sum(price) as lost_revenue
-                                             ^     ^    ^
-                                             |     |    |
-                                             +     |    +
-                                        command    |   argument
-                                                   +
-                                              function
+     search terms (keywords, "quoted phrases", fields, wildcard*, booleans)
+                         +
+                         |                                    clause
+                         |                                      +
+                         |                                      |
+                         v                                      v
+    [search]  sourcetype=access_* status=503 | stats sum(price) as lost_revenue
+                                                ^     ^    ^
+                                                |     |    |
+                                                +     |    +
+                                           command    |   argument
+                                                      +
+                                                 function
 
 * field - searchable name/value pair in event data
 

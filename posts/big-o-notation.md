@@ -22,3 +22,7 @@ Super-linear scaling
 Resources
 
 * PoCSA, Appendix C
+
+See also
+
+* http://bigocheatsheet.com/

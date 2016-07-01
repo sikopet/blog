@@ -1,19 +1,16 @@
 Basics
 ------
 
+Events are stored in the index (for fast search) as two groups of files:
+
+* Rawdata - raw data in a crompressed form
+* Index files - metadata files that point to the raw data
+
+.. these files reside in sets of directories, called buckets. An index tipycally consists of many buckets, organized by age: hot, warm, cold, frozen, thawed (hot bucket is being written to, and has not necessarily been optimized).
+
 Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. Splunk breaks data into events based on the timestamps it identifies.
 
-* index - the repository for data that resides in flat files. It's made of
-  buckets.
-* bucket - a file system directory containing a portion of index and raw data.
-  An index tipycally consists of many buckets, organized by age: hot, warm,
-cold, frozen, thawed (hot bucket is being written to, and has not necessarily
-been optimized).
-* event data - all IT data that has been added to software indexes. The
-  individual pieces of data are called events.
-* rawdata file - compressed file in an index bucket that contains event data
-  plus journal information that the indexer can use to reconstitute the index's
-index files.
+Event data - all IT data that has been added to software indexes. The individual pieces of data are called events.
 
 Splunk is designed as a platform extensible via Apps and Add-ons. Both are
 packaged sets of configuration.

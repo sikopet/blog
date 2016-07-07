@@ -7,14 +7,15 @@ To ask the kernel to a send a signal:
     kill [-SIGNAL] PID  # default signal is TERM
 
 (Common) signal types:
-* TERM (15) - terminate the process (polite request to die)
-* KILL (9) - terminate the process and remove it forcibly from memory
+* TERM (15) - terminate the process (polite request to die; can be caught)
+* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught)
+* INT (2) - interrupt (`Ctrl-C`). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
 * STOP - freeze the process (stays in memory ready to continue where it left
     off)
 * CONT - continue running the process
-* INT - interrupt (`Ctrl-C`). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
 * QUIT - generate core dump (`Ctrl-\`)
 * CHLD - one of the child processes stopped running - or, more likely, exited
+* [SIGHUP](http://world.std.com/~swmcd/steven/tech/daemon.html)
 
 Each process has a default disposition (what to do) for each possible signal. You may install your own handler or otherwise change the disposition of most signals. Only SIGKILL and SIGSTOP cannot be changed. The rest you can:
 * ignore

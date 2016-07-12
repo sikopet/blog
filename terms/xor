@@ -1,4 +1,5 @@
-Exclusive or - the opposite of inlusive (the normal) or, which allows both possibilities as well as either:
+Exclusive or - the opposite of inlusive (the normal) or, which allows both 
+possibilities as well as either:
 
     >>> True or True
     True
@@ -9,4 +10,14 @@ Exclusive or - the opposite of inlusive (the normal) or, which allows both possi
     >>> False or False
     False
     
-Example of exlusive or in English: "You can have pizza or chicken" - you probably don't mean you can have both.
+Example of exlusive or in English: "You can have pizza or chicken" - you probably 
+don't mean you can have both. Exclusive or expression in Python:
+
+    >>> True != True
+    False
+    >>> True != False
+    True
+    >>> False != True
+    True
+    >>> False != False
+    False

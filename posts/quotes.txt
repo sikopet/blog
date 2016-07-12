@@ -1,3 +1,5 @@
+In general, once some technology gets established, it is very hard to dislodge. -- Andrew Tanenbaum (https://www.usenix.org/system/files/login/articles/login_apr15_04_tanenbaum.pdf)
+
 Perl used to be far and away my language of choice, but these days I'm more likely to write new code in Python, largely because far more of my friends and coworkers are confortable with it. -- nelhage (https://blogs.oracle.com/ksplice/entry/the_top_10_tricks_of)
 
 Most languages are like stackoverflow: I have a question, I want the best answer. Perl is like PerlMonks: I have a doubt, I want to read an interesting discussion about it that is likely to go on a tangent. q-: -- tye (http://www.perlmonks.org/?node_id=783659)

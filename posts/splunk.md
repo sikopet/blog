@@ -1,6 +1,8 @@
 Basics
 ------
 
+The Splunk index is the repository for data ingested by Splunk software. As incoming data is indexed and transformed into events, Splunk software creates files of rawdata and metadata (index files). The files reside in sets of directories organized by age. These directories are called buckets.
+
 Events are stored in the index (for fast search) as two groups of files:
 
 * Rawdata - raw data in a crompressed form

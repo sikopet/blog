@@ -45,7 +45,7 @@ Forwarders (INPUT/PARSING)
 * important config files: inputs.conf, outputs.conf, props.conf,
   default-mode.conf, limits.conf
 
-Indexers (PARSING/INDEXING)
+Indexers (PARSING/INDEXING/SEARCHING)
 
 * do the heavy lifting; parse and index the data and run searches
 * needs direct access to fast disks (local, SAN); NFS is not recommended

@@ -40,27 +40,30 @@ To get information about a file (actually about its inode) run the shell command
 
 To access an inode from within Perl, use:
 
-**1.** `stat` function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat()</a> Unix system call returns):
+**1.** [stat](http://perldoc.perl.org/functions/stat.html) function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat()</a> Unix system call returns):
 
     my($atime, $mtime, $ctime) = (stat($filename))[8,9,10] or die "Couldn't stat '$filename': $!";
 
 .. `$atime`, `$mtime`, and `$ctime` -- The three timestamps represented in the system's timestamp format: a 32-bit number telling how many seconds have passed since the ''Epoch'', an arbitrary starting point for measuring system time (it's the beginning of 1970 at midnight Universal Time on Unix systems).
 
-**2.** [File::stat](https://metacpan.org/module/File::stat):
+**2.** [File::stat](http://perldoc.perl.org/File/stat.html):
 
     use File::stat;
     
-    my $inode = stat("/bin/ls");
+    my $file  = "/bin/ls";
+    my $inode = stat($file) or die "No $file: $!";
     my $ctime = $inode->ctime;
     my $size  = $inode->size;
 
 **3.** [-X operators](http://perldoc.perl.org/functions/-X.html), modeled on the shell's `test` operators:
 
-    my @original_files = qw/ file1 file2 file2 /;  # in practice - read from the FS using a glob or directory handle
+    my @original_files = qw/ file1 file2 file2 /;  # in practice - read from the FS using a glob 
+                                                   #  or directory handle
     my @big_old_files;                             # files we want to put on backup tapes
     foreach my $filename (@original_files) {
         push @big_old_files, $filename             
-          if -s $filename > 100_000 and -A _ > 90; # -X operators cache value returned by stat(2); access it via _
+          if -s $filename > 100_000 and -A _ > 90; # -X operators cache value returned by stat(2); 
+                                                   #  access it via _
     }
 
 ## Changing timestamps with Perl

@@ -36,7 +36,7 @@ Main memory (RAM)
 
 Just a big storage area for a bunch of 0s and 1s (bits).
 
-All I/O from peripheral devices flows through RAM.
+The running kernel and all user processes reside here. Also all I/O from peripheral devices flows through RAM. They are all just big collections of bits.
 
 A CPU is just an operator on memory:
 
@@ -44,10 +44,10 @@ A CPU is just an operator on memory:
     CPU ---         writes data         --> RAM
 
 State
-* a particular arrangements of bits (in RAM)
-* as it can consists of millions of bits we use abstract terms to describe it
-    (ex. process is waiting for input)
-* *image* - a particular physical arrangements of bits
+* a particular arrangements of bits in RAM (three different states of 4 bits: 0001, 0101, 1000)
+* as it can consists of millions of bits we use abstract terms to describe it, ex. process is waiting for input
+
+*image* - a particular physical arrangements of bits
 
 Kernel
 ------

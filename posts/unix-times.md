@@ -5,7 +5,7 @@ Unix filesystem consists of two parts:
 * data blocks - contents of files and directories (special files with inode-name pairs)
 * index to those data blocks
 
-Entries in the index are called `inodes` (index nodes). Inodes contain medatada (data about data) on the files, like:
+Entries in the index are called `inodes` (index nodes). Inodes contain metadata (data about data) on the files, like:
 
 * pointer to the data blocks
 * type of thing it represents (directory, file, etc.)
@@ -15,18 +15,18 @@ Entries in the index are called `inodes` (index nodes). Inodes contain medatada 
 
 There is also a time information among the metadata. Actually three types of them:
 
-    .----------------------------------------------------------------------------------------------------.
-    | Type        | Short name | ls option | Description                                                 |
-    +-------------+------------+-----------+-------------------------------------------------------------+
-    | Access Time | atime      | -ult      | when file was last accessed (read)                          |
-    | Modify Time | mtime      | -lt       | when the actual contents of the file were last modified     |
-    | Change Time | ctime      | -cl       | when the inode information (the metadata) was last modified |
-    '-------------+------------+-----------+-------------------------------------------------------------'
+    .---------------------------------------=-------------------------------------------------------------.
+    | Type        | Short name | ls options | Description                                                 |
+    +-------------+------------+------------+-------------------------------------------------------------+
+    | Access Time | atime      | -lu        | when file was last accessed (read)                          |
+    | Modify Time | mtime      | -l         | when the actual contents of the file were last modified     |
+    | Change Time | ctime      | -lc        | when the inode information (the metadata) was last modified |
+    '-------------+------------+------------+-------------------------------------------------------------'
 <!-- Original table data:
-Type;Short name;ls option;Description
-Access Time;atime;-ult;when file was last accessed (read)
-Modify Time;mtime;-lt;when the actual contents of the file were last modified
-Change Time;ctime;-cl;when the inode information (the metadata) was last modified
+Type;Short name;ls options;Description
+Access Time;atime;-lu;when file was last accessed (read)
+Modify Time;mtime;-l;when the actual contents of the file were last modified
+Change Time;ctime;-lc;when the inode information (the metadata) was last modified
 -->
 
 ## Using timestamps
@@ -40,7 +40,7 @@ To get information about a file (actually about its inode) run the shell command
 
 To access an inode from within Perl, use:
 
-**1.** `stat` function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat</a> Unix system call returns):
+**1.** `stat` function (returns pretty much everything that the underlying <a href="https://en.wikipedia.org/wiki/Stat_(system_call)">stat()</a> Unix system call returns):
 
     my($atime, $mtime, $ctime) = (stat($filename))[8,9,10] or die "Couldn't stat '$filename': $!";
 

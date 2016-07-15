@@ -71,8 +71,8 @@ Memory mngt.
 * it is a complex task for the kernel - modern CPUs come with a help => memory
     management unit (MMU) using the virtual memory
 * MMU interfaces processes' access to physical memory via memory address map
-* kernel must still maintain the memory address map (page table -
-    implementation of memory address map)
+* kernel must still maintain the memory address map
+* *page table* - name for the implementation of a memory address map
 
 System calls and pseudodevices
 * *syscalls* (system calls)

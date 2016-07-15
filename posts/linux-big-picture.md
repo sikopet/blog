@@ -95,7 +95,7 @@ System calls and pseudodevices
         shell ---> fork() ---> shell
                            |
                            +-> copy of shell ---> exec(ls) ---> ls 
-* `exec` is actually an entire family of syscalls for similar tasks
+* `exec()` is actually an entire family of syscalls for similar tasks
 * *psesudodevice* looks like a device but it's another kernel feature
     (implemented purely in software) - ex. `/dev/random`
 

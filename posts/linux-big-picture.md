@@ -1,4 +1,4 @@
-To study complex systems we use *abstraction* - a fancy way to say that we
+To study complex (software) systems we use *abstraction* - a fancy way to say that we
 don't care about details of the components (subsystems, modules, packages,
 ...).
 

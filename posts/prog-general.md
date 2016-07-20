@@ -37,6 +37,11 @@ Programming languages
 * traditional systems languages (C++, Ada, Java): large-scale programming, emphasis on structure and discipline
 * scripting ("agile") languages: designed for writing small/medium-scaled programs easy
 
+Programming styles
+
+* object oriented - objects are the main focus; we tell objects to do things (by calling their methods)
+* imperative - functions are the primary focus; we pass them objects to work with
+
 (Python) program
 
 * sequence of commands (statements) telling computer what to do

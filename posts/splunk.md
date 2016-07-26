@@ -1,26 +1,22 @@
 Basics
 ------
 
-The Splunk *index* is the repository for data ingested by Splunk software. As incoming data is indexed and transformed into events, Splunk software creates files of *rawdata* and *metadata* (index files). The files reside in sets of directories organized by age. These directories are called *buckets*.
-
-Events are stored in the index (for fast search) as two groups of files:
+The Splunk *index* is the repository for data ingested by Splunk software. Events are stored in the index as two groups of files:
 
 * Rawdata - raw data in a crompressed form
-* Index files - metadata files that point to the raw data
+* Index files (for fast search) - metadata files that point to the raw data
 
-.. these files reside in sets of directories, called buckets. An index tipycally consists of many buckets, organized by age: hot, warm, cold, frozen, thawed (hot bucket is being written to, and has not necessarily been optimized).
+.. these files reside in sets of directories, called *buckets*. An index tipycally consists of many buckets, organized by age: hot, warm, cold, frozen, thawed (hot bucket is being written to, and has not necessarily been optimized).
 
 Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. Splunk breaks data into events based on the timestamps it identifies.
 
-Event data - all IT data that has been added to software indexes. The individual pieces of data are called events.
+Event data - all IT data that has been added to software indexes. The individual pieces of data are called *events*.
 
 Splunk is designed as a platform extensible via Apps and Add-ons. Both are
-packaged *sets of configuration*.
+packaged *sets of configuration*. "Search" is the default App.
 
 * Apps - generally offer user interface
 * Add-ons - generally enable digesting of particular type of data
-
-"Search" is the default App.
 
 Instance types (components)
 ---------------------------

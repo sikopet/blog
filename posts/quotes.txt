@@ -1,3 +1,5 @@
+Mňa netrápi, či im to bude fungovať. Mňa trápi, či ja mám niečco robiť. -- zamestnanec korporácie
+
 Increasingly, our customers tell us that not only are they using more Perl but they're doing more sophistacated things with it. -- Navrup Johal (http://www.activestate.com/blog/2016/07/perl-paradox)
 
 In general, once some technology gets established, it is very hard to dislodge. -- Andrew Tanenbaum (https://www.usenix.org/system/files/login/articles/login_apr15_04_tanenbaum.pdf)

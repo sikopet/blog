@@ -37,7 +37,7 @@ Output format will vary based upon what protocols are in use:
 
         timestamp L3_protocol sIP.sPort > dIP.dPort: TCP_flags,
         TCP_sequence_number, TCP_acknowledgement_number, TCP_windows_size,
-        data_length
+        data_length_in_bytes
 
 * UDP
 
@@ -80,6 +80,7 @@ Qualifiers
 * ip - IP protocol
 * tcp - TCP protocol
 * upd - UPP protocol
+* greater 1000 - data length is greater than 1000 bytes
 
 Logical operators
 

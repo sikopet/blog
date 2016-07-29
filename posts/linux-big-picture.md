@@ -14,9 +14,9 @@ User processes
 * shell
 
 Kernel
-* syscalls
-* process mngt.
 * memory mngt.
+* process mngt.
+* syscalls
 * device drivers
 
 Hardware
@@ -55,6 +55,13 @@ Nearly all kernel's tasks revolve around main memory:
 * keep state info about subdivisions
 * make sure processes use only their subdivisions
 
+Memory mngt.
+* it is a complex task for the kernel - modern CPUs come with a help => memory
+    management unit (MMU) using the virtual memory
+* MMU interfaces processes' access to physical memory via memory address map
+* kernel must still maintain the memory address map
+* *page table* - name for the implementation of a memory address map
+
 Process mngt.
 * which processes are allowed to use CPU
 * *multitasking* - the appearance (they don't run at exactly the same time) of multiple processes running at the same time
@@ -63,13 +70,6 @@ Process mngt.
  * kernel runs between processes' time slices during a context switch
  * in *multi-CPU* systems kernel doesn't need (but usually does so anyway) to relinquish control of its current
     CPU in order to allow a different process to run on a different CPU
-
-Memory mngt.
-* it is a complex task for the kernel - modern CPUs come with a help => memory
-    management unit (MMU) using the virtual memory
-* MMU interfaces processes' access to physical memory via memory address map
-* kernel must still maintain the memory address map
-* *page table* - name for the implementation of a memory address map
 
 System calls and pseudodevices
 * *syscalls* (system calls)

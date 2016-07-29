@@ -73,10 +73,9 @@ Process mngt.
 
 System calls and pseudodevices
 * *syscalls* (system calls)
- * feature of kernel allowing user processes to request specific actions: ex.
-     opening, reading and writing files; creating a new process
  * the kernel's API
- * interactions between a process and the kernel
+ * feature of kernel allowing user processes to request specific actions, ex.
+     opening, reading and writing files, creating new processes
  * to execute a system call the kernel must temporarily switch to kernel mode,
      verify syscall's arguments and transfer data between user and kernel
      memory
@@ -87,12 +86,13 @@ System calls and pseudodevices
      syscall, ex: `printf()` function provides output formatting and data
      buffering, whereas the `write()` syscall just outputs a block of bytes
 * all user processes (except for init) start as a result of `fork()` usually
-    followed by `exec()`, ex.:
+    followed by `exec()`, ex. - running `ls` command in shell:
 
         shell ---> fork() ---> shell
                            |
-                           +-> copy of shell ---> exec(ls) ---> ls 
-* `exec()` is actually an entire family of syscalls for similar tasks
+                           +-> copy of shell ---> exec(ls) ---> ls
+                           
+ * `exec()` is actually an entire family of syscalls for similar tasks
 * *psesudodevice* looks like a device but it's another kernel feature
     (implemented purely in software) - ex. `/dev/random`
 

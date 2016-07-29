@@ -57,12 +57,11 @@ Nearly all kernel's tasks revolve around main memory:
 
 Process mngt.
 * which processes are allowed to use CPU
-* many processes can run "simultaneously" - they don't run at exactly the same time
- * *multitasking* - the appearance of multiple processes running at the same time
+* *multitasking* - the appearance (they don't run at exactly the same time) of multiple processes running at the same time
 * *context switch* - the act of one process giving up control of CPU to another process
  * the kernel is responsible for context switching
-* kernel runs between processes' time slices during a context switch
-* in *multi-CPU* systems kernel doesn't need (but usually does so anyway) to relinquish control of its current
+ * kernel runs between processes' time slices during a context switch
+ * in *multi-CPU* systems kernel doesn't need (but usually does so anyway) to relinquish control of its current
     CPU in order to allow a different process to run on a different CPU
 
 Memory mngt.

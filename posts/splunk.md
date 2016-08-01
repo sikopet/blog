@@ -83,6 +83,14 @@ props.conf
 
 * which events to match based on host, source, and sourcetype
 
+        [cisco:pix]
+        TIME_PREFIX = ^
+        TIME_FORMAT = %Y-%m-%dT%H:%M:%S
+        MAX_TIMESTAMP_LOOKAHEAD = 25
+        LINE_BREAKER = ([\r\n]+)
+        SHOULD_LINEMERGE = false
+        TZ = UTC
+
 Searching
 =========
 

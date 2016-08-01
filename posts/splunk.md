@@ -8,7 +8,31 @@ The Splunk *index* is the repository for data ingested by Splunk software. Event
 
 .. these files reside in sets of directories, called *buckets*. An index tipycally consists of many buckets, organized by age: hot, warm, cold, frozen, thawed (hot bucket is being written to, and has not necessarily been optimized).
 
-Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. Splunk breaks data into events based on the timestamps it identifies.
+Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. 
+
+    defaultdb $ tree -sC
+    .
+    ├── [       4096]  colddb
+    ├── [       4096]  datamodel_summary
+    ├── [       4096]  db
+    │   ├── [         10]  CreationTime
+    │   ├── [       4096]  GlobalMetaData
+    │   └── [       4096]  hot_v1_0
+    │       ├── [      53152]  1466256608-1466256608-4107774829233827835.tsidx
+    │       ├── [      68997]  1466256608-1466256608-4107774830220961558.tsidx
+    │       ├── [         67]  bucket_info.csv
+    │       ├── [        105]  Hosts.data
+    │       ├── [       4096]  rawdata
+    │       │   └── [      94207]  0
+    │       ├── [        111]  Sources.data
+    │       ├── [        106]  SourceTypes.data
+    │       ├── [         78]  splunk-autogen-params.dat
+    │       └── [         41]  Strings.data
+    └── [       4096]  thaweddb
+    
+    7 directories, 10 files
+
+Splunk breaks data into events based on the timestamps it identifies.
 
 Event data - all IT data that has been added to software indexes. The individual pieces of data are called *events*.
 

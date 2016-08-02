@@ -86,6 +86,8 @@ Deployment server
 .conf files
 -----------
 
+Everything in Splunk is controlled by configuration files sitting in the filesystem of each instance of Splunk. Configuration changes done via the web interfaces end up in these .conf files.
+
 inputs.conf
 
 * after leaving this stage data has some basic metadata associated with it:

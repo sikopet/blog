@@ -88,6 +88,14 @@ Deployment server
 
 Everything in Splunk is controlled by configuration files sitting in the filesystem of each instance of Splunk. Configuration changes done via the web interfaces end up in these .conf files.
 
+$SPLUNK_HOME/etc/
+
+* system/default - defaults shipped with Splunk; never edit these!
+* system/local - global overrides specific to this host; very few configs need to live here
+* apps/$app_name/default - default app's configs
+* apps/$app_name/local - most configs should live here; all the non-private configs created via web interface will be placed here
+* users/$user_name/$app_name/local - private configs; once the permissions are changed will be moved to $app_name/local
+
 inputs.conf
 
 * after leaving this stage data has some basic metadata associated with it:

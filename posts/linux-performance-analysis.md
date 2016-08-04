@@ -82,7 +82,7 @@ Which processes are hogging resources?
 
 Snapshot of current processes:
 
-    $ ps auxw
+    $ ps auxw    # BSD style options (other styles: Unix, GNU)
 
 * `x` - show all your running processes
 * `ax` - all processes on the system, not just yours

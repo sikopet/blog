@@ -82,8 +82,12 @@ Which processes are hogging resources?
 
 Snapshot of current processes:
 
-    $ ps aux
+    $ ps auxw
 
+* `x` - show all your running processes
+* `ax` - all processes on the system, not just yours
+* `u` - more detailed info
+* `w` - show full command names
 * `m` - show threads
 
 Processes and other system information regularly updated:

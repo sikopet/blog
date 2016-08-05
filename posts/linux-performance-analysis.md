@@ -7,10 +7,13 @@ Sources of hardware information:
 
     lscpu
     /proc/cpuinfo       # one entry for each core seen by the OS
+    
     free -m
     /proc/meminfo
+        
     fdisk -l
     /proc/diskstats
+    hpacucli ctrl all show config
 
 Desktop Management Interface (DMI, aka SMBIOS):
 

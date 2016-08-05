@@ -186,7 +186,7 @@ Storage I/O
 
 Overall IOPS per disk (sda):
 
-    # iostat -d sda | grep sda | perl -lane 'print $F[2]'
+    $ iostat -d sda | grep sda | perl -lane 'print $F[2]'
     1190.23
 
 Processes using file or directory on `/usr` filesystem (mount point):

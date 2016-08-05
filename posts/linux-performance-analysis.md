@@ -13,7 +13,8 @@ Sources of hardware information:
         
     fdisk -l
     /proc/diskstats
-    hpacucli ctrl all show config
+    dmsetup ls                     # LVM device mapper
+    hpacucli ctrl all show config  # HP physical RAID
 
 Desktop Management Interface (DMI, aka SMBIOS):
 

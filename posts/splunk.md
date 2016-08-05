@@ -127,6 +127,28 @@ props.conf
         SHOULD_LINEMERGE = false
         TZ = UTC
 
+Data sources
+------------
+
+Moniroting logs on servers (UF)
+
+* preferred way
+* highly optimized, events are usually searchable within few seconds
+
+Monitoring logs on shared drive
+
+Consuming logs in batch
+
+* only copy *complete* logs to the watched directory
+* use batch (vs. monitor) stanza in `inputs.conf` so Splunk deletes logs after indexing them
+* copy sets of logs to different forwarders but don't copy the same logs to multiple machines
+
+Receiving syslog events
+
+Consuming logs from a database
+
+Using scripts to gather data
+
 Searching
 =========
 

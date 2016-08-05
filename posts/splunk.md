@@ -57,9 +57,9 @@ These four stages of processing are generally split across two to four layers.
 
 Forwarders (INPUT/PARSING)
 
-* consume data on the machines where the data originates and then forward it to an indexer
-* Universal Forwarder - Splunk minus indexing and searching
-* full installation of Splunk can be configured as:
+* consume data (generally on the machines where the data originates) and then forward it to an indexer
+* 1) Universal Forwarder - Splunk minus indexing and searching
+* 2) full installation of Splunk configured as:
  * light forwarder (deprecated in 6.0) - no parsing, just sending of raw data to indexer
  * Heavy Forwarder - parse events and send them to the indexers
 * important config files: inputs.conf, outputs.conf, props.conf,

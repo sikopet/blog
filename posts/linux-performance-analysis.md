@@ -180,9 +180,14 @@ Storage I/O
     dm-2            107.96      1612.16       347.05 1191762057  256547336
 
 * the first report provides statistics since the system was booted, subsequent reports cover the time since the previous report
-* `tps` - total I/O transfers per second
+* `tps` - total I/O transfers per second (IOPS)
 * `kB_read/s` - average number of kilobytes read per second
 * `kB_read` - total kilobytes read
+
+Overall IOPS per disk (sda):
+
+    # iostat -d sda | grep sda | perl -lane 'print $F[2]'
+    1190.23
 
 Processes using file or directory on `/usr` filesystem (mount point):
 

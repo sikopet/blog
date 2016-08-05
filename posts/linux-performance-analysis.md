@@ -19,6 +19,7 @@ Desktop Management Interface (DMI, aka SMBIOS):
 Network:
 
     ifconfig -a
+    ip a s
 
 CPU
 ===

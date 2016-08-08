@@ -10,11 +10,12 @@ Sources of hardware information:
     
     free -m
     /proc/meminfo
-        
+    
+    hpacucli ctrl all show config [detail]  # HP physical RAID
+                                            # search for "Disk Name:"
     fdisk -l
     /proc/diskstats
-    dmsetup ls                     # LVM device mapper
-    hpacucli ctrl all show config  # HP physical RAID
+    dmsetup ls                              # LVM device mapper
 
 Desktop Management Interface (DMI, aka SMBIOS):
 

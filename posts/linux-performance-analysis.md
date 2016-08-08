@@ -11,7 +11,7 @@ Sources of hardware information:
     free -m
     /proc/meminfo
     
-    hpacucli ctrl all show config [detail]  # HP physical RAID; search for "Disk Name:"
+    hpacucli ctrl all show config [detail]  # HP physical RAID
     fdisk -l
     /proc/diskstats
     dmsetup ls                              # LVM device mapper

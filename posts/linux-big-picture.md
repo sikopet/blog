@@ -103,6 +103,34 @@ Userspace and users
 * user - object for supporting permissions and boundaries
 * group - a set of users used mainly for sharing files access
 
+Device files
+============
+
+Block device (`b`)
+
+* fixed total size
+* split in fixed chunks
+* easy to index
+* processes have random access to any block in the device
+
+Character device (`c`)
+
+* no size
+* works with data streams
+
+Pipe device (`p`)
+
+* like character device, with another process at the other end of the I/O stream instead of a kernel driver
+
+Socket device (`s`)
+
+* for interprocess communication
+* often found outside of the `/dev` directory
+
+`Major` and `minor` device numbers help the kernel to identify the device. Similar devices usually have the same major number.
+
+Not all devices are represented as device files, e.g. network interfaces.
+
 Resources
 =========
 

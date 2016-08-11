@@ -103,8 +103,11 @@ Userspace and users
 * user - object for supporting permissions and boundaries
 * group - a set of users used mainly for sharing files access
 
+Devices
+=======
+
 Device files
-============
+------------
 
 Block device (`b`)
 
@@ -131,8 +134,8 @@ Socket device (`s`)
 
 Not all devices are represented as device files, e.g. network interfaces.
 
-/dev and sysfs
---------------
+/dev and /sys/devices
+---------------------
 
 /dev
 * traditional Unix way of representing devices as files
@@ -141,6 +144,7 @@ Not all devices are represented as device files, e.g. network interfaces.
 * the kernel assigns devices in the order in which they are found => may have different names between reboots
 
 /sys/devices
+* part of sysfs (a virtual FS provided by the kernel providing information about kernel subsystems)
 * system of files and directories (with symlinks)
 * uniform view for attached devices based on their HW attributes
 * to find the path and other attributes: `udevadm info --query=all --name=/dev/sda`

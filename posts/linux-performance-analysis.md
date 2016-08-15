@@ -16,6 +16,7 @@ Sources of hardware information:
     fdisk -l
     /proc/diskstats
     dmsetup ls                              # LVM device mapper
+    udevadm info --query=all --name=/dev/sda
 
 Desktop Management Interface (DMI, aka SMBIOS):
 

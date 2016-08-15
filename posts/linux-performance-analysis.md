@@ -12,6 +12,7 @@ Sources of hardware information:
     /proc/meminfo
     
     hpacucli ctrl all show config [detail]  # HP physical RAID
+    lsblk                                   # Installed on RHEL
     fdisk -l
     /proc/diskstats
     dmsetup ls                              # LVM device mapper

@@ -15,7 +15,7 @@ Sources of hardware information:
     lsblk                                   # Installed on RHEL
     parted -l                               # supports both MBR and GPT
     fdisk -l                                # only traditional MBR partition table
-    /proc/diskstats
+    cat /proc/diskstats
     dmsetup ls                              # LVM device mapper
     udevadm info --query=all --name=/dev/sda
 

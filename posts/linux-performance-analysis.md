@@ -13,7 +13,8 @@ Sources of hardware information:
     
     hpacucli ctrl all show config [detail]  # HP physical RAID
     lsblk                                   # Installed on RHEL
-    fdisk -l
+    parted -l                               # supports both MBR and GPT
+    fdisk -l                                # only traditional MBR partition table
     /proc/diskstats
     dmsetup ls                              # LVM device mapper
     udevadm info --query=all --name=/dev/sda

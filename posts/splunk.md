@@ -1,14 +1,14 @@
 Basics
 ------
 
-The Splunk *index* is the repository for data ingested by Splunk software. Events are stored in the index as two groups of files:
+The Splunk *index* is the repository (a directory on a filesystem) for data ingested by Splunk software. Events are stored in the index as two groups of files:
 
 * Rawdata - raw data in a crompressed form
 * Index files (for fast search) - metadata files that point to the raw data
 
 .. these files reside in sets of directories, called *buckets*. An index tipycally consists of many buckets, organized by age: hot, warm, cold, frozen, thawed (hot bucket is being written to, and has not necessarily been optimized).
 
-Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. 
+Splunk stores data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. For example, the default index looks like this:
 
     defaultdb $ tree -sC
     .

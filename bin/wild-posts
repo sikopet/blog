@@ -39,12 +39,7 @@ for my $post ( sort @posts ) {
     if (not $post_in_readme) {
         say "Not in README:";
         say $readme_line if $readme_line;
-    } elsif (line_count_changed($post)) {
-        say "Updated line count:";
-        my $output = $readme_line;
-        $output =~ s/\[[^\]]+\]/... /;
-        say $output if $output;
-    }
+    } 
 }
 
 # Is there at least one symlink, i.e. category, for this post?

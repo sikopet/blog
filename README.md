@@ -17,6 +17,7 @@ posts.
 Operating Systems
 -----------------
 
+* [AWS](posts/aws.md) (34 lines)
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md) (55 lines)
 * [Generate File of Defined Size](posts/gen_rand_file.md) (22 lines)
 * [GRUB 2](posts/grub2.md) (42 lines)

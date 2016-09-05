@@ -31,24 +31,24 @@ Creating Volumes
 
 1. Create VG
 
-        vgcreate raid1vg /dev/md0
+        vgcreate rootvg /dev/md0
 
     Check the results with `vgdisplay`
 
 1. Create LV
 
-        lvcreate --name backuplv --size 50G raid1vg
+        lvcreate --name backuplv --size 50G rootvg
 
     Check the results with `lvdisplay`
 
 1. Create filesystem
 
-        mkfs.ext3 /dev/raid1vg/backuplv
+        mkfs.ext3 /dev/rootvg/backuplv
 
 1. Edit `/etc/fstab`
 
         # RAID 1 + LVM
-        /dev/raid1vg/backuplv   /backup        ext3    rw,noatime      0       0
+        /dev/rootvg/backuplv   /backup        ext3    rw,noatime      0       0
 
 1. Create mount point and mount volume(s)
 
@@ -59,17 +59,17 @@ Extending LV
 
 1. Extend the LV
     
-        lvextend -L +5G /dev/raid1vg/backuplv
+        lvextend -L +5G /dev/rootvg/backuplv
     
 1. Re-size the filesystem (online re-sizing doesn't seem to cause troubles)
     
-        resize2fs /dev/raid1vg/backuplv
+        resize2fs /dev/rootvg/backuplv
 
 * when shrinking, first resize filesystem then shrink the LV.
 
 Snapshotting LV (e.g. for doing backups)
 
-    lvcreate -L 50G -s -n backuplv-snap raid1vg/backuplv  # should be short-lived or of the same size as source LV
+    lvcreate -L 50G -s -n backuplv-snap rootvg/backuplv  # should be short-lived or of the same size as source LV
     
 * in theory `/backup` should by first unmounted to ensure consistency, in practice `etx4` protects us aginst filesystem corruption although we may lose a few of recent data blocks updates (perfectly OK for backup purposes)
 

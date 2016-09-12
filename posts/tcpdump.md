@@ -28,7 +28,7 @@ bytes (default if version >= 4.0)
 
 Examples:
 
-    tcpdump -nni eth1 -w packets.pcap
+    tcpdump -nni any -w packets.pcap
     tcpdump -nnr packets.pcap
 
 Output format will vary based upon what protocols are in use:

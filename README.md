@@ -88,6 +88,7 @@ Perl
 * [Dates and Times in Perl](posts/perl-date-time.md)
 * [Debugging Perl Scripts](posts/debugging-perl-scripts.md)
 * [File::Find](posts/file-find.md)
+* [Finding a Good CPAN Module](posts/finding-good-cpan-module.md)
 * [Get Passwords on Command Line](posts/get-passwd.md)
 * [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)

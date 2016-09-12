@@ -2,7 +2,7 @@ Anyone can contribute to [CPAN](https://metacpan.org/). Is is also pretty huge. 
 
 1. What's the code **activity**. The more the better.
 
-2. How many **bugs** do we have. The open bugs show community involvement, the closed ones are about the maintainers diligence.
+2. How many **issues** do we have. The open bugs show community involvement, the closed ones are about the maintainers diligence.
 
 3. The quality and quantity of **tests** and their results.
 

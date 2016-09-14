@@ -5,14 +5,14 @@ Sometimes you need to do something to many/all files within certain directory. [
     use File::Find;
     
     sub process_file {
-        # do something;
+        # do something to each file found
     }
     find(\&process_file, @DIRLIST);
     
     ## or use anonymous subroutine
     find(
         sub {
-            # do something
+            # do something to each file found
         },
         @DIRLIST
     }

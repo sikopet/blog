@@ -45,7 +45,7 @@ Output format will vary based upon what protocols are in use:
 
 * use up to `-vvv` to provide more information on headers
 * use `-x` to get entire packets (including data not just headers) in hex format
-* use `-A` to get entire packets in hex and ASCII format
+* use `-A` to get entire packets in ASCII format
 * use `-X` to get entire packets in hex and ASCII format
 
 Packet Filtering

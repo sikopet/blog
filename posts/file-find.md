@@ -21,8 +21,8 @@ Sometimes you need to do something to many/all files within certain directory.
 
 .. before calling your function `find` by default changes to the directory being scanned and sets the following (global) variables:
 
-* `$File::Find::dir` -- visited directory path relative to the starting directory
-* `$File::Find::name` -- full path of the file being visited relative to the starting directory
+* `$File::Find::dir` -- visited directory path relative to the program's starting directory
+* `$File::Find::name` -- full path of the file being visited relative to the program's starting directory
 * `$_` -- basename of the file being visited
 
 ## Find the largest file

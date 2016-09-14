@@ -59,11 +59,7 @@ NOTE: when dereferenced, a subroutine can see all visible lexical variables when
 
 ## File::Find::Rule
 
-[File::Find::Rule](https://metacpan.org/module/File::Find::Rule) is an alternative to File::Find:
-
-    use strict;
-    use warnings;
-    use autodie;
+[File::Find::Rule](https://metacpan.org/module/File::Find::Rule) CPAN module is an alternative to File::Find:
 
     use File::Find::Rule;
 

@@ -4,6 +4,7 @@ Sometimes you need to do something to many/all files within certain directory.
 
     use File::Find;
     
+    ## use a subroutine reference (coderef)
     sub process_file {
         # do something to each file found
     }
@@ -17,13 +18,17 @@ Sometimes you need to do something to many/all files within certain directory.
         @DIRLIST
     }
 
-.. `find` function from [File::Find](http://perldoc.perl.org/File/Find.html) scans directories in `@DIRLIST` recursively and for each file calls the referenced function (coderef) `process_file`
+.. `find` function from [File::Find](http://perldoc.perl.org/File/Find.html) scans directories in `@DIRLIST` recursively and for each file or directory calls the referenced function `process_file`
 
 .. before calling your function `find` by default changes to the directory being scanned and sets the following (global) variables:
 
 * `$File::Find::dir` -- visited directory path relative to the program's starting directory
 * `$File::Find::name` -- full path of the file being visited relative to the program's starting directory
 * `$_` -- basename of the file being visited
+
+We are passing both data (the list of directories to search) and behaviour as parameters to the `find` routine.
+
+We are using the subroutine reference as a *callback*.
 
 ## Find the largest file
 

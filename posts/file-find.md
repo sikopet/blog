@@ -79,6 +79,7 @@ NOTE: when dereferenced, a subroutine can see all visible lexical variables when
 
 ## More
 
-* [Beginners guide to File::Find](http://www.perlmonks.org/?node_id=217166)
+* Intermediate Perl, Ch. 7
 * Perl Cookbook, Recipe 9.7
+* [Beginners guide to File::Find](http://www.perlmonks.org/?node_id=217166)
 * [File::Find and permission error handling](http://perlmonks.org/?node_id=1023278) -- using `preprocess`

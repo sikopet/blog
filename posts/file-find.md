@@ -1,6 +1,6 @@
 # File::Find
 
-Sometimes you need to do something to many/all files within certain directory. [File::Find](http://perldoc.perl.org/File/Find.html) efficiently walks through list of directories and executes a subroutine for each file or directory found recursively below starting directory:
+Sometimes you need to do something to many/all files within certain directory.
 
     use File::Find;
     
@@ -17,7 +17,7 @@ Sometimes you need to do something to many/all files within certain directory. [
         @DIRLIST
     }
 
-.. `find` function from `File::Find` scans directories in `@DIRLIST` recursively and for each file calls the referenced function (coderef) `process_file`
+.. `find` function from [File::Find](http://perldoc.perl.org/File/Find.html) scans directories in `@DIRLIST` recursively and for each file calls the referenced function (coderef) `process_file`
 
 .. before calling your function `find` by default changes to the directory being scanned and sets the following (global) variables:
 

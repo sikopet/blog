@@ -93,9 +93,9 @@ $SPLUNK_HOME/etc/
 * system/
  * default - defaults shipped with Splunk; never edit these!
  * local - global overrides specific to this host; very few configs need to live here
-* apps/$app_name/
+* **apps/$app_name/**
  * default - default app's configs
- * local - most configs should live here; all the non-private configs created via web interface will be placed here
+ * **local** - most configs should live here; all the non-private configs created via web interface will be placed here
 * users/$user_name/$app_name/local - private configs; once the permissions are changed will be moved to $app_name/local
 
 inputs.conf

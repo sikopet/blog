@@ -42,3 +42,4 @@ Other
 * Land the Tech Job You Love, 2009
 * The Phoenix Project, 2013
 * Exponential Organizations, 2014
+* Implementing Splunk, 2015

@@ -24,6 +24,11 @@ Syntax
 
 When receiving messages using the UDP protocol, increase the size of the UDP receive buffer (`so_rcvbuf()`) on the receiver host (that is, the syslog-ng OSE server or relay receiving the messages).
 
+Troubleshooting
+---------------
+
+* [Possible causes of losing log messages](https://www.balabit.com/documents/syslog-ng-ose-latest-guides/en/syslog-ng-ose-guide-admin/html/concepts-losing-messages.html) (latest version)
+
 Resources
 =========
 

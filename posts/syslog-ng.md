@@ -2,7 +2,7 @@ Sofware for sending and receiving of log messages.
 
 Understands these log formats
 * RFC 3164 (BSD syslog)
-* RFC 5424 (since v 3.0)
+* RFC 5424 (IETF syslog) - since v 3.0
 
 Sources
 -------

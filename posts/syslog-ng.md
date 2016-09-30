@@ -1,3 +1,6 @@
+Basics
+======
+
 Sofware for sending and receiving of log messages.
 
 Understands these log formats

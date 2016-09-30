@@ -22,6 +22,8 @@ Syntax
 * define a source only once
 * sources (and destinations) are initialized only when they are used in a log statement
 
+When receiving messages using the UDP protocol, increase the size of the UDP receive buffer (`so_rcvbuf()`) on the receiver host (that is, the syslog-ng OSE server or relay receiving the messages).
+
 Resources
 =========
 

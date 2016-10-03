@@ -83,6 +83,18 @@ Deployment server
 * tool for distributing configurations, apps, and content *updates* to groups of components (classes) - forwarders, non-clustered indexers, and search heads
 * can't be used for initial or upgrade installation
 
+Sizing indexers
+---------------
+
+The following indexer should handle 100GB of raw logs per day using AutoLB feature of Splunk forwarders:
+
+* 8GB of RAM
+* 8 fast physical CPUs
+* Disk doing 800 IOPS (use bonnie++ to measure this)
+* No more than four concurrent searches (including both interactive and [saved](https://docs.splunk.com/Splexicon:Savedsearch) ones)
+
+If you have 200GB of logs per day you should have two such indexers (you should have two of them anyway because of high availability).
+
 .conf files
 -----------
 

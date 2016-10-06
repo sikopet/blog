@@ -56,6 +56,15 @@ To share a folder from the host on the guest, add following to `Vagrantfile`:
     config.vm.synced_folder "../../eset-repos", "/shared/eset-repos",
       owner: "jreisinger", group: "jreisinger"
 
+Vagrant in a proxy (corporate :-)) environment
+
+    export http_proxy="http://user:password@host:port"
+    export https_proxy="http://user:password@host:port"
+    vagrant plugin install vagrant-proxyconf
+    
+    export VAGRANT_HTTP_PROXY="http://user:password@host:port"
+    vagrant up
+
 Resources
 ---------
 

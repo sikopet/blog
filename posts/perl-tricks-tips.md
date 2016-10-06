@@ -4,6 +4,7 @@ Reading a directory
     opendir my $DIR, $dir or die "Cannot open $dir: $!\n";
     my @names = readdir $DIR;
     closedir $DIR;
+    
     for my $name (@names) {
         next if $name eq '.' or $name eq '..';
         # do something with the $name
@@ -22,7 +23,7 @@ Using the `mail` command (you might need to setup something like [ssmtp](http://
         my $mailexe = '/usr/bin/mail';
 
         open my $MAIL, "|$mailexe -s '$subject' '$recipient'"
-            or die "Can't send mail: $!\n";
+            or die "Cannot send mail: $!\n";
 
         print $MAIL $body;
     }

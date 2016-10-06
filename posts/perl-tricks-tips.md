@@ -1,4 +1,5 @@
 Reading a directory
+-------------------
 
     opendir DIR, $dir or die "Cannot open $dir: $!\n";
     my @names = readdir DIR;

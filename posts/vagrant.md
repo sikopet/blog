@@ -62,7 +62,7 @@ Vagrant in a proxy (corporate :-)) environment
      export https_proxy='http://user:password@host:port'
     vagrant plugin install vagrant-proxyconf
     
-     export VAGRANT_HTTP_PROXY="http://user:password@host:port"
+     export VAGRANT_HTTP_PROXY='http://user:password@host:port'
     vagrant up
 
 Resources

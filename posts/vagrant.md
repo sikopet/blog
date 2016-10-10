@@ -58,11 +58,14 @@ To share a folder from the host on the guest, add following to `Vagrantfile`:
 
 Vagrant in a proxy (corporate :-)) environment
 
+    # Note the whitespace to prevent saving the credentials in the bash history.
+    # You need something like HISTCONTROL=ignoreboth in ~/.bashrc though.
      export http_proxy='http://user:password@host:port'
      export https_proxy='http://user:password@host:port'
     vagrant plugin install vagrant-proxyconf
     
      export VAGRANT_HTTP_PROXY='http://user:password@host:port'
+     export VAGRANT_HTTPS_PROXY='http://user:password@host:port'
     vagrant up
 
 Resources

@@ -17,30 +17,37 @@ not already cached in a hash.
     use 5.010;
     use Benchmark qw(timethese);
 
+    # the minimum number of CPU seconds to tun
+    my $CPU_SECS = shift // 2;
+
     chdir;    # change to my home directory
     my @files = grep -f, glob '* .*';
     print "found ", scalar @files, " files\n";
 
     timethese(
-        -2,
+        "-$CPU_SECS",
         {
             naive => sub {
-                my @sorted = sort { -s $a <=> -s $b } @files;
+                my @sorted =
+                    sort { -s $a <=> -s $b }
+                @files;
             },
             schwartzian => sub {
                 my @sorted =
-                  map  { $_->[0] }
-                  sort { $a->[1] <=> $b->[1] }
-                  map  { [ $_, -s $_ ] } @files;
+                    map  { $_->[0]                }
+                    sort { $a->[1] <=> $b->[1]    }
+                    map  { [ $_, -s $_ ]          }
+                @files;
             },
             orcish => sub {
                 my %size;  # cache of files' sizes
                 my @sorted =
-                  sort { ( $size{$a} //= -s $a ) <=> ( $size{$b} //= -s $b ) }
-                  @files;
+                    sort { ( $size{$a} //= -s $a ) <=> ( $size{$b} //= -s $b ) }
+                @files;
             },
         }
     );
+
 
 The program's output:
 
@@ -51,7 +58,7 @@ The program's output:
     schwartzian:  2 wallclock secs ( 1.58 usr +  0.50 sys =  2.08 CPU) @ 22015.38/s (n=45792)
 
 The output says that the Schwartzian Transform and the Orcish Manoeuvre are much
-faster (the function ran more times in 2 seconds). The reason is that we don't
+faster, i.e. the function ran more times in 2 seconds. The reason is that we don't
 ask for the file size (a relatively expensive operation) each time we want to 
 compare two files sizes; we ask just once for each file and we cache the result.
 This way we run the expensive function N times instead of N.log(N) times (N is 

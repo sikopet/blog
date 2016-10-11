@@ -3,6 +3,7 @@ this post.)
 
 [Search](https://atlas.hashicorp.com/boxes/search) and add a box (virtual machine image):
 
+    # the URL of the found box copied from the browser
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
  
 * added box is global to the vagrant install

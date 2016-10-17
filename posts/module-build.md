@@ -26,7 +26,7 @@ Run basic commands
 * change to the created distro directory: `cd Animal`
 * create the `Build` script: `perl Build.PL`
 * build the distro (modules from `lib` copied to `blib` staging area and embedded documenation translated into Unix manpage in `blib/libdoc`): `./Build`
-* make sure the tests pass: `./Build test` (the most frequent command) or run individual tests by hand
+* make sure the tests pass: `./Build test` (or run individual tests - see below)
 * test the distro: `./Build disttest`
 * create the distro: `./Build dist`
 

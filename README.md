@@ -101,7 +101,7 @@ Perl
 
 Python
 
-* [Pyhon](posts/python.md)
+* [Python](posts/python.md)
 
 Various
 -------

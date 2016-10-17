@@ -1,3 +1,7 @@
+(Up-to-date
+[source](https://github.com/jreisinger/blog/blob/master/posts/module-build.md)
+of this post.)
+
 ## Creating a Module::Build Distribution
 
 We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other Perl build system (we don't show here) is `ExtUtils::MakeMaker`. For sophisticated distribution creation see [Dist::Zilla](http://dzil.org/).

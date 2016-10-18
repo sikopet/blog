@@ -144,10 +144,12 @@ serverclass.conf
 * mapping of apps to deployment clients
 
         [serverClass:<className>]
+        # this stanza maps a host to a server class
         # options that should be applied to all apps in this class
         whitelist.0 = *.example.com
         whitelist.1 = 10.0.0.1
         [serverClass:<className>:app:<appName>]
+        # this stanza maps an application to a server class
         # options that should be applied only to this app in this serverclass
 
 Data sources

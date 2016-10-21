@@ -182,7 +182,7 @@ Storage I/O
     dm-2            107.96      1612.16       347.05 1191762057  256547336
 
 * the first report provides statistics since the system was booted, subsequent reports cover the time since the previous report
-* `tps` - total I/O transfers per second (IOPS)
+* `tps` - number of transfers per second (IOPS?)
 * `kB_read/s` - average number of kilobytes read per second
 * `kB_read` - total kilobytes read
 

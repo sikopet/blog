@@ -16,19 +16,19 @@ OSI layering benefits
            OSI              TCP/IP             TCP/IP             Sample
                             original           updated            protocol
       +------------+     +------------+     +------------+     +----------------+
-    7 |Application |     |            |     |            |     |Telnet HTTP     |
-      |------------+     |            |     |            |     |FTP SMTP        |
-    6 |Presentation|     |Application | 5-7 |Application |     |POP3 VoIP       |
+    7 |Application |     |            |     |            |     |Telnet HTTP     | Contains the "language" that
+      |------------+     |            |     |            |     |FTP SMTP        | apps and servers use to 
+    6 |Presentation|     |Application | 5-7 |Application |     |POP3 VoIP       | communicate
       |------------+     |            |     |            |     |SNMP DNS Halo 3 |
     5 |Session     |     |            |     |            |     |arp traceroute  |
       |------------+- - -+------------+- - -+------------+- - -+----------------+
-    4 |Transport   |     |Transport   |  4  |Transport   |     |TCP UDP         |
+    4 |Transport   |     |Transport   |  4  |Transport   |     |TCP UDP         | data transmission characteristics
       |------------+- - -+------------+- - -+------------+- - -+----------------+
-    3 |Network     |     |Internetwork|  3  |Internetwork|     |IP ICMP         |
+    3 |Network     |     |Internetwork|  3  |Internetwork|     |IP ICMP         | how to move packets from src to dst
       |------------+- - -+------------+- - -+------------+- - -+----------------+
-    2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP ARP|
+    2 |Data link   |     |Network     |  2  |Data link   |     |Eth HDLC PPP ARP|  
       |------------+     |            |- - -|------------|- - -|----------------|
-    1 |Physical    |     |access      |  1  |Physical    |     |Eth RJ-45 V.35  |
+    1 |Physical    |     |access      |  1  |Physical    |     |Eth RJ-45 V.35  | how to send raw data across a physical medium
       +------------+     +------------+     +------------+     +----------------+
 
  * Please Do Not Throw Sausage Pizza Away

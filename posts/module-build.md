@@ -64,3 +64,4 @@ For more see:
 
 * Alpaca Book, Ch. 12
 * [The Perl Toolchain: developing your module](http://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html)
+* [How to upload a script to CPAN](http://perltricks.com/article/how-to-upload-a-script-to-cpan/)

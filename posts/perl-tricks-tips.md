@@ -1,3 +1,10 @@
+Uninstall a module
+------------------
+
+    cpanm --uninstall Module::Name
+    
+https://perltricks.com/article/3/2013/3/27/How-to-cleanly-uninstall-a-Perl-module/
+
 Reading a directory
 -------------------
 
@@ -34,3 +41,8 @@ Other ways
 * http://perldoc.perl.org/Net/SMTP.html
 * https://rjbs.manxome.org/rubric/entry/2104
 * see Perl Cookbook
+
+See also
+--------
+
+http://wiki.reisinge.net/PerlTips

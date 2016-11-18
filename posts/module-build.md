@@ -56,12 +56,14 @@ Contribute to CPAN
     software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2015 > LICENSE
     
     # Prepare the distro
-    vi MANIFEST.SKIP  ##  #!include_default
-    ./Build manifest  # only files listed there will go into the distibution archive
+    vi MANIFEST.SKIP       # #!include_default
+    ./Build manifest       # only files listed in MANIFEST will go into the distibution archive
     vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
     vi Changes
     podselect lib/App/Monport.pm > README.pod
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
+    
+    # Upload the distro
     cpanm CPAN::Uploader
     cpan-upload App-Monport-<version>.tar.gz --user reisinge
 

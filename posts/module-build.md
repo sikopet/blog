@@ -44,7 +44,7 @@ Run individual tests
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Iblib/lib -T t/Cow.t`
 * rebuild distro and run test including modules from `blib/lib`: `./Build && perl -Mblib -T t/Cow.t`
 
-Measure out test coverage
+Measure test coverage
 
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
@@ -80,3 +80,4 @@ For more see:
 * Alpaca Book, Ch. 12
 * [The Perl Toolchain: developing your module](http://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html)
 * [How to upload a script to CPAN](http://perltricks.com/article/how-to-upload-a-script-to-cpan/)
+* http://blogs.perl.org/users/neilb/2014/08/put-your-cpan-distributions-on-github.html

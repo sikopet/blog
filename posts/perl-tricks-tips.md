@@ -2,8 +2,11 @@ Uninstall a module
 ------------------
 
     cpanm --uninstall Module::Name
-    
-https://perltricks.com/article/3/2013/3/27/How-to-cleanly-uninstall-a-Perl-module/
+
+See also
+
+* https://perltricks.com/article/3/2013/3/27/How-to-cleanly-uninstall-a-Perl-module/
+* http://stackoverflow.com/questions/2626449/how-can-i-de-install-a-perl-module-installed-via-cpan
 
 Reading a directory
 -------------------

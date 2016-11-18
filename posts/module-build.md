@@ -2,7 +2,7 @@
 [source](https://github.com/jreisinger/blog/blob/master/posts/module-build.md)
 of this post.)
 
-## Creating a Module::Build Distribution
+# Creating a Module::Build Distribution
 
 We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other Perl build system (we don't show here) is `ExtUtils::MakeMaker`. For sophisticated distribution creation see [Dist::Zilla](http://dzil.org/).
 
@@ -49,6 +49,22 @@ Measure out test coverage
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
 
+Contribute to CPAN
+
+    # Generate LICENSE
+    cpanm App::Software::License
+    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2015 > LICENSE
+    
+    # Prepare the distro
+    vi MANIFEST.SKIP  ##  #!include_default
+    ./Build manifest  # only files listed there will go into the distibution archive
+    vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
+    vi Changes
+    podselect lib/App/Monport.pm > README.pod
+    perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
+    cpanm CPAN::Uploader
+    cpan-upload App-Monport-<version>.tar.gz --user reisinge
+
 The following is a typical release cycle for github users:
 
 1. Work on changes until all tests pass
@@ -58,7 +74,6 @@ The following is a typical release cycle for github users:
 5. Upload to PAUSE
 6. Tag with the version. By convention for version 1.01 the tag would be 'v1.01'
 7. Push to github
-
 
 For more see:
 

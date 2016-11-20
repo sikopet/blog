@@ -19,6 +19,7 @@ Operating Systems
 
 * [AWS](posts/aws.md)
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
+* [DevOps](posts/devops.md)
 * [Generate File of Defined Size](posts/gen_rand_file.md)
 * [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)

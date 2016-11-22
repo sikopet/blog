@@ -6,7 +6,7 @@ The Splunk *index* is a directory on a filesystem for data ingested by Splunk so
 * Rawdata (.gz) - raw data in a crompressed form
 * Index files (.tsidx) - metadata files for fast search that point to the raw data
 
-.. these files reside in sets of directories, called *buckets*. An index tipycally consists of many buckets, organized by age: hot (stored in `db` - see below), warm (`db`), cold (`colddb`), frozen, thawed (`thaweddb`, buckets restored from an archive). Hot bucket is being written to, and has not necessarily been optimized.
+.. these files reside in sets of directories, called *buckets*. An index tipycally consists of many buckets, organized by age: hot (stored in `db` - see below), warm (`db`), cold (`colddb`), frozen (data in this bucket is not searchable but can be thawed), thawed (`thaweddb`, buckets restored from an archive). Hot bucket is being written to, and has not necessarily been optimized.
 
 Splunk stores raw data it indexed and its indexes within *flat files* in a structured directory (`$SPLUNK_HOME/var/lib/splunk`), meaning it doesn't require any database software running in the background. For example, the default index looks like this:
 

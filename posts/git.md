@@ -155,7 +155,7 @@ Ignore changes of the files' mode (for current repo):
 More
 ====
 
-* See [JRwiki](http://jreisinger.duckdns.org/Git) for more
+* See my [wiki](http://wiki.reisinge.net/Git) for more
 * [My blog post derived from this text](http://jreisinger.blogspot.sk/2014/01/simple-source-code-management-with-git.html)
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 * [O'Reilly Webcast: Git in One hour](http://www.youtube.com/watch?v=OFkgSjRnay4)

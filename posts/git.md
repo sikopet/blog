@@ -140,7 +140,7 @@ Apply changes generated via `git diff [--binary]`:
 
     git apply --ignore-space-change --ignore-whitespace
 
-While in Git-tracked directory, print the filename followed by its author:
+While in Git-tracked directory, print the filename followed by the author of the last commit:
 
     for f in `find -type f`; do
             git log -1 --date=iso -- $f |

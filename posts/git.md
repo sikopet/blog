@@ -136,6 +136,10 @@ To remove files not tracked by Git (like log files, zipped files, compiled files
 Tips and Tricks
 ===============
 
+Apply changes generated via `git diff [--binary]`:
+
+    git apply --ignore-space-change --ignore-whitespace
+
 While in Git-tracked directory, print the filename followed by its author:
 
     for f in `find -type f`; do

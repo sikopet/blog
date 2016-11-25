@@ -86,12 +86,11 @@ Deployment server
 Sizing indexers
 ---------------
 
-The following indexer should handle 100GB of raw logs per day using AutoLB feature of Splunk forwarders:
+The following indexer should handle 100GB of raw logs per day (using AutoLB feature of Splunk forwarders) and four concurrent searches (including both interactive and [saved](https://docs.splunk.com/Splexicon:Savedsearch) ones):
 
 * 8GB of RAM
 * 8 fast physical CPUs
-* Disk doing 800 IOPS (use bonnie++ to measure this)
-* No more than four concurrent searches (including both interactive and [saved](https://docs.splunk.com/Splexicon:Savedsearch) ones)
+* Storage doing 800 IOPS (use bonnie++ to measure this)
 
 If you have 200GB of logs per day you should have two such indexers (you should have two of them anyway because of high availability).
 

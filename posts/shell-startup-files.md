@@ -7,12 +7,14 @@ When `bash` is started it runs a series of scripts to prepare the environment
 for user. These scripts, for example, set the environment variables, create
 command aliases, run programs.
 
-There are two main types of a shell instance, interactive and noninteractive. However, noninteractive shells (such as those running shell scripts) usually don't read any startup files. Interactive shell can be a:
+There are two main types of a shell instance, interactive and noninteractive. However, noninteractive shells (such as those running shell scripts) usually don't read any startup files. To run a noninteractive shell as a login shell, to force it to run startup files, start the shell with the `-l` or `--login` option.
+
+Interactive shell can be a:
 
  * login shell - a shell started by the `login` program or a remote login server such as SSH (uses variables like `PATH`, `PS1` and startup programs like `umask`)
  * non-login shell - not started by the `login` program, run on every instance - ex. shell inside an X-based terminal (uses aliases and functions)
 
-To find out run `echo $0 | perl -lne 'print /^\-/ ? "" : "non-", "login shell"'`
+... to find out run `echo $0 | perl -lne 'print /^\-/ ? "" : "non-", "login shell"'`
 
 <table>
   <tr>

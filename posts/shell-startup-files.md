@@ -34,7 +34,7 @@ Creating a symlink between `~/.bashrc` and `~/.bash_profile` will ensure that th
 
 More
 
-* [Prostredie shellu](http://jreisinger.duckdns.org/Linux1/ShellSkriptovanie/02ProstredieShellu) (in Slovak)
+* [Prostredie shellu](http://wiki.reisinge.net/Linux1/ShellSkriptovanie/02ProstredieShellu) (in Slovak)
 * [my dot-files](https://github.com/jreisinger/dot-files)
 * ULSAH p. 189
 * How Linux Works, 2nd, ch. 13

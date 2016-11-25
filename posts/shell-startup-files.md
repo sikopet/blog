@@ -12,6 +12,8 @@ There are two main types of a shell instance, interactive and noninteractive. Ho
  * login shell - a shell started by the `login` program or a remote login server such as SSH (uses variables like `PATH`, `PS1` and startup programs like `umask`)
  * non-login shell - not started by the `login` program, run on every instance - ex. shell inside an X-based terminal (uses aliases and functions)
 
+To find out run `echo $0 | perl -lne 'print /^\-/ ? "" : "non-", "login shell"'`
+
 <table>
   <tr>
     <th></th>

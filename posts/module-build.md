@@ -63,7 +63,10 @@ Contribute to CPAN
     podselect lib/App/Monport.pm > README.pod
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
-    # Commit to GitHub
+    # Commit to GitHub and tag it with the version from Changes
+    git commit
+    git tag v1.01
+    git push
     
     # Upload the distro
     cpanm CPAN::Uploader

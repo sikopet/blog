@@ -63,19 +63,11 @@ Contribute to CPAN
     podselect lib/App/Monport.pm > README.pod
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
+    # Commit to GitHub
+    
     # Upload the distro
     cpanm CPAN::Uploader
     cpan-upload App-Monport-<version>.tar.gz --user reisinge
-
-The following is a typical release cycle for github users:
-
-1. Work on changes until all tests pass
-2. Make sure the *Changes* file documents all major changes
-3. Make your changes atomic, all changes related to a particular fix or feature should go in a single commit, including the *Changes* entry.
-4. Bump the version
-5. Upload to PAUSE
-6. Tag with the version. By convention for version 1.01 the tag would be 'v1.01'
-7. Push to github
 
 For more see:
 

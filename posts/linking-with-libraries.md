@@ -41,7 +41,16 @@ flexibility reasons). A small program `ld.so` (runtime dynamic linked/loader)
 finds and loads shared libraries for a program at runtime. To list the needed
 shared libraries:
 
-    ldd /bin/bash
+    $ ldd /bin/bash
+        linux-vdso.so.1 =>  (0x00007ffe221ce000)
+        libtinfo.so.5 => /lib64/libtinfo.so.5 (0x00007f2fb72df000)
+        libdl.so.2 => /lib64/libdl.so.2 (0x00007f2fb70db000)
+        libc.so.6 => /lib64/libc.so.6 (0x00007f2fb6d46000)
+        /lib64/ld-linux-x86-64.so.2 (0x00007f2fb7506000)
+
+* `<library name> => <where to find it>`
+* the last line is the location of `ld.so`
+* `so` - shared object
 
 More
 * http://jreisinger.duckdns.org/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice

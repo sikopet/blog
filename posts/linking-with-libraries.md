@@ -57,5 +57,5 @@ shared libraries:
 * `so` - shared object
 
 More
-* http://jreisinger.duckdns.org/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice
+* http://wiki.reisinge.net/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice
 * How Linux Works, 2nd: Ch. 15

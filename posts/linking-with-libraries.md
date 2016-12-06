@@ -1,7 +1,11 @@
-The C compiler doesn't know enough about your system to create a useful program
-all by itself. You need libraries to build complete programs.
+There are several [steps](https://calleerlandsson.com/the-four-stages-of-compiling-a-c-program/) when compiling a C program:
 
-C library - *precompiled* function that can be built into your program.
+1. Preprocessing - lines starting with `#` (ex. macros) are interpreted by the preprocessor (`cpp`)
+2. Compilation - preprocessed code is translated to assembly instructions specific to the target CPU architecture
+3. Assembly - assembly instructions are translated to machine code, or *object code*
+4. Linking - object code can be understood by the CPU but some pieces of the program are out of order or missing
+
+You need libraries to build complete programs. C library consists of *precompiled* functions that can be built into your program.
 
 The two standard directories on Linux containing libraries are `/lib` and
 `/usr/lib`. `/lib` should not contain static libraries.

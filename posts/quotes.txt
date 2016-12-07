@@ -1,3 +1,5 @@
+Write down the complete, detailed plan, and then make sure at least one other person reviews it. -- Chris McDermott (http://sysadvent.blogspot.sk/2016/12/day-4-change-management-keep-it-simple.html)
+
 Automating too early can waste as much time as automating too late. -- AWS System Administration
 
 So far, you've watched 34 hours of video, and read for 122 hours. -- Safari books

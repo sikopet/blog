@@ -56,6 +56,17 @@ shared libraries:
 * the last line is the location of `ld.so`
 * `so` - shared object
 
+Header (include) files and directories
+--------------------------------------
+
+C header files - additional *source code* files that usually contain type and function declarations (ex. `stdio.h`).
+
+Most paths that contain header files have "include" somewher in the name. The default include directory in Unix is `/usr/include`. If you want the compiler to look into different directory:
+
+    $ cc -c -I/usr/junk/include badinclude.c
+    
+Double quotes (`#include "myheader.h"`) instead of angle brackets (`#include <stdio.h>`) mean that the header file is not in the system include directory - it's often in the same directory as the source file.
+
 More
 * http://wiki.reisinge.net/Linux1/InstalaciaLinuxuSpravaBalikov/ZdielaneKniznice
 * How Linux Works, 2nd: Ch. 15

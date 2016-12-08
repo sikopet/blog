@@ -1,6 +1,6 @@
 There are several [steps](https://calleerlandsson.com/the-four-stages-of-compiling-a-c-program/) when compiling a C program:
 
-1. Preprocessing - lines starting with `#` (ex. macros) are interpreted by the preprocessor (`cpp`)
+1. Preprocessing - lines starting with `#` (include files, macros, conditionals) are interpreted by the preprocessor (`cpp` - but you rarely need to run it by itself)
 2. Compilation - preprocessed code is translated to assembly instructions specific to the target CPU architecture
 3. Assembly - assembly instructions are translated to machine code, or *object code*
 4. Linking - object code can be understood by the CPU but some pieces of the program are out of order or missing

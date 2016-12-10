@@ -2,6 +2,35 @@
 [source](https://github.com/jreisinger/blog/blob/master/posts/module-build.md)
 of this post.)
 
+Management summary
+
+    ## Develop
+
+    # Work on the project and test locally
+    perl Build.PL && ./Build && ./Build test && ./Build install
+
+    ## Contribute to CPAN
+
+    # Generate LICENSE using App::Software::License
+    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2016 > LICENSE
+    
+    # Prepare the distro
+    vi MANIFEST.SKIP       # #!include_default; do once
+    ./Build manifest       # only files listed in MANIFEST will go into the distibution archive
+    vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
+    vi Changes
+    podselect lib/App/Monport.pm > README.pod
+    ./Build disttest && ./Build dist
+    
+    # Commit to GitHub and tag it with the version from Changes
+    git commit          # commit message from Changes
+    git tag v<version>  # <version> from Changes, ex. v1.01
+    git push
+    
+    # Upload the distro using CPAN::Uploader
+    cpan-upload App-Monport-<version>.tar.gz --user reisinge
+
+
 # Creating a Module::Build Distribution
 
 We show here how to create a Perl distribution using `Module::Build` build system with `Module::Starter`. The other Perl build system (we don't show here) is `ExtUtils::MakeMaker`. For sophisticated distribution creation see [Dist::Zilla](http://dzil.org/).
@@ -48,27 +77,6 @@ Measure test coverage
 
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
-
-Contribute to CPAN
-
-    # Generate LICENSE using App::Software::License
-    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2016 > LICENSE
-    
-    # Prepare the distro
-    vi MANIFEST.SKIP       # #!include_default; do once
-    ./Build manifest       # only files listed in MANIFEST will go into the distibution archive
-    vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
-    vi Changes
-    podselect lib/App/Monport.pm > README.pod
-    perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
-    
-    # Commit to GitHub and tag it with the version from Changes
-    git commit          # commit message from Changes
-    git tag v<version>  # <version> from Changes, ex. v1.01
-    git push
-    
-    # Upload the distro using CPAN::Uploader
-    cpan-upload App-Monport-<version>.tar.gz --user reisinge
 
 For more see:
 

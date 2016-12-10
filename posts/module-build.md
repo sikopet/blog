@@ -63,12 +63,11 @@ Contribute to CPAN
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
     # Commit to GitHub and tag it with the version from Changes
-    git commit         # commit message from Changes
-    git tag <version>  # <version> from Changes, ex. v1.01
+    git commit          # commit message from Changes
+    git tag v<version>  # <version> from Changes, ex. v1.01
     git push
     
-    # Upload the distro
-    cpanm CPAN::Uploader
+    # Upload the distro using CPAN::Uploader
     cpan-upload App-Monport-<version>.tar.gz --user reisinge
 
 For more see:

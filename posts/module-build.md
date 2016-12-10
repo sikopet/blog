@@ -12,7 +12,7 @@ Management summary
     ## Contribute to CPAN
 
     # Generate LICENSE using App::Software::License
-    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2016 > LICENSE
+    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year $(date +"%Y") > LICENSE
     
     # Prepare the distro
     vi MANIFEST.SKIP       # #!include_default; do once

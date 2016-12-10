@@ -51,12 +51,12 @@ Measure test coverage
 
 Contribute to CPAN
 
-    # Generate LICENSE
-    cpanm App::Software::License
-    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2015 > LICENSE
+    # Generate LICENSE using App::Software::License
+    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year 2016 > LICENSE
     
     # Prepare the distro
-    vi MANIFEST.SKIP       # #!include_default
+    
+    vi MANIFEST.SKIP       # #!include_default; do once
     ./Build manifest       # only files listed in MANIFEST will go into the distibution archive
     vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
     vi Changes
@@ -64,8 +64,8 @@ Contribute to CPAN
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
     # Commit to GitHub and tag it with the version from Changes
-    git commit
-    git tag v1.01
+    git commit         # commit message from Changes
+    git tag <version>  # <version> from Changes, ex. v1.01
     git push
     
     # Upload the distro

@@ -20,7 +20,7 @@ Management summary
     vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
     vi Changes
     podselect lib/App/Monport.pm > README.pod
-    ./Build disttest && ./Build dist
+    perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
     # Commit to GitHub and tag it with the version from Changes
     git commit          # commit message from Changes

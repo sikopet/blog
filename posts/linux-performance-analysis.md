@@ -82,6 +82,8 @@ If your load average is high and your system still responds well, don't panic. T
 
 The system load average is an excellent metric to track as part of a system baseline. If you know your system’s load average on a normal day and it is in that same range on a bad day, this is a hint that you should look elsewhere (such as the network) for performance problems. A load average above the expected norm suggests that you should look at the processes running on the system itself.
 
+Search for "/proc/loadavg" in `man 5 proc`.
+
 Per process consumption
 -----------------------
 

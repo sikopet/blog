@@ -75,8 +75,9 @@ Average number of runnable (ready to run) processes:
 * process waiting for input (e.g. from keyboard, network) are not considered
  ready to run - only processes that are actually doing something contribute to
  load average
-* on a multi-core system - if number of cores = load average, all cores have
+* on a single-core system - 1 means that the CPU is exactly at capacity, i.e. the CPU has
  just enough to do all the time
+* on a multi-core system - if number of cores = load average all cores are exactly at capacity
  
 If your load average is high and your system still responds well, don't panic. The system just has a lot of processes sharing the CPU.
 

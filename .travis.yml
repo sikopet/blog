@@ -1,4 +1,5 @@
 language: perl
+sudo: false
 install:
-    - cpanm --verbose --sudo --quiet --notest Text::Autoformat
+    - cpanm --quiet --notest Text::Autoformat
 script: ./bin/wild-posts

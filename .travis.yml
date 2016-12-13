@@ -1,5 +1,5 @@
 language: perl
 install:
     - cpanm --quiet --notest Text::Autoformat
-before_script: . ~/.bashrc
+before_script: pwd; id 
 script: ./bin/wild-posts

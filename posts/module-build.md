@@ -2,20 +2,13 @@
 [source](https://github.com/jreisinger/blog/blob/master/posts/module-build.md)
 of this post.)
 
-Management summary
-
-    ## Develop
+The development and (Github, CPAN) release cycle
 
     # Work on the project and test locally
     perl Build.PL && ./Build && ./Build test && ./Build install
-
-    ## Contribute to CPAN
-
-    # Generate LICENSE using App::Software::License
-    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year $(date +"%Y") > LICENSE
     
-    # Prepare the distro
-    vi MANIFEST.SKIP       # #!include_default; do once
+    # Prepare the distro for CPAN
+    vi MANIFEST.SKIP       # do once; #!include_default
     ./Build manifest       # only files listed in MANIFEST will go into the distibution archive
     vi lib/App/Monport.pm  # increase VERSION string - search BUILD.PL for 'version' or 'version_from'
     vi Changes
@@ -23,13 +16,12 @@ Management summary
     perl Build.PL && ./Build && ./Build test && ./Build install && ./Build disttest && ./Build dist
     
     # Commit to GitHub and tag it with the version from Changes
-    git commit          # commit message from Changes
+    git commit -am 'commit message from Changes'
     git tag v<version>  # <version> from Changes, ex. v1.01
     git push --tags -u origin master
     
     # Upload the distro using CPAN::Uploader
     cpan-upload App-Monport-<version>.tar.gz --user reisinge
-
 
 # Creating a Module::Build Distribution
 
@@ -77,6 +69,10 @@ Measure test coverage
 
 * run `testcover` target: `./Build testcover`
 * turn the collected statistics into human-readable reports: `cover`
+
+Generate LICENSE using `App::Software::License`
+
+    software-license --holder 'Jozef Reisinger' --license Perl_5 --type notice --year $(date +"%Y") > LICENSE
 
 For more see:
 

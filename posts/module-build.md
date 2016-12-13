@@ -25,7 +25,7 @@ Management summary
     # Commit to GitHub and tag it with the version from Changes
     git commit          # commit message from Changes
     git tag v<version>  # <version> from Changes, ex. v1.01
-    git push
+    git push --tags -u origin master
     
     # Upload the distro using CPAN::Uploader
     cpan-upload App-Monport-<version>.tar.gz --user reisinge

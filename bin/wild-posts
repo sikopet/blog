@@ -29,8 +29,8 @@ for my $post ( sort @posts ) {
         # convert symlink to basename of its value
         $post = basename( readlink $post );
     } else {
-        warn "WARN: $post is not symlinked within any subdirectory\n"
-          unless symlink_exists($post);
+        #warn "WARN: $post is not symlinked within any subdirectory\n"
+        #  unless symlink_exists($post);
     }
 
     my $post_in_readme = grep $post eq $_, @readme_links;

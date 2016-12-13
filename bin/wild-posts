@@ -21,6 +21,7 @@ while (<$fh>) {
     push @readme_links, $1 if /\((posts\/[^\)]+)\)/;
 }
 
+my $problems;
 for my $post ( sort @posts ) {
 
     if ( -l $post ) {
@@ -39,8 +40,11 @@ for my $post ( sort @posts ) {
     if (not $post_in_readme) {
         say "Not in README:";
         say $readme_line if $readme_line;
+        $problems++;
     } 
 }
+
+exit 1 if $problems;
 
 # Is there at least one symlink, i.e. category, for this post?
 sub symlink_exists {

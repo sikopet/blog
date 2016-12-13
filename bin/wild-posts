@@ -9,7 +9,7 @@ use autodie;
 use File::Find;
 use File::Basename;
 
-#use lib 'lib';
+use lib 'lib';
 use Local::Display;
 
 my @posts;

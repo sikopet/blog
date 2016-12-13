@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Show posts (posts/*.md) that are not listed in README.md or have no symlink
 # within subdirectories.
 # Usage: blog$ ./bin/wild-posts

@@ -1,4 +1,5 @@
 language: perl
 install:
     - cpanm --quiet --notest .
+before_script: . ~/.bashrc
 script: ./bin/wild-posts

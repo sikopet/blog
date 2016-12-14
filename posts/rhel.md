@@ -6,3 +6,5 @@ Setup EPEL repository
 Search packages in available repos
 
     yum list "*syslog-ng*"
+
+http://wiki.reisinge.net/Linux1/InstalaciaLinuxuSpravaBalikov/RedHat

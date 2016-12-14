@@ -19,7 +19,7 @@ text file:
 
     base64 /dev/urandom | dd of=file.txt bs=1M count=100 iflag=fullblock
 
-emtpy file:
+empty file:
 -----------
 
     dd if=/dev/zero of=file.dat bs=1M count=100

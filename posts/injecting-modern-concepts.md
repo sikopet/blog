@@ -15,3 +15,5 @@
 * Start with something easy to build confidence while working out issues.
 * Ex. document => share documentation => automate (script) => automate more
   (Jenkins, RunDeck)
+
+http://sysadvent.blogspot.sk/2016/12/day-13-injecting-modern-concepts-into.html

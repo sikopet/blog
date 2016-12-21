@@ -68,14 +68,32 @@ DevOps without Devs
 
 It's possible to apply these DevOps principles to any complex process:
 
-* Turn chaotic processes into repeatable, measurable ones.
-* Talk about problems and issues within and between teams.
-* Try new things, measure the results, keep the successes, and learn from the failures.
-* Do work in small batches so we can learn and pivot along the way.
-* Drive configuration and infrastructure from machine readable sources kept under a source control system.
-* Always be improving.
-* Pull, don't push.
-* Build community.
+1) Turn chaotic processes into repeatable, measurable ones.
+* document process untill consitent => automate => self-service
+* don't do IT tasks but maintain the system that does the IT tasks
+
+2) Talk about problems and issues within and between teams.
+* don't obscure or suffer through problems
+
+3) Try new things, measure the results, keep the successes, and learn from the failures.
+* create a culture of learning and experimentation
+
+4) Do work in small batches so we can learn and pivot along the way.
+* it's better to deliver some results each day than to hold back and deliver the entire result at the end
+* you'll get feedback and fix problems sooner and avoid too much waisted effort
+
+5) Drive configuration and infrastructure from machine readable sources kept under a source control system.
+* IaC is flexible, testable and can benefit from software engineering techniques
+
+6) Always be improving.
+* always be identifying the next big bottleneck and experiment to fix it
+* don't wait for a major disaster
+
+7) Pull, don't push.
+* determine the desired weekly output, allocate resources, and pull the work through the system to completion
+
+8) Build community.
+* you are part (i.e. interdependent) of your company and world's IT community
 
 Source
 ------

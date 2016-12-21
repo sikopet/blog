@@ -72,14 +72,14 @@ Process mngt.
     CPU in order to allow a different process to run on a different CPU
 
 System calls and pseudodevices
-* *syscalls* (system calls)
+* system calls (*syscalls*) - `man 2`
  * the kernel's API
  * feature of kernel allowing user processes to request specific actions, ex.
      opening, reading and writing files, creating new processes
  * to execute a system call the kernel must temporarily switch to kernel mode,
      verify syscall's arguments and transfer data between user and kernel
      memory
-* (library calls)
+* C library functions (library calls) - `man 3`
  * functions provided by standard C library (`glibc` on Linux)
  * some library functions employ system calls, other perform tasks entirely within user space (ex. the string manipulation libraries)
  * often designed to provide a more user-friendly interface than the underlying

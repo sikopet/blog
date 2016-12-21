@@ -63,7 +63,22 @@ Culture that fosters:
 * continual experimentation (risk taking and learning from success and failure)
 * understanding that repetition and practice is the prerequisite to mastery
 
+DevOps without Devs
+-------------------
+
+It's possible to apply these DevOps principles to any complex process:
+
+* Turn chaotic processes into repeatable, measurable ones.
+* Talk about problems and issues within and between teams.
+* Try new things, measure the results, keep the successes, and learn from the failures.
+* Do work in small batches so we can learn and pivot along the way.
+* Drive configuration and infrastructure from machine readable sources kept under a source control system.
+* Always be improving.
+* Pull, don't push.
+* Build community.
+
 Source
 ------
 
 * The Phoenix Project
+* TPoSaNA

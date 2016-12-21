@@ -93,7 +93,7 @@ It's possible to apply these DevOps principles to any complex process:
 * determine the desired weekly output, allocate resources, and pull the work through the system to completion
 
 8) Build community.
-* you are part (i.e. interdependent) of your company and world's IT community
+* you, your team, your company and world's IT community are interdependent
 
 Source
 ------

@@ -4,7 +4,14 @@
 * used to classify (compare) a system based on how it responds to changes in input size
 * *O* is used because the growth rate of an algorithm's run-time is known as its
     *order*
-* the expression in the parenthesis defines the number of operations
+
+The expression in the parenthesis defines the number of operations. For example, if you binary search through 8 elements you will do 3 guesses at most (log 8). If you use simple search you will do 8 guesses at most (n). Also notice that the growth rate of the binary algorithm is much smaller:
+
+| # elements    | Simple search         | Binary search |
+|---------------|-----------------------|---------------|
+| 100           | 100 operations        | 7 operations  |
+| 10 000        | 10 000 operations     | 14 operations |
+| 1 000 000 000 | 10 000 000 operations | 32 operations |
 
 Sub-linear scaling
 * O(1) - **constant** - no matter the scale of the input, performance of the system

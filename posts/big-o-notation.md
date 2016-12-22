@@ -1,7 +1,7 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/big-o-notation.md) of this post.)
 
 * a mathematical way of describing *scaling* - e.g. growth rate of algorithms' run(ning) times
-* used to classify a system based on how it responds to changes in input size
+* used to classify (compare) a system based on how it responds to changes in input size
 * *O* is used because the growth rate of an algorithm's run-time is known as its
     *order*
 * the expression in the parenthesis defines the number of operations

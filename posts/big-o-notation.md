@@ -18,7 +18,7 @@ Super-linear scaling
     disproportionately
 * O(n^2) - quadratic (but everybody says **exponential** when they mean quadratic)
 
-The expression in the parenthesis defines the number of operations. For example, if you binary search through 100 elements you will do 7 (log 100) guesses at most. If you use simple search you will do 100 (n) guesses at most. Also notice that the growth rate of the binary algorithm is much smaller:
+The expression in the parenthesis defines the number of operations for the worst-case scenario. For example, if you binary search through 100 elements you will do 7 (log 100) guesses at most. If you use simple search you will do 100 (n) guesses at most. Also notice that the growth rate of the binary algorithm is much smaller:
 
 | # elements    | Simple search         | Binary search |
 |---------------|-----------------------|---------------|
@@ -28,7 +28,7 @@ The expression in the parenthesis defines the number of operations. For example,
 
 Resources
 
-* PoCSA, Appendix C
+* TPoCSA, Appendix C
 * Grokking Algorithms
 
 See also

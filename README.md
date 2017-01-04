@@ -112,7 +112,6 @@ Various
 * [Generate ASCII Table](posts/gen_ascii_table.md)
 * [Google Hacks](posts/google-hacks.md)
 * [HTML Parsing](posts/html-parsing.md)
-* [Injecting Modern Concepts](posts/injecting-modern-concepts.md)
 * [IT Audit Resources](posts/it-audit-resources.md)
 * [Numbers to Remember](posts/numbers-to-remember.md)
 * [Splunk](posts/splunk.md)

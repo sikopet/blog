@@ -18,10 +18,12 @@ Process every line in a file
 
 Process every line in a file on command line or stdin if no file
 
+    # Perl
     while (<>) { 
-        print $_;
+        print;
     }
     
+    # Python
     import fileinput
     for line in fileinput.input():
         print line
@@ -38,7 +40,7 @@ Slurp the whole file/stdin
     contents = file('filename.txt').read()
     all_input = sys.stdin.read()
 
-    # one string per line, newlines removed
+    # one string per line
     list_of_strings = file('filename.txt').readlines()
     all_input_as_list = sys.stdin.readlines()
 

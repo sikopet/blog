@@ -41,6 +41,13 @@ Built-in data types
         >>> regex = re.compile(r"[\t ]+")
         >>> regex.sub(" ", x2)
         'Do not meddle in the affairs of \nwizards'
+        
+        # raw strings do not interpret escape sequences
+        >>> print r'hello\nworld'
+        hello\nworld
+        >>> print 'hello\nworld'
+        hello
+        world
 
 * dictionaries (associative array functionality implemented using hash tables)
 

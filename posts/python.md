@@ -1,3 +1,5 @@
+* all Python objects are instances of one class or another
+
 Variables
 
 * types are associated with objects, not variables
@@ -11,21 +13,16 @@ Variables
 * can have any built-in data type, user-defined object, function, or module
     assigned to them
 
-Python synopsis
+Built-in data types
 
 * built-in data types can be manipulated with operators, built-in functions,
     library functions, or a data type's own methods
-* all Python objects are instances of one class or another
-
-Built-in data types
-
 * numbers
 * lists
 
         []
         [1]
         [1, "two", (3, 4), ["a", "b"]]
-
  * built-in functions: len, max, min
  * operators: in, +, * (create new list, original unchanged)
  * statements: del

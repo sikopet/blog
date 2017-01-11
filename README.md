@@ -96,12 +96,12 @@ Perl
 * [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
 * [Perl Tricks and Tips](posts/perl-tricks-tips.md)
-* [Perl to Python](posts/perl2python.md)
 * [Send Mail from Perl](posts/send-mail-from-perl.md)
 * [Testing a Perl Script](posts/testing-perl-script.md)
 
 Python
 
+* [Perl to Python](posts/perl2python.md)
 * [Python](posts/python.md)
 
 Various

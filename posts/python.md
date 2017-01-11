@@ -7,7 +7,6 @@ Variables
 
         x = "2"     # x is string
         x = int(x)  # x is now integer
-
 * don't have to be declared
 * can have any built-in data type, user-defined object, function, or module
     assigned to them

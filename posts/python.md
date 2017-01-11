@@ -18,6 +18,9 @@ Built-in data types
 * built-in data types can be manipulated with operators, built-in functions,
     library functions, or a data type's own methods
 * numbers
+* tuples (immutable lists)
+
+        (0, 1, 2)
 * lists
 
         []
@@ -27,8 +30,6 @@ Built-in data types
  * operators: in, +, * (create new list, original unchanged)
  * statements: del
  * methods: append, count, extend, index, insert, pop, remove, reverse, sort
-
-* tuples (immutable lists)
 * strings
 
         >>> x = "Do not meddle    in \the affairs of \nwizards"

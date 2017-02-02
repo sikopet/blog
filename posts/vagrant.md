@@ -10,6 +10,10 @@ this post.)
 * this is the *base* box (used to start the VM from the clean state)
 * base boxes are stored in `~/.vagrant.d/boxes`
 
+List boxes available locally
+
+    vagrant box list
+
 Initialize vagrant environment:
 
     mkdir ubuntu-trusty64

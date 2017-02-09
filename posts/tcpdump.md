@@ -79,7 +79,7 @@ Qualifiers
 * dst - communication destination
 * ip - IP protocol
 * tcp - TCP protocol
-* upd - UPP protocol
+* udp - UDP protocol
 * greater 1000 - data length is greater than 1000 bytes
 
 Logical operators

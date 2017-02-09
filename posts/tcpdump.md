@@ -90,12 +90,12 @@ Logical operators
 
 Examples
 
-* host 192.0.2.100 -  match traffic to/from 192.0.2.100
-* dst host 2001:db8:85a3::8a2e:370:7334 - match traffic to the IPv6 address
-* ether host 00:50:56:98:60:92 - match traffic to the specified MAC address
-* !port 22 - match any traffic not to/from port 22
-* icmp - match all ICMP traffic
-* !ip6 - match everything that is not IPv6
+* `host 192.0.2.100` -  match traffic to/from 192.0.2.100
+* `dst host 2001:db8:85a3::8a2e:370:7334` - match traffic to the IPv6 address
+* `ether host 00:50:56:98:60:92` - match traffic to the specified MAC address
+* `!port 22` - match any traffic not to/from port 22
+* `icmp` - match all ICMP traffic
+* `!ip6` - match everything that is not IPv6
 
 ---
 

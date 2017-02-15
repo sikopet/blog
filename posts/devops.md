@@ -112,7 +112,7 @@ Injecting modern concepts into legacy processes
 
 3) Once the process is defined, amplify the feedback loops. That is, make sure each step has a way to raise the visibility of problems so that they are worked on, not ignored. Collect measurements on the length, frequency, and failure rate of the steps. Make this data available to all involved.
 
-4) Find pain points and build business case
+4) Based on the feedback find pain points (steps that are the most error prone, unreliable, or slow) and build business case
 
 * What problem really needs to be solved?
 * Gather metrics showing how things can improve.

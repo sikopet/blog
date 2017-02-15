@@ -2,6 +2,8 @@ The opposite of DevOps is despair. -- Gene Kim
 
 If HW and SW are sufficiently fault tolerant, the remaining problems are human. -- TPoCSA
 
+---
+
 DevOps is a set of techniques to solve the chronic conflict between Development
 an IT Operations. This conflict causes:
 * increased time to market
@@ -14,6 +16,8 @@ The techniques are:
 * cultural norms
 * processes
 * practices
+
+DevOps is an emerging field in operations. The practice of DevOps typically appears in web application and cloud environments, but its influence is spreading to all parts of all industries.
 
 The principles behind DevOps work patterns are the same principles that
 transformed manufacturing.
@@ -123,4 +127,5 @@ Source
 
 * The Phoenix Project
 * TPoSaNA
+* TPoCSA
 * http://sysadvent.blogspot.sk/2016/12/day-13-injecting-modern-concepts-into.html

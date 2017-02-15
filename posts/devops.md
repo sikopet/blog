@@ -1,3 +1,5 @@
+The opposite of DevOps is despair. -- Gene Kim
+
 DevOps is a set of techniques to solve the chronic conflict between Development
 an IT Operations. This conflict causes:
 * increased time to market

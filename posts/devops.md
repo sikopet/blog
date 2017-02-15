@@ -106,17 +106,23 @@ It's possible to apply these DevOps principles to any complex process:
 Injecting modern concepts into legacy processes
 -----------------------------------------------
 
-1) Find pain points and build business case
+1) Identify the team’s value streams — processes done for the business, or requested by the business.
+
+2) Each step in the process needs to be clearly defined so that it can be done in a repeatable fashion. That is, a reasonably well-trained person should be able to do the step and the result will be the same as the result from another reasonably trained person.
+
+3) Once the process is defined, amplify the feedback loops. That is, make sure each step has a way to raise the visibility of problems so that they are worked on, not ignored. Collect measurements on the length, frequency, and failure rate of the steps. Make this data available to all involved.
+
+4) Find pain points and build business case
 
 * What problem really needs to be solved?
 * Gather metrics showing how things can improve.
 * Make business case showing why we need change and what we will get. 
 
-2) Find allies, share and collaborate
+5) Find allies, share and collaborate
 
 * Ex. find people outside your team who can benefit from the change.
 
-3) Start small and build from the bottom up
+6) Start small and build from the bottom up
 
 * Start with something easy to build confidence while working out issues.
 * Ex. document => share documentation => automate (script) => automate more

@@ -33,25 +33,24 @@ DevOps has been formed by:
 "The Three ways" are the underpinning principles that all the DevOps patterns
 can be derived from.
 
-The First Way
--------------
+The First Way - workflow (process)
+----------------------------------
 
 What
 * left-to-right flow of work from Dev to Ops to the customer
+* each step is done in a repeatable way
 * small batch sizes and intervals of works
 * never passing defects to downstream work centers
-* optimize for the global goals
+* local optimization must not degrade global performance (optimmize for global goals)
 
 Practices
-* continuous build
-* CI
-* CD
+* continuous build, CI, CD
 * environments on demand
 * limiting WIP
 * building safe (to change) systems
 
-The Second Way
---------------
+The Second Way - feedback (communication)
+-----------------------------------------
 
 What
 * constant flow of fast feedback from right-to-left at all stages of the values
@@ -64,12 +63,13 @@ Practices
 * shared goals and shared pain between Devs and Ops
 * pervasive telemetry
 
-The Third Way
--------------
+The Third Way - experimentation (trying new things)
+---------------------------------------------------
 
 Culture that fosters:
 * continual experimentation (risk taking and learning from success and failure)
 * understanding that repetition and practice is the prerequisite to mastery
+* faults are introduced into the system to increase resilience (fire drills)
 
 DevOps without Devs
 -------------------

@@ -1,5 +1,7 @@
 The opposite of DevOps is despair. -- Gene Kim
 
+If HW and SW are sufficiently fault tolerant, the remaining problems are human. -- TPoCSA
+
 DevOps is a set of techniques to solve the chronic conflict between Development
 an IT Operations. This conflict causes:
 * increased time to market

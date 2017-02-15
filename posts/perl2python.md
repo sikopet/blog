@@ -43,6 +43,13 @@ Slurp the whole file/stdin
     # one string per line
     list_of_strings = file('filename.txt').readlines()
     all_input_as_list = sys.stdin.readlines()
+    
+    # the with keyword closes the file automatically (even when the prog crashed)
+    with open('/etc/passwd') as file_object:
+        # read() returns an empty string when it reaches the end of a file
+        contents = file_object.read()
+        # rstrip() removes the extra blank line added by read()
+        print contents.rstrip()
 
 Write to a file
 

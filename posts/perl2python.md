@@ -15,6 +15,12 @@ Process every line in a file
 	
     for line in file('filename.txt'):  # or open("filename.txt")
         print line
+	
+    # the with keyword closes the file automatically (even when the prog crashes)
+    with open("/etc/passwd") as file_object:
+        for line in file_object:
+            # print statement adds a newline so we remove it with rstrip()
+            print line.rstrip()
 
 Process every line in a file on command line or stdin if no file
 
@@ -44,7 +50,6 @@ Slurp the whole file/stdin
     list_of_strings = file('filename.txt').readlines()
     all_input_as_list = sys.stdin.readlines()
     
-    # the with keyword closes the file automatically (even when the prog crashed)
     with open('/etc/passwd') as file_object:
         # read() returns an empty string when it reaches the end of a file
         contents = file_object.read()

@@ -442,7 +442,7 @@ Never, že si rýchlejšie naplníš brucho, ak nebudeš musieť plniť brucho i
 
 Okolo roku 2019 budeme mať v jedinom tisícdolárovom PC sústredený ekvivalent jedného ľudského mozgu, okolo roku 2030 bude mať jedno tisícdolárové PC výkon 1000 ľudských mozgov a okolo roku 2050 výkon 10^9 ľudských mozgov. -- Raymond C. Kurzweil (Quark 2/2000)
 
-Ryby musia pláva. -- Petronius
+Ryby musia plávať. -- Petronius
 
 Princíp prevencie: „Je lacnejšie predchádzať problémom efektívnymi opatreniami, ako riešiť ich následky s vysokými nákladmi.“
 

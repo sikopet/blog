@@ -30,6 +30,30 @@ This is how you clone a process in Perl:
         print "Child process:  PID=$$, PGRP=$pgrp, parent=$ppid\n";
     }
 
+Another way to create a subprocess in Perl is to use `system()` or `exec()`
+functions. system() executes cmd and waits for it to exit. Return code (rc) 0
+means success. Non-zero exit code indicates and error whose description can be
+found in `$?`.
+
+    # string will be passed to the shell for interpretation
+    $rc = system('cmd and args');
+    # shell won't get used but also you can't use shell metachars (ex. >)
+    $rc = system('cmd', 'and', 'args');
+
+The `exec()` is like the system() but *replaces* the current process with the
+cmd. The new process will have the same PID and will share the same STDIN,
+STDOUT, and STDERR.
+
+    my $child = fork();
+    die "Can't fork: $!" unless defined $child;
+    if ($child == 0) { # we are in the child now
+        # reopen STDOUT onto a file
+        open(STDOUT, ">", "log.txt") || die "open() error: $!";
+        # execute ls in the background
+        exec('ls', '-l');
+        die "exec() error: $!"; # shouldn't get here
+    }
+
 Sources:
 * ULSAH
 * Network Programming with Perl

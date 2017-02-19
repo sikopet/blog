@@ -39,6 +39,7 @@ Operating Systems
 * [PAM](posts/pam.md)
 * [RAID](posts/raid.md)
 * [RHEL](posts/rhel.md)
+* [Processes](posts/processes.md)
 * [Signals](posts/signals.md)
 * [syslog-ng](posts/syslog-ng.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)

@@ -16,18 +16,18 @@ within a single process.
 
 This is how you clone a process in Perl:
 
-    printf "%20s, PID=%s, PPID=%s, PGRP=%s\n",
-        "Parent before fork()", $$, getppid(), getpgrp();
+    my $pgrp = getpgrp();
+    print "PID=$$, PGRP=$pgrp\n";
 
     my $pid = fork();
     die "Can't fork: $!" unless defined $pid;
 
     if ( $pid > 0 ) {    # parent process
-        printf "%-20s, PID=%s, PPID=%s, PGRP=%s\n", 
-            "Parent after fork()", $$, getppid(), getpgrp();
+        my ( $ppid, $pgrp ) = ( getppid, getpgrp );
+        print "Parent process: PID=$$, PGRP=$pgrp, child=$pid\n";
     } else {             # child process
-        printf "%-20s, PID=%s, PPID=%s, PGRP=%s\n",
-            "Child", $$, getppid(), getpgrp();
+        my ( $ppid, $pgrp ) = ( getppid, getpgrp );
+        print "Child process:  PID=$$, PGRP=$pgrp, parent=$ppid\n";
     }
 
 Sources:

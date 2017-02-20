@@ -1,3 +1,5 @@
+The defaults are there for lazy systems programmers writing one-shot programs. -- perlstyle
+
 What is a good hash function? That's something you'll never have to worry about - old men (and women) with big beards sit in dark rooms and worry about that. -- Aditya Y. Bhargava
 
 The first version of everything is janky. Don't fear jankiness as long as you're solving a problem -- ALexis Ohanian

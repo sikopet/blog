@@ -56,7 +56,7 @@ Programming styles
 (Perl) program
 
 * statements are made up of expressions
-* expressions are made up of terms
+* expressions are made up of terms and operators
 * term (terminal) - leaf node of a syntax tree; "a thing that functions grammatically as an operand for the operators in an expression"
 
 Function

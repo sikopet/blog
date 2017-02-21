@@ -77,8 +77,10 @@ Control flow structures
 
 Exceptions (errors)
 
-* handled using the `try-except-finally-else` compound statement
-* any uncaught exception will cause the program to exit
+* special objects to manage errors that arise during execution
+* whenever en error occurs Python creates an exception object
+* if you handle the exception (by `try-except-finally-else` compound statement) the program continues to run
+* any uncaught exception will cause the program to exit and show a *traceback* describing the exception that was raised
 
 Calling to System
 

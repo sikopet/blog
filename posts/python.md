@@ -82,6 +82,29 @@ Exceptions (errors)
 * if you handle the exception (by `try-except-finally-else` compound statement) the program continues to run
 * any uncaught exception will cause the program to exit and show a *traceback* describing the exception that was raised
 
+Argument parsing and error handling
+
+    #!/usr/bin/env python3
+
+    import argparse
+
+    parser = argparse.ArgumentParser(description="This program's description")
+    parser.add_argument('-f', type=str, help='Name of file to open', required=True)
+
+    cmdargs = parser.parse_args()
+    f = cmdargs.f
+
+    try:
+        fh = open(f)
+        line = fh.readline()
+    # generic exception; more specific exceptions could be caught before
+    except Exception as e: 
+        print("There was an error: ", e)
+        exit(1)  # like tchrist said
+    else:
+        print("1st line from", f, "is", line, end="")
+        fh.close()
+
 Calling to System
 
 1) `os` library (module)
@@ -136,29 +159,6 @@ Threading
     # wait for all threads to complete by entering them
     for t in threads:
         t.join()
-
-Argument parsing and error handling
-
-    #!/usr/bin/env python3
-
-    import argparse
-
-    parser = argparse.ArgumentParser(description="This program's description")
-    parser.add_argument('-f', type=str, help='Name of file to open', required=True)
-
-    cmdargs = parser.parse_args()
-    f = cmdargs.f
-
-    try:
-        fh = open(f)
-        line = fh.readline()
-    # generic exception; more specific exceptions could be caught before
-    except Exception as e: 
-        print("There was an error: ", e)
-        exit(1)  # like tchrist said
-    else:
-        print("1st line from", f, "is", line, end="")
-        fh.close()
 
 Classes and instances
 

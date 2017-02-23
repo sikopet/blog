@@ -75,6 +75,7 @@ Perl
 
     for my $file (@filenames) {
         my $fh;
+	# C library/sys calls return undef on error and set $!
         unless ( open $fh, $file ) {
             warn "$file: could not be opened: $!\n";
             next;

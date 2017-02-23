@@ -186,5 +186,5 @@ Classes and instances
 
 Sources
 
-* The Quick Python Books
+* The Quick Python Book
 * Mastering Python (Safari video)

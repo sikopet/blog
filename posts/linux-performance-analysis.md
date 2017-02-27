@@ -218,14 +218,15 @@ Network I/O
 
 To see info on network connections:
 
-    # netstat -tulanp
+    # netstat -tulnap
     
 * `-t` - print TCP ports info
 * `-u` - print UDP ports info
 * `-l` - print listening ports
-* `-a` - print all active ports
 * `-n` - don't reverse-resolve IP addresses
+* `-a` - print all active ports
 * `-p` - print name and PID of the program owning the socket
+* `Recv-Q` and `Send-Q` columns show the number of bytes in the sockets' read and write buffers, respectively.
 
 To list all programs using or listening to ports (when run as regular user, only shows user's processes):
 

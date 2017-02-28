@@ -64,7 +64,7 @@ Memory mngt.
 
 Process mngt.
 * which processes are allowed to use CPU
-* *multitasking* - the appearance (they don't run at exactly the same time) of multiple processes running at the same time
+* *multitasking* - (the appearance of) multiple processes running at the same time
 * *context switch* - the act of one process giving up control of CPU to another process
  * the kernel is responsible for context switching
  * kernel runs between processes' time slices during a context switch

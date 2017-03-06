@@ -75,4 +75,4 @@ Snapshotting LV (e.g. for doing backups)
 
 See also
 
-* [Increase VMware LVM by adding new disk](https://www.rootusers.com/how-to-increase-the-size-of-a-linux-lvm-by-adding-a-new-disk/)
+* [Increase VMware LVM by adding new disk](https://www.rootusers.com/how-to-increase-the-size-of-a-linux-lvm-by-adding-a-new-disk/) (no downtime)

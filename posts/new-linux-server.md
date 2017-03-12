@@ -13,14 +13,14 @@ Things I do after installing a fresh Linux machine.
         update-rc.d nfs-common remove
         update-rc.d portmap remove
 
- 1. Install `fail2ban` to block ssh brute-force crackers: `aptitude install fail2ban`
-
  1. Install `ntp` to keep exact time: `aptitude install ntp`
 
 ## Optional
 
- * Setup [firewall](https://github.com/jreisinger/varia/blob/master/iptables.sh) to increase network security. Restart `fail2ban` after you install the firewall rules.
+ * Install `fail2ban` to block ssh brute-force crackers: `aptitude install fail2ban`
 
+ * Setup [firewall](https://github.com/jreisinger/varia/blob/master/iptables.sh) to increase network security. Restart `fail2ban` after you install the firewall rules.
+ 
  * Load some [personalization files and tools](https://github.com/jreisinger/dotfiles).
 
  * Setup `sudo` to increase security - add the following to `/etc/sudoers`:

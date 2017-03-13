@@ -209,9 +209,9 @@ Processes using file or directory on `/usr` filesystem (mount point):
 * `r`      - the process's root directory (set with `chroot`) in on the filesystem
 * `m`, `s` - the process has mapped a file or shared library
 
-List open files:
+List all open files:
 
-    $ lsof    # pipe output to pager or use options
+    $ lsof    # pipe output to pager, grep or use options
     
 Network I/O
 ===========

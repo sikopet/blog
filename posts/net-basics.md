@@ -2,13 +2,10 @@
 
 ## Networking models
 
-Models provide for standard interfaces between layers
+OSI layering provides for standard interfaces between layers and has these benefits:
 
-OSI layering benefits
-
-* less complex
-* easier to learn
-* easier to develop
+* less complex - higher layers are shielded from the complexity of the lower layers
+* easier to develop - ex. application "thinks" it's directly communicating with another application through the standard sockets API
 * multivendor interoperability - one vendor writes SW implementing higher layers (e.g. web browser), another vendor writes SW implemnting lower layers (e.g. M$'s built-in TCP/IP SW)
 
 ### OSI and TCP/IP models

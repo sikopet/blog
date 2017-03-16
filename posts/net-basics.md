@@ -2,14 +2,14 @@
 
 ## Networking models
 
+Models provide for standard interfaces between layers
+
 OSI layering benefits
 
- * less complex
- * standard interfaces between layers
- * easier to learn
- * easier to develop
- * multivendor interoperability
- * modular engineering - one vendor writes SW implementing higher layers (e.g. web browser), another vendor writes SW implemnting lower layers (e.g. M$'s built-in TCP/IP SW)
+* less complex
+* easier to learn
+* easier to develop
+* multivendor interoperability - one vendor writes SW implementing higher layers (e.g. web browser), another vendor writes SW implemnting lower layers (e.g. M$'s built-in TCP/IP SW)
 
 ### OSI and TCP/IP models
 

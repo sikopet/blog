@@ -171,7 +171,7 @@ LAN headers
 
 ### Point-to-Point WANs - OSI L1
 
-Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telephone company)
+Leased line -- a WAN circuit usually not owned by the data owner but by a telco (telecommunications company)
 
  * (leased line = leased circuit = link = serial link = serial line = point-to-point link = circuit)
 

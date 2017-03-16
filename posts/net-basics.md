@@ -313,7 +313,7 @@ ARP
 3. Client -- DHCP request message (to server)
 4. Server -- DHCP acknowledgement (to client)
 
-## TCP/IP transport, application and security
+## TCP/IP transport and application layer
 
 * Connection-oriented protocol -- requires an exchange of message (or preestablished correlation) before data transfer (ex. TCP)
 * Connectionless protocol -- does not require an exchange of message (or preestablished correlation) before data transfer (ex. UDP)
@@ -419,31 +419,6 @@ VoIP QoS demands
 * GET request -- request from client to get a file from a web server
 * server sends GET response with code 200 (meaning OK) together with file contents
 * 404 -- file not found
-
-### Network security
-
-Attacks
-
-* DOS (crashers, flooders) -- service disruption
-* recoinnaissance -- information gathering
-* access -- stealing data
-
-Attacker's tools
-
-* scanner -- application discovery by looking at TCP/UDP ports
-* spyware -- looks for private of sensitive info
-* worm -- self-propagating, can quickly replicate, often performs DOS attacks
-* keystroke logger
-* phishing -- website that looks like a legitimate website and collects credit card numbers
-* malware -- broad class of malicious viruses
-
-Security tools
-
-* Network admission control (NAC) -- monitor devices conntecting to LAN
-* PIX firewall => ASA - new generation of security HW
- * anti-x (anti-virus, anti-spyware, anti-spam, anti-phishing, URL filtering, e-mail filtering)
-* IDS (packets via monitoring port), IPS (sits in the packet's forwarding path and reacts to/filters traffic)
-* VPN -- like private leased line
 
 ---
 

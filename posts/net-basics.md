@@ -1,5 +1,3 @@
-# Networking Fundamentals
-
 ## Networking models
 
 OSI layering provides for standard interfaces between layers and has these benefits:

@@ -1,3 +1,5 @@
+Pri posteli mám asi štyridať kníh o behaní a tie čítam už roky stále dokola. Vždy v nich objavím niečo nové. -- Karol Petöcz
+
 In general, they do what you want, unless you want consistency. -- perlfunc
 
 IBM aims at constructing commercial IBM Q systems with ~50 qubits in the next few years to demonstrate capabilities beyond today's classical systems ... -- IBM 201703 (https://www-03.ibm.com/press/us/en/pressrelease/51740.wss)

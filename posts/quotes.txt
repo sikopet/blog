@@ -1,3 +1,5 @@
+Note that I'm measuring success here not so much in terms of numbers of users, but in terms of satisfaction of users. -- Larry Wall (http://www.wall.org/~larry/pm.html)
+
 Pri posteli mám asi štyridať kníh o behaní a tie čítam už roky stále dokola. Vždy v nich objavím niečo nové. -- Karol Petöcz
 
 In general, they do what you want, unless you want consistency. -- perlfunc

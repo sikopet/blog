@@ -379,8 +379,10 @@ Maximum transmission unit (MTU) - size of the largest L3 packet that can sit ins
 
 ### User Datagram Protocol (UDP) functions
 
-* multiplexing using ports
-* data transfer
+UDP adds just two features to IP:
+
+* port numbers for multiplexing
+* data checksum for error detection
 
 apps using UDP are tolerant of the data loss or have some application mechanism for lost data recovery
 

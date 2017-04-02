@@ -99,6 +99,7 @@ Perl
 * [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
 * [Perl Tricks and Tips](posts/perl-tricks-tips.md)
+* [scope.pl](posts/scope.pl) 
 * [Send Mail from Perl](posts/send-mail-from-perl.md)
 * [Testing a Perl Script](posts/testing-perl-script.md)
 

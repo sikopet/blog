@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+# Scope of Perl variables. For more see:
+# - Mastering Perl, ch. 7 Symbol Tables and Typeglobs
+# - Programming Perl, ch. 2
 use v5.14;
 use warnings;
 

@@ -3,8 +3,8 @@ Pacemaker - high-availability *resource manager* for small or large clusters
 * "dry run"
 * XML (CIB) wrapped in shell (`crmsh`) or GUI tools
 * combined with one of:
- * Corosync
- * Heartbeat
+    * Corosync
+    * Heartbeat
  
 Corosync
 * cluster executive

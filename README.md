@@ -108,6 +108,10 @@ Python
 * [Perl to Python](posts/perl2python.md)
 * [Python](posts/python.md)
 
+C
+
+* [Array of Structures](posts/array_of_structures.c)
+
 Various
 -------
 

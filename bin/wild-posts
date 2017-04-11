@@ -13,7 +13,7 @@ use lib 'lib';
 use Local::Display;
 
 my @posts;
-find( sub { push @posts, $File::Find::name if -f && ! -l && /\.(md|pl)$/ }, 'posts' );
+find( sub { push @posts, $File::Find::name if -f && ! -l && /\.(md|pl|py|sh|c)$/ }, 'posts' );
 
 my @readme_links;
 open my $fh, "<", "README.md";

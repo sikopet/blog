@@ -10,12 +10,12 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 
 1) Redirect the port 2222 on outcomp.sk to port 22 on incomp:
 
-    incomp:~$ ssh -R 2222:localhost:22 user@outcomp.sk
-    outcomp.sk:~$ while [ 1 ]; do date; sleep 300; done  # to keep the connection open
+        incomp:~$ ssh -R 2222:localhost:22 user@outcomp.sk
+        outcomp.sk:~$ while [ 1 ]; do date; sleep 300; done  # to keep the connection open
     
 2) Connect to intranet host:
 
-    outcomp.sk:~$ ssh -p 2222 root@localhost
+        outcomp.sk:~$ ssh -p 2222 root@localhost
 
 ## Forwarding local port
 

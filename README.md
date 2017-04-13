@@ -111,6 +111,7 @@ Python
 C
 
 * [Array of Structures](posts/array_of_structures.c)
+* [Concatenate String of Characters (Character Arrays)](posts/concat_string_of_chars.c)
 
 Various
 -------

@@ -1,4 +1,4 @@
-Every company is a technology company, regardless of what business they think they're in. A bank is just an IT company with a banking licence. -- Christopher Little
+Every company is a technology company, regardless of what business they think they're in. A bank is just an IT company with a banking license. -- Christopher Little
 
 Note that I'm measuring success here not so much in terms of numbers of users, but in terms of satisfaction of users. -- Larry Wall (http://www.wall.org/~larry/pm.html)
 

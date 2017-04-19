@@ -13,9 +13,9 @@ an IT Operations. This conflict causes:
 * technical debt
 
 The techniques are:
+* architecture and processes
+* technical practices
 * cultural norms
-* processes
-* practices
 
 DevOps is an emerging field in operations. The practice of DevOps typically appears in web application and cloud environments, but its influence is spreading to all parts of all industries.
 

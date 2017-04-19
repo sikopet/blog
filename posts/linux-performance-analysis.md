@@ -12,7 +12,7 @@ Sources of hardware information:
     /proc/meminfo
     
     hpacucli ctrl all show config [detail]  # HP physical RAID
-    lsblk                                   # installed on RHEL
+    lsblk [-o KNAME,TYPE,SIZE,MODEL]        # installed on RHEL/CentOS
     parted -l                               # supports both MBR (msdos) and GPT
     fdisk -l                                # only traditional MBR partition table
     cat /proc/diskstats

@@ -206,3 +206,4 @@ Sources
 
 * The Quick Python Book
 * Mastering Python (Safari video)
+* Think Python

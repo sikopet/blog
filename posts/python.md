@@ -109,15 +109,33 @@ Calling to System
 
 1) `os` library (module)
 
-    import os
-    os.getcwd()
-    os.getenv('PATH')
-    os.system('ls -la')
+        import os
+        os.getcwd()
+        os.getenv('PATH')
+        os.system('ls -la')
 
 2) `subprocess` module
 
-    from subprocess import call
-    call(['ls', '-la'])
+        from subprocess import call
+        call(['ls', '-la'])
+
+Filenames and Paths
+
+    #!/usr/bin/python
+
+    import os
+    import sys
+
+    def walk(dirname):
+    """Walk through a directory and print names of files"""
+        for name in os.listdir(dirname):
+            path = os.path.join(dirname, name)
+            if os.path.isfile(path):
+                print path
+            elif os.path.isdir(path):
+                walk(path)
+
+    walk(sys.argv[1])
 
 Threading
 

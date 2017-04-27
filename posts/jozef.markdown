@@ -115,3 +115,7 @@
 **1998**
 
 * got Unix shell access at university
+
+**1990s**
+
+* my parents bought us a Commodore 64 from Austria

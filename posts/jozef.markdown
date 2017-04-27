@@ -118,4 +118,5 @@
 
 **1990s**
 
-* my parents bought us a Commodore 64 from Austria
+* saw the Internet (WWW actually) at www.ulib.sk
+* my parents bought us a Commodore 64 from Austria (remember the smell of plastic while unboxing after waiting for couple of hours? :-)

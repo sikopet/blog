@@ -105,6 +105,7 @@ Perl
 
 Python
 
+* [Object Oriented Rectangles](posts/oo_rectangles.py)
 * [Perl to Python](posts/perl2python.md)
 * [Python](posts/python.md)
 

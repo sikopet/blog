@@ -1,3 +1,5 @@
+When asked to do 30 iterations of a task, an SRE should do the first two, get bored, and automate the rest. -- TPOCSA
+
 The rate at which organizations learn may soon become the only sustainable source of competetive advantage. -- Peter Senge
 
 Success is not final, failure is not fatal; it is the courage to continue that counts. -- Winston Churchill

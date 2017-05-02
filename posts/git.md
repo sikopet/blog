@@ -10,7 +10,7 @@ Introduce yourself to git with your name and public email address before doing a
     git config --global user.name "Jeffrey Lebowski"
     git config --global user.email "jlebowski@dude.org"
 
-Other useful things is to add some colors, alias(es), your editor and diff tool:
+You might also like to add some colors, alias(es), your editor and diff tool:
 
     git config --global color.ui true
     git config alias.lol 'log --pretty=oneline --abbrev-commit --graph --decorate'
@@ -23,7 +23,7 @@ You can see your configuration like this:
 
     $ git config --list    # output depends on whether you're in a git repo directory or not
 
-You can also manage you configuration via `~/.gitconfig` file.
+You can also manage you configuration via [~/.gitconfig](https://github.com/jreisinger/dotfiles/blob/master/.gitconfig) file.
 
 If you want to manage the current repository configuration just leave out the `--global` option or use the local config file `.git/config`.
 
@@ -72,7 +72,7 @@ The typical working cycle is:
 
         $ git diff
         
-4. Add any files/folders mentioned in step 2 (or new ones):
+4. Add any files/folders mentioned in step 2:
         
         $ git add file1 newfile2 newfolder3
 
@@ -88,7 +88,7 @@ The typical working cycle is:
 
 Alternatively, instead of running `git-add` beforehand, you can use
 
-    $ git commit -a -m "commit message"
+    $ git commit -am "commit message"
 
 which will automatically notice any modified (but not new) files, add them to the index, and commit, all in one step.
 

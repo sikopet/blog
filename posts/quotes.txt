@@ -1,4 +1,4 @@
-When asked to do 30 iterations of a task, an SRE should do the first two, get bored, and automate the rest. -- TPOCSA
+When asked to do 30 iterations of a task, an SRE should do the first two, get bored, and automate the rest. -- PoCSA
 
 The rate at which organizations learn may soon become the only sustainable source of competetive advantage. -- Peter Senge
 

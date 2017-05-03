@@ -1,8 +1,9 @@
-Technical books (roughly in order of decreasing quality and importance for me).
+Technical books (roughly in order of decreasing quality and current importance for me).
 
 Sysadmin
 --------
 
+* The Practice of Cloud System Administration [PoCSA], 2014
 * The Practice of System and Network Administration [PoSaNA], 2007
 * Automating System Administration with Perl, 2009
 
@@ -21,14 +22,29 @@ Configuration management
 * Learning Ansible, 2014
 * DevOps Automation Cookbook, 2015
 
-Programming
------------
+Perl
+----
 
 * Perl Cookbook, 2003
 * Programming Perl, 2012
 * Intermediate Perl, 2012
 * Learning Perl, 2011
+
+Shell
+-----
+
 * Classic Shell Scripting, 2005
+
+Python
+------
+
+* Think Python, 2015
+
+C
+-
+
+* Programming in C, 2014
+* K&R
 
 Security
 --------

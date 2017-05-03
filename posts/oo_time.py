@@ -12,6 +12,7 @@ def print_time(t):
 def is_after(t1, t2):
     return (t1.hour, t1.minute, t1.second) > (t2.hour, t2.minute, t2.second)
 
+# Prototype and patch
 def add_time(t1, t2):
     time = Time()
     time.hour = t1.hour + t2.hour
@@ -28,6 +29,7 @@ def add_time(t1, t2):
 
     return time
 
+# Designed development - involves high-level insight into the problem (time is actually a 60 base number!) and more planning
 def increment(t, seconds):
     return int_to_time( time_to_int(t) + seconds )
 

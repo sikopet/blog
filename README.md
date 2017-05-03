@@ -106,6 +106,7 @@ Perl
 Python
 
 * [Object Oriented Rectangles](posts/oo_rectangles.py)
+* [Object Oriented Time](posts/oo_time.py)
 * [Perl to Python](posts/perl2python.md)
 * [Python](posts/python.md)
 

@@ -55,6 +55,8 @@ Splunk data pipeline:
 
 These four stages of processing are generally split across two to four layers.
 
+![Splunk network diagram](https://answers.splunk.com/storage/attachments/369-splunk-common-network-ports-ver1.5.jpg)
+
 Forwarders (INPUT/PARSING)
 
 * consume data (generally on the machines where the data originates) and then forward it to an indexer

@@ -82,7 +82,7 @@ The choice of perl/python/ruby is usually driven by what is already in use at yo
 
 I think every Unix/Linux sysadmin should know shell (sh or bash) plus one of Perl, Ruby, Python. It doesn't matter which. -- Tom Limoncelli (http://everythingsysadmin.com/2012/06/salang.html)
 
-As a system grows, it will become more complex. That is a fact of life. Therefore, starting out as simple as possible delays the day when a system becomes too complex. -- PoSaNa
+As a system grows, it will become more complex. That is a fact of life. Therefore, starting out as simple as possible delays the day when a system becomes too complex. -- PoSaNA
 
 The best optimization strategy is to steal from what smarter people have already done. -- brian d foy (http://www.masteringperl.org/2015/05/computing-excellent-numbers/)
 

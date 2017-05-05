@@ -203,6 +203,13 @@ The more you tell Splunk, the better the chance for good results.
 
 Field extraction is one of the most costly parts of a search. `fields [+] <wc-field-list>` - include *only* the specified fields; occurs before field extraction => improved performance.
 
+Debugging
+---------
+    
+https://answers.splunk.com/answers/4075/whats-the-best-way-to-track-down-props-conf-problems.html
+
+    $SPLUNK_HOME/bin/splunk cmd btool props list <sourcetype>
+
 Resources
 
 * Implementing Splunk (Packt Publishing, 2015)

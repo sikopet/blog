@@ -77,7 +77,7 @@ Indexers (PARSING/INDEXING/SEARCHING)
 Search heads (SEARCH)
 
 * search management, i.e. coordinate searches across the set of indexers, consolidating the results and presenting them to the user
-* configuration mostly managed via web interface: Manager => Distributed
+* configuration mostly managed via web interface: Settings => Distributed
   Search
 
 Deployment server

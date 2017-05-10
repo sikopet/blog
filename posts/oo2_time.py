@@ -5,6 +5,16 @@ class Time():
     """Represents the time of day.
     attributes: hour, minute, second"""
 
+    # init method gets invoked when an object is instantiated
+    def __init__(self, hour=0, minute=0, second=0):
+        self.hour = hour
+        self.minute = minute
+        self.second = second
+
+    # gets invoked when you print an object (useful for debugging)
+    def __str__(self):
+        return "%.2d:%.2d:%.2d" % (self.hour, self.minute, self.second)
+
     def print_time(self):
         print "%.2d:%.2d:%.2d" % (self.hour, self.minute, self.second)
 
@@ -26,6 +36,14 @@ def int_to_time(seconds):
     t.hour, t.minute = divmod(minutes, 60)
     return t
 
+def print_attributes(obj):
+    for attr in vars(obj):
+        print(attr, getattr(obj, attr))
+
+time0 = Time()
+print time0
+print_attributes(time0)
+
 time1 = Time()
 time1.hour = 7
 time1.minute = 25
@@ -38,7 +56,7 @@ time2.second = 0
 
 time2 = time2.increment(60)
 
-for t in time1, time2:
+for t in time0, time1, time2:
     t.print_time()
 
 if time2.is_after(time1):

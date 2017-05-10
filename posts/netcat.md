@@ -22,7 +22,7 @@ Test remote HTTP server:
 
 (press Enter two times after the `GET` line)
 
-Check UDP port is open (`telnet` does not work for UDP ports) but keep in mind that you never know for sure what's the state if you don't get anything back (https://serverfault.com/questions/416205/testing-udp-port-connectivity)
+Check UDP port is open (`telnet` does not work for UDP ports) but keep in mind that you never know for sure what's the state if you don't get anything back (https://serverfault.com/questions/416205/testing-udp-port-connectivity):
 
     $ netcat -vu vpn.ist.ac.at 1194
     Connection to vpn.ist.ac.at 1194 port [udp/openvpn] succeeded!

@@ -7,7 +7,7 @@ I have some code and documetation hosted on GitHub and I sometimes need to searc
 
 2. Search through the data
 
-        # look for files
+        # Look for files
         find -type f -iname "*back*"
     
         # Search inside files

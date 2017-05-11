@@ -1,0 +1,8 @@
+title: Jozef Reisinger's Blog
+description: My technical documentation, notes and diary
+google_analytics: UA-6454975-1
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions

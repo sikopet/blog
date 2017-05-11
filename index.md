@@ -6,13 +6,13 @@ on [blogspot](http://jreisinger.blogspot.sk).
 
 See all blog posts [here](https://github.com/jreisinger/blog/blob/master/README.md), some of the key ones are  (I think):
 
-* [DevOps](posts/devops.md)
-* [Linux - the Big Picture](posts/linux-big-picture.md)
-* [Linux Performance Analysis](posts/linux-performance-analysis.md)
-* [Networking Basics](posts/net-basics.md)
-* [Testing a Perl Script](posts/testing-perl-script.md)
-* [tcpdump](posts/tcpdump.md)
-* [Big O Notation](posts/big-o-notation.md)
-* [Git](posts/git.md)
-* [Books](posts/books.md)
-* [Splunk](posts/splunk.md)
+* [DevOps](https://github.com/jreisinger/blog/blob/master/posts/devops.md)
+* [Linux - the Big Picture](https://github.com/jreisinger/blog/blob/master/posts/linux-big-picture.md)
+* [Linux Performance Analysis](https://github.com/jreisinger/blog/blob/master/posts/linux-performance-analysis.md)
+* [Networking Basics](https://github.com/jreisinger/blog/blob/master/posts/net-basics.md)
+* [Testing a Perl Script](https://github.com/jreisinger/blog/blob/master/posts/testing-perl-script.md)
+* [tcpdump](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
+* [Big O Notation](https://github.com/jreisinger/blog/blob/master/posts/big-o-notation.md)
+* [Git](https://github.com/jreisinger/blog/blob/master/posts/git.md)
+* [Books](https://github.com/jreisinger/blog/blob/master/posts/books.md)
+* [Splunk](https://github.com/jreisinger/blog/blob/master/posts/splunk.md)

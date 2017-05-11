@@ -16,6 +16,10 @@ Run `./bin/wild-posts` to make sure all posts are displayed in `README.md` and
 have symlinks within subdirectories. Use `./bin/findb` to search through blog
 posts.
 
+See also:
+
+* https://github.com/jreisinger/net-prog
+
 Operating Systems
 -----------------
 

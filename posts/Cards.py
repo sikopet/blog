@@ -16,12 +16,11 @@ class Card:
         self.rank = rank
 
     def __str__( self ):
-        return "%s of %s" %
+        return "%s of %s" % \
         (
-            # Use the attribute rank from the object self as an index into
-            # the list rank_names from the class Card.
+            # Use the attribute rank from the object self as an index
+            # into the list rank_names from the class Card.
             Card.rank_names[self.rank],
-            # class_variable.[instance_variable]
             Card.suit_names[self.suit]
         )
 

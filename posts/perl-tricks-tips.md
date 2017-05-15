@@ -1,3 +1,18 @@
+Handle STDIN vs. @ARGV
+----------------------
+
+    # https://varlogrant.blogspot.sk/2017/05/count-is-not-uniq.html
+    my %seen ;
+    
+    map { $seen{$_}++ } do {
+        @ARGV ? @ARGV : map { chomp ; $_ } <>;
+        } ;
+    
+    while ( my ( $k, $v ) = each %seen ) {
+        say join "\t", $v, $k ;
+        }
+
+
 Uninstall a module
 ------------------
 

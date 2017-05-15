@@ -24,5 +24,18 @@ class Card:
             Card.suit_names[self.suit]
         )
 
+    def __lt__( self, other ):
+        """Overloads less than (<)"""
+
+        # check the ranks
+        if self.rank < other.rank: return True
+        if self.rank > other.rank: return False
+
+        # ranks are the same ... check suits
+        return self.suit < other.suit
+
 queen_of_diamonds = Card( 1, 12 )
-print queen_of_diamonds
+jack_of_diamonds = Card( 1, 11 )
+
+if jack_of_diamonds < queen_of_diamonds:
+    print "%s is lower than %s" % (jack_of_diamonds, queen_of_diamonds)

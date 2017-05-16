@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # Think Python, Ch. 18 Inheritance
 
+import random
+
 class Card:
     """Represents a poker card"""
 
@@ -34,8 +36,38 @@ class Card:
         # ranks are the same ... check suits
         return self.suit < other.suit
 
-queen_of_diamonds = Card( 1, 12 )
-jack_of_diamonds = Card( 1, 11 )
+class Deck:
+    """Represents a deck of cards"""
 
-if jack_of_diamonds < queen_of_diamonds:
-    print "%s is lower than %s" % (jack_of_diamonds, queen_of_diamonds)
+    def __init__( self ):
+        """Initializes the Deck with 52 cards"""
+        self.cards = []
+        for suit in range(4):
+            for rank in range(1, 14):
+                card = Card(suit, rank)
+                self.cards.append(card)
+                
+    def __str__( self ):
+        """Returns a string representation of the deck"""
+        out = []
+        for card in self.cards:
+            out.append(str(card))
+        return " | ".join(out)
+
+    # A veneer [dyha] method
+    def shuffle( self ):
+        """Shuffles the cards in this deck"""
+        random.shuffle(self.cards)
+
+if __name__ == '__main__':
+
+    queen_of_diamonds = Card( 1, 12 )
+    jack_of_diamonds = Card( 1, 11 )
+    if jack_of_diamonds < queen_of_diamonds:
+        print "%s is lower than %s" % (jack_of_diamonds, queen_of_diamonds)
+
+    deck = Deck()
+    deck.shuffle()
+    print
+    print "Shuffled deck: "
+    print deck

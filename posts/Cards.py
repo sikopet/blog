@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # Think Python, Ch. 18 Inheritance
+# http://greenteapress.com/thinkpython2/code/Card.py
 
 import random
 

@@ -130,10 +130,7 @@ Filtering
 	>>> [ s for s in strings if s.isupper() ]
 	['BC', 'EF']
 
-Generator expression
---------------------
-
-This time we go from Python to Perl ...
+Generator expression (this time we go from Python to Perl ...)
 
 	>>> g = ( n ** 2 for n in range(5) )
 	>>> next(g)

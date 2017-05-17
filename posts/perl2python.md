@@ -130,6 +130,23 @@ Filtering
 	>>> [ s for s in strings if s.isupper() ]
 	['BC', 'EF']
 
+Generator expression
+--------------------
+
+This time we go from Python to Perl ...
+
+	>>> g = ( n ** 2 for n in range(5) )
+	>>> next(g)
+	0
+	>>> g.next()
+	1
+	$ perl -le 'print join ", ", map $_ ** 2, 0 .. 4'
+	0, 1, 4, 9, 16
+
+	>>> sum( n ** 2 for n in range(5) )
+	30
+	$ perl -le '$sum += $_ for map $_ ** 2, 0 .. 4; print $sum'
+	30
 
 Resources:
 

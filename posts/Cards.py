@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # Think Python, Ch. 18 Inheritance
-# http://greenteapress.com/thinkpython2/code/Card.py
 
 import random
 
@@ -47,7 +46,7 @@ class Deck:
             for rank in range(1, 14):
                 card = Card(suit, rank)
                 self.cards.append(card)
-                
+
     def __str__( self ):
         """Returns a string representation of the deck"""
         out = []
@@ -59,6 +58,15 @@ class Deck:
     def shuffle( self ):
         """Shuffles the cards in this deck"""
         random.shuffle(self.cards)
+
+# Inherit methods from Deck class
+class Hand(Deck):
+    """Represents a hand of cards"""
+
+    # override method from Deck
+    def __init__ ( self, label = '' ):
+        self.cards = []
+        self.label = label
 
 if __name__ == '__main__':
 
@@ -72,3 +80,7 @@ if __name__ == '__main__':
     print
     print "Shuffled deck: "
     print deck
+
+    hand = Hand('new hand')
+    print
+    print hand.label

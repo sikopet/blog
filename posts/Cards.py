@@ -44,7 +44,7 @@ class Deck:
         self.cards = []
         for suit in range(4):
             for rank in range(1, 14):
-                card = Card(suit, rank)
+                card = Card(suit, rank) # Deck HAS-A Card
                 self.cards.append(card)
 
     def __str__( self ):
@@ -60,7 +60,7 @@ class Deck:
         random.shuffle(self.cards)
 
 # Inherit methods from Deck class
-class Hand(Deck):
+class Hand(Deck): # Hand IS-A kind of Deck
     """Represents a hand of cards"""
 
     # override method from Deck

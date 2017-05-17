@@ -102,20 +102,31 @@ Python
         except EmptyFileError as error:
             print(error)
 
-map() => list comprehension
----------------------------
+Shortcuts
+---------
 
-Perl
+Mapping
 
-    perl -we '@a_list = qw(1 2 3 5); print map { $_ * 2 } @a_list'
+	# map()
+	$ perl -le 'print join ", ", map ucfirst, @ARGV' jane john jack
+	Jane, John, Jack
+	
+	# list comprehension
+    >>> names = ['jane', 'john', 'jack']
+	>>> [ s.capitalize() for s in names ]
+	['Jane', 'John', 'Jack']
 
-Python
+Filtering
 
-    >>> a_list = [1, 2, 3, 5]
-    >>> a_list
-    [1, 2, 3, 5]
-    >>> [ elem * 2 for elem in a_list ]
-    [2, 4, 6, 10]
+	# grep()
+	$ perl -le 'print join ", ", grep $_ eq uc $_, @ARGV' a BC Cd d EF
+	BC, EF
+	
+	# list comprehension
+	>>> strings = ['a', 'BC', 'Cd', 'd', 'EF']
+	>>> [ s for s in strings if s.isupper() ]
+	['BC', 'EF']
+
 
 Resources:
 

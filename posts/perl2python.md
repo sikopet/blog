@@ -1,5 +1,8 @@
 Going from Perl to Python ...
 
+Variables
+---------
+
 Data types:
 
     Perl     Python             Example
@@ -130,6 +133,7 @@ Filtering
 
 Resources:
 
+* http://thinkpython2.com
 * http://everythingsysadmin.com/perl2python.html
 * Python: Essential Reference
 * The Quick Python Book

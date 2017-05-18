@@ -1,3 +1,5 @@
+Before I became an academic, in the first dozen years of my working life, I would change jobs every year or three just so I kept moving and didn't get bored. -- Ross Anderson (https://www.edge.org/conversation/ross_anderson-the-threat)
+
 I expect that Perl's relative importance will probably decline in the future, even while its developer base continues to increase in absolute size, because its competitors will grow faster than Perl does. -- Raymond (http://www.salon.com/1998/10/13/feature_269/)
 
 When asked to do 30 iterations of a task, an SRE should do the first two, get bored, and automate the rest. -- PoCSA

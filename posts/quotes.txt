@@ -1,3 +1,5 @@
+People who are able to live digitally enhanced lives, in the sense that they can use all the available tools to the fullest extent, are very much more productive and capable and powerful than those who are still stuck in meatspace. -- Ross Anderson (https://www.edge.org/conversation/ross_anderson-the-threat)
+
 Before I became an academic, in the first dozen years of my working life, I would change jobs every year or three just so I kept moving and didn't get bored. -- Ross Anderson (https://www.edge.org/conversation/ross_anderson-the-threat)
 
 I expect that Perl's relative importance will probably decline in the future, even while its developer base continues to increase in absolute size, because its competitors will grow faster than Perl does. -- Raymond (http://www.salon.com/1998/10/13/feature_269/)

@@ -1,9 +1,9 @@
 DNS database
 ============
 
-Zone - a domain minus its subdomain(s)
+Zone - a portion of the DNS namespace that has been delegated to other servers/administrators.
 
-A zone's DNS database (zone files) - set of text files maintained by the sysadmin on the zone's master name server.
+A zone's DNS database - set of text files (zone files) maintained by the sysadmin on the zone's master name server.
 
 Zone files have two types of entries:
 

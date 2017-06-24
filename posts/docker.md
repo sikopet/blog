@@ -22,7 +22,33 @@ the files required to run a Dockerized application
 Docker container - a Linux container that has been instantiated from a Docker
 image
 
+Working with Docker images
+--------------------------
+
+To launch a container
+
+* download a public image
+* create your own
+
+To create a custom image you need a `Dockerfile` - each line in a Dockerfile creates a new image layer that is stored by Docker
+
+Building an image
+
+    git clone https://github.com/spkane/docker-node-hello.git
+    docker build -t example/docker-node-hello:latest .
+
+Running an image
+
+    # 'example/docker-node-hello:latest' is a tag
+    docker run -d -p 8080:8080 example/docker-node-hello:latest
+
+Stopping an image
+
+    docker ps
+    docker stop <container_id>
+
 Sources
+-------
 
 * Docker: Up & Running (2015)
 

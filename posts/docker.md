@@ -47,6 +47,46 @@ Stopping an image
     docker ps
     docker stop <container_id>
 
+Working with Docker containers
+------------------------------
+
+A container is a self-contained execution environment that shares the kernel of
+the host system and which is (optionally) isolated from other containers in the
+system.
+
+Containers are a *Linux only* technology.
+
+Creating a container
+
+    docker run --rm -ti ubuntu /bin/bash 
+
+* run - create + start
+* --rm - delete the container when it exits
+* -t - allocate a pseudo-TTY
+* -i - interactive session, e.i. keep STDIN open
+* /bin/bash - executable to run within the container
+
+List all containers
+
+    docker ps -a
+
+Remove container
+
+    docker rm <container_id>
+
+List all images
+
+    docker images
+
+Remove image and all associated filesystem layers
+
+    docker rmi <images_id>
+
+Delete all containers/images on your Docker host
+
+    docker rm  $(docker ps -a -q)
+    docker rmi $(docker images -q -)
+
 Sources
 -------
 

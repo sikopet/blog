@@ -60,27 +60,21 @@ Creating a container
 
     docker run --rm -ti ubuntu /bin/bash 
 
-* run - create + start
+* run - `create` + `start`
 * --rm - delete the container when it exits
 * -t - allocate a pseudo-TTY
 * -i - interactive session, e.i. keep STDIN open
 * /bin/bash - executable to run within the container
 
-List all containers
-
-    docker ps -a
-
 Remove container
 
+    docker ps -a
     docker rm <container_id>
 
-List all images
+Remove image
 
     docker images
-
-Remove image and all associated filesystem layers
-
-    docker rmi <images_id>
+    docker rmi <image_id>
 
 Delete all containers/images on your Docker host
 

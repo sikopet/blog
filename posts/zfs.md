@@ -86,8 +86,9 @@ Unmount the disk
 
 Mount the disk
 
-    zpool import [-f] extusb      # when mounted on another host
-    /etc/init.d/zfs-fuse restart  # when mounted on the same host
+    zpool import [-f] extusb
+    /etc/init.d/zfs-fuse restart
+    zpool list # you should see the 'extusb' pool
     encfs /extusb/backup/.encrypted /extusb/backup/decrypted
 
 Backup data

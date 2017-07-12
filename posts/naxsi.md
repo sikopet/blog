@@ -99,4 +99,5 @@ location / {
 `systemctl reload nginx`
 
 More
+- https://github.com/nbs-system/naxsi
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-naxsi-on-ubuntu-14-04

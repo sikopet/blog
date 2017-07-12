@@ -49,7 +49,7 @@ location / {
 Naxsi rules
 -----------
 
-1) main rules (`MainRule`)
+(1) main rules (`MainRule`)
 
 - generic signatures for detecting malicious activities
 - applied globally for the server (are part of `http` block)
@@ -58,7 +58,7 @@ Naxsi rules
 ```
 MainRule "str:--" "msg:mysql comment (--)" "mz:BODY|URL|ARGS|$HEADERS_VAR:Cookie" "s:$SQL:4" id:1007;
 ```
-- `MainRule` directive to beging the rule with
+- `MainRule` directive to begin the rule with
 - `str:` the signature will be a plain string (other option is `rx`)
 - `msg:` comment
 - `mz:` match zone, or which part of the request will be inspected
@@ -66,7 +66,7 @@ MainRule "str:--" "msg:mysql comment (--)" "mz:BODY|URL|ARGS|$HEADERS_VAR:Cookie
    added to different counters `SQL` (SQL attacks), `RFI` (remote file inclusion
    attacks), ...
 
-2) basic rules (`BasicRule`)
+(2) basic rules (`BasicRule`)
 
 - used mainly for whitelisting false positive signatures and rules
 - applied per location

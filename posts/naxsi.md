@@ -24,7 +24,7 @@ SecRulesEnabled;
 DeniedUrl "/50x.html";
 
 # . set the threshold for different counters
-# (the lower the value the more aggresive the rules are)
+# (the lower the value the more aggresive the rule is)
 CheckRule "$SQL >= 8" BLOCK;
 CheckRule "$RFI >= 8" BLOCK;
 CheckRule "$TRAVERSAL >= 4" BLOCK;
@@ -32,10 +32,8 @@ CheckRule "$EVADE >= 4" BLOCK;
 CheckRule "$XSS >= 8" BLOCK;
 ```
 
-`naxsi.rules` has to be loaded per location or server block, ex.:
+`naxsi.rules` has to be loaded per location or server block, ex. /etc/nginx/sites-enabled/default:
 ```
-## /etc/nginx/sites-enabled/default
-
 location / {
     # First attempt to server request as file, then as directory,
     # then fall back to displaying a 404

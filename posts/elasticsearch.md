@@ -12,9 +12,9 @@
 
 Data organization (layout):
 - [logical](https://raw.github.com/jreisinger/blog/master/files/es_logical.jpg):
-  for apps
+  important for for apps
 - [physical](https://raw.github.com/jreisinger/blog/master/files/es_physical.jpg):
-  for admins as it determines performance, scalability, and availability
+  important for admins as it determines performance, scalability, and availability
 
 More
 - Elasticsearch in Action (2015)

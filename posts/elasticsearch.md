@@ -13,8 +13,8 @@
 Data organization (layout):
 - [logical](https://raw.github.com/jreisinger/blog/master/files/es_logical.jpg):
   for apps
-- physical: for admins as it determines performance, scalability, and
-  availability
+- [physical](https://raw.github.com/jreisinger/blog/master/files/es_physical.jpg):
+  for admins as it determines performance, scalability, and availability
 
 More
 - Elasticsearch in Action (2015)

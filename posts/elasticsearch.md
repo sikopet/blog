@@ -11,7 +11,7 @@ Intro
 - unlike relational database, which stores data in records or rows, ES stores
   data in documents
 - relational DB (SQL): row, table, column, database
-- ES (noSQL): document, type, field/value, index
+- ES (noSQL): document, type, field: value, index
 
 Data organization (layout)
 --------------------------
@@ -24,7 +24,7 @@ Data organization (layout)
 Types
 - logical containers for documents (similar to tables which are containers for
   rows)
-- the definition of fields in each type is called *mapping* (ex. `name` would
+- the definition of fields in each type is called *mapping*, ex. `name` would
   be mapped as a `string`, but the `geolocation` field under location as a
   special `geo_point` type:
 ```
@@ -38,6 +38,9 @@ Types
 }
 ```
 
+Getting mappings
+
+    curl 'localhost:9200/<index>/_mapping/?pretty'
 
 More
 ----

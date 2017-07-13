@@ -7,5 +7,14 @@
   across the available servers in your cluster
 - unlike relational database, which stores data in records or rows, ES stores
   data in documents
-- relational DB (SQL): tables, columns, rows
-- ES (noSQL): documents, keys, values
+- relational DB (SQL): row, table, column, database
+- ES (noSQL): document, type, key/value, index
+
+Data organization (layout):
+- [logical](https://raw.github.com/jreisinger/blog/master/files/es_logical.jpg):
+  for apps
+- physical: for admins as it determines performance, scalability, and
+  availability
+
+More
+- Elasticsearch in Action (2015)

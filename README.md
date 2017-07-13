@@ -20,8 +20,8 @@ See also:
 
 * https://github.com/jreisinger/net-prog
 
-Operating Systems
------------------
+Operating Systems and Apps
+--------------------------
 
 * [AWS](posts/aws.md)
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)

@@ -8,7 +8,7 @@
 - unlike relational database, which stores data in records or rows, ES stores
   data in documents
 - relational DB (SQL): row, table, column, database
-- ES (noSQL): document, type, key/value, index
+- ES (noSQL): document, type, field/value, index
 
 Data organization (layout):
 - [logical](https://raw.github.com/jreisinger/blog/master/files/es_logical.jpg):

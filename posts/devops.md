@@ -133,7 +133,7 @@ Injecting modern concepts into legacy processes
 Source
 ------
 
-* The Phoenix Project
-* TPoSaNA
-* TPoCSA
+* [The Phoenix Project](https://itrevolution.com/book/the-phoenix-project/)
+* [TPoSaNA](http://the-sysadmin-book.com/)
+* [TPoCSA](http://the-cloud-book.com/)
 * http://sysadvent.blogspot.sk/2016/12/day-13-injecting-modern-concepts-into.html

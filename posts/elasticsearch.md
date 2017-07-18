@@ -41,6 +41,13 @@ Types
 Getting mappings
 
     curl 'localhost:9200/<index>/_mapping/?pretty'
+    
+Searching
+---------
+
+Show last **10** events:
+
+    curl -XPOST "http://localhost:9200/nxapi/events/_search?pretty=true&sort=date:asc"
 
 More
 ----

@@ -77,7 +77,7 @@ DevOps without Devs
 It's possible to apply these DevOps principles to any complex process:
 
 1) Turn chaotic processes into repeatable, measurable ones.
-* document process untill consitent => automate => self-service
+* document process until consistent => automate => self-service
 * don't do IT tasks but maintain the system that does the IT tasks
 
 2) Talk about problems and issues within and between teams.
@@ -125,7 +125,7 @@ Injecting modern concepts into legacy processes
 6) Start small and build from the bottom up
 
 * Start with something easy to build confidence while working out issues.
-* Ex. document => share documentation => automate (script) => automate more
+* Ex.: document => share documentation => automate (script) => automate more
   (Jenkins, RunDeck)
 
 Source

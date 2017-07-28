@@ -1,3 +1,7 @@
+`su` to a user without shell
+
+    su - www-data -s /bin/bash -c 'ulimit -Sn'
+
 Count number of lines if Perl files
 
     for f in $(ack -f --perl); do wc -l $f; done | \
@@ -49,4 +53,4 @@ See also
 
 * http://www.commandlinefu.com
 * http://www.catonmat.net/download/perl1line.txt
-* http://jreisinger.duckdns.org/PerlOneLiners
+* http://wiki.reisinge.net/PerlOneLiners

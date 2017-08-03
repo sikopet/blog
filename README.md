@@ -16,10 +16,6 @@ Run `./bin/wild-posts` to make sure all posts are displayed in `README.md` and
 have symlinks within subdirectories. Use `./bin/findb` to search through blog
 posts.
 
-See also:
-
-* https://github.com/jreisinger/net-prog
-
 Operating Systems and Apps
 --------------------------
 
@@ -58,6 +54,7 @@ Operating Systems and Apps
 Networking
 ----------
 
+* see also https://github.com/jreisinger/net-prog
 * [Networking Basics](posts/net-basics.md)
 * [Switching](posts/switching.md)
 * [VLANs](posts/vlans.md)
@@ -112,6 +109,7 @@ Perl
 
 Python
 
+* see also https://github.com/jreisinger/python
 * [Perl to Python](posts/perl2python.md)
 * [Python](posts/python.md)
 ---
@@ -119,6 +117,10 @@ Python
 * [Object Oriented (not really) Time](posts/oo_time.py)
 * [Real Object Oriented Time](posts/oo2_time.py)
 * [Inheritance (Cards)](posts/Cards.py)
+
+Go
+
+* see also https://github.com/jreisinger/go
 
 C
 

@@ -27,6 +27,7 @@ Operating Systems and Apps
 * [Generate File of Defined Size](posts/gen_rand_file.md)
 * [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)
+* [Kafka](posts/kafka.md)
 * [Kerberos](posts/kerberos.md)
 * [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)

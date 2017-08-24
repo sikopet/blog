@@ -17,7 +17,7 @@ Data organization (layout)
 --------------------------
 
 - [logical](https://raw.github.com/jreisinger/blog/master/files/es_logical.jpg):
-  important for for apps
+  important for apps
 - [physical](https://raw.github.com/jreisinger/blog/master/files/es_physical.jpg):
   important for admins as it determines performance, scalability, and availability
 

@@ -35,7 +35,7 @@ CheckRule "$XSS >= 8" BLOCK;
 `naxsi.rules` has to be loaded per location or server block, ex. /etc/nginx/sites-enabled/default:
 ```
 location / {
-    # First attempt to server request as file, then as directory,
+    # First attempt to serve request as file, then as directory,
     # then fall back to displaying a 404
     try_files $uri $uri/ =404;
 

@@ -45,7 +45,7 @@ Access stdin directly
 
 Slurp the whole file/stdin
 
-    # in a string
+    # into a string
     contents = file('filename.txt').read()
     all_input = sys.stdin.read()
 
@@ -72,13 +72,15 @@ Write to a file
 Error handling
 --------------
 
-Perl
+Warnings
 
+    # Perl...
+    
     my @filenames = qw(README.md y empty);
 
     for my $file (@filenames) {
         my $fh;
-	# C library/sys calls return undef on error and set $!
+	    # C library/sys calls return undef on error and set $!
         unless ( open $fh, $file ) {
             warn "$file: could not be opened: $!\n";
             next;
@@ -86,8 +88,8 @@ Perl
         warn "$file: is empty\n" unless readline $fh;
     }
 
-Python
-
+    # Python...
+    
     class EmptyFileError(Exception):
         pass
 
@@ -130,7 +132,7 @@ Filtering
 	>>> [ s for s in strings if s.isupper() ]
 	['BC', 'EF']
 
-Generator expression (this time we go from Python to Perl ...)
+Generator expression (this time we go from Python to Perl...)
 
 	>>> g = ( n ** 2 for n in range(5) )
 	>>> next(g)

@@ -54,7 +54,7 @@ Don't try to write perfect code; write code that works, and then decide whether 
 
 Most people think you automate things for speed, and you certainly can, but consistency was a much larger driver around automation for us. -- Michael Stahnke (http://sysadvent.blogspot.sk/2016/12/day-7-what-we-can-learn-about-change.html)
 
-Have a backout plan when it makes sense, recognize when it doesn't. Rollback, withou time-travel, is basically a myth. -- Michael Stahnke (http://sysadvent.blogspot.sk/2016/12/day-7-what-we-can-learn-about-change.html)
+Have a backout plan when it makes sense, recognize when it doesn't. Rollback, without time-travel, is basically a myth. -- Michael Stahnke (http://sysadvent.blogspot.sk/2016/12/day-7-what-we-can-learn-about-change.html)
 
 Write down the complete, detailed plan, and then make sure at least one other person reviews it. -- Chris McDermott (http://sysadvent.blogspot.sk/2016/12/day-4-change-management-keep-it-simple.html)
 

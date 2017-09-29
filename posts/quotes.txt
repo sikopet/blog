@@ -332,7 +332,7 @@ The race is on to own certain classes of core data: location, identity, calendar
 
 To a large degree, you need to find the *tool that fits your brain best*. Perl and Python can do basically the same things, but they do them differently. Try both out (and try Ruby) and see which one works for you. -- Dave Rolsky: Python v. Perl (http://stackoverflow.com/questions/150043/python-v-perl)
 
-Laziness = a tendency to judiciously exploit available resources to accomplish your programming goals with minimal effort. -- Minimal Perl for UNIX and Linux People</a> (in the Perl community - Laziness = using your energy efficiently)
+Laziness = a tendency to judiciously exploit available resources to accomplish your programming goals with minimal effort. -- Minimal Perl for UNIX and Linux People (in the Perl community - Laziness = using your energy efficiently)
 
 Always trust your users. Never trust their input. -- Fenwick, Richardson, Robert: Web Development with Perl (http://perltraining.com.au/notes/webdev.pdf)
 

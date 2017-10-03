@@ -60,7 +60,7 @@ Roles with variables:
         - www.192.168.33.10.xip.io
 ```
 
-See https://github.com/ansiblebook/ansiblebook/tree/master/roles/playbooks/roles for more.
+See [roles](https://github.com/ansiblebook/ansiblebook/tree/master/roles/playbooks/roles) for more.
 
 Source
 ------

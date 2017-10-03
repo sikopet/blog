@@ -65,9 +65,17 @@ See [roles](https://github.com/ansiblebook/ansiblebook/tree/master/roles/playboo
 Tips and tricks
 ---------------
 
-To change the way Ansible identifies that a task has changed state or failed:
-* `changed_when`
-* `failed_when`
+Change the way Ansible identifies that a task has changed state (`changed_when`):
+```
+- name: initialize the database
+    django_manage:
+      command: createdb --noinput --nodata
+      app_path: "{{ proj_path }}"
+      virtualenv: "{{ venv_path }}"
+    register: result
+    #changed_when: '"Creating tables" in result.out|default("")'
+    changed_when: result.out is defined and "Creating tables" in result.out
+```
 
 View the output of a task:
 ```

@@ -65,4 +65,4 @@ See https://github.com/ansiblebook/ansiblebook/tree/master/roles/playbooks/roles
 Source
 ------
 
-* Ansible: Up and Running (2017)
+* [Ansible: Up and Running](https://github.com/ansiblebook/ansiblebook) (2017)

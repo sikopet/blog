@@ -1,11 +1,13 @@
 Variables
 ---------
 
-Inventory file
+In inventory file
+
 * ok if you don't have too many hosts
 * only Booleans and strings (not lists and dictionaries)
 
-`host_vars/nginx01.example.org`, `group_vars/production`
+In `host_vars/nginx01.example.org`, `group_vars/production`
+
 * separate file for each host or group
 
 ```
@@ -32,7 +34,7 @@ Primary mechanism for breaking a playbook into multiple files
 * defaults (default variables that can be everridden)
 * meta (dependency info about a role)
 
-If you think you might want to change the value of a variable in a role (via `vars` section of a play), use a default variable (`defaults`). If you don't want it to change, use a regular variable (`vars`).
+If you think you might want to change the value of a variable in a role (via `vars` section of a play or role's arguments), use a default variable (`defaults`). If you don't want it to change, use a regular variable (`vars`).
 
 Roles with variables:
 ```

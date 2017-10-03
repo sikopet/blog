@@ -62,6 +62,30 @@ Roles with variables:
 
 See [roles](https://github.com/ansiblebook/ansiblebook/tree/master/roles/playbooks/roles) for more.
 
+Tips and tricks
+---------------
+
+To change the way Ansible identifies that a task has changed state or failed:
+* `changed_when`
+* `failed_when`
+
+View the output of a task:
+```
+- name: initialize the database
+  django_manage:
+    command: createdb --noinput --nodata
+    app_path: "{{ proj_path }}"
+    virtualenv: "{{ venv_path }}"
+  failed_when: False # so the execution doesn't stop on failure
+  register: result   # save the output to a variable
+  
+# print out the variable...
+- debug: var=result
+
+# stop the execution...
+- fail:
+```
+
 Source
 ------
 

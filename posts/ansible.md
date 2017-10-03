@@ -1,12 +1,12 @@
 Variables
 ---------
 
-In inventory file
+1) In inventory file
 
 * ok if you don't have too many hosts
 * only Booleans and strings (not lists and dictionaries)
 
-In `host_vars/nginx01.example.org`, `group_vars/production`
+2) In `host_vars`, `group_vars` directories
 
 * separate file for each host or group
 
@@ -21,6 +21,12 @@ db:
     host: buda.example.org
 # accessed as {{ db.primary.host }}
 ```
+
+3) In `vars` section of a playbook
+
+4) As arguments to a role
+
+5) In files loaded by `vars_file`
 
 Roles
 -----

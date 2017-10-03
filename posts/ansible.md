@@ -93,6 +93,24 @@ View the output of a task:
 # stop the execution...
 - fail:
 ```
+Run a task and print its output, even if it fails:
+```
+- name: Run myprog
+  command: /opt/myprog
+  register: result
+  ignore_errors: True
+
+- debug: var=result
+
+- debug: msg="Stop running the playbook if myprog failed"
+  failed_when: result|failed # filters for registered variables:
+  # - failed
+  # - changed
+  # - success
+  # - skipped
+  
+# more tasks here
+```
 
 Source
 ------

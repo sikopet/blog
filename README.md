@@ -19,10 +19,7 @@ posts.
 Operating Systems and Apps
 --------------------------
 
-* [AWS](posts/aws.md)
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
-* [DevOps](posts/devops.md)
-* [Docker](posts/docker.md)
 * [Elasticsearch](posts/elasticsearch.md)
 * [Generate File of Defined Size](posts/gen_rand_file.md)
 * [GRUB 2](posts/grub2.md)
@@ -48,9 +45,17 @@ Operating Systems and Apps
 * [syslog-ng](posts/syslog-ng.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md)
-* [Vagrant](posts/vagrant.md)
 * [VMware](posts/vmware.md)
 * [ZFS](posts/zfs.md)
+
+Devops tools
+------------
+
+* [Ansible](posts/ansible.md)
+* [AWS](posts/aws.md)
+* [DevOps](posts/devops.md)
+* [Docker](posts/docker.md)
+* [Vagrant](posts/vagrant.md)
 
 Networking
 ----------

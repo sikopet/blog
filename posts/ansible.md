@@ -22,13 +22,17 @@ db:
 # accessed as {{ db.primary.host }}
 ```
 
-3) In `vars` section of a playbook
+3) In role's `vars` and `defaults` directories
 
-4) As arguments to a role
+4) In `vars` section of a playbook
 
-5) In files loaded by `vars_file`
+5) As arguments to a role
 
-6) On the command line
+6) In files loaded by `vars_file`
+
+7) On the command line
+
+See [variables](http://docs.ansible.com/ansible/latest/playbooks_variables.html) for more.
 
 Roles
 -----

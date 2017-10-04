@@ -28,6 +28,8 @@ db:
 
 5) In files loaded by `vars_file`
 
+6) On the command line
+
 Roles
 -----
 

@@ -4,6 +4,8 @@ The opposite of DevOps is despair. -- Gene Kim
 
 If HW and SW are sufficiently fault tolerant, the remaining problems are human. -- TPoCSA
 
+CAMS: culture, automation, measurement, and sharing. -- D. Edwards, J. Willis (2010)
+
 ---
 
 DevOps is a set of techniques to solve the chronic conflict between Development

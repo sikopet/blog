@@ -97,6 +97,14 @@ Examples
 * `icmp` - match all ICMP traffic
 * `!ip6` - match everything that is not IPv6
 
+Cookbook
+========
+
+[Show](https://serverfault.com/questions/504431/human-readable-format-for-http-headers-with-tcpdump) HTTP Host header:
+```
+stdbuf -oL -eL /usr/sbin/tcpdump -nn -A -s 10240 "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)"
+```
+
 ---
 
 Resources

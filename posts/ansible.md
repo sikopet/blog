@@ -7,9 +7,16 @@ Terminology
 * provisioning - spinning up new servers (VMs)
 
 Playbook
-* Ansible script
+* a configuration management script
 * unordered list of hosts
-* ordered list of tasks
+* ordered list of tasks (plays)
+
+Module
+* script packaged with Ansible
+* performs some action on a host (`ansible-doc <module>`)
+
+![Entity-relationship
+diagram](https://github.com/jreisinger/blog/tree/master/files/ansible_entities.png)
 
 Ansible workflow for each task
 1. generate a Python script
@@ -19,6 +26,10 @@ Ansible workflow for each task
 
 You're best off writing playbooks for your org rather than trying to reuse
 generic playbooks.
+
+`True` vs `yes`
+* `yes`/`no` when passing args to modules
+* `True`/`False` elsewhere in playbooks
 
 One liners
 ----------

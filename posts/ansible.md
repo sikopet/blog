@@ -24,12 +24,12 @@ Ansible workflow for each task
 3. execute the script
 4. wait for the script to complete on all hosts
 
-You're best off writing playbooks for your org rather than trying to reuse
-generic playbooks.
-
 `True` vs `yes`
 * `yes`/`no` when passing args to modules
 * `True`/`False` elsewhere in playbooks
+
+You're best off writing playbooks for your org rather than trying to reuse
+generic playbooks.
 
 One liners
 ----------

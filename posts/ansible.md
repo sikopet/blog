@@ -137,6 +137,12 @@ See [roles](https://github.com/ansiblebook/ansiblebook/tree/master/roles/playboo
 Tips and tricks
 ---------------
 
+Achieve idempotence with a `command` module:
+```
+- name: create a Vagrantfile
+  command: vagrant init {{ box }} creates=Vagrantfile
+```
+
 Change the way Ansible identifies that a task has changed state (`changed_when`):
 ```
 - name: initialize the database

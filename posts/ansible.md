@@ -41,6 +41,21 @@ ansible host1 -b -a "tail /var/log/syslog" # -b -> become
 ansible host1 -b -m apt -a name=nginx
 ```
 
+Quoting
+-------
+
+If you reference a variable *right after* the module name:
+```
+- name: perform some task
+  command: "{{ myapp }} -a foo"
+```
+
+If your argument contains a collon:
+```
+- name: show a debug msg
+  debug: "msg='The debug module will print a message: neat, eh?'"
+```
+
 Variables
 ---------
 

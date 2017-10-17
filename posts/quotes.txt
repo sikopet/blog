@@ -132,7 +132,7 @@ As in bash, Perl has a dedicated "else if" condition, but its keyword is elsif r
 
 Keep in mind that hostnames are really just a convenient shortcut for IP addresses, and as such, they refer to network interfaces rather than computers. -- ULSAH
 
-... when I'm learning something new, my approach is to have a well defined end-goal in mind, the I learn the details as I solve problems to get to that point. -- Andrew Solomon (http://www.linuxcareer.com/perl-as-a-career-option)
+... when I'm learning something new, my approach is to have a well defined end-goal in mind, then I learn the details as I solve problems to get to that point. -- Andrew Solomon (http://www.linuxcareer.com/perl-as-a-career-option)
 
 Know your place in the world and evaluate yourself fairly, not in terms of your naive ideals of your own youth, nor in terms of what you erroneously imagine your teacher's ideals are. -- Richard Feynman (http://genius.cat-v.org/richard-feynman/writtings/letters/problems)
 

@@ -1,7 +1,10 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md) of
 this post.)
 
-[Search](https://atlas.hashicorp.com/boxes/search) and add a box (virtual machine image):
+* box - a virtual machine image
+* machine - a virtual machine
+
+[Search](https://atlas.hashicorp.com/boxes/search) and add a box:
 
     # the URL of the found box copied from the browser
     vagrant box add https://atlas.hashicorp.com/ubuntu/boxes/trusty64
@@ -28,15 +31,15 @@ Start vagrant environment:
 
 * vagrant "imports" (copies) the base box to provider specific location (ex. `~/.VirtualBox`)
 
-Check box(es) status:
+Check machines status:
 
     vagrant status
     
-Check box(es) SSH configuration:
+Check machines SSH configuration:
 
     vagrant ssh-config
 
-Ssh to a box:
+Ssh to a machine:
 
     vagrant ssh
 

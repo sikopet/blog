@@ -1,3 +1,35 @@
+Terminology
+-----------
+
+* configuration management - managing the state of the servers
+* deployment - taking SW written in-house and setting it up on a server
+* orchestration - ex. making an update involving multiple servers
+* provisioning - spinning up new servers (VMs)
+
+Playbook
+* Ansible script
+* unordered list of hosts
+* ordered list of tasks
+
+Ansible workflow for each task
+1. generate a Python script
+2. copy the script to the servers (hosts)
+3. execute the script
+4. wait for the script to complete on all hosts
+
+You're best off writing playbooks for your org rather than trying to reuse
+generic playbooks.
+
+One liners
+----------
+
+```
+ansible all -m ping
+ansible all [-m command] -a uptime
+ansible host1 -b -a "tail /var/log/syslog" # -b -> become
+ansible host1 -b -m apt -a name=nginx
+```
+
 Variables
 ---------
 
@@ -105,6 +137,7 @@ View the output of a task:
 # stop the execution...
 - fail:
 ```
+
 Run a task and print its output, even if it fails:
 ```
 - name: Run myprog

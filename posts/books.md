@@ -3,9 +3,9 @@ Technical books (roughly in order of decreasing quality and current importance f
 Sysadmin
 --------
 
-* The Practice of Cloud System Administration [PoCSA], 2014
-* The Practice of System and Network Administration [PoSaNA], 2007
-* Automating System Administration with Perl, 2009
+* [ ] The Practice of Cloud System Administration [PoCSA], 2014
+* [x] The Practice of System and Network Administration [PoSaNA], 2007
+* [x] Automating System Administration with Perl, 2009
 
 Unix
 ----

@@ -10,25 +10,25 @@ Sysadmin
 Unix
 ----
 
-* Unix and Linux System Administration Handbook [ULSAH], 2010
-* How Linux Works, 2014
-* The Design of the UNIX Operating System, 1986
+* [ ] Unix and Linux System Administration Handbook [ULSAH], 2017
+* [x] Unix and Linux System Administration Handbook [ULSAH], 2010
+* [x] How Linux Works, 2014
+* [ ] The Design of the UNIX Operating System, 1986
 
 Configuration management
 ------------------------
 
-* Ansible: Up and Running, 2015
-* Infrastructure as Code, 2016
-* Learning Ansible, 2014
-* DevOps Automation Cookbook, 2015
+* [ ] Ansible: Up and Running, 2017
+* [x] Ansible: Up and Running, 2015
+* [ ] Infrastructure as Code, 2016
 
 Perl
 ----
 
-* Perl Cookbook, 2003
-* Programming Perl, 2012
-* Intermediate Perl, 2012
-* Learning Perl, 2011
+* [ ] Perl Cookbook, 2003
+* [ ] Programming Perl, 2012
+* [x] [x] Intermediate Perl, 2012
+* [x] [x] Learning Perl, 2011
 
 Shell
 -----

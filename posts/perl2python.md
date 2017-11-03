@@ -72,6 +72,28 @@ Write to a file
 Error handling
 --------------
 
+Errors
+
+```
+# Convert string to int, return undef on error
+sub convert_number { int $_[0] }
+
+print convert_number $ARGV[0];
+```
+
+```
+import sys
+
+# Emulate Perl's behavior above
+def convert_number(s):
+    try:
+        return int(s)
+    except ValueError:
+        return None
+
+print( convert_number(sys.argv[1]) )
+```
+
 Warnings
 
     # Perl...

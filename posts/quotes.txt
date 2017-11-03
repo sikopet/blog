@@ -1,3 +1,5 @@
+Instead of trying to figure out what to return when there's an error, the int() function raises the ValueError exception and you deal with it. -- LPTHW (errors in Python)
+
 Security vulnerabilities, exploits, and attacks that once affected only bits and bytes now affect flesh and blood. -- Bruce Schneier (2017)
 
 November 1989. Ten som nečakal, nedokázal som si ho predstaviť - ja ani moji priatelia -, ako by sa to mohlo stať, aby Sovietsky zväz padol bez strašlivej vojny. -- .jan Sokol

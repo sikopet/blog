@@ -1,3 +1,5 @@
+There's absolutely nothing wrong, self-centered, greedy, antisocial, or abusive about wanting to focus on you so you can be better at what you love. -- Zed A. Shaw
+
 Or maybe fuzzy thinking is more comfortable for us, because it conforms to our wishes at every moment. -- Aaron Wall
 
 Instead of trying to figure out what to return when there's an error, the int() function raises the ValueError exception and you deal with it. -- LPTHW (errors in Python)

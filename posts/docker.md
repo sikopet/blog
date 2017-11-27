@@ -32,20 +32,30 @@ To launch a container
 
 To create a custom image you need a `Dockerfile` - each line in a Dockerfile creates a new image layer that is stored by Docker
 
-Building an image
+Build an image
 
     git clone https://github.com/spkane/docker-node-hello.git
+    cd docker-node-hello
     docker build -t example/docker-node-hello:latest .
 
-Running an image
+Run an image
 
     # 'example/docker-node-hello:latest' is a tag
     docker run -d -p 8080:8080 example/docker-node-hello:latest
 
-Stopping an image
+Stop an image
 
     docker ps
     docker stop <container_id>
+
+Remove an image
+
+    docker images
+    docker rmi <image_id>
+
+Remove all images on your Docker host
+
+    docker rmi $(docker images -q -)
 
 Working with Docker containers
 ------------------------------
@@ -56,7 +66,7 @@ system.
 
 Containers are a *Linux only* technology.
 
-Creating a container
+Create a container
 
     docker run --rm -ti ubuntu /bin/bash 
 
@@ -66,20 +76,14 @@ Creating a container
 * -i - interactive session, e.i. keep STDIN open
 * /bin/bash - executable to run within the container
 
-Remove container
+Remove a container
 
     docker ps -a
     docker rm <container_id>
 
-Remove image
-
-    docker images
-    docker rmi <image_id>
-
-Delete all containers/images on your Docker host
+Remove all containers on your Docker host
 
     docker rm  $(docker ps -a -q)
-    docker rmi $(docker images -q -)
 
 Sources
 -------

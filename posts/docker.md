@@ -1,5 +1,7 @@
-Docker sits righ in the *middle* of some of the most enabling technologies of the
-last decade (virtualization, configuration management, deployment automation).
+It's a well timed fusion of
+* kernel features
+* filesystem tricks
+* networking hacks
 
 Think of a container not as a virtual machine but a very lighweight wrapper
 around a single Unix *process*.
@@ -89,4 +91,4 @@ Sources
 -------
 
 * Docker: Up & Running (2015)
-
+* ULSAH v5 (2017)

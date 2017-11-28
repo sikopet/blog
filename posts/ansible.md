@@ -41,6 +41,8 @@ ansible host1 -b -a "tail /var/log/syslog" # -b -> become
 ansible host1 -b -m apt -a name=nginx
 
 ansible-tools help init
+
+ansible -i stage waf1 -m fetch -a "src=/home/ubuntu/03_gen_whitelists dest=./roles/nginx-naxsi/templates/events_mngt/"
 ```
 
 Quoting

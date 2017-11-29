@@ -157,6 +157,18 @@ Change the way Ansible identifies that a task has changed state (`changed_when`)
     changed_when: result.out is defined and "Creating tables" in result.out
 ```
 
+```
+- name: Import logs into ES
+  become: no
+  shell: ./nxtool.py -c nxapi.json --files=/var/log/nginx/naxsi.log 2>&1 | perl -ne 'print $1 if /Written\s+(\d+)\s+events/'
+  register: result
+  changed_when: result.stdout != "0"  # NOTE: this was tricky to get right! :-)
+  args:
+    chdir: /home/ubuntu/nginx-naxsi/naxsi-master/nxapi
+  tags:
+    - nxapi
+```
+
 View the output of a task:
 ```
 - name: initialize the database

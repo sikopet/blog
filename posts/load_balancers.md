@@ -46,3 +46,7 @@ User identity
 * browser attaches this secret to each request
 * name of this scheme - *cookie*
 * name of the secret - *session ID*
+
+Scale vs. Resiliency
+
+Source: PoCSA

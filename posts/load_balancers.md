@@ -1,0 +1,39 @@
+Load balancer types
+-------------------
+
+DNS Round Robin (RR)
+* rarely used
+* difficult to control, not very responsive
+* if one replica dies, the clients will try to access it until the cache
+    expires
+* no control over which backend (replica) receives the traffic
+
+L3 and L4
+* simple and fast
+* each TCP session is redirected to one of the replicas
+* L3 - all traffic from a given source UP will be sent to the same server
+    regardless of the number of TCP sessions it has generated
+* L4 - track also source and destination port (finer granularity)
+
+L7
+* can examine what's inside the HTTP protocol (cookies, headers, URLs, ...) and
+    make decisions based on that
+
+`X-Forwarded-For:` - header that can be inserted by a LB containing list of IPs
+traversed before the packet got to the LB
+
+Load balancing methods
+----------------------
+
+* RR
+* Weighted RR
+* Least Loaded (LL)
+* LL with slow start
+* Utilization limit
+* Latency
+* Cascade
+
+Solutions for "shared state problem" (ex. authenticated user)
+* Sticky connections
+* Shared state (Memcached, Redis)
+* Hybrid

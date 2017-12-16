@@ -48,8 +48,8 @@ Operating Systems and Apps
 * [VMware](posts/vmware.md)
 * [ZFS](posts/zfs.md)
 
-Devops tools
-------------
+Devops
+------
 
 * [Ansible](posts/ansible.md)
 * [AWS](posts/aws.md)
@@ -67,6 +67,7 @@ Networking
 * [DHCP](posts/dhcp.md)
 * [DNS](posts/dns.md)
 * [GSM](posts/gsm.md)
+* [Load Balancers](posts/load_balancers.md)
 * [netcat](posts/netcat.md)
 * [OsmocomBB](posts/osmocombb.md)
 * [SNMP](posts/snmp.md)

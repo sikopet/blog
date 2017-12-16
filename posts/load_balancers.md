@@ -23,7 +23,6 @@ L7
 traversed before the packet got to the LB
 
 Load balancing methods
-----------------------
 
 * Round Robin (RR)
 * Weighted RR
@@ -34,6 +33,16 @@ Load balancing methods
 * Cascade
 
 Solutions for "shared state problem" (ex. authenticated user)
+
 * Sticky connections
 * Shared state (Memcached, Redis)
 * Hybrid
+
+User identity
+
+* can't be based on the source IP (NAT, DHCP, Wifi -> cellular, multiple
+    browsers on one host)
+* server generates a secret and sends it back to the browser
+* browser attaches this secret to each request
+* name of this scheme - *cookie*
+* name of the secret - *session ID*

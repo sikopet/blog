@@ -1,7 +1,7 @@
 Load balancer types
 -------------------
 
-DNS Round Robin (RR)
+DNS Round Robin
 * rarely used
 * difficult to control, not very responsive
 * if one replica dies, the clients will try to access it until the cache
@@ -11,7 +11,7 @@ DNS Round Robin (RR)
 L3 and L4
 * simple and fast
 * each TCP session is redirected to one of the replicas
-* L3 - all traffic from a given source UP will be sent to the same server
+* L3 - all traffic from a given source IP will be sent to the same server
     regardless of the number of TCP sessions it has generated
 * L4 - track also source and destination port (finer granularity)
 
@@ -25,7 +25,7 @@ traversed before the packet got to the LB
 Load balancing methods
 ----------------------
 
-* RR
+* Round Robin (RR)
 * Weighted RR
 * Least Loaded (LL)
 * LL with slow start

@@ -106,7 +106,7 @@ It's possible to apply these DevOps principles to any complex process:
 * don't wait for a major disaster
 
 8) Pull, don't push.
-* nuild processes to meet demand, not accommodate supply
+* build processes to meet demand, not accommodate supply
 * determine the desired weekly output, allocate resources, and pull the work through the system to completion
 
 9) Build community.

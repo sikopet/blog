@@ -84,7 +84,7 @@ db:
 # accessed as {{ db.primary.host }}
 ```
 
-3) In role's `vars` and `defaults` directories
+3) In role's `vars` and `defaults` (have the lowest priority of any variables available) directories
 
 4) In `vars` section of a playbook
 

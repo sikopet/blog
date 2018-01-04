@@ -86,11 +86,24 @@ db:
 
 3) In role's `vars` and `defaults` (have the lowest priority of any variables available) directories
 
-4) In `vars` section of a playbook
+4) In `vars` section of a playbook - simplest way to define variables
 
-5) As arguments to a role
+```
+vars:
+  key_file: /etc/nginx/ssl/nginx.key
+  cert_file: /etc/nginx/ssl/nginx.crt
+  conf_file: /etc/nginx/sites-available/default
+  server_name: localhost
+```
 
-6) In files loaded by `vars_file`
+5) In playbooks loaded by `vars_file`
+
+```
+vars_files:
+ - nginx.yml
+```
+
+6) As arguments to a role
 
 7) On the command line
 

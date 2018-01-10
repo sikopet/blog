@@ -19,7 +19,7 @@ pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $help;
 if ($post) {
     print sort `find posts -type f -iname "*$post*"`;
 } elsif ($inpost) {
-    print sort `grep --color=always -R -i -E '$inpost' posts`;
+    print sort `grep --color=always -l -R -i -E '$inpost' posts | sort | uniq`;
 } else {
     print sort `find posts -type d | sort`;
 }

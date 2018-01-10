@@ -28,15 +28,15 @@ __END__
 
 =head1 NAME
 
-findb - search through my blog posts
+findp - search through my blog posts
 
 =head1 SYNOPSIS
 
-findb [options]
+findp [options]
 
   options:
     -h, -?, --help      brief help message
-    -p, --post STRING   find post titles containing STRING
+    -p, --post STRING   find posts with titles containing STRING
     -i, --inpost STRING find posts cointaining STRING
 
   List available areas (topics) if no option is used. Searches are case

@@ -19,7 +19,14 @@ pod2usage( -exitval => 0, -verbose => 2, -noperldoc => 1 ) if $help;
 if ($post) {
     print sort `find posts -type f -iname "*$post*"`;
 } elsif ($inpost) {
-    print sort `grep --color=always -l -R -i -E '$inpost' posts | sort | uniq`;
+    my @posts = `grep --color=never -l -R -i -E '$inpost' posts | sort | uniq`;
+
+    # Don't print categories (subdirectories)
+    for (@posts) {
+        chomp;
+        my $n_slashes = () = /\//g;
+        say if $n_slashes == 1;
+    }
 } else {
     print sort `find posts -type d | sort`;
 }

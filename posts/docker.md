@@ -78,6 +78,10 @@ Create a container
 * -i - interactive session, e.i. keep STDIN open
 * /bin/bash - executable to run within the container
 
+Get into a running container
+
+    docker exec -it <container_id> /bin/bash
+
 Remove a container
 
     docker ps -a

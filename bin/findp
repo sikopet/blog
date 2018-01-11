@@ -41,10 +41,11 @@ findp - search through my blog posts
 
 findp [options]
 
+  List available areas (topics) if no option is used. Searches are case
+  insensitive.
+
   options:
     -h, -?, --help      brief help message
     -p, --post STRING   find posts with titles containing STRING
-    -i, --inpost STRING find posts cointaining STRING
+    -i, --inpost REGEX  find posts matching egrep REGEX
 
-  List available areas (topics) if no option is used. Searches are case
-    insensitive.

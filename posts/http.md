@@ -74,4 +74,5 @@ Authentication and encryption
 * Basic Auth - poor design
 * TLS (SSL) - server authentication and transfer encryption layer around HTTP
 
-Source: Foundations of Python Network Programming (2014) - ch. 9
+Source
+* Foundations of Python Network Programming (2014) - ch. 9

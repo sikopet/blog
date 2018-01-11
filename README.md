@@ -67,6 +67,7 @@ Networking
 * [DHCP](posts/dhcp.md)
 * [DNS](posts/dns.md)
 * [GSM](posts/gsm.md)
+* [HTTP protocol](posts/http.md)
 * [Load Balancers](posts/load_balancers.md)
 * [netcat](posts/netcat.md)
 * [OsmocomBB](posts/osmocombb.md)

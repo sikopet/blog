@@ -1,7 +1,7 @@
 # HTTP protocol
 
 What for
-* used to fetch network resources based on their hostname and path
+* used to fetch network resources (documents) based on their hostname and path
 * dominant document type - WWW of hypertext documents
 * domminant version - HTTP/1.1
 
@@ -21,8 +21,8 @@ r = requests.get('http://httpbin.org/headers')
 print(r.text)
 ```
 
-HTTP message format (both request and response)
-* line of information + name:value headers*
+HTTP message format (both request `>` and response `<`)
+* line of information (method, resource, protocol, status code) + name:value headers
 * blank line
 * optional body
 ```
@@ -54,14 +54,14 @@ $ curl reisinge.net -v
 ```
 
 Methods (actions, what to do)
-* GET - "read", featch a resources
-* POST - "write", updating info on a server
+* GET - "read", fetch a resource
+* POST - "write", update resource on a server
 
 Status codes - returned by a server with each response
-* 2xx - OK
+* 200 - OK
 * 3xx - redirects
-* 4xx - client error
-* 5xx - server error
+* 4xx - client errors
+* 5xx - server errors
 
 Caching headers
 * allow client to cache and reuse resources locally
@@ -72,6 +72,6 @@ Content negotiation
 
 Authentication and encryption
 * Basic Auth - poor design
-* TLS (SSL) - server authentication and tranfer encryption
+* TLS (SSL) - server authentication and transfer encryption layer around HTTP
 
 Source: Foundations of Python Network Programming (2014) - ch. 9

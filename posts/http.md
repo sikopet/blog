@@ -25,7 +25,7 @@ print(r.text)
 
 HTTP message format (both request `>` and response `<`)
 * line of information (method, resource, protocol, status code) + zero or more of `name:value` headers
-* blank line -> server client call `recv()` until `CR-LF-CR-LF`
+* blank line - server/client call `recv()` until `CR-LF-CR-LF` to find out the headers' end
 * optional body - it's length (framing) is defined by the `Content-Lenght` header
 ```
 $ curl reisinge.net -v
@@ -91,5 +91,6 @@ Authentication and encryption
 * Basic Auth - poor design
 * TLS (SSL) - server authentication and transfer encryption layer around HTTP
 
-Source
-* Foundations of Python Network Programming (2014) - ch. 9
+## Sources
+
+Foundations of Python Network Programming (2014) - ch. 9

@@ -1,5 +1,7 @@
 # HTTP protocol
 
+## Intro
+
 What for
 * used to fetch network resources (documents) based on their hostname and path
 * dominant document type - WWW of hypertext documents
@@ -22,9 +24,9 @@ print(r.text)
 ```
 
 HTTP message format (both request `>` and response `<`)
-* line of information (method, resource, protocol, status code) + name:value headers
-* blank line
-* optional body
+* line of information (method, resource, protocol, status code) + zero or more of `name:value` headers
+* blank line -> server client call `recv()` until `CR-LF-CR-LF`
+* optional body - it's length (framing) is defined by the `Content-Lenght` header
 ```
 $ curl reisinge.net -v
 * Rebuilt URL to: reisinge.net/
@@ -53,9 +55,24 @@ $ curl reisinge.net -v
 * Connection #0 to host reisinge.net left intact
 ```
 
-Methods (actions, what to do)
-* GET - "read", fetch a resource
-* POST - "write", update resource on a server
+The client can't issue another request over the same socket until the reponse
+is finished.
+
+## Methods
+
+* actions; what the server should to do
+
+GET
+* "read", fetch a resource
+* cannot include a body
+* can only modify the document being returned (ex. `?q=python` or `?result=10`)
+
+POST
+* "write", update resource on a server
+* the result of POST can't be cached
+* can't be retried automatically if the response does not arrive
+
+## Various
 
 Status codes - returned by a server with each response
 * 200 - OK

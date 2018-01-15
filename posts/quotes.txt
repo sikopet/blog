@@ -1,3 +1,5 @@
+It's not our job to stop the inevitable from happening; it's our job to make it more safe when it does. -- Daniel Missler (https://danielmiessler.com/blog/bruce-schneier-is-wrong-to-fear-monger-on-iot-security/)
+
 The process of learning to create what I have in my mind has produced an epic number of mountainous piles of junk, but at the tops of those piles of junk are some works I admire. -- Zed A. Shaw
 
 By simply attempting to create something on a regular basis I've become adept at doing it, and there is no magic to this. I just keep trying until I can do it. -- Zed A. Shaw

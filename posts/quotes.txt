@@ -330,7 +330,7 @@ Because humans have unlimited storage capacity, having total recall would be a m
 
 You're never too old to learn. One of the best programmers I ever interviewed for a job was 60! -- David Bolton (http://cplus.about.com/bio/David-Bolton-20620.htm): How Do I Get into Programming as a Career? (http://cplus.about.com/od/introductiontoprogramming/a/career.htm)
 
-You only get old if you let yourself be old; then it's too late. -- Andrew Wulf: Am I Too Old To Be A Programmer? (http://thecodist.com/article/am-i-too-old-to-be-a-programmer)
+You only get old if you let yourself be old; then it's too late. -- Andrew Wulf (http://thecodist.com/article/am-i-too-old-to-be-a-programmer)
 
 Learning to program is like learning to write good natural language. The best way to do it is to read some stuff written by masters of the form, write some things yourself, read a lot more, write a little more, read a lot more, write some more ... and repeat until your writing begins to develop the kind of strength and economy you see in your models. -- Eric Steven Raymond: How To Become A Hacker (http://www.catb.org/~esr/faqs/hacker-howto.html)
 

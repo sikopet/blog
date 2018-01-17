@@ -72,6 +72,34 @@ POST
 * the result of POST can't be cached
 * can't be retried automatically if the response does not arrive
 
+## Enconding
+
+HTTP transfer enconding <-> content encoding
+
+* tranfer encoding (Content-Length or chunked encoding, raw or compressed) -
+    wrapper used for data delivery, not a change in the underlying data itself
+```
+GET / HTTP/1.1
+Accept-Encoding: gzip
+...
+
+HTTP/1.1 200 OK
+Content-Length: 3913
+Transfer-Encoding: gzip
+...
+```
+
+* content type - what format will be seletcted to represent a given resource
+ * `application/octet-stream` - a plain sequence of bytes for which server can
+     quarantee no more specific interpretation
+ * `text/html`
+* content encoding - if the format ^ is text, what encoding wil be used to turn
+    text code points into bytes
+ * `charset=utf-8`
+```
+Content-Type: text/html; charset=utf-8
+```
+
 ## Various
 
 Minimally correct request nowadays (otherwise 404):
@@ -104,9 +132,6 @@ Status codes - returned by a server with each response
 Caching headers
 * allow client to cache and reuse resources locally
 * let server skip redelivering an unchanged resource
-
-Content negotiation
-* tailor data formats and human languages for the client, has issues
 
 Authentication and encryption
 * Basic Auth - poor design

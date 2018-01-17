@@ -92,6 +92,7 @@ Transfer-Encoding: gzip
 Content type - what format will be seletcted to represent a given resource
 * `application/octet-stream` - a plain sequence of bytes for which server can quarantee no more specific interpretation
 * `text/html`
+
 Content encoding - if the format ^ is text, what encoding wil be used to turn text code points into bytes
 * `charset=utf-8`
 ```

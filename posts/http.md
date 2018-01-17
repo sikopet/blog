@@ -76,8 +76,8 @@ POST
 
 HTTP transfer enconding <-> content encoding
 
-* tranfer encoding (Content-Length or chunked encoding, raw or compressed) -
-    wrapper used for data delivery, not a change in the underlying data itself
+Tranfer encoding (Content-Length or chunked encoding, raw or compressed)
+* wrapper used for data delivery, not a change in the underlying data itself
 ```
 GET / HTTP/1.1
 Accept-Encoding: gzip
@@ -89,13 +89,11 @@ Transfer-Encoding: gzip
 ...
 ```
 
-* content type - what format will be seletcted to represent a given resource
- * `application/octet-stream` - a plain sequence of bytes for which server can
-     quarantee no more specific interpretation
- * `text/html`
-* content encoding - if the format ^ is text, what encoding wil be used to turn
-    text code points into bytes
- * `charset=utf-8`
+Content type - what format will be seletcted to represent a given resource
+* `application/octet-stream` - a plain sequence of bytes for which server can quarantee no more specific interpretation
+* `text/html`
+Content encoding - if the format ^ is text, what encoding wil be used to turn text code points into bytes
+* `charset=utf-8`
 ```
 Content-Type: text/html; charset=utf-8
 ```

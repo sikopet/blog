@@ -74,11 +74,32 @@ POST
 
 ## Various
 
+Minimally correct request nowadays (otherwise 404):
+```
+GET /html/rfc7230 HTTP/1.1
+Host: tools.ietf.org
+```
+
 Status codes - returned by a server with each response
 * 200 - OK
-* 3xx - redirects
-* 4xx - client errors
+* 3xx - redirects; not expected to carry a body
+```
+>>> r = urlopen('http://httpbin.org/status/301')
+>>> r.status, r.url
+(200, 'http://httpbin.org/get')
+>>>
+>>> r = requests.get('http://httpbin.org/status/301')
+>>> (r.status_code, r.url)
+(200, 'http://httpbin.org/get')
+>>> r.history
+[<Response [301]>, <Response [302]>]
+>>>
+
+```
+* 4xx - client request is unintelligible or illegal
 * 5xx - server errors
+* 502 Bad Gateway - the server is a proxy but it cannot contact the server
+    behind it
 
 Caching headers
 * allow client to cache and reuse resources locally

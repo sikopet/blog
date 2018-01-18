@@ -132,6 +132,16 @@ Cookie: session-id=d41d8cd98f00b204e9800998ecf8427e
 * some servers give you cookie simply for visiting to track how you move
     through the site
 
+## Keep-Alive
+
+* the three-way TCP handshake can be avoided if a connection is already open
+* HTTP/1.1 - default to keep HTTP connection open after a request to re-use a
+    single TCP connection
+* server/client can specify `Connection: close` if they plan on hanging up once
+    a request is completed
+* web browsers oftern create four or more simultaneous TCP connections per site
+    to get the resource in parallel
+
 ## Various
 
 Minimally correct request nowadays (otherwise 404):

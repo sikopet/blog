@@ -40,15 +40,10 @@ Build an image
     cd docker-node-hello
     docker build -t example/docker-node-hello:latest .
 
-Run an image
+Run an image (or a container?)
 
     # 'example/docker-node-hello:latest' is a tag
     docker run -d -p 8080:8080 example/docker-node-hello:latest
-
-Stop an image
-
-    docker ps
-    docker stop <container_id>
 
 Remove an image
 
@@ -68,7 +63,7 @@ system.
 
 Containers are a *Linux only* technology.
 
-Create a container
+Create a container (see also "Run an image" above)
 
     docker run --rm -ti ubuntu /bin/bash 
 
@@ -81,6 +76,11 @@ Create a container
 Get into a running container
 
     docker exec -it <container_id> /bin/bash
+
+Stop a container
+
+    docker ps
+    docker stop <container_id>
 
 Remove a container
 

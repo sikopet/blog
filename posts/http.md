@@ -16,7 +16,7 @@ r = urlopen('http://httpbin.org/headers')
 # you need to instruct urllib how to turn raw bytes into text
 print(r.read().decode('ascii'))
 ```
-* `requests` - the go-to tool 
+* `requests` - the go-to tool
 ```
 import requests
 r = requests.get('http://httpbin.org/headers')
@@ -99,6 +99,39 @@ Content encoding - if the format ^ is text, what encoding wil be used to turn te
 Content-Type: text/html; charset=utf-8
 ```
 
+## Authentication and cookies
+
+Basic Auth (HTTP-mediated authentication)
+* poor design initially, then fixed by SSL/TLS but still ugly
+* still used by simple APIs
+
+TLS/SSL
+* server authentication and transfer encryption layer around HTTP
+
+Cookies
+* every request is independent of all other requests (from the point of the
+    view of the protocol)
+* -> authentication info must be carried in every request
+* cookie = key-value pair sent by the server and then inserted in all
+    further requests:
+```
+GET /login HTTP/1.1
+...
+
+HTTP/1.1 200 OK
+Set-Cookie: session-id=d41d8cd98f00b204e9800998ecf8427e; Path=/
+...
+
+GET /login HTTP/1.1
+Cookie: session-id=d41d8cd98f00b204e9800998ecf8427e
+...
+
+```
+* cookie should be opaque - random UUID mapped to the username on the
+    server or encrypted string that server alone can decrypt
+* some servers give you cookie simply for visiting to track how you move
+    through the site
+
 ## Various
 
 Minimally correct request nowadays (otherwise 404):
@@ -131,10 +164,6 @@ Status codes - returned by a server with each response
 Caching headers
 * allow client to cache and reuse resources locally
 * let server skip redelivering an unchanged resource
-
-Authentication and encryption
-* Basic Auth - poor design
-* TLS (SSL) - server authentication and transfer encryption layer around HTTP
 
 ## Sources
 

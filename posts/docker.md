@@ -75,11 +75,11 @@ Create a container (see also "Run an image" above)
 
 Get into a running container
 
+    docker ps
     docker exec -it <container_id> /bin/bash
 
 Stop a container
 
-    docker ps
     docker stop <container_id>
 
 Remove a container

@@ -5,7 +5,7 @@
 What for
 * used to fetch network resources (documents) based on their hostname and path
 * dominant document type - WWW of hypertext documents
-* domminant version - HTTP/1.1
+* dominant version - HTTP/1.1
 
 Python libraries
 * `urllib` - client in Standard Library, for simple use
@@ -55,12 +55,12 @@ $ curl reisinge.net -v
 * Connection #0 to host reisinge.net left intact
 ```
 
-The client can't issue another request over the same socket until the reponse
+The client can't issue another request over the same socket until the response
 is finished.
 
 ## Methods
 
-* actions; what the server should to do
+* actions; what the server should do
 
 GET
 * "read", fetch a resource
@@ -72,11 +72,11 @@ POST
 * the result of POST can't be cached
 * can't be retried automatically if the response does not arrive
 
-## Enconding
+## Encoding
 
-HTTP transfer enconding <-> content encoding
+HTTP transfer encoding <-> content encoding
 
-Tranfer encoding (Content-Length or chunked encoding, raw or compressed)
+Transfer encoding (Content-Length or chunked encoding, raw or compressed)
 * wrapper used for data delivery, not a change in the underlying data itself
 ```
 GET / HTTP/1.1
@@ -89,11 +89,11 @@ Transfer-Encoding: gzip
 ...
 ```
 
-Content type - what format will be seletcted to represent a given resource
-* `application/octet-stream` - a plain sequence of bytes for which server can quarantee no more specific interpretation
+Content type - what format will be selected to represent a given resource
+* `application/octet-stream` - a plain sequence of bytes for which server can guarantee no more specific interpretation
 * `text/html`
 
-Content encoding - if the format ^ is text, what encoding wil be used to turn text code points into bytes
+Content encoding - if the format ^ is text, what encoding will be used to turn text code points into bytes
 * `charset=utf-8`
 ```
 Content-Type: text/html; charset=utf-8
@@ -139,7 +139,7 @@ Cookie: session-id=d41d8cd98f00b204e9800998ecf8427e
     single TCP connection
 * server/client can specify `Connection: close` if they plan on hanging up once
     a request is completed
-* web browsers oftern create four or more simultaneous TCP connections per site
+* web browsers often create four or more simultaneous TCP connections per site
     to get the resource in parallel
 
 ## Various

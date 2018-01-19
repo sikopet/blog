@@ -140,7 +140,7 @@ Cookie: session-id=d41d8cd98f00b204e9800998ecf8427e
 * server/client can specify `Connection: close` if they plan on hanging up once
     a request is completed
 * web browsers often create four or more simultaneous TCP connections per site
-    to get the resource in parallel
+    to get the resources in parallel
 
 ## Various
 
@@ -163,7 +163,6 @@ Status codes - returned by a server with each response
 (200, 'http://httpbin.org/get')
 >>> r.history
 [<Response [301]>, <Response [302]>]
->>>
 
 ```
 * 4xx - client request is unintelligible or illegal

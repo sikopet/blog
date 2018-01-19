@@ -18,6 +18,8 @@ text file:
 ----------
 
     base64 /dev/urandom | dd of=file.txt bs=1M count=100 iflag=fullblock
+    
+* `base64` represents (encodes) binary data using printable ASCII characters
 
 empty file:
 -----------

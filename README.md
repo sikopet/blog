@@ -21,7 +21,7 @@ Operating Systems and Apps
 
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Elasticsearch](posts/elasticsearch.md)
-* [Generate File of Defined Size](posts/gen_rand_file.md)
+* [Generate File of Defined Size](posts/gen_rand_file.md) :heavy_check_mark:
 * [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)
 * [Kafka](posts/kafka.md)

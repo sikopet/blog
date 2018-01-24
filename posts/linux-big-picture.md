@@ -29,7 +29,7 @@ Difference between running kernel and user processes:
 * code running in *user mode* has access only to a subset of memory and safe
     CPU operations
 * code running in *kernel mode* has unrestricted access
-* user and kernel modes are the processor's states
+* user and kernel modes are the processor's states (see "Main memory" below)
 
 Main memory (RAM)
 -----------------
@@ -72,29 +72,33 @@ Process mngt.
     CPU in order to allow a different process to run on a different CPU
 
 System calls and pseudodevices
-* system calls a.k.a. *syscalls* - `man 2`
- * the kernel's API
- * feature of kernel allowing user processes to request specific actions, ex.
-     opening, reading and writing files, creating new processes
- * to execute a system call the kernel must temporarily switch to kernel mode,
-     verify syscall's arguments and transfer data between user and kernel
-     memory
-* (C library functions a.k.a. library calls - `man 3`)
- * functions provided by standard C library (`glibc` on Linux)
- * some library functions employ system calls, other perform tasks entirely within user space (ex. the string manipulation libraries)
- * often designed to provide a more user-friendly interface than the underlying
-     syscall, ex: `printf()` function provides output formatting and data
-     buffering, whereas the `write()` syscall just outputs a block of bytes
-* all user processes (except for init) start as a result of `fork()` usually
-    followed by `exec()`, ex. - running `ls` command in shell:
 
-        shell ---> fork() ---> shell
-                           |
-                           +-> copy of shell ---> exec(ls) ---> ls
+System calls a.k.a. *syscalls* - `man 2`
+* the kernel's API
+* feature of kernel allowing user processes to request specific actions, ex.
+    opening, reading and writing files, creating new processes
+* to execute a system call the kernel must temporarily switch to kernel mode,
+    verify syscall's arguments and transfer data between user and kernel
+    memory
+
+(C library functions a.k.a. library calls - `man 3`)
+* functions provided by standard C library (`glibc` on Linux)
+* some library functions employ system calls, other perform tasks entirely within user space (ex. the string manipulation libraries)
+* often designed to provide a more user-friendly interface than the underlying
+    syscall, ex: `printf()` function provides output formatting and data
+    buffering, whereas the `write()` syscall just outputs a block of bytes
+
+All user processes (except for init) start as a result of `fork()` usually
+   followed by `exec()`, ex. - running `ls` command in shell:
+
+    shell ---> fork() ---> shell
+                       |
+                       +-> copy of shell ---> exec(ls) ---> ls
                            
- * `exec()` is actually an entire family of syscalls for similar tasks
-* *psesudodevice* looks like a device but it's another kernel feature
-    (implemented purely in software) - ex. `/dev/random`
+* `exec()` is actually an entire family of syscalls for similar tasks
+
+*psesudodevice* looks like a device but it's another kernel feature
+  (implemented purely in software) - ex. `/dev/random`
 
 Userspace and users
 -------------------

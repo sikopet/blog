@@ -71,8 +71,6 @@ Process mngt.
  * in *multi-CPU* systems kernel doesn't need (but usually does so anyway) to relinquish control of its current
     CPU in order to allow a different process to run on a different CPU
 
-System calls and pseudodevices
-
 System calls a.k.a. *syscalls* - `man 2`
 * the kernel's API
 * feature of kernel allowing user processes to request specific actions, ex.

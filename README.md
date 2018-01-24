@@ -29,7 +29,7 @@ Operating Systems and Apps
 * [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
 * [Linking with Libraries](posts/linking-with-libraries.md) :ok:
-* [Linux - the Big Picture](posts/linux-big-picture.md)
+* [Linux - the Big Picture](posts/linux-big-picture.md) :ok:
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md)
 * [LVM](posts/lvm.md)

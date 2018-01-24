@@ -21,14 +21,14 @@ Operating Systems and Apps
 
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Elasticsearch](posts/elasticsearch.md)
-* [Generate File of Defined Size](posts/gen_rand_file.md) :heavy_check_mark:
+* [Generate File of Defined Size](posts/gen_rand_file.md) :ok:
 * [GRUB 2](posts/grub2.md)
 * [HA (cluster, pacemaker)](posts/ha.md)
 * [Kafka](posts/kafka.md)
 * [Kerberos](posts/kerberos.md)
 * [KVM VMs Management](posts/vm-mngt.md)
 * [LDAP](posts/ldap.md)
-* [Linking with Libraries](posts/linking-with-libraries.md)
+* [Linking with Libraries](posts/linking-with-libraries.md) :ok:
 * [Linux - the Big Picture](posts/linux-big-picture.md)
 * [Linux Ate My Memory!](posts/linux-ate-my-memory.md)
 * [Linux Performance Analysis](posts/linux-performance-analysis.md)

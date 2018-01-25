@@ -15,7 +15,7 @@ So the machine above has 1144 MB of memory free from the kernel point of view
 of memory free from the applications point of view (since programs don't
 consider memory used by caches and buffers).
 
-To demonstrate this, let's run this memory eating program (`munch.c`):
+To demonstrate this, let's run this memory eating application (`munch.c`):
 
     #include <stdlib.h>
     #include <stdio.h>
@@ -45,6 +45,9 @@ To see it in action:
     watch free -m                   # in a different shell
     dd if=/dev/urandom of=/tmp/bla  # cache some data
     ./munch                         # run until SIGINT or killed by kernel
+    # Don't forget to cleanup ... :-)
+    rm /tmp/bla
+    sudo swapon -a
 
 Resources
 =========

@@ -45,6 +45,7 @@ To see it in action:
     watch free -m                   # in a different shell
     dd if=/dev/urandom of=/tmp/bla  # cache some data
     ./munch                         # run until SIGINT or killed by kernel
+    
     # Don't forget to cleanup ... :-)
     rm /tmp/bla
     sudo swapon -a

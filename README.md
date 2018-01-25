@@ -30,7 +30,7 @@ Operating Systems and Apps
 * [LDAP](posts/ldap.md)
 * [Linking with Libraries](posts/linking-with-libraries.md) :ok:
 * [Linux - the Big Picture](posts/linux-big-picture.md) :ok:
-* [Linux Ate My Memory!](posts/linux-ate-my-memory.md)
+* [Linux Ate My Memory!](posts/linux-ate-my-memory.md) :ok:
 * [Linux Performance Analysis](posts/linux-performance-analysis.md)
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)

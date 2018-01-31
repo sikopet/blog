@@ -191,7 +191,7 @@ Storage I/O
 
 Processes using file or directory on `/usr` filesystem (mount point):
 
-    $ fuser -cv /usr
+    $ sudo fuser -cv /usr
                          USER        PID ACCESS COMMAND
     /usr:                root     kernel mount /
                          root          1 .rce. init

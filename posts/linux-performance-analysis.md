@@ -199,7 +199,7 @@ Processes using file or directory on `/usr` filesystem (mount point):
 
 .. ACCESS:
 * `f`,`o`  - the process has a file open for reading or writing
-* `c`      - the process's current directory is on the filesystenm
+* `c`      - the process's current directory is on the filesystem
 * `e`, `t` - the process is currently executing a file
 * `r`      - the process's root directory (set with `chroot`) in on the filesystem
 * `m`, `s` - the process has mapped a file or shared library
@@ -213,14 +213,14 @@ Network I/O
 
 To see info on network connections:
 
-    # netstat -tulnap
+    # netstat -tulpan
     
 * `-t` - print TCP ports info
 * `-u` - print UDP ports info
 * `-l` - print listening ports
-* `-n` - don't reverse-resolve IP addresses
-* `-a` - print all active ports
 * `-p` - print name and PID of the program owning the socket
+* `-a` - print all active ports
+* `-n` - don't reverse-resolve IP addresses
 * `Recv-Q` and `Send-Q` columns show the number of bytes in the sockets' read and write buffers, respectively.
 
 To list all programs using or listening to ports (when run as regular user, only shows user's processes):

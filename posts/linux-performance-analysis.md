@@ -151,7 +151,7 @@ with processes.
 Memory
 ======
 
-See also `posts/linux-ate-my-memory`.
+See also [posts/linux-ate-my-memory](https://github.com/jreisinger/blog/blob/master/posts/linux-ate-my-memory.md).
 
 Amount of paging (swap) space that's currently used:
 

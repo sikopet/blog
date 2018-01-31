@@ -72,9 +72,9 @@ Average number of runnable (ready to run) processes:
      13:03:23 up 8 days, 13:06,  2 users,  load average: 1.13, 1.31, 1.38
 
 * 5, 10, and 15-minute averages 
-* process waiting for input (e.g. from keyboard, network) are not considered
- ready to run - only processes that are actually doing something contribute to
- load average
+* processes waiting for input (from keyboard, network) are not considered
+ ready to run - only processes that are actually doing something 
+ (including wating for disk I/O) contribute to load average
 * on a single-core system - 1 means that the CPU is exactly at capacity, i.e. the CPU has
  just enough to do all the time
 * on a multi-core system - if number of cores = load average all cores are exactly at capacity

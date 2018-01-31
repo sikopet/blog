@@ -169,7 +169,7 @@ Amount of paging (swap) space that's currently used:
 Storage I/O
 ===========
 
-    $ iostat 5 5
+    $ iostat 5 5 [-d sda]
     Linux 3.2.0-4-amd64 (backup2)   06/14/2015  _x86_64_    (16 CPU)
     
     avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -188,11 +188,6 @@ Storage I/O
 * `tps` - number of transfers per second (IOPS?)
 * `kB_read/s` - average number of kilobytes read per second
 * `kB_read` - total kilobytes read
-
-Overall IOPS per disk (sda):
-
-    $ iostat -d sda | grep sda | perl -lane 'print $F[2]'
-    1190.23
 
 Processes using file or directory on `/usr` filesystem (mount point):
 

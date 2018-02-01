@@ -225,10 +225,10 @@ To see info on network connections:
 
 To list all programs using or listening to ports (when run as regular user, only shows user's processes):
 
-    # lsof -ni -P
+    # lsof -i -nP
 
-* `-n` - don't reverse-resolve IP addresses
 * `-i` - list all Internet and x.25 (HP-UX) network files
+* `-n` - don't reverse-resolve IP addresses
 * `-P` - disable /etc/services port name lookups
 
 To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:

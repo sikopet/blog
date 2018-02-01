@@ -228,6 +228,7 @@ To list all programs using or listening to ports (when run as regular user, only
     # lsof -ni -P
 
 * `-n` - don't reverse-resolve IP addresses
+* `-i` - list all Internet and x.25 (HP-UX) network files
 * `-P` - disable /etc/services port name lookups
 
 To list Unix domain sockets (not to be confused with network sockets although similar) currently in use on your system:

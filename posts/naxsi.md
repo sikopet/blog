@@ -10,10 +10,8 @@ http {
 ...
     include /etc/nginx/naxsi_core.rules
 ...
-```
 
-/etc/nginx/naxsi.rules:
-```
+server {
 # Sample rules file for default vhost ..
 # . no requests will be blocked just logged
 LearningMode;
@@ -30,10 +28,9 @@ CheckRule "$RFI >= 8" BLOCK;
 CheckRule "$TRAVERSAL >= 4" BLOCK;
 CheckRule "$EVADE >= 4" BLOCK;
 CheckRule "$XSS >= 8" BLOCK;
-```
+}
 
-`naxsi.rules` has to be loaded per location or server block, ex. /etc/nginx/sites-enabled/default:
-```
+# `naxsi.rules` has to be loaded per location or server block, ex. /etc/nginx/sites-enabled/default:
 location / {
     # First attempt to serve request as file, then as directory,
     # then fall back to displaying a 404
@@ -41,6 +38,7 @@ location / {
 
     # Enable Naxsi on this location
     include /etc/nginx/naxsi.rules;
+}
 }
 ```
 

@@ -34,7 +34,6 @@ Operating Systems and Apps
 * [Linux Performance Analysis](posts/linux-performance-analysis.md) :ok:
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)
-* [Naxsi](posts/naxsi.md)
 * [New Linux Server](posts/new-linux-server.md)
 * [NFS](posts/nfs.md)
 * [PAM](posts/pam.md)

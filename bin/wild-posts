@@ -1,7 +1,4 @@
-#!/usr/bin/env perl
-# Show posts (posts/*.md) that are not listed in README.md or have no symlink
-# within subdirectories.
-# Usage: blog$ ./bin/wild-posts
+#!/usr/bin/perl -s
 use strict;
 use warnings;
 use 5.010;
@@ -11,6 +8,21 @@ use File::Basename;
 
 use lib 'lib';
 use Local::Display;
+
+our ($h, $l); # cmdline switches
+
+# Usage
+if ($h) {
+    print << 'EOF';
+Show posts (posts/*.md) that are not listed in README.md or have no symlink
+within subdirectories.
+
+Usage: ./bin/wild-posts
+    -h  help
+    -l  show also missing links
+EOF
+    exit;
+}
 
 my @posts;
 find( sub { push @posts, $File::Find::name if -f && ! -l && /\.(md|pl|py|sh|c)$/ }, 'posts' );
@@ -29,8 +41,8 @@ for my $post ( sort @posts ) {
         # convert symlink to basename of its value
         $post = basename( readlink $post );
     } else {
-        #warn "WARN: $post is not symlinked within any subdirectory\n"
-        #  unless symlink_exists($post);
+        warn "WARN: $post is not symlinked within any subdirectory\n"
+          if $l and not symlink_exists($post);
     }
 
     my $post_in_readme = grep $post eq $_, @readme_links;

@@ -1,3 +1,5 @@
+Elegance and simplicity and generality all are things that, to a large extent, depend on personal taste, bacuse what seems to cover a large area for me may not cover enough for someone else, and vice versa. -- Guido van Rossum (Masterminds of Programming)
+
 What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the wintertime. It is the little shadow which runs across the grass and loses itself in the sunset. -- Crowfoot's last words (1890)
 
 Solve the biggest problem you can. -- Nick Hanauer (WTF book)

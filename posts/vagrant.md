@@ -21,7 +21,7 @@ Initialize vagrant environment:
 
     mkdir ubuntu-trusty64
     cd ubuntu-trusty64
-    vagrant init ubuntu/trusty64
+    vagrant init ubuntu/trusty64  # or use ~/bin/genVagranfile
     
 * `Vagrantfile` is created
 

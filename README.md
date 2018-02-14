@@ -54,7 +54,7 @@ Devops
 * [AWS](posts/aws.md)
 * [DevOps](posts/devops.md)
 * [Docker](posts/docker.md)
-* [Vagrant](posts/vagrant.md)
+* [Vagrant](posts/vagrant.md) :ok:
 
 Networking
 ----------

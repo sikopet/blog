@@ -1,4 +1,4 @@
 language: perl
 install:
     - cpanm --verbose --notest Text::Autoformat
-script: ./bin/wild-posts
+script: perl ./bin/wild-posts

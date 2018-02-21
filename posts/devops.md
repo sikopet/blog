@@ -35,43 +35,51 @@ DevOps has been formed by:
 "The Three ways" are the underpinning principles that all the DevOps patterns
 can be derived from.
 
-The First Way - workflow (process)
-----------------------------------
+The First Way - workflow
+------------------------
 
-What
-* left-to-right flow of work from Dev to Ops to the customer
+To maximaze left-to-right flow of work (from Dev to Ops to the customer) we need:
+
 * each step is done in a repeatable way
 * small batch sizes and intervals of works
 * never passing defects to downstream work centers
 * local optimization must not degrade global performance (optimmize for global goals)
 
-Practices
+Necessary practices:
+
 * continuous build, CI, CD
 * environments on demand
 * limiting WIP
-* building safe (to change) systems
+* building safe to change systems and organizations
 
-The Second Way - feedback (communication)
------------------------------------------
+The Second Way - feedback
+-------------------------
 
-What
-* constant flow of fast feedback from right-to-left at all stages of the values
-  stream
+To prevent problems from happening again or enable faster detection and recovery we need:
 
-Practices
+* constant flow of fast feedback from right-to-left at all stages of the value stream
+
+Practices:
+
 * stopping the production line when builds/tests go wrong
 * constantly elevating the improvements of daily work over daily work
 * fast automated test suites
 * shared goals and shared pain between Devs and Ops
 * pervasive telemetry
 
-The Third Way - experimentation (trying new things)
+The Third Way - experimentation & repetition (kata)
 ---------------------------------------------------
 
-Culture that fosters:
-* continual experimentation (risk taking and learning from success and failure)
+Create culture that fosters:
+
+* *continual* experimentation (risk taking and learning from success and failure)
 * understanding that repetition and practice is the prerequisite to mastery
-* faults are introduced into the system to increase resilience (fire drills)
+
+Practices:
+
+* rewarding innovation and risk taking
+* rewarding improvements
+* at least 20% of Dev and Ops cycles allocated towards nonfunctional requirements
 
 DevOps without Devs
 -------------------

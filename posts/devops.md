@@ -6,8 +6,6 @@
 
 > CAMS: culture, automation, measurement, and sharing. -- D. Edwards, J. Willis (2010)
 
----
-
 DevOps is a set of techniques to solve the chronic conflict between Development
 an IT Operations. This conflict causes:
 * increased time to market

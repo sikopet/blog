@@ -1,10 +1,10 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/devops.md) of this post.)
 
-The opposite of DevOps is despair. -- Gene Kim
+> The opposite of DevOps is despair. -- Gene Kim
 
-If HW and SW are sufficiently fault tolerant, the remaining problems are human. -- TPoCSA
+> If HW and SW are sufficiently fault tolerant, the remaining problems are human. -- TPoCSA
 
-CAMS: culture, automation, measurement, and sharing. -- D. Edwards, J. Willis (2010)
+> CAMS: culture, automation, measurement, and sharing. -- D. Edwards, J. Willis (2010)
 
 ---
 

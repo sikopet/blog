@@ -27,7 +27,7 @@ transformed manufacturing.
 DevOps has been formed by:
 * Lean principles
 * Agile Community
-* infrastructure as code
+* Infrastructure as Code
 * CI, CD
 * Innovation Culture
 * Toyota Kata

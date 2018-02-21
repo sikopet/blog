@@ -52,7 +52,7 @@ Devops
 
 * [Ansible](posts/ansible.md)
 * [AWS](posts/aws.md)
-* [DevOps](posts/devops.md)
+* [DevOps](posts/devops.md) :ok:
 * [Docker](posts/docker.md)
 * [Vagrant](posts/vagrant.md) :ok:
 

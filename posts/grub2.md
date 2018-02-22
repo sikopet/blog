@@ -16,7 +16,7 @@ for known OSs and create the required entries).
 
 When GRUB starts it launches all executable scripts in `/etc/grub.d/`. If you modify scripts in this directory run `update-grub`.
 
-## Adding a menu entry
+## Adding a Menu Entry
 
 Custom startup script to boot the System Rescue CD from the hard disk:
 
@@ -35,7 +35,7 @@ Custom startup script to boot the System Rescue CD from the hard disk:
 * 06 - defines the kernel path (`root` in GRUB Legacy) with two parameters: `subdir` and `setkmap`
 * 07 - defines the initial RAM disk path
 
-## Booting From grub-rescue>
+## Booting from grub-rescue>
 
 If you see `grub rescue>` that means it couldn't find `normal.mod`, so it probably couldn't find any of your boot files.
 
@@ -58,7 +58,7 @@ When you have successfully booted your system, run these commands to fix GRUB pe
 # grub-install /dev/sdc
 ```
 
-When you run grub-install remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like `/dev/sdc1`.
+When you run `grub-install` remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like `/dev/sdc1`.
 
 ## Source
 

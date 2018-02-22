@@ -39,6 +39,8 @@ Custom startup script to boot the System Rescue CD from the hard disk:
 
 If you see `grub rescue>` that means it couldn't find `normal.mod`, so it probably couldn't find any of your boot files.
 
+How does this happen? The kernel might have changed drive assignments or you moved your hard drives, you changed some partitions, or installed a new operating system and moved things around. In these scenarios your boot files are still there, but GRUB can't find them. So you can look for your boot files at the GRUB prompt, set their locations, and then boot your system and fix your GRUB configuration.
+
 ```
 grub rescue> ls
 grub rescue> set prefix=(hd0,1)/boot/grub

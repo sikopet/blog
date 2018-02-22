@@ -49,6 +49,17 @@ grub rescue> insmod normal
 grub rescue> normal
 ```
 
+## Making Permanent Repairs
+
+When you have successfully booted your system, run these commands to fix GRUB permanently:
+
+```
+# update-grub
+# grub-install /dev/sdc
+```
+
+When you run grub-install remember you're installing it to the boot sector of your hard drive and not to a partition, so do not use a partition number like `/dev/sdc1`.
+
 ## Source
 
 * Linux Magazine 111, February 2010

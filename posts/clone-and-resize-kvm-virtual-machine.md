@@ -35,10 +35,13 @@ inconsistencies a running machine could create.
 
     # convert the qcow image to a plain raw file
     qemu-img convert system.qcow -O raw system.raw
+    
     # create a dummy file (filled with zeros) of the size of extra space you want to add to your image (here 1GB)
     dd if=/dev/zero of=zeros.raw bs=1024k count=1024
+    
     # add your extra space to your raw system image without fear
     cat system.raw zeros.raw > big.raw
+    
     # finally convert back your raw image to a qcow file not to waste space
     qemu-img convert big.raw -O qcow growed-system.qcow
 

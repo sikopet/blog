@@ -16,8 +16,7 @@ for known OSs and create the required entries).
 
 When GRUB starts it launches all executable scripts in `/etc/grub.d/`. If you modify scripts in this directory run `update-grub`.
 
-Adding a menu entry
-===================
+## Adding a menu entry
 
 Custom startup script to boot the System Rescue CD from the hard disk:
 
@@ -36,7 +35,19 @@ Custom startup script to boot the System Rescue CD from the hard disk:
 * 06 - defines the kernel path (`root` in GRUB Legacy) with two parameters: `subdir` and `setkmap`
 * 07 - defines the initial RAM disk path
 
-Source
-======
+## Booting From grub-rescue>
 
-Linux Magazine 111, February 2010
+If you see `grub rescue>` that means it couldn't find `normal.mod`, so it probably couldn't find any of your boot files.
+
+```
+grub rescue> ls
+grub rescue> set prefix=(hd0,1)/boot/grub
+grub rescue> set root=(hd0,1)
+grub rescue> insmod normal
+grub rescue> normal
+```
+
+## Source
+
+* Linux Magazine 111, February 2010
+* https://www.linux.com/learn/how-rescue-non-booting-grub-2-Linux

@@ -16,6 +16,8 @@ We want to allow the tech access the incomp (intranet) host from the outcomp.sk 
 2) Connect to intranet host:
 
         outcomp.sk:~$ ssh -p 2222 root@localhost
+        
+Note that you need to have SSH server running on both incomp and outcomp.sk.
 
 ## Forwarding local port
 

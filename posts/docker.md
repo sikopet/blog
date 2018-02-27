@@ -6,7 +6,7 @@ It's a well timed fusion of
 Think of a container not as a virtual machine but a very lighweight wrapper
 around a single Unix *process*.
 
-Docker revision control
+Docker revision controls
 
 1. filesystem layers
 2. image tags

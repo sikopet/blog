@@ -1,4 +1,7 @@
+(Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/docker.md) of this post.)
+
 It's a well timed fusion of
+
 * kernel features
 * filesystem tricks
 * networking hacks

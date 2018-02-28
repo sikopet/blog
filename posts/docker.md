@@ -1,6 +1,6 @@
 (Up-to-date [source](https://github.com/jreisinger/blog/blob/master/posts/docker.md) of this post.)
 
-It's a well timed fusion of
+Docker is a container technology. It's a well timed fusion of
 
 * kernel features
 * filesystem tricks
@@ -37,25 +37,25 @@ To launch a container
 
 To create a custom image you need a `Dockerfile` - each line in a Dockerfile creates a new image layer that is stored by Docker
 
-Build an image
+Build an image:
 
     git clone https://github.com/spkane/docker-node-hello.git
     cd docker-node-hello
     docker build -t example/docker-node-hello:latest .
 
-Run an image (or a container?)
+Run an image (or a container?):
 
     docker run -d -p 80:8080 example/docker-node-hello:latest
     
 * `-p 80:8080` tells Docker to proxy the container's port 80 on the host's port 8080 (port binding)
 * `example/docker-node-hello:latest` is a tag
 
-Remove an image
+Remove an image:
 
     docker images
     docker rmi <image_id>
 
-Remove all images on your Docker host
+Remove all images on your Docker host:
 
     docker rmi $(docker images -q -)
 
@@ -68,7 +68,7 @@ system.
 
 Containers are a *Linux only* technology.
 
-Create a container (see also "Run an image" above)
+Create a container (see also "Run an image" above):
 
     docker run --rm -ti ubuntu /bin/bash 
 
@@ -78,21 +78,21 @@ Create a container (see also "Run an image" above)
 * `-i` - interactive session, e.i. keep STDIN open
 * `/bin/bash` - executable to run within the container
 
-Get into a running container
+Get into a running container:
 
     docker ps
     docker exec -it <container_id> /bin/bash
 
-Stop a container
+Stop a container:
 
     docker stop <container_id>
 
-Remove a container
+Remove a container:
 
     docker ps -a
     docker rm <container_id>
 
-Remove all containers on your Docker host
+Remove all containers on your Docker host:
 
     docker rm  $(docker ps -a -q)
 
@@ -100,4 +100,4 @@ Sources
 -------
 
 * Docker: Up & Running (2015)
-* ULSAH v5 (2017)
+* Unix and Linux System Administration Handbook, 5th ed. (2017)

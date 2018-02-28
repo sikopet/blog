@@ -47,7 +47,7 @@ Operating Systems and Apps
 * [VMware](posts/vmware.md)
 * [ZFS](posts/zfs.md)
 
-Devops
+DevOps
 ------
 
 * [Ansible](posts/ansible.md)

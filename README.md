@@ -88,7 +88,7 @@ Programming
 
 * [Big O Notation](posts/big-o-notation.md)
 * [Git](posts/git.md)
-* [Programming in General](posts/prog-general.md)
+* [Programming in General](posts/prog-general.md) :ok:
 * [Search Your GitHub](posts/search-github.md)
 
 Shell

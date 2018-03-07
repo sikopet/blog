@@ -24,12 +24,10 @@ Programming languages
 * formal notation for writing programs
 * have precise syntax (form) and semantics (meaning)
 * machine language: low-level, created by the CPU designers, understood by computer hardware (in binary notation - sequences of 0s and 1s):
-
-        load the number from memory location 2001 into the CPU
-        load the number from memory location 2002 into the CPU
-        add the two numbers in the CPU
-        store the result into location 2003
-        
+    * load the number from memory location 2001 into the CPU
+    * load the number from memory location 2002 into the CPU
+    * add the two numbers in the CPU
+    * store the result into location 2003
 * high-level language: human-oriented, must be compiled or interpreted, more portable
 * compiled: faster
     * compiler - complex program that translates source code into machine code

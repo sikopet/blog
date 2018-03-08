@@ -8,7 +8,7 @@
 * order of magnitude is related but different - how many digits are in a number describing size (1000 is an order of magnitude larrger than 100)
 * you can't really tell how fast an algorithm will be without benchmarking (CPU, disk, [RAM complexities](http://queue.acm.org/detail.cfm?id=1814327)) but O() notation can serve as a general guide
 
-The expression in the parenthesis defines the number of operations for the *worst-case* scenario. For example, if you binary search through 100 elements you will do 7 (log 100) guesses at most. If you use simple search you will do 100 (n) guesses at most. Also notice that the growth rate of the binary algorithm is much smaller:
+The expression in the parenthesis defines the number of operations for the *worst-case* scenario. For example, if you binary search through 100 elements (n = 100) you will do 7 (log n) guesses at most. If you use simple search you will do 100 (n) guesses at most. Also notice that the growth rate of the binary algorithm is much smaller:
 
 | # elements (n) | Simple search (n)     | Binary search (log n) |
 |----------------|-----------------------|-----------------------|

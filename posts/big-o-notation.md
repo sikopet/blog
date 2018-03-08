@@ -32,11 +32,11 @@ Super-linear scaling
     disproportionately
 * O(n^2) - quadratic - but everybody says **exponential** when they mean quadratic :-)
 
-Resources
+## See also
+
+* http://bigocheatsheet.com/
+
+## Resources
 
 * TPoCSA, Appendix C
 * Grokking Algorithms
-
-See also
-
-* http://bigocheatsheet.com/

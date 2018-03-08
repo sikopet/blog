@@ -86,7 +86,7 @@ Security
 Programming
 -----------
 
-* [Big O Notation](posts/big-o-notation.md)
+* [Big O Notation](posts/big-o-notation.md) :ok:
 * [Git](posts/git.md)
 * [Programming in General](posts/prog-general.md) :ok:
 * [Search Your GitHub](posts/search-github.md)

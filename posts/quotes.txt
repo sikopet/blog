@@ -1,3 +1,5 @@
+These days, operations staff may rarely see a computer other than their laptop: tha machines that do the work are virtual, they live at Amazon or at Microsoft or at Google or at IBM. -- Mike Loukides (2017)
+
 As an industry, we are moving into technologies (deep learning, machine learning, microservices, autonomous operations) where it is increasingly likely that we will be dealing with complex systems, where introspection how something works is less important during the development and support cycle than whether it works. -- Casey Rosenthal (Netflix's Manager of Traffic and Chaos Teams)
 
 Elegance and simplicity and generality all are things that, to a large extent, depend on personal taste, bacuse what seems to cover a large area for me may not cover enough for someone else, and vice versa. -- Guido van Rossum (Masterminds of Programming)

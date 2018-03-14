@@ -13,7 +13,7 @@ Things I do after installing a fresh Linux machine.
         update-rc.d nfs-common remove
         update-rc.d portmap remove
 
- 1. Install `ntp` to keep exact time. Ex.: `aptitude install ntp`
+ 1. Install `ntp` to keep exact time. Ex. `aptitude install ntp`
 
 ## Optional
 

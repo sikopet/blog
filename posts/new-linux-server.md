@@ -19,7 +19,7 @@ Things I do after installing a fresh Linux machine.
 
 ## Optional
 
- * Install `fail2ban` to block ssh brute-force crackers: `aptitude install fail2ban`
+ * Install `fail2ban` to block ssh brute-force crackers. Ex. `aptitude install fail2ban`
 
  * Setup [firewall](https://github.com/jreisinger/varia/blob/master/iptables.sh) to increase network security. Restart `fail2ban` after you install the firewall rules.
  
@@ -31,7 +31,7 @@ Things I do after installing a fresh Linux machine.
         root    ALL=(ALL) ALL
         jbond   ALL=(ALL) ALL
 
- * Set your timezone (ex. to UTC):
+ * Set your timezone. Ex. to UTC:
 
         $ sudo cp -p /etc/localtime{,.orig}  # don't bother viewing it, it's a binary file
         $ sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
@@ -39,6 +39,7 @@ Things I do after installing a fresh Linux machine.
         Wed Feb 17 08:35:29 UTC 2010
 
 ### Perl stuff
+
  * Install `cpanminus` to have a nice installer of [CPAN](https://metacpan.org/) modules:
  
         sudo apt-get install cpanminus  # or

@@ -15,7 +15,7 @@ Things I do after installing a fresh Linux machine.
         update-rc.d nfs-common remove
         update-rc.d portmap remove
 
- 1. Make sure your system keeps exact time. Ex. `aptitude install ntp`.
+ 1. Make sure your system keeps exact time. Ex. `aptitude install ntp`. To check the [time is synchronized](https://wiki.archlinux.org/index.php/Systemd-timesyncd) on Arch Linux: `timedatectl status`.
 
 ## Optional
 

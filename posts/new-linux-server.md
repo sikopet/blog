@@ -4,7 +4,7 @@ Things I do after installing a fresh Linux machine.
 
 ## Mandatory
 
- 1. Disable root logging in with password (i.e. [allow only login with ssh key](http://serverfault.com/a/132583) - scripts using ssh keys can still login): set `PermitRootLogin without-password` in `/etc/ssh/sshd_config` and restart `sshd`
+ 1. Disable root logging in with password - i.e. [allow only login with ssh key](http://serverfault.com/a/132583) (scripts using ssh keys can still login). Ex. set `PermitRootLogin without-password` in `/etc/ssh/sshd_config` and restart `sshd`.
 
  1. Make sure [no unnecessary services](https://metacpan.org/pod/App::Monport) are running, ex.:
 

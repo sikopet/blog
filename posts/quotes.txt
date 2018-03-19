@@ -1,3 +1,5 @@
+Always rewrite your code from scratch, prefefably twice. -- Tom Christiansen
+
 But those complex distributed systems built from hardware and software are really only extensions of much more complex distributed systems built by humans. -- Mike Loukides (https://www.oreilly.com/ideas/what-is-devops-yet-again)
 
 We need empathy, creative thinking and participation with the users we're trying to serve. That's not easy. -- Mike Loukides (https://www.oreilly.com/ideas/what-is-devops-yet-again)

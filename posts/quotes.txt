@@ -1,3 +1,5 @@
+We need empathy, creative thinking and participation with the users we're trying to serve. That's not easy. -- Mike Loukides (https://www.oreilly.com/ideas/what-is-devops-yet-again)
+
 If we're just providing solutions, and not understanding the problem that needs to be solved, from the perspective of the person who has the problem, we're not doing anything. -- Mike Loukides (https://www.oreilly.com/ideas/what-is-devops-yet-again)
 
 These days, operations staff may rarely see a computer other than their laptop: tha machines that do the work are virtual, they live at Amazon or at Microsoft or at Google or at IBM. -- Mike Loukides (2017)

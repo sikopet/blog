@@ -150,3 +150,8 @@ Source
 * [TPoSaNA](http://the-sysadmin-book.com/)
 * [TPoCSA](http://the-cloud-book.com/)
 * http://sysadvent.blogspot.sk/2016/12/day-13-injecting-modern-concepts-into.html
+
+More
+----
+
+* https://www.oreilly.com/ideas/what-is-devops-yet-again

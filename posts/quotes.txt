@@ -1,3 +1,5 @@
+It's estimated that, as of 2017, there are more than a million unfilled cybersecurity positions globally. SOCs are understaffed and short on skills. -- Chad Russell (http://imperva.lookbookhq.com/waf-oreilly/eBook)
+
 Always rewrite your code from scratch, prefefably twice. -- Tom Christiansen
 
 But those complex distributed systems built from hardware and software are really only extensions of much more complex distributed systems built by humans. -- Mike Loukides (https://www.oreilly.com/ideas/what-is-devops-yet-again)

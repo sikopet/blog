@@ -38,6 +38,8 @@ functions. system() executes cmd and *waits* for it to exit. Return code (rc) 0
 means success. Non-zero exit code indicates and error whose description can be
 found in `$?`.
 
+Two ways of calling `system()`:
+
     # string will be passed to the shell for interpretation
     $rc = system('cmd and args');
     # shell won't get used but also you can't use shell metachars (ex. >)
@@ -46,6 +48,8 @@ found in `$?`.
 The `exec()` is like the system() but *replaces* the current process with the
 cmd. The new process will have the same PID and will share the same STDIN,
 STDOUT, and STDERR.
+
+A sample use of `exec()`:
 
     my $child = fork();
     die "Can't fork: $!" unless defined $child;

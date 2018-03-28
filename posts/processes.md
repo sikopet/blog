@@ -1,10 +1,10 @@
 A process is the (Unix) OS abstraction for a running program. The process
 object allows for management of program's use of memory, processor's time and
-I/O resources. A process contains the program, libraries and a kernel data
-structure with information like the process's address space map, status (ex.
+I/O resources. A process contains the *program*, *libraries* and a *kernel data
+structure* with information like the process's address space map, status (ex.
 sleeping, stopped, runnable), owner, PID. 
 
-Modern OSs can run multiple processes at the same time - multitasking. On a
+Modern OSs can run multiple processes at the same time - *multitasking*. On a
 multi-CPU/multi-core system the processes are really running simultaneously. On
 a single-CPU computer the OS switches between different processes quickly so it
 seems like they are running at the same time.

@@ -16,19 +16,22 @@ within a single process.
 
 This is how you clone a process in Perl:
 
-    my $pgrp = getpgrp();
-    print "PID=$$, PGRP=$pgrp\n";
+```
+#!/usr/bin/env perl
+use strict;
+use warnings;
 
-    my $pid = fork();
-    die "Can't fork: $!" unless defined $pid;
+my $pid = fork();
+die "Can't fork: $!" unless defined $pid;
 
-    if ( $pid > 0 ) {    # parent process
-        my ( $ppid, $pgrp ) = ( getppid, getpgrp );
-        print "Parent process: PID=$$, PGRP=$pgrp, child=$pid\n";
-    } else {             # child process
-        my ( $ppid, $pgrp ) = ( getppid, getpgrp );
-        print "Child process:  PID=$$, PGRP=$pgrp, parent=$ppid\n";
-    }
+if ( $pid > 0 ) {    # parent process
+    my ( $ppid, $pgrp ) = ( getppid, getpgrp );
+    print "Parent process: PID=$$, PGRP=$pgrp, parent=$ppid, child=$pid\n";
+} else {             # child process
+    my ( $ppid, $pgrp ) = ( getppid, getpgrp );
+    print "Child process:  PID=$$, PGRP=$pgrp, parent=$ppid, child=$pid\n";
+}
+```
 
 Another way to create a subprocess in Perl is to use `system()` or `exec()`
 functions. system() executes cmd and waits for it to exit. Return code (rc) 0

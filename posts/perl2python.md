@@ -5,10 +5,10 @@ Variables
 
 Data types:
 
-    Perl     Python             Example
-    ----     ------             -------
-    list  -> tuple (immutable)  ( 10, 20, 30 )      # parens are optional
+    Perl     Python             Example               Note
+    ----     ------             -------               -----
     array -> list               [ 1, 3.4, 'hello' ]
+    list  -> tuple              ( 10, 20, 30 )        immutable, parens are optional
     hash  -> dictionary         { 'a': 3, 'b': 42 }
 
 File I/O

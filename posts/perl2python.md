@@ -7,7 +7,7 @@ Data types:
 
     Perl     Python             Example
     ----     ------             -------
-    list  -> tuple (immutable)  ( 10, 20, 30 ) 
+    list  -> tuple (immutable)  ( 10, 20, 30 )      # parens are optional
     array -> list               [ 1, 3.4, 'hello' ]
     hash  -> dictionary         { 'a': 3, 'b': 42 }
 

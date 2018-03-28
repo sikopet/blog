@@ -95,6 +95,13 @@ Remove a container:
 Remove all containers on your Docker host:
 
     docker rm  $(docker ps -a -q)
+    
+Monitoring
+----------
+
+Containers' statistics:
+
+    docker stats [--no-stream]
 
 Sources
 -------

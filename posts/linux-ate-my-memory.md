@@ -50,6 +50,8 @@ To see it in action:
     rm /tmp/bla
     sudo swapon -a
 
+See https://github.com/jreisinger/mem-muncher for a dockerized version of the `munch` program.
+
 Resources
 =========
 

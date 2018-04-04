@@ -108,4 +108,4 @@ Sources
 
 * Docker: Up & Running (2015)
 * Unix and Linux System Administration Handbook, 5th ed. (2017)
-* [Building containers from scratch with Go](https://www.safaribooksonline.com/library/view/building-containers-from/9781491988404/) (video)
+* [Building containers from scratch with Go](https://www.safaribooksonline.com/library/view/building-containers-from/9781491988404/) (2017, video)

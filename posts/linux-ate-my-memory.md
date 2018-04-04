@@ -15,7 +15,7 @@ So the machine above has 1144 MB of memory free from the kernel point of view
 of memory free from the applications point of view (since programs don't
 consider memory used by caches and buffers).
 
-To demonstrate this, let's run this memory eating application (`munch.c`):
+To show this, let's run this memory eating application (`munch.c`):
 
     #include <stdlib.h>
     #include <stdio.h>
@@ -50,9 +50,10 @@ To see it in action:
     rm /tmp/bla
     sudo swapon -a
 
-See https://github.com/jreisinger/mem-muncher for a dockerized version of the `munch` program.
+See [mem-muncher](https://github.com/jreisinger/mem-muncher) for a dockerized version of the `munch` program.
 
 Resources
 =========
 
 * http://www.linuxatemyram.com/
+

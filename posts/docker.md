@@ -18,7 +18,7 @@ Terminology
 -----------
 
 Docker *server* - the `docker` command run in daemon mode on a Linux host:
-    
+
     $ sudo docker -d -H unix:///var/run/docker.sock -H tcp://0.0.0.0:2375
 
 Docker *image* - one or more filesystem layers and metadata that represent all
@@ -46,7 +46,7 @@ Build an image:
 Run an image (or a container?):
 
     docker run -d -p 80:8080 example/docker-node-hello:latest
-    
+
 * `-d, --detach` run container in background and print container ID
 * `-p 80:8080` tells Docker to proxy the container's port 80 on the host's port 8080 (port binding)
 * `example/docker-node-hello` image to derive the container from
@@ -72,7 +72,7 @@ Containers are a *Linux only* technology.
 
 Create a container (see also "Run an image" above):
 
-    docker run --rm -ti ubuntu /bin/bash 
+    docker run --rm -ti ubuntu /bin/bash
 
 * `run` - `create` + `start`
 * `--rm` - delete the container when it exits
@@ -97,13 +97,33 @@ Remove a container:
 Remove all containers on your Docker host:
 
     docker rm  $(docker ps -a -q)
-    
+
 Monitoring
 ----------
 
 Containers' statistics:
 
     docker stats [--no-stream]
+
+Limiting a container's resources
+--------------------------------
+
+* a container has no resource constraints by default
+* Docker provides a way to limit memory, CPU and block IO resources
+* your kernel must support Linux capabilities (`docker info | grep WARNING`)
+
+Memory
+
+* if the kernel detects that there is not enough memory, it throws an `Out of Memory Exception` and starts killing processes
+* any process is subject to killing (including Docker)
+* Docker adjusts OOM priority in the Docker daemon so it's less likely to get killed
+* the OOM priority on containers is not adjusted so they are more likely to be killed than the Docker daemon
+
+To limit the memory resource to 500 MB and forbid access to swap for a container:
+
+    docker run -it --rm --name mem-muncher --memory=500m --memory-swap=500m mem-muncher
+
+See https://docs.docker.com/config/containers/resource_constraints/ for more.
 
 Sources
 -------

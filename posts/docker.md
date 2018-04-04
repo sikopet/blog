@@ -47,6 +47,7 @@ Run an image (or a container?):
 
     docker run -d -p 80:8080 example/docker-node-hello:latest
     
+* `-d, --detach` run container in background and print container ID
 * `-p 80:8080` tells Docker to proxy the container's port 80 on the host's port 8080 (port binding)
 * `example/docker-node-hello:latest` is a tag
 

@@ -10,10 +10,10 @@ allocated to applications immediately if needed.
     -/+ buffers/cache:       1686       2279
     Swap:         1903        454       1449
 
-So the machine above has 1144 MB of memory free from the kernel point of view
-(since Linux considers memory used for caching/buffering as used) but 2279 MB
-of memory free from the applications point of view (since programs don't
-consider memory used by caches and buffers).
+So the machine above has `1144` MB of memory free from the kernel point of view
+since Linux considers memory used for caching/buffering as used. However it has `2279` MB
+of memory free from the applications point of view because programs don't
+consider memory used by caches and buffers.
 
 To show this, let's run this memory eating application (`munch.c`):
 

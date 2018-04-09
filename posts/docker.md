@@ -103,7 +103,7 @@ Volumes
 
 * heavy reliance on the read/write overly filesystem isn't the best storage
     solution
-* Docker has the notion of volumes that are maintained seprately from the union
+* Docker has the notion of volumes that are maintained separately from the union
     filesystem
 * volumes can be shared among containers
 
@@ -124,7 +124,7 @@ Add a volume to a container (`-v`):
       }
     ]
 
-Add *bind volume* (mount volume on the host and in a container simultaneously(:
+Add *bind volume* (mount volume on the host and in a container simultaneously):
 
     $ docker run -v /mnt/data:/data --rm --name web -d nginx
     $ docker inspect -f '{{ json .Mounts }}' web | jq
@@ -138,6 +138,11 @@ Add *bind volume* (mount volume on the host and in a container simultaneously(:
         "Propagation": "rprivate"
       }
     ]
+
+Have a data volume container:
+
+    $ docker create -v /mnt/data:/data --name nginx-data nginx # never runs
+    $ docker run --volumes-from nginx-data -p80:80 --name web -d nginx
 
 Monitoring
 ----------

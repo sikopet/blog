@@ -31,8 +31,8 @@ the files required to run a Dockerized application
 Docker *container* - a Linux container that has been instantiated from a Docker
 image
 
-Working with Docker images
---------------------------
+Images
+------
 
 To launch a container
 
@@ -65,8 +65,8 @@ Remove all images on your Docker host:
 
     docker rmi $(docker images -q -)
 
-Working with Docker containers
-------------------------------
+Containers
+----------
 
 A container is a self-contained execution environment that shares the kernel of
 the host system and which is (optionally) isolated from other containers in the
@@ -138,6 +138,25 @@ Have a data volume container:
 
     $ docker create -v /mnt/data:/data --name nginx-data nginx # never runs
     $ docker run --volumes-from nginx-data -p80:80 --name web -d nginx
+
+Networks
+--------
+
+During installation Docker creates three default networking operations:
+
+    $ docker network ls
+    NETWORK ID          NAME                DRIVER              SCOPE
+    0e07cd43ad1b        bridge              bridge              local
+    1876373e07e4        host                host                local
+    e3f087868688        none                null                local
+
+* bridge is the default -> private namespaces network within the host
+* with host networking no separate network namespace is used (`docker run --net
+    host ...`)
+* when you use `-p` Docker creates `iptables` rules that route traffic from the
+    host's public interface on the container's interface on the bridge network
+
+![docker bridge network](https://raw.github.com/jreisinger/blog/master/files/docker_bridge.png "Docker bridge network")
 
 Monitoring
 ----------

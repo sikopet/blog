@@ -158,12 +158,21 @@ During installation Docker creates three default networking operations:
 
 ![docker bridge network](https://raw.github.com/jreisinger/blog/master/files/docker_bridge.png "Docker bridge network")
 
-Monitoring
-----------
+Monitoring and cleanup
+----------------------
 
 Containers' statistics:
 
     docker stats [--no-stream]
+
+Clean up:
+
+    # you will be asked to confirm
+    docker system prune                                     # containers, images
+    docker images prune                                     # only images
+
+    # be careful
+    docker volume rm $(docker volume ls -qf dangling=true)  # volumes
 
 Limiting a container's resources
 --------------------------------

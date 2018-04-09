@@ -21,8 +21,12 @@ Docker *server* - the `docker` command run in daemon mode on a Linux host:
 
     $ sudo docker -d -H unix:///var/run/docker.sock -H tcp://0.0.0.0:2375
 
+![docker architecture](https://raw.github.com/jreisinger/blog/master/files/docker_architecture.png "Docker architecture")
+
 Docker *image* - one or more filesystem layers and metadata that represent all
 the files required to run a Dockerized application
+
+![docker images](https://raw.github.com/jreisinger/blog/master/files/docker_images.png "Docker images")
 
 Docker *container* - a Linux container that has been instantiated from a Docker
 image

@@ -6,7 +6,7 @@ Docker is a container technology. It's a well timed fusion of
 * filesystem tricks
 * networking hacks
 
-Think of a container not as a virtual machine but a very lighweight wrapper
+Think of a container not as a virtual machine but a very lightweight wrapper
 around a single Unix *process*.
 
 Docker revision controls
@@ -48,7 +48,7 @@ Run an image (or a container?):
     docker run -d -p 80:8080 example/docker-node-hello:latest
 
 * `-d, --detach` run container in background (daemon mode) and print container ID
-* `-p 80:8080` tells Docker to proxy the container's port 80 on the host's port 8080 (port binding)
+* `-p 80:8080` tells Docker to proxy the container's port 8080 on the host's port 80 (port binding)
 * `example/docker-node-hello` image to derive the container from
 * `:latest` tag specifying the image version
 

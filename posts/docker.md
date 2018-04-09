@@ -127,17 +127,8 @@ Add a volume to a container (`-v`):
 Add *bind volume* (mount volume on the host and in a container simultaneously):
 
     $ docker run -v /mnt/data:/data --rm --name web -d nginx
-    $ docker inspect -f '{{ json .Mounts }}' web | jq
-    [
-      {
-        "Type": "bind",
-        "Source": "/mnt/data",
-        "Destination": "/data",
-        "Mode": "",
-        "RW": true,
-        "Propagation": "rprivate"
-      }
-    ]
+    $ docker inspect -f '{{ json .Mounts }}' web
+    [{"Type":"bind","Source":"/mnt/data","Destination":"/data","Mode":"","RW":true,"Propagation":"rprivate"}]
 
 Have a data volume container:
 

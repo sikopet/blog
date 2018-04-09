@@ -47,7 +47,7 @@ Run an image (or a container?):
 
     docker run -d -p 80:8080 example/docker-node-hello:latest
 
-* `-d, --detach` run container in background and print container ID
+* `-d, --detach` run container in background (daemon mode) and print container ID
 * `-p 80:8080` tells Docker to proxy the container's port 80 on the host's port 8080 (port binding)
 * `example/docker-node-hello` image to derive the container from
 * `:latest` tag specifying the image version
@@ -97,6 +97,47 @@ Remove a container:
 Remove all containers on your Docker host:
 
     docker rm  $(docker ps -a -q)
+
+Volumes
+-------
+
+* heavy reliance on the read/write overly filesystem isn't the best storage
+    solution
+* Docker has the notion of volumes that are maintained seprately from the union
+    filesystem
+* volumes can be shared among containers
+
+Add a volume to a container (`-v`):
+
+    $ docker run -v /data --rm --hostname web --name web -d nginx
+    $ docker inspect -f '{{ json .Mounts }}' web | jq
+    [
+      {
+        "Type": "volume",
+        "Name": "2d80bc1056787f16b71fb0edced98b3036252083044b1c8db536627c2544a121",
+        "Source": "/var/lib/docker/volumes/2d80bc1056787f16b71fb0edced98b3036252083044b1c8db536627c2544a121/_data",
+        "Destination": "/data",
+        "Driver": "local",
+        "Mode": "",
+        "RW": true,
+        "Propagation": ""
+      }
+    ]
+
+Add *bind volume* (mount volume on the host and in a container simultaneously(:
+
+    $ docker run -v /mnt/data:/data --rm --name web -d nginx
+    $ docker inspect -f '{{ json .Mounts }}' web | jq
+    [
+      {
+        "Type": "bind",
+        "Source": "/mnt/data",
+        "Destination": "/data",
+        "Mode": "",
+        "RW": true,
+        "Propagation": "rprivate"
+      }
+    ]
 
 Monitoring
 ----------

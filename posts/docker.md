@@ -195,6 +195,14 @@ To limit the memory resource to 500 MB and forbid access to swap for a container
 
 See https://docs.docker.com/config/containers/resource_constraints/ for more.
 
+Swarm
+-----
+
+* [service placement](https://docs.docker.com/engine/swarm/services/#control-service-placement) (affinity)
+* [monitoring](https://github.com/stefanprodan/swarmprom)
+
+[Setup](https://gist.github.com/jreisinger/a196f3e51e3a7069f7f91665025570cf) simple cluster.
+
 Sources
 -------
 

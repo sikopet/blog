@@ -1,3 +1,5 @@
+Simplicity requires more work at the beginning of a project to reduce an idea to its essence and more discipline over the lifetime of a project to distinguish good changes from bad or pernicious ones. -- The Go Programming Language
+
 It's estimated that, as of 2017, there are more than a million unfilled cybersecurity positions globally. SOCs are understaffed and short on skills. -- Chad Russell (http://imperva.lookbookhq.com/waf-oreilly/eBook)
 
 Always rewrite your code from scratch, prefefably twice. -- Tom Christiansen

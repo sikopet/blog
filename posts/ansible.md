@@ -218,6 +218,16 @@ Run a task and print its output, even if it fails:
 # more tasks here
 ```
 
+Have multiple ansible versions on a Laptop:
+
+```
+mkdir ansibles
+cd ansibles
+git clone -b stable-2.4 --recursive https://github.com/ansible/ansible.git stable-2.4
+source ./stable-2.4/hacking/env-setup
+ansible --version
+```
+
 Source
 ------
 

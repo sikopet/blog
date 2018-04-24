@@ -223,7 +223,8 @@ Have multiple ansible versions on a Laptop:
 ```
 mkdir ansibles
 cd ansibles
-git clone -b stable-2.4 --recursive https://github.com/ansible/ansible.git stable-2.4
+# see https://github.com/ansible/ansible/releases for versions
+VER=stable-2.4; git clone -b $VER --recursive https://github.com/ansible/ansible.git $VER
 source ./stable-2.4/hacking/env-setup
 ansible --version
 ```

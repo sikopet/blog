@@ -105,8 +105,9 @@ Remove all containers on your Docker host:
 Volumes
 -------
 
-* heavy reliance on the read/write overly filesystem isn't the best storage
+* heavy reliance on the read/write filesystem layer isn't the best storage
     solution
+* the read/write filesystem layer gets removed when the container is removed
 * Docker has the notion of volumes that are maintained separately from the union
     filesystem
 * volumes can be shared among containers

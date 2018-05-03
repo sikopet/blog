@@ -53,10 +53,10 @@ Media
     +-------------------+------------+----------------------+-------------------+-------------+----------+
     | What              | Size       | Sequential Read Speed| Random Read Speed | Write Speed | Cost     |
     +-------------------+------------+----------------------+-------------------+-------------+----------+
-    | LTO-3 write speed |            |                      |                   | 80MB/s      | $0.06/GB |
-    | LTO-4 write speed |            |                      |                   | 120MB/s     | $0.05/GB |
-    | HD                | Terrabytes | 100MB/s              | 2MB/s             |             | $0.10/GB |
-    | SSD               | Gigabytes  | 250MB/s              | 250MB/s           |             | $3/GB    |
+    | LTO-3 write speed |            |                      |                   |     80 MB/s | $0.06/GB |
+    | LTO-4 write speed |            |                      |                   |    120 MB/s | $0.05/GB |
+    | HD                | Terrabytes |             100 MB/s |            2 MB/s |             | $0.10/GB |
+    | SSD               | Gigabytes  |             250 MB/s |          250 MB/s |             | $3.00/GB |
     '-------------------+------------+----------------------+-------------------+-------------+----------'
 <!-- Original table data:
 What ; Size ; Sequential Read Speed ; Random Read Speed ; Write Speed ; Cost
@@ -95,7 +95,7 @@ RFC 1918 Private Address Space
     | Network class | Networks                    | Number of networks |
     +---------------+-----------------------------+--------------------+
     | A             |                    10.0.0.0 |                  1 |
-    | B             | 172.16.0.0. - 172.31.0.0    |                 16 |
+    | B             |    172.16.0.0. - 172.31.0.0 |                 16 |
     | C             | 192.168.0.0 - 192.168.255.0 |                256 |
     '---------------+-----------------------------+--------------------'
 <!-- Original table data:

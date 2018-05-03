@@ -176,4 +176,4 @@ Caching headers
 
 ## Sources
 
-Foundations of Python Network Programming (2014) - ch. 9
+Foundations of Python Network Programming (2014) - [ch. 9](https://www.safaribooksonline.com/library/view/foundations-of-python/9781430258551/9781430258544_Ch09.xhtml)

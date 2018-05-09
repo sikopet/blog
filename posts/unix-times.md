@@ -2,7 +2,7 @@
 
 Unix filesystem consists of two parts: 
 
-* data blocks - contents of files and directories (special files with inode-name pairs)
+* data blocks - contents of files and directories (directories are special files with inode-name pairs)
 * index to those data blocks
 
 Entries in the index are called `inodes` (index nodes). Inodes contain metadata (data about data) on the files, like:

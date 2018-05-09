@@ -15,19 +15,13 @@ Entries in the index are called `inodes` (index nodes). Inodes contain metadata 
 
 There is also a time information among the metadata. Actually three types of them:
 
-    .---------------------------------------=-------------------------------------------------------------.
-    | Type        | Short name | ls options | Description                                                 |
-    +-------------+------------+------------+-------------------------------------------------------------+
-    | Access Time | atime      | -lu        | when file was last accessed (read)                          |
-    | Modify Time | mtime      | -l         | when the actual contents of the file were last modified     |
-    | Change Time | ctime      | -lc        | when the inode information (the metadata) was last modified |
-    '-------------+------------+------------+-------------------------------------------------------------'
-<!-- Original table data:
-Type;Short name;ls options;Description
-Access Time;atime;-lu;when file was last accessed (read)
-Modify Time;mtime;-l;when the actual contents of the file were last modified
-Change Time;ctime;-lc;when the inode information (the metadata) was last modified
--->
+    .---------------------------------------=--------------------------------------------------------------------.
+    | Type        | Short name | ls options | Description                                                        |
+    +-------------+------------+------------+--------------------------------------------------------------------+
+    | Access Time | atime      | -lu        | file last read, directory last searched                            |
+    | Modify Time | mtime      | -l         | file last written to, directory's entry last added/renamed/removed |
+    | Change Time | ctime      | -lc        | inode information (the metadata) last changed                      |
+    '-------------+------------+------------+--------------------------------------------------------------------'
 
 ## Using timestamps
 

@@ -74,5 +74,5 @@ In those rare cases when you want to lie to other programs about when a file was
 
 ## Sources
 
-* Perl Cookbook
-* ULSAH
+* [Perl Cookbook](https://www.safaribooksonline.com/library/view/perl-cookbook-2nd/0596003137/)
+* [ULSAH](https://www.safaribooksonline.com/library/view/unix-and-linux/9780132117364/)

@@ -85,6 +85,8 @@ The system load average is an excellent metric to track as part of a system base
 
 Search for "/proc/loadavg" in `man 5 proc`.
 
+http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
+
 Per process consumption
 -----------------------
 

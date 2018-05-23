@@ -138,6 +138,13 @@ Checking for open resolvers: http://dns.measurement-factory.com/tools/ => open r
 * resources consumption
 * resolver's cache poisoning
 * amplification of DDoS attacks
+
+Find DNS server used by your system:
+
+```
+# Ubuntu 16.04
+nmcli device show | grep IP4.DNS
+```
  
 Sources
 =======

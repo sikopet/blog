@@ -106,11 +106,11 @@ host
 
     host name|addr [server]
  
-nslookup
+nslookup (Cricket Liu doesn't like it :-))
 
     nslookup [name|addr] [server]
 
-dig
+dig (preferred)
 
     dig [@server] [-x addr] [name] [type] [+trace]
 

@@ -79,8 +79,8 @@ Special characters in resource records
     ()  allows data to span lines
     *   wild card (`name` field only)
 
-Nameservers
-===========
+Name server taxonomy
+====================
 
 authoritative - an official representative of a zone
 
@@ -95,6 +95,8 @@ non-authoritative - answers queries from cache; doesn't know if the data is stil
 recursive - queries on your behalf until it returns either an answer or an error
 
 non-recursive - refers you to another server if it can't answer a query
+
+*Note*: resolver libraries do not understand referrals. Any local nameserver listed in a client's `resolv.conf` file must be recursive.
 
 Testing and debugging
 =====================

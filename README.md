@@ -95,7 +95,7 @@ Programming
 Shell
 
 * [Shell Completion](posts/shell-completion.md)
-* [Shell Exit Codes](posts/shell-exit-codes.md)
+* [Shell Exit Codes](posts/shell-exit-codes.md) :ok:
 * [Shell One Liners](posts/shell-one-liners.md)
 * [Shell Startup Files](posts/shell-startup-files.md)
 * [Working with Temporary Files in Shell Scripts](posts/shell-temporary-files.md)

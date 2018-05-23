@@ -1,9 +1,12 @@
 DNS database
 ============
 
-Zone - a portion of the DNS namespace, i.e. a domain name, that has been delegated to other servers/administrators.
+*Zone* - a portion of the DNS namespace, i.e. a domain name, that has been delegated to other servers/administrators.
 
-A zone's DNS database - set of text files (zone files) maintained by the sysadmin on the zone's master name server.
+*Zone files*
+
+* a zone's DNS database
+* set of text files maintained by the sysadmin on the zone's master name server.
 
 Zone files have two types of entries:
 

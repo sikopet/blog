@@ -12,6 +12,9 @@ Exit code can be used in conditionals like this:
 
     $ ls / > /dev/null && echo ok || echo error
     ok
+    
+    $ ls-bad / > /dev/null 2&>1 && echo ok || echo error
+    error
 
     $ grep root /etc/passwd > /dev/null && echo ok || echo error
     ok

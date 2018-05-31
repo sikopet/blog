@@ -189,7 +189,7 @@ Memory
 
 * if the kernel detects that there is not enough memory, it throws an `Out of Memory Exception` and starts killing processes
 * any process is subject to killing (including Docker)
-* a process that uses lot of memory but has not been running for long time is a most likely candidate to get killed (https://www.kernel.org/doc/gorman/html/understand/understand016.html)
+* a process that uses lot of memory but has not been running for long time is a most likely candidate to get killed (see [OOMM](https://www.kernel.org/doc/gorman/html/understand/understand016.html) for more)
 * Docker adjusts OOM priority in the Docker daemon so it's less likely to get killed
 * the OOM priority on containers is not adjusted so they are more likely to be killed than the Docker daemon
 

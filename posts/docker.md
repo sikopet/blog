@@ -79,12 +79,12 @@ Containers are a *Linux only* technology.
 
 Create a container (see also "Run an image" above):
 
-    docker run --rm -ti ubuntu /bin/bash
+    docker run --rm -it ubuntu /bin/bash
 
 * `run` - `create` + `start`
 * `--rm` - delete the container when it exits
-* `-t` - allocate a pseudo-TTY
 * `-i` - interactive session, e.i. keep STDIN open
+* `-t` - allocate a pseudo-TTY
 * `/bin/bash` - executable to run within the container
 
 Get into a running container:

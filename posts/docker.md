@@ -9,7 +9,7 @@ Docker is a container technology. It's a well timed fusion of
 Think of a container not as a virtual machine but a very lightweight wrapper
 around a single Unix *process*.
 
-Docker revision controls
+Docker revision-controls
 
 1. filesystem layers
 2. image tags

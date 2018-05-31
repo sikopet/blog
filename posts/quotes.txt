@@ -1,3 +1,5 @@
+Ktovie ako sa má babka Zuzka v tej truhle? Ale to asi nikto nevie, len krtko. -- Matu (Jar 2018)
+
 Remember, your friends are UTC for times, and UTF-8 for strings. -- Bill Lubanovic (Introducing Python)
 
 Since my earliest usage of Python, I've mostly viewed it as a personal productivity tool. -- David Beazley (;login: spring17)

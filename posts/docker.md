@@ -197,7 +197,7 @@ To limit the memory resource to 500 MB and forbid access to swap for a container
 
     docker run -it --rm --name mem-muncher --memory=500m --memory-swap=500m mem-muncher
 
-See https://docs.docker.com/config/containers/resource_constraints/ for more.
+See [mem-muncher](https://github.com/jreisinger/mem-muncher) and [Limit a container's resources](https://docs.docker.com/config/containers/resource_constraints/) for more.
 
 Swarm
 -----

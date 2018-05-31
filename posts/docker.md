@@ -146,7 +146,7 @@ Have a data volume container:
 Networks
 --------
 
-During installation Docker creates three default networking operations:
+During installation Docker creates three default networks:
 
     $ docker network ls
     NETWORK ID          NAME                DRIVER              SCOPE
@@ -154,7 +154,7 @@ During installation Docker creates three default networking operations:
     1876373e07e4        host                host                local
     e3f087868688        none                null                local
 
-* bridge is the default -> private namespaced network within the host
+* bridge is the default --> private namespaced network within the host
 * with host networking no separate network namespace is used (`docker run --net
     host ...`)
 * when you use `-p` Docker creates `iptables` rules that route traffic from the

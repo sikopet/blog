@@ -55,7 +55,7 @@ Run an image (or a container?):
     docker run -d -p 80:8080 example/docker-node-hello:latest
 
 * `-d, --detach` run container in background (daemon mode) and print container ID
-* `-p 80:8080` tells Docker to proxy the container's port 8080 on the host's port 80 (port binding)
+* `-p 80:8080` tells Docker to map host's port 80 to the container's port 8080 (port binding)
 * `example/docker-node-hello` image to derive the container from
 * `:latest` tag specifying the image version
 

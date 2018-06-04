@@ -17,7 +17,7 @@ source venv/bin/activate
 pip install flask
 
 # check installed package
-pip freeze
+pip freeze [> requirements.txt]
 
 # deactivate the virtual environment
 deactivate

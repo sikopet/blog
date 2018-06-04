@@ -1,0 +1,24 @@
+## Python3 virtual environment
+
+A virtual environment is a copy of the Python interpreter into which you can
+install packages without affecting the global system Python.
+
+```
+# install the venv package
+sudo apt-get install python3-venv
+
+# create a virtual environment
+python3 -m venv venv # 'venv' is a common name for a virtual environment
+
+# activate the virtual environment
+source venv/bin/activate
+
+# install packages into the virtual environment
+pip install flask
+
+# check installed package
+pip freeze
+
+# deactivate the virtual environment
+deactivate
+```

@@ -14,10 +14,11 @@ python3 -m venv venv # 'venv' is a common name for a virtual environment
 source venv/bin/activate
 
 # install packages into the virtual environment
+pip install -r requirements.txt
 pip install flask
 
 # check installed package
-pip freeze [> requirements.txt]
+pip freeze [>requirements.txt]
 
 # deactivate the virtual environment
 deactivate

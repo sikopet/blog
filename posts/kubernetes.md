@@ -50,6 +50,11 @@ kubectl delete -f obj.yaml  # no additional prompting!
 
 # delete objects
 kubectl delete <resource> <object>
+
+# debugging
+kubectl logs <pod>
+kubectl exec -it <pod> -- bash  # or sh instead of bash
+kubectl cp <pod>:/path/to/remote/file /path/to/local/file
 ```
 
 Resources

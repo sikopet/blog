@@ -39,6 +39,7 @@ ansible all -m ping
 ansible all [-m command] -a uptime
 ansible host1 -b -a "tail /var/log/syslog" # -b -> become
 ansible host1 -b -m apt -a name=nginx
+ansible all -i inventories/dev -b -m apt -a "name=nagios-nrpe-server state=absent"
 
 ansible-tools help init
 

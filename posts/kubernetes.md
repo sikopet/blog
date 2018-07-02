@@ -59,12 +59,6 @@ kubectl exec -it <pod> -- bash  # or sh instead of bash
 kubectl cp <pod>:/path/to/remote/file /path/to/local/file
 ```
 
-Important resources
-
-* deployment
-* service
-* ingress
-
 ## Pods
 
 * atomic unit of work in Kubernetes cluster
@@ -93,6 +87,19 @@ What goes into a pod?
 * should go into a Pod: web server + git scynhronizer - they communicate via
     filesystem
 * should go into separate Pods: Wordpress + DB - can communicate over net
+
+## Important resources
+
+Deployment
+
+* one way to create a deployment - `kubectl run ...`
+
+Service
+
+* a way to create a named label selector
+* one way to create a service - `kubectl expose ...`
+
+Ingress
 
 ## Resources
 

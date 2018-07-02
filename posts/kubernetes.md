@@ -1,3 +1,5 @@
+## Common kubectl commands
+
 Namespace
 
 * group of objects in a cluster
@@ -92,6 +94,6 @@ What goes into a pod?
     filesystem
 * should go into separate Pods: Wordpress + DB - can communicate over net
 
-Resources
+## Resources
 
 * Kubernetes: Up and Running (2017)

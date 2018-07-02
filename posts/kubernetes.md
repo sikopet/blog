@@ -57,6 +57,12 @@ kubectl exec -it <pod> -- bash  # or sh instead of bash
 kubectl cp <pod>:/path/to/remote/file /path/to/local/file
 ```
 
+Iportant resources
+
+* deployment
+* service
+* ingress
+
 Resources
 
 * Kubernetes: Up and Running (2017)

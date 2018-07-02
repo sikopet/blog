@@ -79,7 +79,7 @@ Pod manifest - just a text-file representation of the Kubernetes API object
 kubectl apply -f quotes-pod.yml
 ```
 
-* port forwarding!
+Port forwarding :cool:
 
 ```
 kubectl port-forward quotes 5000:5000
@@ -88,9 +88,9 @@ kubectl port-forward quotes 5000:5000
 What goes into a pod?
 
 * Will these containers work correctly if they land on different machines?
-* Should go into a Pod: web server + git scynhronizer - they communicate via
+* should go into a Pod: web server + git scynhronizer - they communicate via
     filesystem
-* Should got into separate Pods: Wordpress + DB - can communicate over net
+* should go into separate Pods: Wordpress + DB - can communicate over net
 
 Resources
 

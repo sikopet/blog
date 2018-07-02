@@ -57,11 +57,40 @@ kubectl exec -it <pod> -- bash  # or sh instead of bash
 kubectl cp <pod>:/path/to/remote/file /path/to/local/file
 ```
 
-Iportant resources
+Important resources
 
 * deployment
 * service
 * ingress
+
+## Pods
+
+* atomic unit of work in Kubernetes cluster
+* Pod = one ore more containers working together symbiotically
+* all containers in a Pod always land on the same machine
+* each container runs its own cgroup but they share some Linux namespaces:
+    network, UTS (hostname) and IP namespaces
+* if you want to persist data across multiple instances of a Pod, you need to
+    use `PersistentVolumes`
+
+Pod manifest - just a text-file representation of the Kubernetes API object
+
+```
+kubectl apply -f quotes-pod.yml
+```
+
+* port forwarding!
+
+```
+kubectl port-forward quotes 5000:5000
+```
+
+What goes into a pod?
+
+* Will these containers work correctly if they land on different machines?
+* Should go into a Pod: web server + git scynhronizer - they communicate via
+    filesystem
+* Should got into separate Pods: Wordpress + DB - can communicate over net
 
 Resources
 

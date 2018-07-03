@@ -24,8 +24,7 @@ kubectl config use-context <context-name>
 
 Objects
 
-* everything in Kubernetes is represented by a RESTful resource
-* these resources are called Kubernetes objects
+* everything in Kubernetes is represented by a RESTful resource - [Kubernetes] object
 * each object exists at a unique HTTP path, e.g. `https://your-k8s.com/api/v1/namespaces/default/pods/my-pod`
 * the `kubectl` makes requests to these URLs to access the objects
 
@@ -42,6 +41,7 @@ kubectl describe <resource> <object>
 -o wide       # more details
 -o json       # complete object in JSON format
 -o yaml       # complete object in YAML format
+--v=6         # verbosity
 --no-headers
 
 # create, update objects

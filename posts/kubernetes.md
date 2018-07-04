@@ -93,16 +93,25 @@ What goes into a pod?
 
 Deployment
 
-* one way to create a deployment - `kubectl run ...`
+* one way to create a deployment - `kubectl run quotes-prod --image=reisinge/quotes --replicas=3 --port=5000 --labels="ver=1,app=quotes,env=prod"`
 
 Service
 
-* one way to create a service - `kubectl expose ...`
+* one way to create a service - `kubectl expose deployment quotes-prod`
 * a way to create a named label selector - see `kubectl get service -o wide`
 * a service is assigned a VIP called a *cluster IP* -> load balanced across all
     the pods identified by the selector
 
-Ingress
+## Looking beyond the cluster
+
+* exposing services outside of the cluster
+
+NodePorts
+
+* it enhances a service
+* in addition to a cluster IP, a service gets a port (user defined or picked by
+    the system)
+* every node in the cluster forwards traffic to that port to the service
 
 ## Resources
 

@@ -53,6 +53,9 @@ kubectl delete -f obj.yaml  # no additional prompting!
 # delete objects
 kubectl delete <resource> <object>
 
+# cleanup
+kubectl delete deployments --all
+
 # debugging
 kubectl logs <pod>
 kubectl exec -it <pod> -- bash  # or sh instead of bash

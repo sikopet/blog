@@ -35,19 +35,22 @@ One liners
 ----------
 
 ```
-ansible all -m ping
-ansible all [-m command] -a uptime
-ansible host1 -b -a "tail /var/log/syslog" # -b -> become
-ansible host1 -b -m apt -a name=nginx
-ansible all -i inventories/dev -b -m apt -a "name=nagios-nrpe-server state=absent"
+$ ansible all -m ping
+$ ansible all [-m command] -a uptime
+$ ansible host1 -b -a "tail /var/log/syslog" # -b -> become
+$ ansible host1 -b -m apt -a name=nginx
+$ ansible all -i inventories/dev -b -m apt -a "name=nagios-nrpe-server state=absent"
 
-ansible-tools help init
+$ ansible-tools help init
 
-ansible -i stage waf1 -m fetch -a "src=/home/ubuntu/03_gen_whitelists \
+$ ansible -i stage waf1 -m fetch -a "src=/home/ubuntu/03_gen_whitelists \
 dest=./roles/nginx-naxsi/templates/events_mngt/ flat=yes"
 
 ansible -m authorized_key -a "key=\"{{lookup('file','/tmp/dude.pub')}}\" \
 user=ubuntu stage=present" all -i inventories/dev
+
+# Viewing all facts associated with a server
+ansible server1 -m setup
 ```
 
 Quoting

@@ -7,7 +7,7 @@ source ~/.openrc
 Networking (Neutron)
 
 ```
-openstack network list
-openstack network show <id>
-openstack ip availability show <id>
+openstack network list              # all nets
+openstack network show <id>         # details
+openstack ip availability show <id> # IP addresses
 ```

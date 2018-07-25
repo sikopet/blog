@@ -35,6 +35,7 @@ Operating Systems and Apps
 * [LVM](posts/lvm.md)
 * [MySQL](posts/mysql.md)
 * [New Linux Server](posts/new-linux-server.md) :ok:
+* [Openstack](posts/openstack.md)
 * [NFS](posts/nfs.md)
 * [PAM](posts/pam.md)
 * [RAID](posts/raid.md)

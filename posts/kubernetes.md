@@ -1,4 +1,5 @@
-## Common kubectl commands
+Terminology and concepts
+------------------------
 
 Namespace
 
@@ -62,7 +63,8 @@ kubectl exec -it <pod> -- bash  # or sh instead of bash
 kubectl cp <pod>:/path/to/remote/file /path/to/local/file
 ```
 
-## Pods
+Pods
+----
 
 * atomic unit of work in Kubernetes cluster
 * Pod = one or more containers working together symbiotically
@@ -89,30 +91,42 @@ What goes into a pod?
     filesystem
 * should go into separate Pods: Wordpress + DB - can communicate over net
 
-## Important resources
+Important resources
+-------------------
 
 Deployment
 
-* one way to create a deployment - `kubectl run quotes-prod --image=reisinge/quotes --replicas=3 --port=5000 --labels="ver=1,app=quotes,env=prod"`
+* one way to create a deployment
+
+```
+kubectl run quotes-prod --image=reisinge/quotes --replicas=3 --port=5000 --labels="ver=1,app=quotes,env=prod"
+```
 
 Service
 
-* one way to create a service - `kubectl expose deployment quotes-prod`
+* one way to create a service
+
+```
+kubectl expose deployment quotes-prod
+```
+
 * a way to create a named label selector - see `kubectl get service -o wide`
 * a service is assigned a VIP called a *cluster IP* -> load balanced across all
     the pods identified by the selector
 
-## Looking beyond the cluster
+Looking beyond the cluster
+--------------------------
 
 * exposing services outside of the cluster
 
 NodePorts
 
-* it enhances a service
+* it enhances a service (see above)
 * in addition to a cluster IP, a service gets a port (user defined or picked by
     the system)
 * every node in the cluster forwards traffic to that port to the service
 
-## Resources
+Resources
+---------
 
 * Kubernetes: Up and Running (2017)

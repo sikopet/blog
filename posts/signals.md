@@ -7,13 +7,13 @@ To ask the kernel to a send a signal:
     kill [-SIGNAL] PID  # default signal is TERM
 
 Selected signal types:
-* TERM (15) - terminate the process (polite request to die, i.e. can be caught)
-* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught, blocked or ignored)
-* INT (2) - interrupt (`Ctrl-C`). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
+* TERM (15) - terminate a process (polite request to die, i.e. can and should be caught)
+* KILL (9) - terminate a process at the kernel level and remove it forcibly from memory (cannot be caught, blocked or ignored)
+* INT (2) - interrupt, sent by the terminal driver on `Ctrl-C`. Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
 * STOP - freeze the process (stays in memory ready to continue where it left
     off)
 * CONT - continue running the STOPed process
-* QUIT - generate core dump (`Ctrl-\`)
+* QUIT - similar to TERM but generates a core dump in not caugh (`Ctrl-\`)
 * CHLD - one of the child processes stopped running - or, more likely, exited
 * [HUP](http://world.std.com/~swmcd/steven/tech/daemon.html)
 * TSTP - pressing `Ctrl-Z` sends TSTP to a process

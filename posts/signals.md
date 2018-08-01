@@ -7,8 +7,8 @@ To ask the kernel to a send a signal:
     kill [-SIGNAL] PID  # default signal is TERM
 
 Selected signal types:
-* TERM (15) - terminate the process (polite request to die, i.e. can be caught)
-* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught)
+* TERM (15) - terminate the process (polite request to die, i.e. can be caught or blocked)
+* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught nor blocked)
 * INT (2) - interrupt (`Ctrl-C`). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
 * STOP - freeze the process (stays in memory ready to continue where it left
     off)

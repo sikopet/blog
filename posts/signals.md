@@ -7,8 +7,8 @@ To ask the kernel to a send a signal:
     kill [-SIGNAL] PID  # default signal is TERM
 
 Selected signal types:
-* TERM (15) - terminate the process (polite request to die, i.e. can be caught or blocked)
-* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught nor blocked)
+* TERM (15) - terminate the process (polite request to die, i.e. can be caught)
+* KILL (9) - terminate the process and remove it forcibly from memory (cannot be caught, blocked or ignored)
 * INT (2) - interrupt (`Ctrl-C`). Simple programs usually just die, more important ones (ex. shells, editors) stop long-running operations.
 * STOP - freeze the process (stays in memory ready to continue where it left
     off)
@@ -21,8 +21,8 @@ Selected signal types:
 Each process has a default disposition (what to do) for each possible signal. You may install your own handler or otherwise change the disposition of most signals. Only SIGKILL and SIGSTOP cannot be changed. The rest you can:
 
 * ignore
-* catch (trap)
 * block (blocked signal is pending until it is later unblocked, i.e. removed from the signal mask)
+* catch (trap)
 
 This is how you can catch signals in Perl:
 

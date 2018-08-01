@@ -34,7 +34,9 @@ if ( $pid > 0 ) {    # parent process
 ```
 
 Another way to create a subprocess in Perl is to use `system()` or `exec()`
-functions. system() executes cmd and *waits* for it to exit. Return code (rc) 0
+functions. 
+
+`system()` executes a command (`cmd`) and *waits* for it to exit. Return code (rc) 0
 means success. Non-zero exit code indicates and error whose description can be
 found in `$?`.
 

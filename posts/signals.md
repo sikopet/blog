@@ -24,6 +24,38 @@ Each process has a default disposition (what to do) for each possible signal. Yo
 * catch (trap)
 * block (blocked signal is pending until it is later unblocked, i.e. removed from the signal mask)
 
+This is how you can catch signals in Perl:
+
+``` perl
+#!/usr/bin/env perl
+#
+# signal-catcher -- send me a signal, e.g.: 
+# 
+# $ kill -2 <my-pid>
+#
+use 5.014;    # includes strict
+use warnings;
+use autodie;
+
+our $shucks = 0;            # shuck - škrupina, šok?
+
+sub catch_zap {             # zap - šleha?
+    my $signame = shift();
+    $shucks++;
+    die "Somebody sent me a SIG$signame!";
+}
+
+$SIG{INT}   = \&catch_zap;
+$SIG{QUIT}  = \&catch_zap;  # catch another signal, too
+
+$|++;
+print "Going to sleep ";
+while (1) {
+    print ".";
+    sleep 1;
+}
+```
+
 Source:
 
 * How Linux Works, 2nd

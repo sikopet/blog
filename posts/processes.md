@@ -14,6 +14,36 @@ traditional approach. Another way to split the work between multiple entities
 is using the lighter weight *threads* which means multiple execution threads
 within a single process.
 
+This is how you clone (fork) a process in C:
+
+```
+// gcc -Wall -o myfork myfork.c
+// ./myfork
+// https://www.root.cz/clanky/jak-nikdy-nespoustet-sluzbu-aneb-kdo-posila-tajemny-sigkill/
+
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(int argc, char* argv[]) {
+    pid_t pid = fork();
+
+    if (pid == -1) {
+        fprintf(stderr, "Fork failed\n");
+        return 1;
+    } else if (pid == 0) {
+        printf("Child: pid %d\n", getpid());
+        execl("/bin/echo", "/bin/echo", "Child: Hello, world!", NULL);
+        return 42; // Never executed
+    } else {
+        printf("Parent: pid %d, child %d\n", getpid(), pid);
+        int status;
+        waitpid(pid, &status, 0);
+        printf("Parent: child exited %d\n", status);
+    }
+}
+```
+
 This is how you clone a process in Perl:
 
 ```
@@ -62,36 +92,6 @@ A sample use of `exec()`:
         exec('ls', '-l');
         die "exec() error: $!"; # shouldn't get here
     }
-
-This is how you for a process in C:
-
-```
-// gcc -Wall -o myfork myfork.c
-// ./myfork
-// https://www.root.cz/clanky/jak-nikdy-nespoustet-sluzbu-aneb-kdo-posila-tajemny-sigkill/
-
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/wait.h>
-
-int main(int argc, char* argv[]) {
-    pid_t pid = fork();
-
-    if (pid == -1) {
-        fprintf(stderr, "Fork failed\n");
-        return 1;
-    } else if (pid == 0) {
-        printf("Child: pid %d\n", getpid());
-        execl("/bin/echo", "/bin/echo", "Child: Hello, world!", NULL);
-        return 42; // Never executed
-    } else {
-        printf("Parent: pid %d, child %d\n", getpid(), pid);
-        int status;
-        waitpid(pid, &status, 0);
-        printf("Parent: child exited %d\n", status);
-    }
-}
-```
 
 Sources:
 

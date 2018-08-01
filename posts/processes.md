@@ -2,7 +2,7 @@ A process is the (Unix) OS abstraction for a running program. The process
 object allows for management of program's use of memory, processor's time and
 I/O resources. A process contains the *program*, *libraries* and a *kernel data
 structure* with information like the process's address space map, status (ex.
-sleeping, stopped, runnable), owner, PID. 
+sleeping, stopped, runnable), owner, PID.
 
 Modern OSs can run multiple processes at the same time - *multitasking*. On a
 multi-CPU/multi-core system the processes are really running simultaneously. On
@@ -34,10 +34,10 @@ if ( $pid > 0 ) {    # parent process
 ```
 
 Another way to create a subprocess in Perl is to use `system()` or `exec()`
-functions. 
+functions.
 
-`system()` executes a command (cmd) and *waits* for it to exit. Return code (rc) 0
-means success. Non-zero exit code indicates and error whose description can be
+`system()` executes a command (cmd) and *waits* for it to exit. Return code (rc)
+0 means success. Non-zero exit code indicates and error whose description can be
 found in `$?`.
 
 Two ways of calling `system()`:
@@ -63,6 +63,37 @@ A sample use of `exec()`:
         die "exec() error: $!"; # shouldn't get here
     }
 
+This is how you for a process in C:
+
+```
+// gcc -Wall -o myfork myfork.c
+// ./myfork
+// https://www.root.cz/clanky/jak-nikdy-nespoustet-sluzbu-aneb-kdo-posila-tajemny-sigkill/
+
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+int main(int argc, char* argv[]) {
+    pid_t pid = fork();
+
+    if (pid == -1) {
+        fprintf(stderr, "Fork failed\n");
+        return 1;
+    } else if (pid == 0) {
+        printf("Child: pid %d\n", getpid());
+        execl("/bin/echo", "/bin/echo", "Child: Hello, world!", NULL);
+        return 42; // Never executed
+    } else {
+        printf("Parent: pid %d, child %d\n", getpid(), pid);
+        int status;
+        waitpid(pid, &status, 0);
+        printf("Parent: child exited %d\n", status);
+    }
+}
+```
+
 Sources:
+
 * ULSAH
 * Network Programming with Perl

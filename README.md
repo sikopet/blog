@@ -113,7 +113,7 @@ Perl
 * [Module::Build](posts/module-build.md)
 * [Mom's Age](posts/moms-age.md)
 * [Perl Tricks and Tips](posts/perl-tricks-tips.md)
-* [scope.pl](posts/scope.pl) 
+* [scope.pl](posts/scope.pl)
 * [Send Mail from Perl](posts/send-mail-from-perl.md)
 * [Testing a Perl Script](posts/testing-perl-script.md)
 
@@ -138,7 +138,6 @@ C
 * [Array of Structures](posts/array_of_structures.c)
 * [Concatenate String of Characters (Character Array)](posts/concat_string_of_chars.c)
 * [Concatenate variable-length String of Characters (Character Array)](posts/concat_string_of_chars2.c)
-* [Unix processes](posts/myfork.c)
 
 Various
 -------

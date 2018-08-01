@@ -19,11 +19,13 @@ Selected signal types:
 * TSTP - pressing `Ctrl-Z` sends TSTP to a process
 
 Each process has a default disposition (what to do) for each possible signal. You may install your own handler or otherwise change the disposition of most signals. Only SIGKILL and SIGSTOP cannot be changed. The rest you can:
+
 * ignore
-* trap
+* catch (trap)
 * block (blocked signal is pending until it is later unblocked, i.e. removed from the signal mask)
 
 Source:
+
 * How Linux Works, 2nd
 * Perl Cookbook, 2nd
 * The Linux Programming Interface

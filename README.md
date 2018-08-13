@@ -63,7 +63,7 @@ Networking
 ----------
 
 * see also https://github.com/jreisinger/net-prog
-* [Networking Basics](posts/net-basics.md)
+* [Networking Basics](posts/net-basics.md) --> https://jreisinger.github.io/notes/posts/net-basics/
 * [Switching](posts/switching.md)
 * [VLANs](posts/vlans.md)
 * [DHCP](posts/dhcp.md)

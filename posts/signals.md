@@ -80,3 +80,4 @@ Source:
 * Perl Cookbook, 2nd
 * The Linux Programming Interface
 * `man 7 signal` - overview of signals
+* Programming Python

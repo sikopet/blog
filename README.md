@@ -41,7 +41,7 @@ Operating Systems and Apps
 * [RAID](posts/raid.md)
 * [RHEL](posts/rhel.md)
 * [Processes and Perl](posts/processes.md) :ok:
-* [Signals](posts/signals.md)
+* [Signals](posts/signals.md) --> https://jreisinger.github.io/notes/posts/signals/
 * [syslog-ng](posts/syslog-ng.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md) :ok:

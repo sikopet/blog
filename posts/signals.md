@@ -56,6 +56,24 @@ while (1) {
 }
 ```
 
+Catching a signal in Python:
+
+``` python
+#!/usr/bin/env python
+
+import sys, signal, time
+
+def now(): return time.ctime(time.time())       # current time string
+
+def onSignal(signum, stackframe):               # python signal handler
+    print('Got signal', signum, 'at', now())
+
+signum = int(sys.argv[1])                       # from the cmd line
+
+signal.signal(signum, onSignal)                 # install signal handler
+while True: signal.pause()                      # wait for signals
+```
+
 Source:
 
 * How Linux Works, 2nd

@@ -54,7 +54,7 @@ DevOps
 * [Ansible](posts/ansible.md)
 * [AWS](posts/aws.md)
 * [DevOps](posts/devops.md) :ok: --> https://jreisinger.github.io/notes/posts/devops/
-* [Docker](posts/docker.md) :ok:
+* [Docker](posts/docker.md) :ok: --> https://jreisinger.github.io/notes/posts/docker/
 * [Kubernetes](posts/kubernetes.md)
 * [Prometheus](posts/prometheus.md)
 * [Vagrant](posts/vagrant.md) :ok:

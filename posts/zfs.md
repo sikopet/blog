@@ -93,26 +93,30 @@ Mount the disk
 
 Backup data
 
-    #!/bin/bash
-    
-    # Make sure backups are ecnrypted via encFS.
-    mount | grep /extusb/backup/decrypted > /dev/null
-    EV=$?
-    if [[ $EV -ne 0 ]]; then
-            echo "Backups not running, because encrypted FS is not mounted. Run:"
-            echo
-            echo "    encfs /extusb/backup/.encrypted /extusb/backup/decrypted"
-            exit 1
-    fi
-    
-    # Rsync
-    rsync --quiet --delete -az \
-            remote.host.org:/data1 \
-            remote.host.org:/data2 \
-            /extusb/backup/decrypted/remote.host.org
-    
-    # Snapshot
-    zfs snapshot extusb/backup@`date +%F`
+```bash
+#!/bin/bash
+#
+# zfs-backup.sh
+
+# Make sure decrypted backups are mounted.
+mount | grep /extusb/backup/decrypted > /dev/null
+EV=$?
+if [[ $EV -ne 0 ]]; then
+        echo "Backups not running, because encrypted FS is not mounted. Run:"
+        echo
+        echo "    encfs /extusb/backup/.encrypted /extusb/backup/decrypted"
+        exit 1
+fi
+
+# Rsync data.
+rsync --quiet --delete -az  \
+        --exclude 'public'  \
+        root@alarm:/data    \
+        /extusb/backup/decrypted/alarm/
+
+# Create snapshot with a timestamp.
+zfs snapshot extusb/backup@`date +%F_%T`
+```
 
 Check snaphosts' timestamps
 

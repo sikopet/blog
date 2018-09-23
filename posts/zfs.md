@@ -125,3 +125,14 @@ Restore data
     #### take the files you need from /extusb/2015-03-13/decrypted/
     fusermount -u /extusb/2015-03-13/decrypted
     zfs destroy extusb/2015-03-13
+    
+Cleanup
+
+```bash
+# list snapshots
+zfs list -t snapshot
+
+# remove 2017 backups
+zfs list -t snapshot -o name | grep backup@2017 | tac                                # check
+zfs list -t snapshot -o name | grep backup@2017 | tac | xargs -n 1 zfs destroy -r    # remove      
+```

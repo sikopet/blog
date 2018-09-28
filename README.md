@@ -23,8 +23,6 @@ Operating Systems and Apps
 
 * [Clone and Resize KVM Virtual Machine](posts/clone-and-resize-kvm-virtual-machine.md)
 * [Elasticsearch](posts/elasticsearch.md)
-* [Generate File of Defined Size](posts/gen_rand_file.md) :ok: --> https://jreisinger.github.io/notes/posts/gen_rand_file/
-* [GRUB 2](posts/grub2.md) :ok: --> https://jreisinger.github.io/notes/posts/grub2/
 * [HA (cluster, pacemaker)](posts/ha.md)
 * [Kafka](posts/kafka.md)
 * [Kerberos](posts/kerberos.md)
@@ -43,7 +41,6 @@ Operating Systems and Apps
 * [RAID](posts/raid.md)
 * [RHEL](posts/rhel.md)
 * [Processes and Perl](posts/processes.md) :ok:
-* [Signals](posts/signals.md) --> https://jreisinger.github.io/notes/posts/signals/
 * [syslog-ng](posts/syslog-ng.md)
 * [Using Aliases with SSMTP](posts/ssmtp.md)
 * [Unix Times](posts/unix-times.md) :ok:
@@ -55,8 +52,6 @@ DevOps
 
 * [Ansible](posts/ansible.md)
 * [AWS](posts/aws.md)
-* [DevOps](posts/devops.md) :ok: --> https://jreisinger.github.io/notes/posts/devops/
-* [Docker](posts/docker.md) :ok: --> https://jreisinger.github.io/notes/posts/docker/
 * [Kubernetes](posts/kubernetes.md)
 * [Prometheus](posts/prometheus.md)
 * [Vagrant](posts/vagrant.md) :ok:
@@ -65,13 +60,11 @@ Networking
 ----------
 
 * see also https://github.com/jreisinger/net-prog
-* [Networking Basics](posts/net-basics.md) --> https://jreisinger.github.io/notes/posts/net-basics/
 * [Switching](posts/switching.md)
 * [VLANs](posts/vlans.md)
 * [DHCP](posts/dhcp.md)
 * [DNS](posts/dns.md) :ok:
 * [GSM](posts/gsm.md)
-* [HTTP protocol](posts/http.md)
 * [Load Balancers](posts/load_balancers.md)
 * [netcat](posts/netcat.md)
 * [OsmocomBB](posts/osmocombb.md)
@@ -86,7 +79,6 @@ Security
 * [Scanning Windows Shares](posts/scan_win_shares.md)
 * [Security in General](posts/general-security.md)
 * [Store Nmap Results to Excel File](posts/nmap2excel.md)
-* [tcpdump](posts/tcpdump.md) :ok: --> https://jreisinger.github.io/notes/posts/tcpdump/
 
 Programming
 -----------

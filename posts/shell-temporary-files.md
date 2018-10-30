@@ -14,7 +14,7 @@ Working with a temporary directory in a shell script:
 ```
 #!/bin/bash
 
-# Create a temporary directory ...
+# Create a temporary directory and store its name in a variable ...
 TMPDIR=$(mktemp -d)
 # Make sure it gets removed even if the script exits abnormally.
 trap "exit 1"         HUP INT PIPE QUIT TERM

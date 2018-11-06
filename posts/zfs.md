@@ -4,9 +4,12 @@ ZFS
 Overview
 
 * refererred to as a filesystem but it's a comprehensive storage management (LVM, RAID)
-* can't be included into the Linux kernel due to licence terms (although it's open source)
+* could not be included into the Linux kernel due to licence terms (although it's open source)
+* Ubuntu 16.04 included it in the form of a loadable kernel module
 * ZFS secretly writes a GPT-style partition table and allocates all disks' space to its first partition
 * organized around *copy-on-write* principle
+
+![ZFS architecture](https://www.safaribooksonline.com/library/view/unix-and-linux/9780134278308/image/ZFSArchitecture.png)
 
 Pool
 
@@ -15,14 +18,16 @@ Pool
 
 Adding disk
 
-    zpool create mypool sdb
-    zpool list -v
-    zpool status
-    
+    zpool create mypool sdb # step 1
+                            # step 2, well there's no step 2 :-)
+
 * disk was labeled
 * `mypool` pool was created
 * filesystem root inside `mypool` was created
 * filesystem was mounted as `/mypool` (will be remounted automatically on (re)boot)
+
+        zpool list -v
+        zpool status
 
 Filesystems
 

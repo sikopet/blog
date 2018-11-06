@@ -18,16 +18,29 @@ Pool
 
 Adding disk
 
-    zpool create mypool sdb # step 1
-                            # step 2, well there's no step 2 :-)
+Step 1:
+
+```
+zpool create mypool sdb
+```
+
+Step 2: 
+
+```
+# well there's no step 2 :-)
+```
 
 * disk was labeled
 * `mypool` pool was created
 * filesystem root inside `mypool` was created
 * filesystem was mounted as `/mypool` (will be remounted automatically on (re)boot)
 
-        zpool list -v
-        zpool status
+See what have we created:
+
+```
+zpool list -v
+zpool status
+```
 
 Filesystems
 

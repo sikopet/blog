@@ -1,7 +1,8 @@
-* [Pools](#pools)
-* [Filesystems](#filesystems)
-* [Arrays](#arrays)
-* [Encrypted backups with snapshots (on external HDD)](#encrypted-backups-with-snapshots-on-external-hdd)
+* [ZFS](#zfs)
+  * [Pools](#pools)
+  * [Filesystems](#filesystems)
+  * [Arrays](#arrays)
+  * [Encrypted backups with snapshots (on external HDD)](#encrypted-backups-with-snapshots-on-external-hdd)
 
 # ZFS
 

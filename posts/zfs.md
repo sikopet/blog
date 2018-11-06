@@ -1,7 +1,10 @@
-ZFS
----
+* [ZFS](#zfs)
+ * [Pools](#pools)
+ * [Filesystems](#filesystems)
+ * [Arrays](#arrays)
+ * [Encrypted backups with snapshots (on external HDD)](#encrypted-backups-with-snapshots-on-external-hdd)
 
-Overview
+# ZFS
 
 * refererred to as a filesystem but it's a comprehensive storage management (LVM, RAID)
 * could not be included into the Linux kernel due to licence terms (although it's open source)
@@ -11,23 +14,15 @@ Overview
 
 ![ZFS architecture](https://www.safaribooksonline.com/library/view/unix-and-linux/9780134278308/image/ZFSArchitecture.png)
 
-Pool
+## Pools
 
 * ~ volume group
 * composed of virtual devices - raw storage (disks, partitions, SAN), mirror groups, RAID arrays
 
-Adding disk
-
-Step 1:
+Create a pool (add a disk):
 
 ```
 zpool create mypool sdb
-```
-
-Step 2: 
-
-```
-# well there's no step 2 :-)
 ```
 
 * disk was labeled
@@ -42,16 +37,18 @@ zpool list -v
 zpool status
 ```
 
-Filesystems
+## Filesystems
+
+* all filesystems living in a pool can draw from pool's available space
+* unlike traditional filesystems which are independent of each other, hierarchically dependent (property inheritance)
+* automounted as soon as created
+
+Create a filesystem
 
 ```
 zfs create mypool/myfs
 zfs list -r mypool    # -r -- recurse through child filesystems
 ```
-
-* all filesystems living in a pool can draw from pool's available space
-* unlike traditional filesystems which are independent of each other, hierarchically dependent (property inheritance)
-* automounted as soon as created
 
 Change default mount point (a property) of the root filesystem
 
@@ -78,7 +75,11 @@ zfs rollback mypool/myfs@friday  # can only revert FS to its most recent snapsho
 zfs clone mypool/myfs@friday mypool/myfs_clone
 ```
 
-Adding (five) disks
+## Arrays
+
+* ZFS's RAID-Z ~ RAID 5
+
+Adding (five) disks:
 
 ```
 zpool destroy mypool
@@ -87,14 +88,9 @@ zpool add -f mybigpool mirror sde sdf
 zpool status mybigpool
 ```
 
-* ZFS's RAID-Z ~ RAID 5
+See [ULSAH](https://www.safaribooksonline.com/library/view/unix-and-linux/9780134278308/Storage.xhtml) for more.
 
-More
-
-* ULSAH, ch. 8
-
-Encrypted backups with snapshots (on external HDD)
------------------------------------------------------
+## Encrypted backups with snapshots (on external HDD)
 
 Setup external disk
 
@@ -155,7 +151,7 @@ Restore data
     #### take the files you need from /extusb/2015-03-13/decrypted/
     fusermount -u /extusb/2015-03-13/decrypted
     zfs destroy extusb/2015-03-13
-    
+
 Cleanup
 
 ```bash

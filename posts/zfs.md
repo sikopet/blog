@@ -33,7 +33,7 @@ zpool create mypool sdb
 See what have we created:
 
 ```
-zpool list -v
+zpool list
 zpool status
 ```
 
@@ -108,10 +108,11 @@ Unmount the disk
 
 Mount the disk
 
-    zpool import [-f] extusb
-    /etc/init.d/zfs-fuse restart
-    zpool list # you should see the 'extusb' pool
-    encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+    #zpool import [-f] extusb
+    sudo /etc/init.d/zfs-fuse restart
+    sudo zpool list # you should see the 'extusb' pool
+    sudo encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+    sudo ls -l /extusb/backup/decrypted/
 
 Backup data
 

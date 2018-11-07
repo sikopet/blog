@@ -114,6 +114,14 @@ Backup data
 #
 # zfs-backup.sh
 
+# Remote host
+RHOST=host.org
+RPORT=22
+RUSER=$USER
+
+# Local user ssh key
+SSHKEY=$HOME/.ssh/id_rsa
+
 # Make sure decrypted backups are mounted.
 mount | grep /extusb/backup/decrypted > /dev/null
 EV=$?
@@ -125,13 +133,19 @@ if [[ $EV -ne 0 ]]; then
 fi
 
 # Rsync data.
-rsync --quiet --delete -az  \
-        --exclude 'public'  \
-        root@alarm:/data    \
+rsync --quiet --delete -az \
+        --exclude 'public' \
+		--rsync-path="sudo rsync" \
+		--rsh "ssh -i $SSHKEY -p $RPORT -l $RUSER" \
+        $RHOST:/data \
         /extusb/backup/decrypted/alarm/
 
 # Create snapshot with a timestamp.
 zfs snapshot extusb/backup@`date +%F_%T`
+```
+
+```
+sudo ./zfs-backup.sh
 ```
 
 Check backups

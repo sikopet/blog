@@ -99,7 +99,7 @@ Setup external disk (once)
     zfs create extusb/backup
     encfs /extusb/backup/.encrypted /extusb/backup/decrypted
 
-Mount the disk (repeatedly)
+Mount the disk
 
     #zpool import [-f] extusb
     sudo /etc/init.d/zfs-fuse restart
@@ -107,7 +107,7 @@ Mount the disk (repeatedly)
     sudo encfs /extusb/backup/.encrypted /extusb/backup/decrypted
     sudo ls -l /extusb/backup/decrypted/
 
-Backup data (repeatedly)
+Backup data
 
 ```bash
 #!/bin/bash
@@ -134,6 +134,10 @@ rsync --quiet --delete -az  \
 zfs snapshot extusb/backup@`date +%F_%T`
 ```
 
+Check backups
+
+    sudo zfs list -t snapshot
+
 Unmount the disk
 
     fusermount -u /extusb/backup/decrypted  # encfs
@@ -159,7 +163,3 @@ zfs list -t snapshot
 zfs list -t snapshot -o name | grep backup@2017 | tac                                # check
 zfs list -t snapshot -o name | grep backup@2017 | tac | xargs -n 1 zfs destroy -r    # remove      
 ```
-
-Check snaphosts' timestamps
-
-    sudo sh -c 'zfs get -H -o name,value creation $(zfs list -H -o name -t snapshot)'

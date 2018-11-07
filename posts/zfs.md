@@ -92,21 +92,14 @@ See [ULSAH](https://www.safaribooksonline.com/library/view/unix-and-linux/978013
 
 ## Encrypted backups with snapshots (on external HDD)
 
-Setup external disk
+Setup external disk (once)
 
     dd if=/dev/zero of=/dev/sdc bs=1M count=10
     zpool create extusb /dev/sdc
     zfs create extusb/backup
     encfs /extusb/backup/.encrypted /extusb/backup/decrypted
 
-Unmount the disk
-
-    fusermount -u /extusb/backup/decrypted  # encfs
-    umount /extusb/backup                   # zfs
-    umount /extusb                          # zfs root
-    /etc/init.d/zfs-fuse stop
-
-Mount the disk
+Mount the disk (repeatedly)
 
     #zpool import [-f] extusb
     sudo /etc/init.d/zfs-fuse restart
@@ -114,7 +107,7 @@ Mount the disk
     sudo encfs /extusb/backup/.encrypted /extusb/backup/decrypted
     sudo ls -l /extusb/backup/decrypted/
 
-Backup data
+Backup data (repeatedly)
 
 ```bash
 #!/bin/bash
@@ -141,11 +134,14 @@ rsync --quiet --delete -az  \
 zfs snapshot extusb/backup@`date +%F_%T`
 ```
 
-Check snaphosts' timestamps
+Unmount the disk
 
-    sudo sh -c 'zfs get -H -o name,value creation $(zfs list -H -o name -t snapshot)'
+    fusermount -u /extusb/backup/decrypted  # encfs
+    umount /extusb/backup                   # zfs
+    umount /extusb                          # zfs root
+    /etc/init.d/zfs-fuse stop
 
-Restore data
+Restore data (once)
 
     zfs clone extusb/backup@2015-03-13 extusb/2015-03-13
     encfs /extusb/2015-03-13/.encrypted /extusb/2015-03-13/decrypted/
@@ -153,7 +149,7 @@ Restore data
     fusermount -u /extusb/2015-03-13/decrypted
     zfs destroy extusb/2015-03-13
 
-Cleanup
+Cleanup (once)
 
 ```bash
 # list snapshots
@@ -163,3 +159,7 @@ zfs list -t snapshot
 zfs list -t snapshot -o name | grep backup@2017 | tac                                # check
 zfs list -t snapshot -o name | grep backup@2017 | tac | xargs -n 1 zfs destroy -r    # remove      
 ```
+
+Check snaphosts' timestamps
+
+    sudo sh -c 'zfs get -H -o name,value creation $(zfs list -H -o name -t snapshot)'

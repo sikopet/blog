@@ -143,7 +143,7 @@ zfs snapshot extusb/backup@`date +%F_%T`
 
 Check snaphosts' timestamps
 
-    zfs get -H -o name,value creation `zfs list -H -o name -t snapshot`
+    sudo sh -c 'zfs get -H -o name,value creation $(zfs list -H -o name -t snapshot)'
 
 Restore data
 

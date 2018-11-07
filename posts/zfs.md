@@ -94,18 +94,22 @@ See [ULSAH](https://www.safaribooksonline.com/library/view/unix-and-linux/978013
 
 Setup external disk (once)
 
-    dd if=/dev/zero of=/dev/sdc bs=1M count=10
-    zpool create extusb /dev/sdc
-    zfs create extusb/backup
-    encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+```
+dd if=/dev/zero of=/dev/sdc bs=1M count=10
+zpool create extusb /dev/sdc
+zfs create extusb/backup
+encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+```
 
 Mount the disk
 
-    #zpool import [-f] extusb
-    sudo /etc/init.d/zfs-fuse restart
-    sudo zpool list # you should see the 'extusb' pool
-    sudo encfs /extusb/backup/.encrypted /extusb/backup/decrypted
-    sudo ls -l /extusb/backup/decrypted/
+```
+#sudo zpool import [-f] extusb # not needed
+sudo /etc/init.d/zfs-fuse restart
+sudo zpool list # you should see the 'extusb' pool
+sudo encfs /extusb/backup/.encrypted /extusb/backup/decrypted
+sudo ls -l /extusb/backup/decrypted/
+```
 
 Backup data
 
@@ -150,22 +154,28 @@ sudo ./zfs-backup.sh
 
 Check backups
 
-    sudo zfs list -t snapshot
+```
+sudo zfs list -t snapshot
+```
 
 Unmount the disk
 
-    fusermount -u /extusb/backup/decrypted  # encfs
-    umount /extusb/backup                   # zfs
-    umount /extusb                          # zfs root
-    /etc/init.d/zfs-fuse stop
+```
+sudo fusermount -u /extusb/backup/decrypted  # encfs
+sudo umount /extusb/backup                   # zfs
+sudo umount /extusb                          # zfs root
+sudo /etc/init.d/zfs-fuse stop
+```
 
 Restore data (once)
 
-    zfs clone extusb/backup@2015-03-13 extusb/2015-03-13
-    encfs /extusb/2015-03-13/.encrypted /extusb/2015-03-13/decrypted/
-    #### take the files you need from /extusb/2015-03-13/decrypted/
-    fusermount -u /extusb/2015-03-13/decrypted
-    zfs destroy extusb/2015-03-13
+```
+zfs clone extusb/backup@2015-03-13 extusb/2015-03-13
+encfs /extusb/2015-03-13/.encrypted /extusb/2015-03-13/decrypted/
+#### take the files you need from /extusb/2015-03-13/decrypted/
+fusermount -u /extusb/2015-03-13/decrypted
+zfs destroy extusb/2015-03-13
+```
 
 Cleanup (once)
 

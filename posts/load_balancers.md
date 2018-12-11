@@ -18,8 +18,7 @@ L3 and L4
 L7
 * can examine what's inside the HTTP protocol (cookies, headers, URLs, ...) and
     make decisions based on that
-
-`X-Forwarded-For:` - header that can be inserted by a LB containing list of IPs
+* `X-Forwarded-For:` - header that can be inserted by a LB containing list of IPs
 traversed before the packet got to the LB
 
 Load balancing methods

@@ -1,7 +1,7 @@
 A variable or a abstract data type used to control access to a common resource by multiple processes in a concurrent system.
 
 ```go
-// Run 10 workers maximum at any time.
+// semaphore-channel.go runs 10 workers maximum at any time.
 package main
 
 import (
